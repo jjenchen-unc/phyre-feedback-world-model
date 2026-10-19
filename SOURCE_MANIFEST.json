@@ -1,0 +1,146 @@
+[
+  {
+    "source": "pipeline/common.py",
+    "source_sha256": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc",
+    "export": "phyre_feedback/models.py",
+    "definitions": [
+      "Attn",
+      "Block",
+      "Predictor",
+      "AttnProbe"
+    ],
+    "transformation": "Verbatim definitions; standalone imports and module documentation",
+    "export_sha256": "6bc645c59f21608193664c68e4063a15d016b0dd2c0be4fc57fe7dd53cfc491e"
+  },
+  {
+    "source": "pipeline/prefix_policy_predictor.py",
+    "source_sha256": "b4ea6898dcb47566a59bd4fb946ad5b99d76d4f3bf241d899b2c85d4ab991351",
+    "export": "phyre_feedback/memory.py",
+    "definitions": [
+      "PrefixPredictor",
+      "choose_action",
+      "policy_rollout",
+      "replay_state"
+    ],
+    "transformation": "Verbatim definitions; standalone imports and module documentation",
+    "export_sha256": "82c1910ef0dc5fd615a22c011866d18ab89389e260eda29e0dd1cf9f8f78f2d9"
+  },
+  {
+    "source": "pipeline/common.py",
+    "source_sha256": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc",
+    "export": "phyre_feedback/geometry.py",
+    "definitions": [
+      "surface_dist"
+    ],
+    "transformation": "Verbatim definitions; standalone imports and module documentation",
+    "export_sha256": "d3ff06aa8a329ab852291960cce5c61e52aa27799393211745e125e794777053"
+  },
+  {
+    "source": "pipeline/attribution_a_metrics.py",
+    "source_sha256": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+    "export": "phyre_feedback/metrics.py",
+    "definitions": [
+      "log_score",
+      "auc"
+    ],
+    "transformation": "Verbatim definitions; standalone imports and module documentation",
+    "export_sha256": "23c99e1fc9af6f7759bd1ff24bd4236f46a9b3a135372e30c4fdd651dcff6432"
+  },
+  {
+    "source": "pipeline/memory_geometry_followup.py",
+    "source_sha256": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+    "export": "phyre_feedback/losses.py",
+    "definitions": [
+      "geometry_loss"
+    ],
+    "transformation": "Verbatim definitions; standalone imports and module documentation",
+    "export_sha256": "f73a29a884cf12bae22e82eb6f7b61e88898146c8250d340423c0348a784ff90"
+  },
+  {
+    "source": "pipeline/multiturn_runtime.py",
+    "source_sha256": "8f3cb7dcf0052ed1c89199cf0ea8fa25f4a105ccc8807874245602724f3a74f7",
+    "export": "phyre_feedback/adaptation.py",
+    "definitions": [
+      "PredictorAdapter"
+    ],
+    "transformation": "Verbatim definitions; standalone imports and module documentation",
+    "export_sha256": "95bb37717ccbe601408279f1e19cfe597a84e1ab3580b39ca52d173fae650831"
+  },
+  {
+    "source": "pipeline/fast_inference.py",
+    "source_sha256": "274f1855293d9f1c337015de3a50d321a93ecf0fab29491861f47d8278819706",
+    "export": "phyre_feedback/ranking.py",
+    "transformation": "Relative imports only; numerical implementation unchanged",
+    "export_sha256": "77c7f9671fc370e27820f43aacd9a49fd8b2533c9b2960790615f23fd35e734e"
+  },
+  {
+    "source": "results/matched_base_q0_20261012/code/matched_base_q0.py",
+    "source_sha256": "72f6b0ad29928ee45956426daca61875b1eb3e2ecfa6c0d266d82577899335b6",
+    "export": "reference_runs/matched_base_q0_20261012/matched_base_q0.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "eb6574b8e01acc328e8e2491cb2d400afeb4f2bef45bf88ab5493e72e599d053"
+  },
+  {
+    "source": "results/selector_feedback_pilot_20261016/code/selector_feedback_run.py",
+    "source_sha256": "7b80fa94f042e3ccb4f4071d60c60b8900e9fbd2e1b4bef14634b76b20c93ad6",
+    "export": "reference_runs/selector_feedback_pilot_20261016/selector_feedback_run.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "7b80fa94f042e3ccb4f4071d60c60b8900e9fbd2e1b4bef14634b76b20c93ad6"
+  },
+  {
+    "source": "results/selector_feedback_pilot_20261016/code/selector_feedback_data.py",
+    "source_sha256": "3da21f7b5787f1b56c2de68b20c214aa6d9a8169366c88673e4133e9225cc4f3",
+    "export": "reference_runs/selector_feedback_pilot_20261016/selector_feedback_data.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "00cf16a7f118292fb47b34bfde058cb940c61b6dfbe5f5a5a4524e894dac961c"
+  },
+  {
+    "source": "results/selector_feedback_pilot_20261016/code/deploy_pool_updater.py",
+    "source_sha256": "2b14cf85c5427e15a39cba987f1a9972ee23c36f6c94195d2100ff71d9fa2162",
+    "export": "reference_runs/selector_feedback_pilot_20261016/deploy_pool_updater.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "2b14cf85c5427e15a39cba987f1a9972ee23c36f6c94195d2100ff71d9fa2162"
+  },
+  {
+    "source": "results/selector_feedback_pilot_20261016/code/deploy_pool_data.py",
+    "source_sha256": "c47ee2509cb4668dfdec75279826fffda80b25085ac299e5a75d60e5c6076bea",
+    "export": "reference_runs/selector_feedback_pilot_20261016/deploy_pool_data.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "59214a0d290ab58052c0e66a2b7e234c38dbed1c4da737b1cf83305a53bc76c8"
+  },
+  {
+    "source": "results/q0_first_feedback_20261018/code/selector_feedback_run.py",
+    "source_sha256": "52f7304bfb00328f674a353e4e47fff97749d2d351996e229ffcddf569f8fbb2",
+    "export": "reference_runs/q0_first_feedback_20261018/selector_feedback_run.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "52f7304bfb00328f674a353e4e47fff97749d2d351996e229ffcddf569f8fbb2"
+  },
+  {
+    "source": "results/q0_first_feedback_20261018/code/selector_feedback_data.py",
+    "source_sha256": "4ff978fa8991934d2d2aa2a07009a36046625919eb982bc8685282d4ca030849",
+    "export": "reference_runs/q0_first_feedback_20261018/selector_feedback_data.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "a0ab06648d1d8f96c479adb243caba7f5144024d3b84ac63a93c3c58d4eaa8da"
+  },
+  {
+    "source": "results/q0_first_feedback_20261018/code/deploy_pool_data.py",
+    "source_sha256": "9ad27846d21ef990ac8742fe1d881175c0f2833847091f9cd7e6ed28de70ed33",
+    "export": "reference_runs/q0_first_feedback_20261018/deploy_pool_data.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "645b6f0088a6c6939bbdb5291c9c0903a312ff892b7337b598b6be84189842bf"
+  },
+  {
+    "source": "results/oracle_small_1024_20261017/code/oracle_small_1024.py",
+    "source_sha256": "9142438ff3e1bab8e441ff1f6e0d385ecc4a9826da659185e8abf9eb80db8438",
+    "export": "reference_runs/oracle_small_1024_20261017/oracle_small_1024.py",
+    "transformation": "Host paths redacted; reference driver, requires original dependency snapshots and external assets",
+    "export_sha256": "4741eeaf69d10a7141fb6d7239e1979d2acdee23db045302aa61d7975fb2d12e"
+  },
+  {
+    "source": "results/oracle_small_1024_20261017/recovery/oracle_recovery.py",
+    "source_sha256": "92d43a5058ab5a79380e04d85fe6113b4489b8042ed01b1c534273b9dd7dbf9b",
+    "export": "reference_runs/oracle_small_1024_20261017/oracle_recovery.py",
+    "export_sha256": "39b1b123b1a2eb6b2f89e62b6416fcff84c406cefd412668607c7853e2a08feb",
+    "transformation": "Host paths redacted; corrected fixed-batch comparison used for the reported oracle metrics"
+  }
+]

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+build/
+dist/
+.env*
+*.key
+*.pem
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+data/
+checkpoints/
+logs/

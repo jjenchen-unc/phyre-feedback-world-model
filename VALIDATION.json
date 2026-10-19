@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-18",
+  "scope": "Reorganized CPU components and result arithmetic; not new GPU effectiveness results",
+  "environment": {
+    "python": "3.12.12",
+    "torch": "2.7.1+cu126"
+  },
+  "unittest": {
+    "command": "PYTHONPATH=. python -m unittest discover -s tests -v",
+    "passed": 5,
+    "failed": 0
+  },
+  "result_audit": "All per-task counts verified by scripts/summarize_results.py",
+  "source_manifest": "All 17 exported-file hashes verified"
+}
