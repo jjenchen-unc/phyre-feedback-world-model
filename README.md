@@ -6,6 +6,8 @@ actions in the **same reset scene**.
 
 ## Start here
 
+- **[Teammate handoff: bottlenecks and proposed experiments](docs/TEAM_HANDOFF_BOTTLENECKS.md)** (Chinese): context, evidence limits, three concrete follow-up designs, controls and code/data requirements.
+- **[Experiment flow, rationale and slide alignment](docs/EXPERIMENT_FLOW_AND_SLIDE_ALIGNMENT.md)** (Chinese): why each round was run, exact slide tables, and conclusions changed by later results. Documentation updated November 6; no new experiments.
 - **[Latest progress report](research/docs/EXPERIMENT_PROGRESS_20261022.md)** (Chinese): completed experiments through October 21, recorded October 22; published November 6, 2026.
 - **[Research code and evidence](research/README.md)**: pipeline, experiment snapshots, registered plans, result tables and audits.
 - **[Latest cross comparison](research/results/support_context_ablation_20261021/CROSS100_TABLE.csv)**: all support-feature ablations, including both seeds.
@@ -45,6 +47,30 @@ Q0 before attempt 1. Both updater training and evaluation use this new policy.
 The full nine-attempt comparison is documented in the
 [October 19 report](research/docs/MEMORY_OVERNIGHT_INVESTIGATION_20261019.md).
 The later head experiments below study only the first feedback and next ranking.
+
+## Results shown in the milestone slides
+
+The current deck's main table is the Q0-first, nine-attempt pilot, **not** the
+classifier-first table later in this README. Each panel has 100 scenes.
+
+| Method | Within S@9 | Cross S@9 |
+|---|---:|---:|
+| Base, no memory tokens | 46% | 7% |
+| Q0, no update | 50% | 11% |
+| AdaJEPA-style | 58% | 9% |
+| Memory, L1 | 56% | 12% |
+| L1, inference-centered residual | 57% | 15% |
+| Smooth L1, inference-centered residual | 61% | 15% |
+
+Base chooses its own first action; the others share Q0's first action. Centering
+is an inference intervention on raw-residual-trained checkpoints. The zero-input
+Smooth L1 control reaches 14% on cross. These are single-seed results, not proof
+that observed residual content is responsible for the gain.
+
+The slide's second-seed experiment has since finished: within **raw-input** L1
+versus Smooth L1 is 58% versus 50%, compared with 56% versus 61% in the first seed.
+The raw loss improvement did not replicate. This is not a second-seed test of the
+centered combination. See the [full reconciliation and sources](docs/EXPERIMENT_FLOW_AND_SLIDE_ALIGNMENT.md).
 
 ## Latest findings through October 21
 
@@ -98,10 +124,12 @@ order, 8 epochs, batch 8, latent L1 + lambda * geometry loss. Cross uses 52,276
 trajectories; within uses 52,349. Lambda values: 0, .03, .1, .3; three seeds at .1,
 one seed otherwise; 24 trainings total. Encoder/PCA/probe are frozen.
 
-Updater pilot: 64 train scenes per panel, 256 slots of two episodes; support caps
+Historical classifier-first updater pilot: 64 train scenes per panel, 256 slots of two episodes; support caps
 1/2/4/8; 8 disjoint query actions. Full BPTT with the final state's future-latent
 L1 + .1 * geometry loss. Current residuals are recomputed, never cached.
 The new updater starts fresh from the same Q0 parents, not from old updater weights.
+The slide's Q0-first pilot uses 128 slots of two episodes. The October 21 head
+diagnostics have a separate single-feedback training procedure described above.
 
 ## Historical classifier-first results (2026-10-18)
 
@@ -139,6 +167,7 @@ weight/seed sweep has not been reevaluated under the new candidate protocol.
 python -m pip install -e .
 python scripts/summarize_results.py
 python scripts/summarize_latest_results.py
+python scripts/verify_slide_results.py
 python scripts/verify_research_snapshot.py
 python -m unittest discover -s tests -v
 ```
