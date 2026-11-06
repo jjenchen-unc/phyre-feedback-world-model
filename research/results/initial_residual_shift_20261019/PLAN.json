@@ -1,0 +1,1845 @@
+{
+  "code_sha256": "c31bd00f99fd68af2dd30bed9a696484b96e423406cf7d78578239d14c0b36cd",
+  "source_plan_sha256": "50af0ef0ab70b2b7bcf1a3a0dffbc6849ae692ed8e3a2ddd72c531577ff0078e",
+  "readers": {
+    "cross": "d719586329d245b732710cf26ee08e82fa1af4993ab3363ea75959218865d4e5",
+    "within": "ae5e7facc64da7186387f689c544d6f9ab75e28695fba07a69152daa005999b4"
+  },
+  "cases": [
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00003:000",
+      "action_idx": 45361,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00003_000_045361.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00005:025",
+      "action_idx": 3599,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/14/00005_025_003599.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00005:034",
+      "action_idx": 26550,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/14/00005_034_026550.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00005:058",
+      "action_idx": 71667,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/11/00005_058_071667.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00006:123",
+      "action_idx": 39639,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/29/00006_123_039639.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00006:124",
+      "action_idx": 86349,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00006_124_086349.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00006:142",
+      "action_idx": 88456,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/5/00006_142_088456.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00006:152",
+      "action_idx": 59438,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/1/00006_152_059438.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00006:183",
+      "action_idx": 82787,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00006_183_082787.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00006:191",
+      "action_idx": 62321,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00006_191_062321.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00009:238",
+      "action_idx": 31560,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/28/00009_238_031560.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00009:449",
+      "action_idx": 87017,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00009_449_087017.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00009:763",
+      "action_idx": 17144,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/21/00009_763_017144.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00009:881",
+      "action_idx": 74257,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/4/00009_881_074257.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00011:136",
+      "action_idx": 58291,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/29/00011_136_058291.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00011:451",
+      "action_idx": 37531,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/24/00011_451_037531.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00011:776",
+      "action_idx": 91858,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/19/00011_776_091858.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00011:861",
+      "action_idx": 5126,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/11/00011_861_005126.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00016:226",
+      "action_idx": 8100,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/2/00016_226_008100.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00016:651",
+      "action_idx": 87285,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00016_651_087285.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00016:801",
+      "action_idx": 69871,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/19/00016_801_069871.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00016:809",
+      "action_idx": 35891,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/10/00016_809_035891.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00016:831",
+      "action_idx": 23326,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/7/00016_831_023326.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00017:030",
+      "action_idx": 75407,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/9/00017_030_075407.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00017:164",
+      "action_idx": 10480,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/18/00017_164_010480.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00018:053",
+      "action_idx": 98893,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/10/00018_053_098893.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00018:079",
+      "action_idx": 891,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/20/00018_079_000891.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00018:095",
+      "action_idx": 73949,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/22/00018_095_073949.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00018:108",
+      "action_idx": 18645,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00018_108_018645.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00019:252",
+      "action_idx": 51472,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00019_252_051472.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00019:339",
+      "action_idx": 29113,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00019_339_029113.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00019:584",
+      "action_idx": 57948,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/9/00019_584_057948.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00019:709",
+      "action_idx": 940,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/16/00019_709_000940.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00019:769",
+      "action_idx": 11166,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00019_769_011166.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00020:012",
+      "action_idx": 86285,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/2/00020_012_086285.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00020:054",
+      "action_idx": 42933,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00020_054_042933.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00020:064",
+      "action_idx": 26851,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00020_064_026851.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00020:077",
+      "action_idx": 1120,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/0/00020_077_001120.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00021:050",
+      "action_idx": 62235,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/9/00021_050_062235.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00021:099",
+      "action_idx": 38469,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/4/00021_099_038469.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00021:104",
+      "action_idx": 47266,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00021_104_047266.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00021:113",
+      "action_idx": 40017,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00021_113_040017.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00021:124",
+      "action_idx": 30387,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/4/00021_124_030387.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00024:006",
+      "action_idx": 75393,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/22/00024_006_075393.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00024:481",
+      "action_idx": 41759,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00024_481_041759.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00024:482",
+      "action_idx": 66354,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/13/00024_482_066354.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00024:494",
+      "action_idx": 41577,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/17/00024_494_041577.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "train",
+      "task": "00024:577",
+      "action_idx": 59557,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/29/00024_577_059557.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:062",
+      "action_idx": 85866,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/21/00008_062_085866.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:070",
+      "action_idx": 65278,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/0/00008_070_065278.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:120",
+      "action_idx": 83194,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/21/00008_120_083194.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:144",
+      "action_idx": 34980,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/18/00008_144_034980.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:197",
+      "action_idx": 39111,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00008_197_039111.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:206",
+      "action_idx": 14944,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/20/00008_206_014944.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:256",
+      "action_idx": 63957,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/17/00008_256_063957.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:257",
+      "action_idx": 20707,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00008_257_020707.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:263",
+      "action_idx": 15765,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/8/00008_263_015765.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:273",
+      "action_idx": 92084,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/19/00008_273_092084.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:276",
+      "action_idx": 71696,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/25/00008_276_071696.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:442",
+      "action_idx": 29703,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00008_442_029703.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:488",
+      "action_idx": 67690,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/4/00008_488_067690.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:499",
+      "action_idx": 47741,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00008_499_047741.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:527",
+      "action_idx": 52045,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/24/00008_527_052045.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:532",
+      "action_idx": 60483,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00008_532_060483.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:586",
+      "action_idx": 46814,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/20/00008_586_046814.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:601",
+      "action_idx": 31455,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/11/00008_601_031455.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:618",
+      "action_idx": 72868,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/5/00008_618_072868.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00008:619",
+      "action_idx": 12783,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/24/00008_619_012783.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:025",
+      "action_idx": 76722,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/1/00010_025_076722.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:048",
+      "action_idx": 27520,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/7/00010_048_027520.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:051",
+      "action_idx": 55140,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/9/00010_051_055140.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:102",
+      "action_idx": 8455,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/21/00010_102_008455.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:113",
+      "action_idx": 38951,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/22/00010_113_038951.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:190",
+      "action_idx": 92526,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00010_190_092526.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:278",
+      "action_idx": 1491,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/28/00010_278_001491.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:286",
+      "action_idx": 73298,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/14/00010_286_073298.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:298",
+      "action_idx": 17941,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00010_298_017941.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:370",
+      "action_idx": 18783,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/10/00010_370_018783.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:379",
+      "action_idx": 70234,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/15/00010_379_070234.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:386",
+      "action_idx": 17261,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00010_386_017261.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:387",
+      "action_idx": 64304,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00010_387_064304.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:397",
+      "action_idx": 57634,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/2/00010_397_057634.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:428",
+      "action_idx": 37901,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00010_428_037901.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:438",
+      "action_idx": 15827,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00010_438_015827.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:448",
+      "action_idx": 39254,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00010_448_039254.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:454",
+      "action_idx": 55125,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/17/00010_454_055125.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:459",
+      "action_idx": 26866,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/28/00010_459_026866.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00010:469",
+      "action_idx": 77481,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00010_469_077481.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:011",
+      "action_idx": 78783,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/1/00013_011_078783.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:019",
+      "action_idx": 40440,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/13/00013_019_040440.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:025",
+      "action_idx": 91953,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/25/00013_025_091953.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:064",
+      "action_idx": 65994,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00013_064_065994.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:078",
+      "action_idx": 78479,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/17/00013_078_078479.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:081",
+      "action_idx": 5863,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/5/00013_081_005863.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:083",
+      "action_idx": 19325,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/9/00013_083_019325.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:144",
+      "action_idx": 14988,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/29/00013_144_014988.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:146",
+      "action_idx": 85324,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00013_146_085324.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:164",
+      "action_idx": 18703,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/24/00013_164_018703.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:172",
+      "action_idx": 72627,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/2/00013_172_072627.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:179",
+      "action_idx": 46773,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/25/00013_179_046773.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:207",
+      "action_idx": 86786,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/10/00013_207_086786.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:210",
+      "action_idx": 63089,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00013_210_063089.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:212",
+      "action_idx": 2317,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/13/00013_212_002317.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:222",
+      "action_idx": 11707,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/18/00013_222_011707.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:263",
+      "action_idx": 56629,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/20/00013_263_056629.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:271",
+      "action_idx": 48782,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/8/00013_271_048782.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00013:281",
+      "action_idx": 24229,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00013_281_024229.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:185",
+      "action_idx": 83087,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/5/00015_185_083087.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:279",
+      "action_idx": 76272,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00015_279_076272.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:296",
+      "action_idx": 21780,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/29/00015_296_021780.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:319",
+      "action_idx": 412,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/11/00015_319_000412.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:339",
+      "action_idx": 66931,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/21/00015_339_066931.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:341",
+      "action_idx": 30160,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00015_341_030160.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:358",
+      "action_idx": 6387,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/5/00015_358_006387.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:371",
+      "action_idx": 15814,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/15/00015_371_015814.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:372",
+      "action_idx": 46662,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/8/00015_372_046662.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:379",
+      "action_idx": 30653,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/18/00015_379_030653.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:386",
+      "action_idx": 19335,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00015_386_019335.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:407",
+      "action_idx": 80445,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/8/00015_407_080445.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:424",
+      "action_idx": 87273,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/7/00015_424_087273.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:457",
+      "action_idx": 27752,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/6/00015_457_027752.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:460",
+      "action_idx": 75075,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00015_460_075075.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:472",
+      "action_idx": 18641,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/9/00015_472_018641.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:480",
+      "action_idx": 88370,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00015_480_088370.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00015:485",
+      "action_idx": 84915,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/13/00015_485_084915.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:008",
+      "action_idx": 25893,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00023_008_025893.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:031",
+      "action_idx": 26248,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/4/00023_031_026248.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:240",
+      "action_idx": 94810,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/23/00023_240_094810.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:320",
+      "action_idx": 19804,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/20/00023_320_019804.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:385",
+      "action_idx": 97588,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/4/00023_385_097588.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:428",
+      "action_idx": 27897,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/16/00023_428_027897.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:471",
+      "action_idx": 99467,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/20/00023_471_099467.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:490",
+      "action_idx": 19480,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/19/00023_490_019480.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:506",
+      "action_idx": 18122,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/21/00023_506_018122.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:740",
+      "action_idx": 24635,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/31/00023_740_024635.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:754",
+      "action_idx": 59497,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/26/00023_754_059497.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:757",
+      "action_idx": 83822,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/27/00023_757_083822.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:767",
+      "action_idx": 28413,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/24/00023_767_028413.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:839",
+      "action_idx": 20549,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/1/00023_839_020549.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:883",
+      "action_idx": 28363,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/3/00023_883_028363.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:918",
+      "action_idx": 53062,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/11/00023_918_053062.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:925",
+      "action_idx": 89561,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/19/00023_925_089561.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:930",
+      "action_idx": 58734,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00023_930_058734.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:959",
+      "action_idx": 93530,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/13/00023_959_093530.npz"
+    },
+    {
+      "panel": "cross",
+      "split": "evaluation",
+      "task": "00023:974",
+      "action_idx": 22774,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/24/00023_974_022774.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00000:096",
+      "action_idx": 66615,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/26/00000_096_066615.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00001:031",
+      "action_idx": 93417,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/5/00001_031_093417.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00001:092",
+      "action_idx": 25777,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/26/00001_092_025777.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00003:059",
+      "action_idx": 3610,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/3/00003_059_003610.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00004:268",
+      "action_idx": 55229,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00004_268_055229.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00004:627",
+      "action_idx": 16818,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/8/00004_627_016818.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00004:795",
+      "action_idx": 75064,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/21/00004_795_075064.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00005:039",
+      "action_idx": 39938,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/15/00005_039_039938.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00005:104",
+      "action_idx": 39493,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/5/00005_104_039493.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00005:178",
+      "action_idx": 39938,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00005_178_039938.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00006:103",
+      "action_idx": 62412,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/23/00006_103_062412.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00007:110",
+      "action_idx": 57775,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00007_110_057775.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00007:269",
+      "action_idx": 66914,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/16/00007_269_066914.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00008:132",
+      "action_idx": 64233,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00008_132_064233.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00008:510",
+      "action_idx": 44007,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/20/00008_510_044007.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00008:532",
+      "action_idx": 6784,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/5/00008_532_006784.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00010:051",
+      "action_idx": 30160,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/26/00010_051_030160.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00010:276",
+      "action_idx": 90331,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/26/00010_276_090331.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00010:502",
+      "action_idx": 18239,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/28/00010_502_018239.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00011:448",
+      "action_idx": 76894,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00011_448_076894.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00011:898",
+      "action_idx": 36236,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/24/00011_898_036236.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00012:054",
+      "action_idx": 59302,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/30/00012_054_059302.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00012:165",
+      "action_idx": 73283,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/17/00012_165_073283.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00013:070",
+      "action_idx": 23264,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/29/00013_070_023264.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00013:271",
+      "action_idx": 48173,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00013_271_048173.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00013:283",
+      "action_idx": 30886,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/9/00013_283_030886.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00014:273",
+      "action_idx": 59744,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/15/00014_273_059744.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00014:518",
+      "action_idx": 98618,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/8/00014_518_098618.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00015:464",
+      "action_idx": 1063,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/4/00015_464_001063.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00015:496",
+      "action_idx": 62877,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/13/00015_496_062877.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00016:111",
+      "action_idx": 55783,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/11/00016_111_055783.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00016:675",
+      "action_idx": 53187,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/24/00016_675_053187.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00017:085",
+      "action_idx": 86096,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/6/00017_085_086096.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00017:121",
+      "action_idx": 97032,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00017_121_097032.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00019:928",
+      "action_idx": 86331,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/30/00019_928_086331.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00019:938",
+      "action_idx": 48263,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/3/00019_938_048263.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00020:038",
+      "action_idx": 22047,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/9/00020_038_022047.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00020:062",
+      "action_idx": 64383,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/23/00020_062_064383.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00021:089",
+      "action_idx": 7779,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00021_089_007779.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00021:097",
+      "action_idx": 15888,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/16/00021_097_015888.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00023:751",
+      "action_idx": 86775,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/28/00023_751_086775.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00023:873",
+      "action_idx": 52387,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/23/00023_873_052387.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00024:381",
+      "action_idx": 88149,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00024_381_088149.npz"
+    },
+    {
+      "panel": "within",
+      "split": "train",
+      "task": "00024:618",
+      "action_idx": 28847,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/8/00024_618_028847.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00001:001",
+      "action_idx": 6920,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/14/00001_001_006920.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00001:044",
+      "action_idx": 66811,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/10/00001_044_066811.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00003:051",
+      "action_idx": 53973,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00003_051_053973.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00004:137",
+      "action_idx": 66672,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/10/00004_137_066672.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00004:243",
+      "action_idx": 1087,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/3/00004_243_001087.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00005:014",
+      "action_idx": 98432,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/11/00005_014_098432.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00005:066",
+      "action_idx": 10751,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/26/00005_066_010751.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00005:076",
+      "action_idx": 18271,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/12/00005_076_018271.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00005:169",
+      "action_idx": 49425,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/13/00005_169_049425.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00006:060",
+      "action_idx": 93889,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/16/00006_060_093889.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00006:145",
+      "action_idx": 60375,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/29/00006_145_060375.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00006:164",
+      "action_idx": 69067,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/30/00006_164_069067.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00007:090",
+      "action_idx": 15495,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/4/00007_090_015495.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00007:185",
+      "action_idx": 23275,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/8/00007_185_023275.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00007:298",
+      "action_idx": 10108,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/15/00007_298_010108.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00007:307",
+      "action_idx": 99050,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/29/00007_307_099050.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00008:177",
+      "action_idx": 69250,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/13/00008_177_069250.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00008:442",
+      "action_idx": 46770,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/11/00008_442_046770.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00008:466",
+      "action_idx": 7508,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/20/00008_466_007508.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00008:487",
+      "action_idx": 27182,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00008_487_027182.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00009:365",
+      "action_idx": 99357,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/23/00009_365_099357.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00010:191",
+      "action_idx": 46662,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/6/00010_191_046662.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00010:320",
+      "action_idx": 37617,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/10/00010_320_037617.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00010:476",
+      "action_idx": 57063,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/9/00010_476_057063.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00011:872",
+      "action_idx": 53001,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/22/00011_872_053001.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00011:875",
+      "action_idx": 7533,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/28/00011_875_007533.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00011:937",
+      "action_idx": 8094,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/25/00011_937_008094.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00011:967",
+      "action_idx": 55714,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00011_967_055714.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00012:023",
+      "action_idx": 77218,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/27/00012_023_077218.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00012:032",
+      "action_idx": 10862,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/11/00012_032_010862.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00012:102",
+      "action_idx": 52531,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/14/00012_102_052531.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00013:011",
+      "action_idx": 55250,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/4/00013_011_055250.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00013:036",
+      "action_idx": 91780,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/1/00013_036_091780.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00013:244",
+      "action_idx": 46402,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/9/00013_244_046402.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00014:634",
+      "action_idx": 92982,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/11/00014_634_092982.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00015:134",
+      "action_idx": 27559,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/22/00015_134_027559.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00015:211",
+      "action_idx": 12051,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/0/00015_211_012051.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00015:379",
+      "action_idx": 84983,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/0/00015_379_084983.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00016:651",
+      "action_idx": 97336,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/11/00016_651_097336.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00016:758",
+      "action_idx": 58861,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/1/00016_758_058861.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00016:851",
+      "action_idx": 61246,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/27/00016_851_061246.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00017:098",
+      "action_idx": 83792,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/15/00017_098_083792.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00017:129",
+      "action_idx": 77389,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/22/00017_129_077389.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00017:138",
+      "action_idx": 35498,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/20/00017_138_035498.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00017:191",
+      "action_idx": 60919,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/31/00017_191_060919.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00018:070",
+      "action_idx": 81025,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/10/00018_070_081025.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00018:120",
+      "action_idx": 49906,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/12/00018_120_049906.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00018:171",
+      "action_idx": 49913,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/5/00018_171_049913.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00018:198",
+      "action_idx": 39723,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/0/00018_198_039723.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00019:244",
+      "action_idx": 31608,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/24/00019_244_031608.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00019:608",
+      "action_idx": 10838,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/16/00019_608_010838.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00019:865",
+      "action_idx": 71166,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/25/00019_865_071166.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00019:944",
+      "action_idx": 22730,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/17/00019_944_022730.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00020:016",
+      "action_idx": 89419,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/0/00020_016_089419.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00020:028",
+      "action_idx": 67056,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/12/00020_028_067056.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00020:053",
+      "action_idx": 27005,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00020_053_027005.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00020:066",
+      "action_idx": 25592,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/7/00020_066_025592.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00021:038",
+      "action_idx": 50007,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/20/00021_038_050007.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00021:073",
+      "action_idx": 15654,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/25/00021_073_015654.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00021:113",
+      "action_idx": 4868,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/18/00021_113_004868.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00022:507",
+      "action_idx": 25893,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/3/00022_507_025893.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00022:695",
+      "action_idx": 69233,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/12/00022_695_069233.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00022:755",
+      "action_idx": 9085,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/29/00022_755_009085.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00023:017",
+      "action_idx": 24308,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/13/00023_017_024308.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00023:202",
+      "action_idx": 22635,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/24/00023_202_022635.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00023:506",
+      "action_idx": 66686,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/1/00023_506_066686.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00023:848",
+      "action_idx": 69682,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/27/00023_848_069682.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00024:098",
+      "action_idx": 48940,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/26/00024_098_048940.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00024:139",
+      "action_idx": 56461,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/24/00024_139_056461.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00024:246",
+      "action_idx": 21246,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/2/00024_246_021246.npz"
+    },
+    {
+      "panel": "within",
+      "split": "evaluation",
+      "task": "00024:552",
+      "action_idx": 58630,
+      "cache": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/10/00024_552_058630.npz"
+    }
+  ],
+  "question": "Are initial failed-support residual magnitudes/relative-motion errors shifted between updater training and evaluation scenes despite same Q0-first policy?",
+  "metrics": [
+    "full residual RMS (old diagnostic parity)",
+    "future latent L1",
+    "future residual RMS",
+    "true future-minus-initial latent RMS",
+    "residual RMS divided by true-motion RMS"
+  ],
+  "limits": [
+    "All distinct first-failure scenes once, not episode-weighted",
+    "Q0 initial state only, not subsequent memory states",
+    "Train/eval scene and template difficulty differ: descriptive distribution comparison, not causal proof of overfitting",
+    "Cross/within use different fixed Q0 readers; compare train/eval within each protocol",
+    "No new simulation/encoding or predictor/updater training; all observations must come from existing canonical caches"
+  ]
+}

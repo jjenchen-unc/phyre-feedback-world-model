@@ -1,0 +1,122 @@
+{
+  "objective": "Recommend one most promising direction for memory updater based on several controlled experimental rounds",
+  "deadline": "2026-10-19T09:00:00-04:00",
+  "deadline_user_confirmed": true,
+  "note": "Overrides initial goal metadata date Oct20; earliest deadline confirmed by user is Oct19 morning.",
+  "slides": "Do not add new findings to slides",
+  "compute": "Use available GPUs, no preemption of other users; avoid training that cannot complete fair comparisons before deadline",
+  "hypotheses": {
+    "H1": "Updater uses pooled residual channel mean more than tokenwise variation",
+    "H2": "Full update is too large; shrinking may protect rankings",
+    "H3": "Content-independent updater dynamics damage rankings even without residual",
+    "H4": "Prediction supervision does not protect success-sensitive ranking; content-sensitive updates may transfer poorly between actions"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "status": "complete",
+      "experiment": "residual_mean_step_diagnostic_20261019",
+      "design": "20existingtasks,40fixedhistorystates,mean_only,centered,real,zero,step0/.25/.5. Parent exact replay required.",
+      "decision": "Use paired next-success and successful-action ranks plus AUC; examine cross/within and first/later separately. A change in state norm alone is not evidence of improvement.",
+      "finding": "Mean-only hypothesis unsupported; centered residual near real update. Lower-alpha improves some AUC but not consistent best-success rank."
+    },
+    {
+      "round": 2,
+      "status": "complete",
+      "design": "Original10+new10scenes per protocol; separate residual-specific delta U(r)-U(0) from zero-input drift, with norm-matched real-direction control. Replicate alpha.5 vs no update; first/later and original/new separate.",
+      "experiment": "residual_direction_diagnostic_20261019",
+      "jobs": {
+        "array": 36020,
+        "summary": 36030
+      },
+      "verified_update_states": 79,
+      "verified_score_arrays": 474
+    },
+    {
+      "round": 3,
+      "status": "complete",
+      "design": "All100scenes/protocol,4interventions step.25/.5,centered,feedbackonly; originalQ0/residual/zero/tta reused. Original realpolicy2taskfullreplay smoke and bothcanonicalencoders passed. 800newclosedlooprollouts, samefirstQ0 and1024pool.",
+      "experiment": "memory_overnight_policy_20261019",
+      "jobs": {
+        "smoke": 36031,
+        "evaluation": 36033,
+        "summary": 36064
+      },
+      "finding": "S9cross:Q0 11,real8,step.25 12,step.5 10,centered10,feedbackonly12;within:50,57,56,54,60,46. All800traces independently reverified locally."
+    },
+    {
+      "round": 4,
+      "status": "complete",
+      "design": "4freshupdaters, cross/within x uniform/balancedquery;128slots each (half original),same freshidentityupdater/seed7919,frozenQ0,original terminalL1+.1geometry,8queries,2episodes/slot,currentpolicy supports. Labelbalanceoffline only. All4preflight gradient/reader/initialhash gates before training. Save32/64/96/128 checkpoints; primary compare128against128.",
+      "experiment": "query_balance_training_20261019",
+      "jobs": {
+        "training": 36066,
+        "evaluation_cross": 36077,
+        "evaluation_within": 36079,
+        "summary": 36081
+      },
+      "evidence": "Currenttrainingaudit cross226/389 activeepisodes have0positivequeries,within174/358. Cross first-update supervision present144/389activeepisodes, so earlyupdates are not entirely unsupervised.",
+      "finding": "All4freshtrainings and400rawrollouts complete. Audit activepatterns/optimizersteps exact. S9uniform/balanced cross12/12,within56/58; paired4/4and8/6. Positivequeryfraction ~.5 achieved, not robust task improvement."
+    },
+    {
+      "round": 5,
+      "status": "complete",
+      "experiment": "query_balance_centered_eval_20261019",
+      "design": "Adaptive evaluation-only centering check on fresh128 uniform/balanced checkpoints, 400newrollouts. Compare samecheckpoint with and without centering; no newtraining. Same panel and initialization, stabilitycheck NOT independentreplication. Two old-checkpoint fullcentered-policy exact-replay smokes before evaluation.",
+      "jobs": {
+        "smoke": 36072,
+        "smoke_summary": 36074,
+        "evaluation_cross": 36078,
+        "evaluation_within": 36080,
+        "summary": 36082
+      },
+      "motivation": "Centering is only intervention with small gains vs fullresidual in bothprotocols, but cross10stillbelowQ0 11; check stability on newlytrained models.",
+      "validation": "Twofullclosedloopcenteredreplays exact onoriginalcheckpoints;18scorevectors independentlyverified locally.",
+      "finding": "All400rollouts verified. S9uniformcentered15cross/57within;balancedcentered11/56. Centering uniform improvesboth, balanced worsensboth."
+    },
+    {
+      "round": 6,
+      "status": "complete",
+      "design": "Post-hoc fixed-first-update analysis of fresh128 models, prompted by within balanced S3/S5 regression. Same initialQ0, samefirstfailedaction, sameobservation; compare scorer rankings after firstupdate only. Reuse testedmetrichelper; no newsimulation/training.",
+      "evidence": "FIRST_UPDATE_cross.json and FIRST_UPDATE_within.json",
+      "finding": "Within71firstfailures,69AUCdefined: uniform nextsuccess9 vsbalanced6 vsQ04. Balancedvsuniform bestsuccessrank23improve/42worsen, AUCmean-.02928. Samplingpositives doesnotautomaticallyprotectfirst-update ranking. Cross97firstfailures: nextsuccessQ02/uniform1/balanced2/uniformcenter1/balcenter4; one-step rankings do not reliably predict closed-loopS9."
+    },
+    {
+      "round": 7,
+      "status": "complete",
+      "experiment": "initial_residual_shift_20261019",
+      "jobs": {
+        "array": 36143,
+        "summary": 36147
+      },
+      "design": "All distinct first-failure training/eval scenes at unchanged Q0 initial state,260cases (cross48/97,within44/71). Existingcanonicalcaches only. Predict32actionchunk; all168evalscorechunks exact vsQ0,20oldRMS diagnostics reproduced. Compare futureL1/RMS and latent-motion-normalized residual.",
+      "finding": "Cross medianL1 .113935train->.139734eval (+22.6%),RMS+8.2%,normalized+14.6%;withinL1unchanged,RMS+3.4%,normalized+.47%. Descriptive shift,not causalproof; not multiple-foldchange or latermemory-state distribution."
+    },
+    {
+      "round": 8,
+      "status": "complete",
+      "experiment": "fresh_zero_feedback_eval_20261019",
+      "jobs": {
+        "smoke": 36148,
+        "smoke_summary": 36150,
+        "evaluation": 36151,
+        "summary": 36152
+      },
+      "design": "Last control, samefreshuniform128checkpoint with allzero residual, actualaction/currentmemory retained, 100scenes/protocol. Noobservation/encodercalls. Exactfirstscore and originalcheckpoint firstzero-update replay smoke before full200rollouts. Not separatelytrainedzerocontrol; may beOOD.",
+      "motivation": "Test whether uniformcentered smallbenefit requiresresidualcontent; nofurthertrainingbeforedeadline.",
+      "validation": "Bothoriginalcheckpoint firstzero-update scorevectors exact; sourcefirstscores exact; downloaded andindependentlyverified locally.",
+      "finding": "All200rollouts verified locally. S9zero cross9/within55 vsraw12/56 vscentered15/57. Centeredvszero paired8gains2losses cross,8gains6losses within. Zero input OOD caveat retained."
+    }
+  ],
+  "report_requirements": [
+    "Main supported direction with exact denominators and paired gains/losses",
+    "Alternative hypotheses and evidence against each",
+    "Fixed-history versus closed-loop results clearly separated",
+    "One-seed limitations and out-of-distribution intervention caveat",
+    "Measured compute times and artifact pointers"
+  ],
+  "scheduling_note": "Only own pending36070/36071/36075/36076 replaced; each protocol waits for its own training pair, same tasks/code/budget. PANEL_SCHEDULING.json verifieddependencies.",
+  "status": "complete",
+  "final_recommendation": "Keep uniform query sampling; next test fresh updater training with residual centering active during both training and deployment, preserving matched raw and zero-input controls. Candidate direction, not established causal root or independent replication.",
+  "report": "docs/MEMORY_OVERNIGHT_INVESTIGATION_20261019.md"
+}

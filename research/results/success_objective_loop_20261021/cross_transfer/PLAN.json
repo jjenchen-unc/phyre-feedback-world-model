@@ -1,0 +1,58 @@
+{
+  "parent_plan": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "source_sha": "675695639966d67160108dbebb27355e56dda6ff487f6b8a5641f815ab1e561f",
+  "readout_source_sha": "bebab233ca38f337bac074f6fb46022c547d6141d501563859907c140c84df6f",
+  "readout_models_sha": "8375fd5a2ffd8b7b02deac4f0401582ff361bde74f84f40cad790294857f37d7",
+  "tasks": [
+    "00008:144",
+    "00008:499",
+    "00008:527",
+    "00008:601",
+    "00010:387",
+    "00010:102",
+    "00010:286",
+    "00010:278",
+    "00013:207",
+    "00013:222",
+    "00013:281",
+    "00013:144",
+    "00015:460",
+    "00015:448",
+    "00015:472",
+    "00015:279",
+    "00023:008",
+    "00023:930",
+    "00023:490",
+    "00023:757"
+  ],
+  "templates": [
+    "00008",
+    "00010",
+    "00013",
+    "00015",
+    "00023"
+  ],
+  "arms_seed7919": [
+    "prediction_residual",
+    "prediction_zero",
+    "bce_residual",
+    "bce_zero",
+    "pair_residual",
+    "pair_zero"
+  ],
+  "arms_seed7920": [
+    "prediction_residual",
+    "prediction_zero",
+    "pair_residual",
+    "pair_zero"
+  ],
+  "calibration_arms": [
+    "bcecal_residual",
+    "bcecal_zero"
+  ],
+  "selection": "Fixed RNG20261021,4uniformscenes per5 officialcrossfold1testtemplates fromexisting100scene panel, no outcome filtering. Previously used testpanel, not claimed untouched.",
+  "scope": "Freeze fittedmethods before newpaneloutcomes. Same classifier1024pool, originalQ0first action, same observedfirstfailure residual and currentQ0 prediction. Single-feedback next1/3/5/8 ranking; no further memory updates. Also fullstaticranking ofQ0,classifier,successreadouts for reference.",
+  "controls": "Q0; initialsceneclassifier within samepool; prediction/BCE/pair real/zero seed7919; prediction/pair real/zero seed7920; learnedaffineBCE real/zero; query8/fullpool successreadouts on frozenQ0 geometry.",
+  "interpretation": "Primary transferpanel for whether early-rank improvements generalize beyond16trainingtemplates. Only20scenes/5templates, two updaterseeds sharebase, so exploratorydirection not definitivebenchmark.",
+  "data": "Reuse exact cached observations; no simulation/encoding fallback or cached evolving-token predictions. Firstprediction fixedbecauseQ0frozen."
+}

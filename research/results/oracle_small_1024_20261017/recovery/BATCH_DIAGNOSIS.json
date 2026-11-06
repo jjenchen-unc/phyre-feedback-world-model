@@ -1,0 +1,44 @@
+{
+  "task": "00008:144",
+  "mismatches": 3,
+  "max_abs": 0.000337265390877306,
+  "details": [
+    {
+      "local": 461,
+      "action_idx": 82942,
+      "original_batch_size": 1,
+      "archived": 2.944629575947819,
+      "current32": 2.9449668413386965,
+      "batch_scores": {
+        "1": 2.944629575947819,
+        "32": 2.9449668413386965
+      },
+      "original_size_reproduces_exactly": true
+    },
+    {
+      "local": 692,
+      "action_idx": 92223,
+      "original_batch_size": 32,
+      "archived": 2.482238815218463,
+      "current32": 2.4822388152184636,
+      "batch_scores": {
+        "1": 2.492539487774316,
+        "32": 2.4822388152184636
+      },
+      "original_size_reproduces_exactly": false
+    },
+    {
+      "local": 879,
+      "action_idx": 44479,
+      "original_batch_size": 32,
+      "archived": 0.16299016186811432,
+      "current32": 0.16299016186811438,
+      "batch_scores": {
+        "1": 0.246754470086139,
+        "32": 0.16299016186811438
+      },
+      "original_size_reproduces_exactly": false
+    }
+  ],
+  "full_rank_same": false
+}

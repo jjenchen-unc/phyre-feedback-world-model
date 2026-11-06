@@ -1,0 +1,283 @@
+{
+  "jobs": [
+    {
+      "panel": "cross",
+      "task": "00008:532"
+    },
+    {
+      "panel": "cross",
+      "task": "00008:144"
+    },
+    {
+      "panel": "cross",
+      "task": "00010:051"
+    },
+    {
+      "panel": "cross",
+      "task": "00010:379"
+    },
+    {
+      "panel": "cross",
+      "task": "00013:083"
+    },
+    {
+      "panel": "cross",
+      "task": "00013:025"
+    },
+    {
+      "panel": "cross",
+      "task": "00015:485"
+    },
+    {
+      "panel": "cross",
+      "task": "00015:460"
+    },
+    {
+      "panel": "cross",
+      "task": "00023:925"
+    },
+    {
+      "panel": "cross",
+      "task": "00023:959"
+    },
+    {
+      "panel": "within",
+      "task": "00000:024"
+    },
+    {
+      "panel": "within",
+      "task": "00001:077"
+    },
+    {
+      "panel": "within",
+      "task": "00002:017"
+    },
+    {
+      "panel": "within",
+      "task": "00003:030"
+    },
+    {
+      "panel": "within",
+      "task": "00004:960"
+    },
+    {
+      "panel": "within",
+      "task": "00005:169"
+    },
+    {
+      "panel": "within",
+      "task": "00006:164"
+    },
+    {
+      "panel": "within",
+      "task": "00007:307"
+    },
+    {
+      "panel": "within",
+      "task": "00008:177"
+    },
+    {
+      "panel": "within",
+      "task": "00009:367"
+    },
+    {
+      "panel": "within",
+      "task": "00010:476"
+    },
+    {
+      "panel": "within",
+      "task": "00011:937"
+    },
+    {
+      "panel": "within",
+      "task": "00012:032"
+    },
+    {
+      "panel": "within",
+      "task": "00013:036"
+    },
+    {
+      "panel": "within",
+      "task": "00014:577"
+    },
+    {
+      "panel": "within",
+      "task": "00015:379"
+    },
+    {
+      "panel": "within",
+      "task": "00016:851"
+    },
+    {
+      "panel": "within",
+      "task": "00017:138"
+    },
+    {
+      "panel": "within",
+      "task": "00018:171"
+    },
+    {
+      "panel": "within",
+      "task": "00019:244"
+    },
+    {
+      "panel": "within",
+      "task": "00020:028"
+    },
+    {
+      "panel": "within",
+      "task": "00021:038"
+    },
+    {
+      "panel": "within",
+      "task": "00022:695"
+    },
+    {
+      "panel": "within",
+      "task": "00023:202"
+    },
+    {
+      "panel": "within",
+      "task": "00024:246"
+    }
+  ],
+  "dependencies": {
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00008_532/pool.npz": "eddbee158eb10afa940b36eb74dbf572078d77f32b096af768aecbe5c1bdb12a",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00008_532/z0.npy": "be01fbffe26c65f8f3035af7d23007c7de570f11601df1dc27d8b3a32534ea3c",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00008_532/scores.npz": "ce8f6cf404ab8d097110a19b69062ff2a970cfb0c20eb1c1aad07f0837d65381",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00008_144/pool.npz": "0d454e642e47c582fadf8b97c99ac8ab09614c9da729f340fbe14a95845f8ef7",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00008_144/z0.npy": "893296e6395b5bd434304360ca507d64266f44adc2d48a3ef24b0a0ca418f89f",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00008_144/scores.npz": "4d33c14a0355437ee7bc5fc4d2df5394b61eb707739bf2321813ab0b1f4d9a4e",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00010_051/pool.npz": "b92616e763c503cf3a8d77f643e883676f83782bab7178df07bb0bad85896856",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00010_051/z0.npy": "f0eccb76a34bde77473424969eae3f5514158e1610b6b85becbc937aab4483f5",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00010_051/scores.npz": "f2b161d86eeb6fd4d050746e01cc3703b5909e57120bd300b74f22c96ccffb82",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00010_379/pool.npz": "ddb9fb985c069031a8e42d22da5f7bb237beeb02605fb88b6dfc2b80bb19bf95",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00010_379/z0.npy": "c49da4e536e0f4f3d84bccf53306c38583d988d3663109cb8a5f4f69a89063cd",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00010_379/scores.npz": "9e578053d1737061a9e1fd9ef7e7812e2659d556fc724333164963236f6afd95",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00013_083/pool.npz": "3dd7e34ead88dce4400c1f7a7993d7e4a5f686e9bc5f39407e90042c4bd8644d",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00013_083/z0.npy": "63195ff382f2ba4c87f8c5cd5411208c329d444ce6dd49f3e57332e0e0fd317a",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00013_083/scores.npz": "ae8e8f2478014834d0ddfaffddec9272d47dbb411c466beab4b08bc56c47e3b3",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00013_025/pool.npz": "9a5087190b2f48ba822eedd02908bfb96fbc3b1083899d74c0fa5f4ae6dda25c",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00013_025/z0.npy": "7af96345515abdaba29f1394d7f2cf029b5e37b183de2f434291280a46c7b632",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00013_025/scores.npz": "12280ce02a1ba6a8012f0f7f46c19c6c6647b5a82721ec0b6f1f89ac64b2ddeb",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00015_485/pool.npz": "090e17755c07ffab431f04cce26d36d89b32a59b037615b238a9640329ddd999",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00015_485/z0.npy": "ee78a458f78b0300988e67eb46e2e7f29a42ff6652be159ec5a3fac8fe5bf5ef",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00015_485/scores.npz": "d79275cd520c603a23892408545284ed5199c62187a1cfbb4e20dce661091502",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00015_460/pool.npz": "8424cfb84bbeaa34c8686cd9d03e25128efb078dff3c5078377f3e8da4b11074",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00015_460/z0.npy": "815d70e4162cfaffe8a58cb8da3037796c55e351016436e91838a7315675fbff",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00015_460/scores.npz": "99da6a27ffb57ececad929592af0096086e781ec0251416dc0a551b31edda895",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00023_925/pool.npz": "857a50318982bb09ab488502e7c6ef693612d0ac0fe6c05a1968f9ec2aa121df",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00023_925/z0.npy": "e93e87d49cee7e74fb063a3dd157d550e25c3073e9c649fb9d1cf5f2290786d5",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00023_925/scores.npz": "e88b20dc32024341e61154063e57979e5b7ac7f5f4845a163b1fef881771eccb",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00023_959/pool.npz": "8e88314529ac71bebbc3227de0ae6a671572a36db37912f74ca2587c9277ce90",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/cross/00023_959/z0.npy": "3c6fd57d01e4770cdc3ee58ca22ab51cbf295efbef32b88adda977d72b710262",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/cross/base/00023_959/scores.npz": "0081c3760ae98e8c40e971a11b166304fd3e27d8c34846966a80a00bcfc4b46e",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00000_024/pool.npz": "34a7f51fbfd32bd28e43ac4f93302f342452ba16df58d5ea59b775b33d876252",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00000_024/z0.npy": "4c91f891b885a66ebea375518be62bdf47aa94ca916776b8d84ca27b2147e3f3",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00000_024/scores.npz": "54d9eeb77af19797b42a359bd467988134e9aff3e68a4b469a3d7ca8041b5322",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00001_077/pool.npz": "9985b7d959c5412732358efc983d708f69d75cbefaef8e16e1849d1a8b334980",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00001_077/z0.npy": "293ada3ad88d19a75e2a4faa84aafe94b02cfcc6f095f54094b94e1453ddc5c5",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00001_077/scores.npz": "6cfb25bb52f89eb45081e1765321b362214d74f8db75bcaf8ca45b48d7c5fad3",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00002_017/pool.npz": "6f2659c0fc9532907d2065675b6a2c11c32dfb593e8b5fdcddbf02f1857a8c39",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00002_017/z0.npy": "68cc3940cfd5685a4d0232b7320e6b8e89d435fc095b929e891ab4480ec4c090",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00002_017/scores.npz": "8c83d6f34821c2e4a9adb3fffdf0a841b6fbf06055a35035b5261ebc22ac3387",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00003_030/pool.npz": "a047008f3f8d501f786e334e3e9df57836ffc8c90249cfbdc0847609079b1410",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00003_030/z0.npy": "3299655e20555d6d68180f8cdb06453e9d8e6ff97604ed21b2d469b259e8c72b",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00003_030/scores.npz": "1262f46ef010884c768a14d3f9acf9d6926cc3962636bb760075e1178e0f5aa9",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00004_960/pool.npz": "aa1cec91db8e838ef43a413f9046a3cb3d6f0f69c8f266811deaffb379d64615",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00004_960/z0.npy": "e2dc0aff93f25b7bf2daeb9106d625ffa574547dc9abc29fb74c527d595dc62a",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00004_960/scores.npz": "1acd81ea5e859995a82d450f14b6b5d581a5a8b3ef2c9a4f4e4d08546db379b2",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00005_169/pool.npz": "a495d8ec2c0a36bc7aefdf7fd52a875c455691530401f3f65616d445a1fbc996",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00005_169/z0.npy": "bc5bae0a77ad5cdb8a56c150827f8112c3ab78fb54992a64185f8e9464140406",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00005_169/scores.npz": "7f136fa1b000932e5b216a4dee9512f3b8add63b3b664aee0bdfff100d900b69",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00006_164/pool.npz": "1e873e83e2578d1f0c9476be7e2274e5717fe9f397e5da6636bf6042d1c323ce",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00006_164/z0.npy": "2db89834d0fb89e843269ada6861c41e8a0837d685ec702ea77734f3b564a3d0",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00006_164/scores.npz": "221596f55e133a4c82f28e7bd2e37731250ec8aee0e521447754e264bc330b28",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00007_307/pool.npz": "cfe31adfed0d899fe6b2ac328ec7a72d5ad40565b76984125d5d7786726dd896",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00007_307/z0.npy": "5fbc4f333bfc74b1f277345f892cead19875370957ff8ef8016730bf5f46069a",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00007_307/scores.npz": "22dbb522d7b812a9fc71909b21214a494aaf5b4e53e175b8074431e0d8b0f759",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00008_177/pool.npz": "b7e29c7195081005433cca9ccc11887d31cfb38431f5b6c92fcd3aba40036944",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00008_177/z0.npy": "8ec030aa5c6a80750bc2239112a74df2b112eb7efbc8d54245adc740bfc2d247",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00008_177/scores.npz": "2da39b25ad2a1dc89c05b55509236a6843cb64eb223c288f72770f1cebebc08e",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00009_367/pool.npz": "3f86b36bfe3b5873af7187bfbdd265c22336c301549712f46dcdfa2d174b20d3",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00009_367/z0.npy": "e783b017fa42b0d7df8bc7ab867256bbfffe5e25fbf2cf5a10ad57cac6560eca",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00009_367/scores.npz": "f8788cf99a9b6ea3993bc397efc8a659864936d6a8a89e2931c81e1513ec8650",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00010_476/pool.npz": "8b399b07e0818f392f5e1c812862844e24148285c167180a03ca676564bd0bcc",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00010_476/z0.npy": "f9f303dff5c5075db0316cbe80f4e5f2a37c54eee6d290eb85eaeec4e9495fbe",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00010_476/scores.npz": "390e62f96de60719c047adbd7b997868bfaf4bf55d4cfae2a6cb0094aa07b5b1",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00011_937/pool.npz": "29b55f915988f9d4b00360ccc61194fa51a635e86eef0c6a4fece15dcccd290c",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00011_937/z0.npy": "50b7add34e59f0d29dfacd1edfbfb15b189648cb6467ef90258261db610791a3",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00011_937/scores.npz": "f725534d0f82f93eb9ff64f370d75d9e1f0ca17fe3fa8be1ca94662221b12fba",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00012_032/pool.npz": "b1ed781292541a58c31c531755e4f066431084016ccf580eab77afc886bf4a29",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00012_032/z0.npy": "3bdced4e9af9f324cb7dfd9cb6cdd838bf47c3ea720ff0ad3e043453227254bf",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00012_032/scores.npz": "493975beddd7f42878a4fe8fa8ac3409cf8e482f94fe4f8931cb4da63127090d",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00013_036/pool.npz": "4a34c95bb38edd03f4ceaa64507296df56dc603313d6344fbfdf9bed3092082a",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00013_036/z0.npy": "8e30e6672b0f21f234dc58231ae5ee01074320305da863a8a988ab825e4d683b",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00013_036/scores.npz": "d7e888de729ef9e9c928aa4c5df0d5f4117ae8a9b8c3ad49bebba45de23ebea5",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00014_577/pool.npz": "984aac9254e27d9bf60244211321749163b3305cc67e2df77df52b2c6ec545ac",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00014_577/z0.npy": "ae8102e1a690e8c7c0960da2c60d15c948fc1d37d20c19a00eb2e2e85bf47d38",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00014_577/scores.npz": "f02aa9ee327ad4fececfe3fdced73416943faa098af10cf5f985b83cb16c6c8e",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00015_379/pool.npz": "e45c053e2bf38dc4288a473d5b09e2de0d64dcf569c4a8d56182083f982688c3",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00015_379/z0.npy": "a0663447d583bb6c0c1ef86d26eb56498cf24ea43661f95f12393eb5446946da",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00015_379/scores.npz": "bf58ec308187c78f6d96af356c4a852166106faa2fdd6b3fe87c3d11ffd3b043",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00016_851/pool.npz": "c9d4170d9f63824139b603da9cfc08282c62db8b2a92f0c1041a06f47574448f",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00016_851/z0.npy": "20383d7ac6f030843e3790236395948bc23fd0ba475ded578dd589570868f605",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00016_851/scores.npz": "9c85e6cbd6bd31c33a83e808fad304d35ed47342cf02e0afd34855267d3a02d2",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00017_138/pool.npz": "91191d6061a92f45cdd8301a646e3fab08712a92bcd7c1bef403b41b94d68871",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00017_138/z0.npy": "e371f487bcfdbcd463614e01dd5f9cd7e09c923b5bf9ff9b2b14a06f687f74a5",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00017_138/scores.npz": "175a5537ed464c9359befe5fcb3d5421d8a5e643559546cf37aab2dbc5c59661",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00018_171/pool.npz": "021770d2f91f5574ec7138b9d6ce037a727460da96db54cfb3b4a2d33c0118e0",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00018_171/z0.npy": "1fb304a1634ffedd93032efaa87ee2d1b05c049ec008c91511df75b57b07cfdb",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00018_171/scores.npz": "a5eebd6a5466a78ee8ea0e9e467750bd9f1c8b1c17c4419385fe2559153b1554",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00019_244/pool.npz": "97364466f4d34fd14a929d45a8ca2538e5313643aff4d3c3ee45fc3d422d8d47",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00019_244/z0.npy": "9931abbdeeec9225f1de0ce9fe3946f0e571e19fe49b44e7ec05cc8e5ce16512",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00019_244/scores.npz": "7ee1bd4cfcaa86e499129e53898b78b8c1b8df468255181bc044e3998617f4b8",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00020_028/pool.npz": "b736a0b76a4f1552a3fe14cd6b0258cf42ecfe6936a0417142d1065fdcd4b7ac",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00020_028/z0.npy": "92b005d003a0887a76c4c9c244d602064373840e178cf0d0d61a16f757ee0537",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00020_028/scores.npz": "e190d50da1aeebc9992d9318c9a446f9edbeff8e94633692d96edeea85e5d4f4",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00021_038/pool.npz": "c65e23fdaf20910b02d0178a736706de5e55cecb5af6aee804d9c5c30aff89ea",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00021_038/z0.npy": "1a9799d14438555a87bff8b328871c6e55aa441775015c058efa3a0df4541a0a",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00021_038/scores.npz": "56501bd3cb6665036355eec1608ce47f794f9471f2e0b1e96193b324951d6ba1",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00022_695/pool.npz": "ec7f8d9e067605297d11647755cbfe315e9757612c17d1ec4e5809b7236533d7",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00022_695/z0.npy": "19ee0a0b86ff0040043c9cc14eb8a6812dd73a7030aa7149188b2d073067c438",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00022_695/scores.npz": "db2f6f69137959ff6e99b6c91d97d40eb9dcca06c06b52fddb5d319b1651ba21",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00023_202/pool.npz": "fb3ff68e5a9dfe43e5a5bffe4f440400aca7a7b98f572aa25b77f44790f479a0",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00023_202/z0.npy": "3c16ed2225e00dc7590c8cef3e28c9cf2b47cd976929b1ebff15d47c0d0e9a82",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00023_202/scores.npz": "df14b1b55a9791f33b681b5a6a1498f179ee66943c1a8e7319119cce30e17ab7",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00024_246/pool.npz": "6f133bd40cb180435170ea4b97e7b65f472dbca61d2629b6447445f04ef9bac8",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/pools/within/00024_246/z0.npy": "e1a04aaf4c637a374cfd6409e031946c288d2230d4fb5a9a7818198a83011c51",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/scores/within/base/00024_246/scores.npz": "1e631bc3b37433e9704e38237b92b222d1bebe3b37f4f281572257474a8c543c",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/PLAN.json": "1d7cec60231edf1186a2438a8c85cb9cb0ef3ff69764c38c19b1d90255a4b7d3",
+    "/path/to/phyre-unc/results/candidate_coverage_100k_20261016/PLAN.json": "0ebb4d071b1da43516fed3289596d0782cd557a3d3c2ee747e60611f272c90c5",
+    "/path/to/phyre-unc/results/oracle_small_1024_20261017/code/oracle_small_1024.py": "5de3940c95da0b57b04b876336367e4678219a8d5e6b2f455eeca29328d60484",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/selector_feedback_data.py": "3da21f7b5787f1b56c2de68b20c214aa6d9a8169366c88673e4133e9225cc4f3",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/fast_inference.py": "274f1855293d9f1c337015de3a50d321a93ecf0fab29491861f47d8278819706",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/scene_classifier.py": "9c1374f5f3c6224a3ddfdfd147cb5a7c3fb6536e1bc834d6c33dffd550ffb500",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/selector_feedback_launch.py": "cb60080fcdce1770865ab4d705fd84a82c99074b24ea41740ebc764681edb61e",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/deploy_pool_cpu.py": "7ffa9d6a311231046473b5d3eeaf7cdddf506f2689f9a12bb175e03922b77f03",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/deploy_pool_data.py": "c47ee2509cb4668dfdec75279826fffda80b25085ac299e5a75d60e5c6076bea",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/deploy_pool_updater.py": "2b14cf85c5427e15a39cba987f1a9972ee23c36f6c94195d2100ff71d9fa2162",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/test_selector_feedback_policy.py": "1d6b04fb671fc2a1fd441c5aa4e6051b0dff0793081dcfdad03738c9bf1aad15",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/selector_feedback_run.py": "7b80fa94f042e3ccb4f4071d60c60b8900e9fbd2e1b4bef14634b76b20c93ad6",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/candidate_coverage_100k.py": "4fa727d6435b5152038cc30564fb5cc1d958c594510808b00e92ac31317dc242",
+    "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/code/candidate_coverage_100k_cpu.py": "d1f4454b5c4c85a553a9ab23288080af812bc49aab81047d68eba7a4950b04e9"
+  },
+  "actions_per_task": 1024,
+  "selection": "SHA256 ordering within each template of existing eval panel, before outcomes; cross 2/template, within 1/template",
+  "pool": "Existing initial-scene-classifier full100k legal top1024; unchanged candidate IDs and float64 simulator actions",
+  "oracle": "Canonical A6000 true-video encoder, replace future latent only, common cached initial z0; unchanged probe and rule",
+  "controls": [
+    "base",
+    "q0",
+    "selector_static",
+    "oracle_latent",
+    "oracle_geometry"
+  ],
+  "primary_question": "Separate base predictor error, fixed probe readout error, and geometry scoring rule limitations on identical candidates",
+  "diagnostics": "Per-action future latent L1, decoded surface distance and distance MAE vs simulator, predicted-object position MAE in pixels; split success/failure",
+  "metrics": "Static S1/S9/S100, AUCCESS100, pair AUC, first success rank, pool coverage; also selector-first S9",
+  "interpretation": "Oracle latent through fixed probe/rule is a diagnostic, not guaranteed success upper bound",
+  "batch_size": 32,
+  "no_training": true,
+  "no_full100k_oracle": true
+}

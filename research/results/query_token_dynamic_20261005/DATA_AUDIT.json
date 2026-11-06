@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "provenance": {
+    "manifest": "e729f149c78cd7175e9fe4c4ac47f627447094c3c410ce45e7e6397f1cd816ad",
+    "code": {
+      "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+      "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+      "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+      "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+      "test_query_token_dynamic.py": "a2dff9d179e1d35e2d18af983d3d17d8e3853c9adfe15b6ddead8f97b4b17cbe",
+      "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+      "query_token_predictor.py": "66aa433f47a5f7926324b4ea604e7f927bcb2b34fb309c25f2b572d70026a04a",
+      "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc",
+      "query_token_dynamic.py": "cd10c9e83827aa4e1d400ae0b0f3240b5b5a5d7e7d29de4e5c3edffd17f086d4"
+    }
+  },
+  "parent_audit_sha256": "989acad10746754a7abcda3aebe7a41373bfe1f1b26fe1cfcf7b13e8d64d520d",
+  "near_filter": false,
+  "draws": {
+    "0": {
+      "sha256": "6a5730e32cd330257d134de7134c7864c6fa840e5046fbcf341525509f181b6a",
+      "scenes": 1200,
+      "prefix_counts": {
+        "1": 9394,
+        "3": 1888,
+        "8": 582,
+        "2": 4398,
+        "4": 1887,
+        "5": 659,
+        "6": 597,
+        "7": 595
+      }
+    },
+    "1": {
+      "sha256": "c77008561494e75267d9a822efea044fd14870c4c3a988692441e24e3ff8c652",
+      "scenes": 1200,
+      "prefix_counts": {
+        "1": 9381,
+        "3": 1888,
+        "4": 1859,
+        "5": 657,
+        "6": 607,
+        "2": 4445,
+        "8": 577,
+        "7": 586
+      }
+    },
+    "2": {
+      "sha256": "de7977b97b5ea6b543515d053da5a1e9f8e76b2b6abc8b9ef6ad02a9ad72b4d7",
+      "scenes": 1200,
+      "prefix_counts": {
+        "1": 9516,
+        "2": 4402,
+        "3": 1841,
+        "4": 1879,
+        "5": 605,
+        "6": 625,
+        "7": 573,
+        "8": 559
+      }
+    }
+  },
+  "counts": {
+    "train": {
+      "scenes": 1200,
+      "by_template": {
+        "00003": 100,
+        "00005": 100,
+        "00006": 100,
+        "00009": 100,
+        "00011": 100,
+        "00016": 100,
+        "00017": 100,
+        "00018": 100,
+        "00019": 100,
+        "00020": 100,
+        "00021": 100,
+        "00024": 100
+      },
+      "queries": 29349,
+      "positive_queries": 12702,
+      "failed_supports": 16916
+    },
+    "calibration": {
+      "scenes": 400,
+      "by_template": {
+        "00001": 100,
+        "00004": 100,
+        "00012": 100,
+        "00022": 100
+      },
+      "queries": 10193,
+      "positive_queries": 4457,
+      "failed_supports": 5573
+    }
+  }
+}

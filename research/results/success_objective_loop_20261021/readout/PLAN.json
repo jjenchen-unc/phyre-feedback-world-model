@@ -1,0 +1,21 @@
+{
+  "parent_plan": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "source_sha": "fcd0ff0192dd621da9cc1a62352a6b7c052824e48a5e89adbdb107d03d9c62f5",
+  "scorer_sha": "9117e1ff6384248be1f46b2838219c04aa9c43f7f71e198b1b46fe40f2ce9a24",
+  "trigger": "Frozen affine calibration on bounded geometry score has probability ceiling .1178; compare richer readout and data coverage separately, without changing predictor/updater.",
+  "arms": [
+    "scalar_calibration",
+    "query8_readout",
+    "fullpool_readout"
+  ],
+  "features": "32soft-contact samples sigmoid(4-distance); original logcontact score; min/mean/max surface distance divided256; longest hardnear4 run/32. No action ID, scene ID, label or futuretruth input.",
+  "fitting": "Train split only, fixed positive affine scalar baseline; readout logistic ridge meanBCE+.01/2*||w||^2 after train-only feature scaling. Intercept unpenalized. Uniform-query8 readout has same424labeled examples as updater; fullpool uses all1023 untried actions per53scene, explicitly different supervision amount.",
+  "eval": "Full1023 frozenQ0 predictions; discovery12/confirmation10 exact same first-failure population and candidate indices. No memory update or changed first action. Direct attribution diagnostic, not improved worldmodel claim.",
+  "oracle": "On same8cachedqueries compare Q0prediction+probe, observedlatent+probe, simulatortruegeometry through same scorer; diagnostic only, never used as deployment input or fitted readout features.",
+  "limitations": [
+    "One trainedQ0 andfold",
+    "Evaluation train-template scenes previouslyexamined",
+    "Fullpool readout has much more label supervision than updater/query8, not fair method-only comparison",
+    "New readout can improve actionselection without any improvement in physics prediction"
+  ]
+}

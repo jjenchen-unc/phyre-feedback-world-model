@@ -1,0 +1,66 @@
+{
+  "status": "CONDITIONAL_PIPELINE_SUBMITTED",
+  "request": "After full100k comparison, measure deployment compute and try Q0, residual updater, non-residual updater and AdaJEPA.",
+  "primary_current_metric": "Per-task >=1 success in method-specific top1024 legal actions",
+  "base_checkpoints": {
+    "cross": {
+      "lambda": 0,
+      "seed": 0
+    },
+    "within": {
+      "lambda": 0.03,
+      "seed": 0
+    }
+  },
+  "selectors": [
+    "initial_scene_classifier",
+    "new_base_predictor_plus_scorer"
+  ],
+  "scope_question": "Resolved: user chose only the better top1024 coverage selector.",
+  "deployment": {
+    "first_attempt": "Highest-scored legal action from the selected selector full100k ranking; same first action for all four reranking arms within selector/panel/task.",
+    "candidate_pool": "That selector top1024 legal actions from the full100k set, fixed during task; no historical shortlist.",
+    "after_failure": "Consume only observed chosen-action feedback, update if applicable, then rerank remaining untried pool actions.",
+    "stop": "Stop at first success; initially retain prior small-study max9 attempts (8 updates).",
+    "q0_control": "Frozen trained Q0 reranks remaining candidates without feedback updates; cache its unchanged scores.",
+    "residual": "Fresh updater with current-Q0/token-conditioned prediction error; full BPTT training.",
+    "non_residual": "Existing zero-residual ablation: updater receives action/current state with zero residual; no trajectory content.",
+    "adajepa": "Existing matched Q0 predictor-only test-time adapter, resetting weights between tasks; initial tokens frozen; no new offline training."
+  },
+  "timing": {
+    "initial": "End-to-end full100k ranking, including required initial-scene/action encoding and CPU validity/rendering, reported separately from model-loading startup.",
+    "transition": "Cost to prepare retained1024 for Q0 reranking; distinguish classifier-selector preprocessing from reusable base-selector encodings.",
+    "feedback": "Simulator/observation acquisition, observation encoding, residual prediction, update, and reranking separated.",
+    "metrics": [
+      "single-GPU task latency",
+      "GPU-seconds/GPU-hours",
+      "peak GPU memory",
+      "amortized wall time with batching across tasks"
+    ],
+    "cache_rule": "Report cold/hot immutable observation caches separately; predictions/residuals not reused across changed states.",
+    "q0_rule": "No repeated model inference charged after unchanged ranking is cached.",
+    "non_residual_rule": "Zero-residual update does not require full observation trajectory encoding; do not charge avoidable residual computation."
+  },
+  "training": {
+    "candidate_construction": "Same selector full100k -> top1024 on training tasks only.",
+    "first_support": "Selector top1 if it fails, then subsequent current updater policy failures.",
+    "queries": "Uniform from same pool excluding ALL tried actions, no success/near-success label selection.",
+    "q0_parent": "Existing matched Q0 with corresponding panel lambda/seed; frozen initial tokens and reader for updater training.",
+    "new_training_count_if_both_selectors": 8,
+    "new_training_count_if_one_selector": 4,
+    "compute_scope": "Short pilot and measured costs before scaling; no 1200-scene/full10k-slot job submitted by this followup record.",
+    "budget": "Fixed short pilot: no automatic full10k-slot expansion",
+    "authorized_new_training_count": 4,
+    "scenes_per_panel": 64,
+    "slots": 256,
+    "episodes_per_slot": 2
+  },
+  "execution": "New feedback pilot controllers35817Sunflower and35325Oprime submitted. Await coverage35816, then select per-panel winner, build matching train/eval pools, verify, and automatically train/evaluate. Training has not started.",
+  "selector_choice": {
+    "per_panel": true,
+    "primary": "higher fraction of tasks with >=1 successful retained action",
+    "tie_break": "lower measured initial full100k ranking cost",
+    "caveat": "Checkpoint settings specified by user; no claim of global optimality"
+  },
+  "followup_run": "results/selector_feedback_pilot_20261016"
+}

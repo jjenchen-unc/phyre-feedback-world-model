@@ -1,0 +1,19 @@
+{
+  "old_jobs": [
+    "36070",
+    "36071",
+    "36075",
+    "36076"
+  ],
+  "old_states": "36070_[0-31%32] PENDING\n36071 PENDING\n36075_[0-31%32] PENDING\n36076 PENDING\n",
+  "new_jobs": {
+    "cross_raw_eval": "36077",
+    "cross_centered_eval": "36078",
+    "within_raw_eval": "36079",
+    "within_centered_eval": "36080",
+    "raw_summary": "36081",
+    "centered_summary": "36082"
+  },
+  "complete": true,
+  "reason": "Identical evaluation, tasks, checkpoints and budgets; within pair can evaluate before cross training finishes."
+}

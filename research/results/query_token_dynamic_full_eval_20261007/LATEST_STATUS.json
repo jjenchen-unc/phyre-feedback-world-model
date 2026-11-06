@@ -1,0 +1,185 @@
+{
+  "utc": "2026-10-08T03:11:17.012071+00:00",
+  "summary_exists": false,
+  "memory_runs": [
+    {
+      "split": "cross",
+      "model": "A_frozen_memory_s0",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 11629.284169197083,
+        "last_task": "00014:633"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "A_frozen_memory_s1",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 12075.33100438118,
+        "last_task": "00014:633"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "A_frozen_memory_s2",
+      "complete": false,
+      "progress": {
+        "n": 1,
+        "total": 100,
+        "seconds": 253.06454515457153,
+        "last_task": "00000:000"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "B_pretrained_memory_s0",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 11132.205356359482,
+        "last_task": "00014:633"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "B_pretrained_memory_s1",
+      "complete": false,
+      "progress": {
+        "n": 90,
+        "total": 100,
+        "seconds": 11378.20248913765,
+        "last_task": "00014:466"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "B_pretrained_memory_s2",
+      "complete": false,
+      "progress": null
+    },
+    {
+      "split": "cross",
+      "model": "C_random_memory_s0",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 12434.165076255798,
+        "last_task": "00014:633"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "C_random_memory_s1",
+      "complete": false,
+      "progress": {
+        "n": 27,
+        "total": 100,
+        "seconds": 2550.0969030857086,
+        "last_task": "00002:086"
+      }
+    },
+    {
+      "split": "cross",
+      "model": "C_random_memory_s2",
+      "complete": false,
+      "progress": null
+    },
+    {
+      "split": "within",
+      "model": "A_frozen_memory_s0",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 10675.792559146881,
+        "last_task": "00021:108"
+      }
+    },
+    {
+      "split": "within",
+      "model": "A_frozen_memory_s1",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 11041.738273382187,
+        "last_task": "00021:108"
+      }
+    },
+    {
+      "split": "within",
+      "model": "A_frozen_memory_s2",
+      "complete": false,
+      "progress": {
+        "n": 4,
+        "total": 100,
+        "seconds": 166.09645867347717,
+        "last_task": "00003:139"
+      }
+    },
+    {
+      "split": "within",
+      "model": "B_pretrained_memory_s0",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 9765.662298440933,
+        "last_task": "00021:108"
+      }
+    },
+    {
+      "split": "within",
+      "model": "B_pretrained_memory_s1",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 10201.608805418015,
+        "last_task": "00021:108"
+      }
+    },
+    {
+      "split": "within",
+      "model": "B_pretrained_memory_s2",
+      "complete": false,
+      "progress": null
+    },
+    {
+      "split": "within",
+      "model": "C_random_memory_s0",
+      "complete": true,
+      "progress": {
+        "n": 100,
+        "total": 100,
+        "seconds": 10658.897309541702,
+        "last_task": "00021:108"
+      }
+    },
+    {
+      "split": "within",
+      "model": "C_random_memory_s1",
+      "complete": false,
+      "progress": {
+        "n": 11,
+        "total": 100,
+        "seconds": 826.0964016914368,
+        "last_task": "00005:007"
+      }
+    },
+    {
+      "split": "within",
+      "model": "C_random_memory_s2",
+      "complete": false,
+      "progress": null
+    }
+  ],
+  "static_runs_complete": 12
+}

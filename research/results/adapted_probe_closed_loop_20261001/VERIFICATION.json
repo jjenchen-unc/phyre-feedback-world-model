@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "n_conditions": 22,
+  "tasks_recomputed": 2200,
+  "attempts_replayed_locally": 98441,
+  "files_sha256_matched": 4423,
+  "all_initial_memory_scores_equal_same_head_base": true,
+  "first_update_ranks_recomputed": true,
+  "scope": "Local raw scores/traces replay plus metric recomputation; remote full audit additionally checks original pack action/label/task alignment and all initial scores against prior frozen predictions."
+}

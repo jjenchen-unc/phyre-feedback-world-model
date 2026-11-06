@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "batch_prediction_max_error": 5.551115123125783e-16,
+  "batch_gradient_max_error": 6.071532165918825e-18,
+  "active_q0": true,
+  "identity_updater": true,
+  "frozen_reader_input_gradient": true,
+  "q0_preserved_after_optimizer_step": true,
+  "full_dynamic_residual_gradient": true,
+  "zero_branch_input_invariance": true,
+  "checkpoint_roundtrip": true,
+  "full_epoch_budget": true,
+  "scope": "Model structural tests on remote ML torch CPU; no GPU performance claim"
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "source_rpc_sha256": "8b5558ce8e8d16188a9833db2851aeeea61e3466b965a4cfe82fb7110f02bd51",
+  "records": [
+    {
+      "panel": "cross",
+      "task": "00008:263",
+      "encoder": 0,
+      "latent_exact": true,
+      "initial_exact": true,
+      "encode_s": 1.3891861299052835
+    },
+    {
+      "panel": "cross",
+      "task": "00008:263",
+      "encoder": 1,
+      "latent_exact": true,
+      "initial_exact": true,
+      "encode_s": 1.4113249639049172
+    },
+    {
+      "panel": "within",
+      "task": "00019:608",
+      "encoder": 0,
+      "latent_exact": true,
+      "initial_exact": true,
+      "encode_s": 0.9558229045942426
+    },
+    {
+      "panel": "within",
+      "task": "00019:608",
+      "encoder": 1,
+      "latent_exact": true,
+      "initial_exact": true,
+      "encode_s": 0.9579347055405378
+    }
+  ]
+}

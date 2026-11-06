@@ -1,0 +1,33 @@
+{
+  "scope": "same incoming weights and optimizer state; not independent training-trajectory equivalence",
+  "criterion": "PyTorch 2.7.1 default float32 assert_close tolerances, inspected in installed torch.testing._comparison.default_tolerances",
+  "rtol": 1.3e-06,
+  "atol": 1e-05,
+  "assessment": "post-hoc numerical assessment; original stricter failures preserved",
+  "long_training_equivalence_passed": false,
+  "formal_training_enabled": false,
+  "panels": {
+    "cross": {
+      "source_sha256": "2d91b67e7cd861a365d030f5d898f480b78eb0526bf239f2528dff42a84ab626",
+      "slots": 16,
+      "events_exact": true,
+      "gradient_max_abs": 1.1641532182693481e-10,
+      "weight_max_abs": 6.668269634246826e-07,
+      "frozen_predictor_exact": true,
+      "probe_exact": true,
+      "default_fp32_tolerance_passed": true,
+      "strict_original_test_passed": false
+    },
+    "within": {
+      "source_sha256": "d68b550387a1f77a1960fdb93d914cd420682c5079bd4d48b9c1167409307c6c",
+      "slots": 16,
+      "events_exact": true,
+      "gradient_max_abs": 2.9802322387695312e-08,
+      "weight_max_abs": 9.611248970031738e-07,
+      "frozen_predictor_exact": true,
+      "probe_exact": true,
+      "default_fp32_tolerance_passed": true,
+      "strict_original_test_passed": false
+    }
+  }
+}

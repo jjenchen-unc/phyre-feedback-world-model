@@ -1,0 +1,10 @@
+{
+  "time": 1792350276.981358,
+  "scope": "4 training arms, then 800 method-task evaluations",
+  "validation": "35961",
+  "preflight": "35962",
+  "training": "35963",
+  "training_audit": "35964",
+  "evaluation": "35965",
+  "evaluation_audit": "35966"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "prefix_inside_shared_self_attention": true,
+  "active_initial_tokens": true,
+  "no_separate_read_adapter": true,
+  "candidate_future_isolation": true,
+  "success_stop_and_no_repeats": true,
+  "same_current_policy_residual_replay_exact": true,
+  "full_BPTT_frozen_predictor": true,
+  "checkpoint_gradient_max_error": 0.0,
+  "batch_score_max_error": 1.1102230246251565e-16
+}

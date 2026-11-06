@@ -1,0 +1,27 @@
+{
+  "reason": "User explicitly prioritized staged Q0 predictor then updater experiment",
+  "utc": "2026-10-05T21:26:30.315788+00:00",
+  "held_pending_jobs": [
+    "34414_8",
+    "34459",
+    "34480",
+    "34483",
+    "34414_6",
+    "34414_7"
+  ],
+  "left_running": [],
+  "cancelled": [],
+  "release_command": "scontrol release 34414_8 34459 34480 34483 34414_6 34414_7",
+  "policy": "Release after priority experiment finishes or user reprioritizes; retain artifacts",
+  "requeued_running_jobs": [
+    {
+      "job": "34414_6",
+      "reason": "Prioritize newGPU smoke; oldwithin saves completedper-scene summaries and skips them onrestart",
+      "verified_completed_specs_before_action": 111
+    },
+    {
+      "job": "34414_7",
+      "reason": "GPU smoke passed; prioritize full stage1 training; old per-scene outputs retained"
+    }
+  ]
+}

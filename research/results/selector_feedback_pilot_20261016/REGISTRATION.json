@@ -1,0 +1,50 @@
+{
+  "status": "CONDITIONALLY_SUBMITTED",
+  "date": "2026-10-16",
+  "authorization": "User: validation passes then run",
+  "scope": "Per-panel winning complete100k top1024 selector,64 training scenes,256 slots x2episodes,4 fresh updater trainings; Q0/TTA no offline training",
+  "methods": [
+    "q0",
+    "residual",
+    "zero",
+    "tta"
+  ],
+  "eval_tasks_per_panel": 100,
+  "max_attempts": 9,
+  "gates": [
+    "coverage complete and selector choice",
+    "action-free scene encoding",
+    "new train/eval pool audit",
+    "four updater GPU preflights including full8-update BPTT, frozen reader/head, checkpoint gradient equality, TTA change/reset",
+    "four Q0/TTA new-policy smoke evaluations"
+  ],
+  "failure_policy": "Stop downstream work; never silently reuse rejected historical shortlist",
+  "controllers": {
+    "sunflower_controller": "35817",
+    "oprime_controller": "35325",
+    "after_coverage_summary": "35816"
+  },
+  "new_plan_not_yet_created": "PLAN is written only after coverage summary selects the per-panel winners",
+  "validation_now": {
+    "cpu_regression_tests": 4,
+    "local_and_remote_passed": true,
+    "runtime_imports_passed": true,
+    "sbatch_syntax_passed": true
+  },
+  "gpu_preflight_status": "PENDING_NEW_POOLS",
+  "training_status": "NOT_STARTED",
+  "extra_control": "Selector static ranking from existing scores, no extra training",
+  "code_sha256": {
+    "candidate_coverage_100k.py": "4fa727d6435b5152038cc30564fb5cc1d958c594510808b00e92ac31317dc242",
+    "candidate_coverage_100k_cpu.py": "d1f4454b5c4c85a553a9ab23288080af812bc49aab81047d68eba7a4950b04e9",
+    "deploy_pool_cpu.py": "7ffa9d6a311231046473b5d3eeaf7cdddf506f2689f9a12bb175e03922b77f03",
+    "deploy_pool_data.py": "c47ee2509cb4668dfdec75279826fffda80b25085ac299e5a75d60e5c6076bea",
+    "deploy_pool_updater.py": "2b14cf85c5427e15a39cba987f1a9972ee23c36f6c94195d2100ff71d9fa2162",
+    "fast_inference.py": "274f1855293d9f1c337015de3a50d321a93ecf0fab29491861f47d8278819706",
+    "scene_classifier.py": "9c1374f5f3c6224a3ddfdfd147cb5a7c3fb6536e1bc834d6c33dffd550ffb500",
+    "selector_feedback_data.py": "3da21f7b5787f1b56c2de68b20c214aa6d9a8169366c88673e4133e9225cc4f3",
+    "selector_feedback_launch.py": "cb60080fcdce1770865ab4d705fd84a82c99074b24ea41740ebc764681edb61e",
+    "selector_feedback_run.py": "7b80fa94f042e3ccb4f4071d60c60b8900e9fbd2e1b4bef14634b76b20c93ad6",
+    "test_selector_feedback_policy.py": "1d6b04fb671fc2a1fd441c5aa4e6051b0dff0793081dcfdad03738c9bf1aad15"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "selection_sha256": "879f6bec3143f5102f8a5582508450f3f381eb03bebba87422c5fe41f4134a27",
+  "fresh_scenes_checked": 100,
+  "candidate_to_rollout_pairs_checked": 16,
+  "independent_simulator_labels_checked": 16,
+  "checks": [
+    "no compiled or recorded task overlap",
+    "new serialized scene and goal",
+    "unique scene-goal fingerprints",
+    "stable shortlist sorting without outcome fields",
+    "initial pixels and geometry equal recorded rollout",
+    "actual simulator status replay"
+  ],
+  "auditor_sha256": "1d3dc113e77ad7d8dbf0651df1600e47625f73dc5d4b230af0f36086176a6d7b"
+}

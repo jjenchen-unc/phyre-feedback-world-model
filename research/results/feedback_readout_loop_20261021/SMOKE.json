@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+  "initial_baseline_exact": true,
+  "zero_and_query_only_invariants": true,
+  "labels_not_inputs": true,
+  "nonzero_output_gradient": true,
+  "parameter_count": 10561
+}

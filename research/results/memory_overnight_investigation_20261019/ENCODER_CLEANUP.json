@@ -1,0 +1,17 @@
+{
+  "all_stopped": true,
+  "servers": [
+    {
+      "stage": "stopped",
+      "pid": 1032794,
+      "completed": 1639,
+      "time": 1792406967.9350536
+    },
+    {
+      "stage": "stopped",
+      "pid": 1032797,
+      "completed": 2761,
+      "time": 1792406967.5582905
+    }
+  ]
+}

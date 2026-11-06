@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "provenance": {
+    "manifest": "d20b2a61aac0c9239ff4170c2fa0d6504cd394cb9ef44616f92a558ded394aec",
+    "code": {
+      "query_token_ablation.py": "75016a0f29b9fce85be5ae685d3d8026c761be46dec6135923536097e4d61d76",
+      "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+      "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+      "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+      "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+      "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+      "test_query_token_ablation.py": "ece60afb7a4963de711973cc3d689695704a5eb08daf935cd8e1c97f3f6a8bd5",
+      "query_token_predictor.py": "66aa433f47a5f7926324b4ea604e7f927bcb2b34fb309c25f2b572d70026a04a",
+      "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc"
+    }
+  },
+  "same_draws": true,
+  "paired_initialization": true,
+  "arms": {
+    "A_frozen_memory": {
+      "logs": [
+        {
+          "episodes": 100,
+          "optimizer_steps": 50,
+          "losses": [
+            0.0882708402723074,
+            0.39247486054897307,
+            0.12751832649111747
+          ],
+          "seconds_this_attempt": 21.05258321762085,
+          "start_episode": 0,
+          "peak_gpu_GiB": 9.629992485046387,
+          "lr": 0.00017087648164014924
+        },
+        {
+          "episodes": 200,
+          "optimizer_steps": 100,
+          "losses": [
+            0.08834151372313499,
+            0.4347297501564026,
+            0.13181449025869368
+          ],
+          "seconds_this_attempt": 41.778682231903076,
+          "start_episode": 0,
+          "peak_gpu_GiB": 9.739173889160156,
+          "lr": 9.257558163184714e-08
+        }
+      ],
+      "gradients": {
+        "backbone": 0,
+        "initial_tokens": 0.0002917319070547819,
+        "update_attention": 0.04340691119432449,
+        "residual_in": 0.0014573854859918356
+      },
+      "engineering": {
+        "cache_exact": true,
+        "two_update_replay": true,
+        "empty_current_backbone_identity": true,
+        "future_input_isolation": true,
+        "state_and_full_checkpoint_roundtrip": true,
+        "online_weights_unchanged": true,
+        "fixed_metrics_and_closed_loop_smoke": true,
+        "historic_reference_scores_exact": true,
+        "gpu_depths_1_2_4_8": true
+      }
+    },
+    "B_pretrained_memory": {
+      "logs": [
+        {
+          "episodes": 100,
+          "optimizer_steps": 50,
+          "losses": [
+            0.10030793070793152,
+            0.4925567641854286,
+            0.14956360816955566
+          ],
+          "seconds_this_attempt": 24.480380058288574,
+          "start_episode": 0,
+          "peak_gpu_GiB": 14.160815715789795,
+          "lr": 0.00017087648164014924
+        },
+        {
+          "episodes": 200,
+          "optimizer_steps": 100,
+          "losses": [
+            0.10320382684469223,
+            0.5577455320954323,
+            0.15897838026285172
+          ],
+          "seconds_this_attempt": 47.956334590911865,
+          "start_episode": 0,
+          "peak_gpu_GiB": 14.267357349395752,
+          "lr": 9.257558163184714e-08
+        }
+      ],
+      "gradients": {
+        "backbone": 712.1250451458618,
+        "initial_tokens": 0.00017097921227104962,
+        "update_attention": 0.023095782846212387,
+        "residual_in": 0.0011106757447123528
+      },
+      "engineering": {
+        "cache_exact": true,
+        "two_update_replay": true,
+        "empty_current_backbone_identity": true,
+        "future_input_isolation": true,
+        "state_and_full_checkpoint_roundtrip": true,
+        "online_weights_unchanged": true,
+        "fixed_metrics_and_closed_loop_smoke": true,
+        "historic_reference_scores_exact": true,
+        "gpu_depths_1_2_4_8": true
+      }
+    },
+    "C_random_memory": {
+      "logs": [
+        {
+          "episodes": 100,
+          "optimizer_steps": 50,
+          "losses": [
+            0.345597488284111,
+            1.6570056211948394,
+            0.5112980556488037
+          ],
+          "seconds_this_attempt": 24.980923175811768,
+          "start_episode": 0,
+          "peak_gpu_GiB": 14.160815715789795,
+          "lr": 0.00017087648164014924
+        },
+        {
+          "episodes": 200,
+          "optimizer_steps": 100,
+          "losses": [
+            0.26777680963277817,
+            1.4721396851539612,
+            0.4149907797574997
+          ],
+          "seconds_this_attempt": 48.93341135978699,
+          "start_episode": 0,
+          "peak_gpu_GiB": 14.267357349395752,
+          "lr": 9.257558163184714e-08
+        }
+      ],
+      "gradients": {
+        "backbone": 1576.967459468171,
+        "initial_tokens": 0.0034035821445286274,
+        "update_attention": 0.3290819525718689,
+        "residual_in": 0.01913975551724434
+      },
+      "engineering": {
+        "cache_exact": true,
+        "two_update_replay": true,
+        "empty_current_backbone_identity": true,
+        "future_input_isolation": true,
+        "state_and_full_checkpoint_roundtrip": true,
+        "online_weights_unchanged": true,
+        "fixed_metrics_and_closed_loop_smoke": true,
+        "historic_reference_scores_exact": true,
+        "gpu_depths_1_2_4_8": true
+      }
+    },
+    "D_pretrained_plain": {
+      "logs": [
+        {
+          "episodes": 100,
+          "optimizer_steps": 50,
+          "losses": [
+            0.09930211544036865,
+            0.4953429475426674,
+            0.1488364116847515
+          ],
+          "seconds_this_attempt": 21.494568347930908,
+          "start_episode": 0,
+          "peak_gpu_GiB": 11.90153169631958,
+          "lr": 0.00017087648164014924
+        },
+        {
+          "episodes": 200,
+          "optimizer_steps": 100,
+          "losses": [
+            0.10471677452325821,
+            0.6326780062913895,
+            0.1679845766723156
+          ],
+          "seconds_this_attempt": 42.35056662559509,
+          "start_episode": 0,
+          "peak_gpu_GiB": 11.999622821807861,
+          "lr": 9.257558163184714e-08
+        }
+      ],
+      "gradients": {
+        "backbone": 859.1313117239624
+      },
+      "engineering": {
+        "cache_exact": true,
+        "two_update_replay": true,
+        "empty_current_backbone_identity": true,
+        "future_input_isolation": true,
+        "state_and_full_checkpoint_roundtrip": true,
+        "online_weights_unchanged": true,
+        "fixed_metrics_and_closed_loop_smoke": true,
+        "historic_reference_scores_exact": true,
+        "gpu_depths_1_2_4_8": true
+      }
+    },
+    "E_random_plain": {
+      "logs": [
+        {
+          "episodes": 100,
+          "optimizer_steps": 50,
+          "losses": [
+            0.3460412269830704,
+            1.669059681892395,
+            0.5129472011327744
+          ],
+          "seconds_this_attempt": 21.21210479736328,
+          "start_episode": 0,
+          "peak_gpu_GiB": 11.90153169631958,
+          "lr": 0.00017087648164014924
+        },
+        {
+          "episodes": 200,
+          "optimizer_steps": 100,
+          "losses": [
+            0.2677573215961456,
+            1.4662210106849671,
+            0.4143794268369675
+          ],
+          "seconds_this_attempt": 42.04589509963989,
+          "start_episode": 0,
+          "peak_gpu_GiB": 11.999622821807861,
+          "lr": 9.257558163184714e-08
+        }
+      ],
+      "gradients": {
+        "backbone": 1592.188778270036
+      },
+      "engineering": {
+        "cache_exact": true,
+        "two_update_replay": true,
+        "empty_current_backbone_identity": true,
+        "future_input_isolation": true,
+        "state_and_full_checkpoint_roundtrip": true,
+        "online_weights_unchanged": true,
+        "fixed_metrics_and_closed_loop_smoke": true,
+        "historic_reference_scores_exact": true,
+        "gpu_depths_1_2_4_8": true
+      }
+    }
+  }
+}

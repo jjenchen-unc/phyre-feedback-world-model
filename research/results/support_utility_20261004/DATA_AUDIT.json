@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "manifest_sha256": "708788f5d7f8c1dc1e2250e6875850f7215abb841e00cad476eee715705d0a17",
+  "inventory_sha256": "978a97d719ebee48263d005b415b690ae58f0ad86c1d00dc938c6523943d47b2",
+  "potential_scenes_checked": 470,
+  "train_scenes": 171,
+  "calibration_available": 64,
+  "natural_cross_scenes_checked": 100,
+  "selected_support_counts": {
+    "N": 745,
+    "H": 469,
+    "F": 2144,
+    "failures": 3728
+  },
+  "checks": [
+    "whole-cluster role separation",
+    "normalized actions",
+    "geometry categories recomputed",
+    "top20 stable rank including successes",
+    "common training-scene intersection",
+    "train/cross template separation",
+    "natural first-action failure only"
+  ],
+  "auditor_sha256": "af3011bed721a67b338c247c97c600c53f1ad6ad36612c316f7b866b07b2efd6"
+}

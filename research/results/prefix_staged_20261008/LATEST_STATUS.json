@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-09T16:38:02.422639+00:00",
+  "training_complete": 9,
+  "evaluation_complete": 18,
+  "summary_complete": true,
+  "raw_audit_passed": true,
+  "independent_raw_cases_verified": 1800,
+  "active_jobs": [],
+  "source_summary_sha256": "ea3953e2f610c41d108a1a442c51835e8cb4cd9cc822c6817273aec81e79cf99",
+  "scope": "Completed full authorized staged experiment; no pending work"
+}

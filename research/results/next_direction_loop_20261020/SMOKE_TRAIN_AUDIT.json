@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "plan": "40aea0de8edd2a0e2b0233b823197e3da7b8c3e841e6d679f18e857e8e00d4d9",
+  "shared_initialization": true,
+  "matched_memory_context_draws": true,
+  "matched_mixed_predicted_targets": true
+}

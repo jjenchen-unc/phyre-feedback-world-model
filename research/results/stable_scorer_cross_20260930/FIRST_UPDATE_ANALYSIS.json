@@ -1,0 +1,2615 @@
+{
+  "scope": "Post-hoc stable-scorer trace analysis; same first failure and common remaining queries. Conditional on a failed first attempt and a solution in the shortlist.",
+  "models": {
+    "initial_R0": {
+      "n_tasks": 57,
+      "rank_improved": 22,
+      "rank_unchanged": 8,
+      "rank_worsened": 27,
+      "median_rank_delta": 0.0,
+      "per_task": [
+        {
+          "task": "00000:000",
+          "base_rank_after_excluding_first_failure": 489,
+          "memory_rank_after_one_failure": 476,
+          "rank_delta": -13,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:001",
+          "base_rank_after_excluding_first_failure": 17,
+          "memory_rank_after_one_failure": 8,
+          "rank_delta": -9,
+          "base_first_success": 18,
+          "memory_first_success": 8,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:014",
+          "base_rank_after_excluding_first_failure": 11,
+          "memory_rank_after_one_failure": 13,
+          "rank_delta": 2,
+          "base_first_success": 12,
+          "memory_first_success": 14,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:021",
+          "base_rank_after_excluding_first_failure": 64,
+          "memory_rank_after_one_failure": 56,
+          "rank_delta": -8,
+          "base_first_success": 65,
+          "memory_first_success": 61,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:044",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:049",
+          "base_rank_after_excluding_first_failure": 120,
+          "memory_rank_after_one_failure": 109,
+          "rank_delta": -11,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:050",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": 0,
+          "base_first_success": 5,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:052",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:053",
+          "base_rank_after_excluding_first_failure": 23,
+          "memory_rank_after_one_failure": 40,
+          "rank_delta": 17,
+          "base_first_success": 24,
+          "memory_first_success": 24,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:055",
+          "base_rank_after_excluding_first_failure": 5,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": -1,
+          "base_first_success": 6,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:064",
+          "base_rank_after_excluding_first_failure": 10,
+          "memory_rank_after_one_failure": 16,
+          "rank_delta": 6,
+          "base_first_success": 11,
+          "memory_first_success": 15,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:065",
+          "base_rank_after_excluding_first_failure": 271,
+          "memory_rank_after_one_failure": 275,
+          "rank_delta": 4,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:069",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 13,
+          "rank_delta": 4,
+          "base_first_success": 10,
+          "memory_first_success": 15,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:079",
+          "base_rank_after_excluding_first_failure": 119,
+          "memory_rank_after_one_failure": 99,
+          "rank_delta": -20,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:087",
+          "base_rank_after_excluding_first_failure": 373,
+          "memory_rank_after_one_failure": 365,
+          "rank_delta": -8,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:099",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:104",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 0,
+          "base_first_success": 3,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:119",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -2,
+          "base_first_success": 5,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:134",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 1,
+          "base_first_success": 5,
+          "memory_first_success": 7,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:137",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": 3,
+          "base_first_success": 2,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:146",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:168",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:176",
+          "base_rank_after_excluding_first_failure": 12,
+          "memory_rank_after_one_failure": 19,
+          "rank_delta": 7,
+          "base_first_success": 13,
+          "memory_first_success": 19,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:189",
+          "base_rank_after_excluding_first_failure": 40,
+          "memory_rank_after_one_failure": 81,
+          "rank_delta": 41,
+          "base_first_success": 41,
+          "memory_first_success": 76,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:193",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:057",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 783,
+          "rank_delta": 49,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:125",
+          "base_rank_after_excluding_first_failure": 709,
+          "memory_rank_after_one_failure": 787,
+          "rank_delta": 78,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:135",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 788,
+          "rank_delta": 54,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:136",
+          "base_rank_after_excluding_first_failure": 894,
+          "memory_rank_after_one_failure": 927,
+          "rank_delta": 33,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:147",
+          "base_rank_after_excluding_first_failure": 845,
+          "memory_rank_after_one_failure": 755,
+          "rank_delta": -90,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:243",
+          "base_rank_after_excluding_first_failure": 634,
+          "memory_rank_after_one_failure": 619,
+          "rank_delta": -15,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:260",
+          "base_rank_after_excluding_first_failure": 741,
+          "memory_rank_after_one_failure": 766,
+          "rank_delta": 25,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:269",
+          "base_rank_after_excluding_first_failure": 801,
+          "memory_rank_after_one_failure": 729,
+          "rank_delta": -72,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:281",
+          "base_rank_after_excluding_first_failure": 749,
+          "memory_rank_after_one_failure": 872,
+          "rank_delta": 123,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:298",
+          "base_rank_after_excluding_first_failure": 691,
+          "memory_rank_after_one_failure": 631,
+          "rank_delta": -60,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:300",
+          "base_rank_after_excluding_first_failure": 765,
+          "memory_rank_after_one_failure": 691,
+          "rank_delta": -74,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:319",
+          "base_rank_after_excluding_first_failure": 836,
+          "memory_rank_after_one_failure": 756,
+          "rank_delta": -80,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:323",
+          "base_rank_after_excluding_first_failure": 608,
+          "memory_rank_after_one_failure": 608,
+          "rank_delta": 0,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:357",
+          "base_rank_after_excluding_first_failure": 739,
+          "memory_rank_after_one_failure": 682,
+          "rank_delta": -57,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:009",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 7,
+          "rank_delta": -2,
+          "base_first_success": 10,
+          "memory_first_success": 7,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:026",
+          "base_rank_after_excluding_first_failure": 25,
+          "memory_rank_after_one_failure": 85,
+          "rank_delta": 60,
+          "base_first_success": 26,
+          "memory_first_success": 75,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:096",
+          "base_rank_after_excluding_first_failure": 49,
+          "memory_rank_after_one_failure": 20,
+          "rank_delta": -29,
+          "base_first_success": 50,
+          "memory_first_success": 18,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:273",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 9,
+          "rank_delta": 7,
+          "base_first_success": 3,
+          "memory_first_success": 10,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:316",
+          "base_rank_after_excluding_first_failure": 43,
+          "memory_rank_after_one_failure": 14,
+          "rank_delta": -29,
+          "base_first_success": 44,
+          "memory_first_success": 10,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:334",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 9,
+          "rank_delta": 0,
+          "base_first_success": 10,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:376",
+          "base_rank_after_excluding_first_failure": 540,
+          "memory_rank_after_one_failure": 995,
+          "rank_delta": 455,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:402",
+          "base_rank_after_excluding_first_failure": 73,
+          "memory_rank_after_one_failure": 81,
+          "rank_delta": 8,
+          "base_first_success": 74,
+          "memory_first_success": 82,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:404",
+          "base_rank_after_excluding_first_failure": 205,
+          "memory_rank_after_one_failure": 132,
+          "rank_delta": -73,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:407",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 45,
+          "rank_delta": 41,
+          "base_first_success": 5,
+          "memory_first_success": 47,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:470",
+          "base_rank_after_excluding_first_failure": 96,
+          "memory_rank_after_one_failure": 399,
+          "rank_delta": 303,
+          "base_first_success": 97,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:551",
+          "base_rank_after_excluding_first_failure": 7,
+          "memory_rank_after_one_failure": 3,
+          "rank_delta": -4,
+          "base_first_success": 8,
+          "memory_first_success": 4,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:555",
+          "base_rank_after_excluding_first_failure": 19,
+          "memory_rank_after_one_failure": 50,
+          "rank_delta": 31,
+          "base_first_success": 20,
+          "memory_first_success": 49,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:562",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 29,
+          "rank_delta": 16,
+          "base_first_success": 14,
+          "memory_first_success": 33,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:564",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": 3,
+          "base_first_success": 2,
+          "memory_first_success": 4,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:568",
+          "base_rank_after_excluding_first_failure": 236,
+          "memory_rank_after_one_failure": 523,
+          "rank_delta": 287,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:585",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 24,
+          "rank_delta": 11,
+          "base_first_success": 14,
+          "memory_first_success": 25,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:595",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        }
+      ]
+    },
+    "A_s0": {
+      "n_tasks": 57,
+      "rank_improved": 17,
+      "rank_unchanged": 5,
+      "rank_worsened": 35,
+      "median_rank_delta": 8.0,
+      "per_task": [
+        {
+          "task": "00000:000",
+          "base_rank_after_excluding_first_failure": 489,
+          "memory_rank_after_one_failure": 436,
+          "rank_delta": -53,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:001",
+          "base_rank_after_excluding_first_failure": 17,
+          "memory_rank_after_one_failure": 7,
+          "rank_delta": -10,
+          "base_first_success": 18,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:014",
+          "base_rank_after_excluding_first_failure": 11,
+          "memory_rank_after_one_failure": 19,
+          "rank_delta": 8,
+          "base_first_success": 12,
+          "memory_first_success": 20,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:021",
+          "base_rank_after_excluding_first_failure": 64,
+          "memory_rank_after_one_failure": 117,
+          "rank_delta": 53,
+          "base_first_success": 65,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00000:044",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:049",
+          "base_rank_after_excluding_first_failure": 120,
+          "memory_rank_after_one_failure": 131,
+          "rank_delta": 11,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:050",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 12,
+          "rank_delta": 8,
+          "base_first_success": 5,
+          "memory_first_success": 10,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:052",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:053",
+          "base_rank_after_excluding_first_failure": 23,
+          "memory_rank_after_one_failure": 13,
+          "rank_delta": -10,
+          "base_first_success": 24,
+          "memory_first_success": 14,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:055",
+          "base_rank_after_excluding_first_failure": 5,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": -1,
+          "base_first_success": 6,
+          "memory_first_success": 7,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:064",
+          "base_rank_after_excluding_first_failure": 10,
+          "memory_rank_after_one_failure": 20,
+          "rank_delta": 10,
+          "base_first_success": 11,
+          "memory_first_success": 29,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:065",
+          "base_rank_after_excluding_first_failure": 271,
+          "memory_rank_after_one_failure": 296,
+          "rank_delta": 25,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:069",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 9,
+          "rank_delta": 0,
+          "base_first_success": 10,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:079",
+          "base_rank_after_excluding_first_failure": 119,
+          "memory_rank_after_one_failure": 80,
+          "rank_delta": -39,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:087",
+          "base_rank_after_excluding_first_failure": 373,
+          "memory_rank_after_one_failure": 356,
+          "rank_delta": -17,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:099",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:104",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 0,
+          "base_first_success": 3,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:119",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -3,
+          "base_first_success": 5,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:134",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -2,
+          "base_first_success": 5,
+          "memory_first_success": 4,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:137",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:146",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:168",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:176",
+          "base_rank_after_excluding_first_failure": 12,
+          "memory_rank_after_one_failure": 42,
+          "rank_delta": 30,
+          "base_first_success": 13,
+          "memory_first_success": 42,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:189",
+          "base_rank_after_excluding_first_failure": 40,
+          "memory_rank_after_one_failure": 70,
+          "rank_delta": 30,
+          "base_first_success": 41,
+          "memory_first_success": 64,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:193",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:057",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 925,
+          "rank_delta": 191,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:125",
+          "base_rank_after_excluding_first_failure": 709,
+          "memory_rank_after_one_failure": 717,
+          "rank_delta": 8,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:135",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 863,
+          "rank_delta": 129,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:136",
+          "base_rank_after_excluding_first_failure": 894,
+          "memory_rank_after_one_failure": 1003,
+          "rank_delta": 109,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:147",
+          "base_rank_after_excluding_first_failure": 845,
+          "memory_rank_after_one_failure": 802,
+          "rank_delta": -43,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:243",
+          "base_rank_after_excluding_first_failure": 634,
+          "memory_rank_after_one_failure": 646,
+          "rank_delta": 12,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:260",
+          "base_rank_after_excluding_first_failure": 741,
+          "memory_rank_after_one_failure": 836,
+          "rank_delta": 95,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:269",
+          "base_rank_after_excluding_first_failure": 801,
+          "memory_rank_after_one_failure": 822,
+          "rank_delta": 21,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:281",
+          "base_rank_after_excluding_first_failure": 749,
+          "memory_rank_after_one_failure": 872,
+          "rank_delta": 123,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:298",
+          "base_rank_after_excluding_first_failure": 691,
+          "memory_rank_after_one_failure": 655,
+          "rank_delta": -36,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:300",
+          "base_rank_after_excluding_first_failure": 765,
+          "memory_rank_after_one_failure": 761,
+          "rank_delta": -4,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:319",
+          "base_rank_after_excluding_first_failure": 836,
+          "memory_rank_after_one_failure": 826,
+          "rank_delta": -10,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:323",
+          "base_rank_after_excluding_first_failure": 608,
+          "memory_rank_after_one_failure": 907,
+          "rank_delta": 299,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:357",
+          "base_rank_after_excluding_first_failure": 739,
+          "memory_rank_after_one_failure": 693,
+          "rank_delta": -46,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:009",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 9,
+          "rank_delta": 0,
+          "base_first_success": 10,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:026",
+          "base_rank_after_excluding_first_failure": 25,
+          "memory_rank_after_one_failure": 318,
+          "rank_delta": 293,
+          "base_first_success": 26,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:096",
+          "base_rank_after_excluding_first_failure": 49,
+          "memory_rank_after_one_failure": 67,
+          "rank_delta": 18,
+          "base_first_success": 50,
+          "memory_first_success": 72,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:273",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 106,
+          "rank_delta": 104,
+          "base_first_success": 3,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:316",
+          "base_rank_after_excluding_first_failure": 43,
+          "memory_rank_after_one_failure": 484,
+          "rank_delta": 441,
+          "base_first_success": 44,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:334",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 32,
+          "rank_delta": 23,
+          "base_first_success": 10,
+          "memory_first_success": 46,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:376",
+          "base_rank_after_excluding_first_failure": 540,
+          "memory_rank_after_one_failure": 991,
+          "rank_delta": 451,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:402",
+          "base_rank_after_excluding_first_failure": 73,
+          "memory_rank_after_one_failure": 48,
+          "rank_delta": -25,
+          "base_first_success": 74,
+          "memory_first_success": 36,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:404",
+          "base_rank_after_excluding_first_failure": 205,
+          "memory_rank_after_one_failure": 791,
+          "rank_delta": 586,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:407",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 122,
+          "rank_delta": 118,
+          "base_first_success": 5,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:470",
+          "base_rank_after_excluding_first_failure": 96,
+          "memory_rank_after_one_failure": 321,
+          "rank_delta": 225,
+          "base_first_success": 97,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:551",
+          "base_rank_after_excluding_first_failure": 7,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -5,
+          "base_first_success": 8,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:555",
+          "base_rank_after_excluding_first_failure": 19,
+          "memory_rank_after_one_failure": 410,
+          "rank_delta": 391,
+          "base_first_success": 20,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:562",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 60,
+          "rank_delta": 47,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:564",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 29,
+          "rank_delta": 28,
+          "base_first_success": 2,
+          "memory_first_success": 29,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:568",
+          "base_rank_after_excluding_first_failure": 236,
+          "memory_rank_after_one_failure": 689,
+          "rank_delta": 453,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:585",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 317,
+          "rank_delta": 304,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:595",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 3,
+          "rank_delta": 2,
+          "base_first_success": 2,
+          "memory_first_success": 4,
+          "base_solved_memory_failed": false
+        }
+      ]
+    },
+    "B_s0": {
+      "n_tasks": 57,
+      "rank_improved": 17,
+      "rank_unchanged": 5,
+      "rank_worsened": 35,
+      "median_rank_delta": 5.0,
+      "per_task": [
+        {
+          "task": "00000:000",
+          "base_rank_after_excluding_first_failure": 489,
+          "memory_rank_after_one_failure": 403,
+          "rank_delta": -86,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:001",
+          "base_rank_after_excluding_first_failure": 17,
+          "memory_rank_after_one_failure": 7,
+          "rank_delta": -10,
+          "base_first_success": 18,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:014",
+          "base_rank_after_excluding_first_failure": 11,
+          "memory_rank_after_one_failure": 16,
+          "rank_delta": 5,
+          "base_first_success": 12,
+          "memory_first_success": 14,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:021",
+          "base_rank_after_excluding_first_failure": 64,
+          "memory_rank_after_one_failure": 121,
+          "rank_delta": 57,
+          "base_first_success": 65,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00000:044",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -1,
+          "base_first_success": 4,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:049",
+          "base_rank_after_excluding_first_failure": 120,
+          "memory_rank_after_one_failure": 115,
+          "rank_delta": -5,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:050",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 12,
+          "rank_delta": 8,
+          "base_first_success": 5,
+          "memory_first_success": 10,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:052",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:053",
+          "base_rank_after_excluding_first_failure": 23,
+          "memory_rank_after_one_failure": 87,
+          "rank_delta": 64,
+          "base_first_success": 24,
+          "memory_first_success": 52,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:055",
+          "base_rank_after_excluding_first_failure": 5,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 0,
+          "base_first_success": 6,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:064",
+          "base_rank_after_excluding_first_failure": 10,
+          "memory_rank_after_one_failure": 25,
+          "rank_delta": 15,
+          "base_first_success": 11,
+          "memory_first_success": 27,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:065",
+          "base_rank_after_excluding_first_failure": 271,
+          "memory_rank_after_one_failure": 282,
+          "rank_delta": 11,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:069",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 9,
+          "rank_delta": 0,
+          "base_first_success": 10,
+          "memory_first_success": 12,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:079",
+          "base_rank_after_excluding_first_failure": 119,
+          "memory_rank_after_one_failure": 116,
+          "rank_delta": -3,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:087",
+          "base_rank_after_excluding_first_failure": 373,
+          "memory_rank_after_one_failure": 372,
+          "rank_delta": -1,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:099",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:104",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 0,
+          "base_first_success": 3,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:119",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 1,
+          "base_first_success": 5,
+          "memory_first_success": 7,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:134",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -2,
+          "base_first_success": 5,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:137",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:146",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:168",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:176",
+          "base_rank_after_excluding_first_failure": 12,
+          "memory_rank_after_one_failure": 40,
+          "rank_delta": 28,
+          "base_first_success": 13,
+          "memory_first_success": 41,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:189",
+          "base_rank_after_excluding_first_failure": 40,
+          "memory_rank_after_one_failure": 76,
+          "rank_delta": 36,
+          "base_first_success": 41,
+          "memory_first_success": 77,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:193",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:057",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 865,
+          "rank_delta": 131,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:125",
+          "base_rank_after_excluding_first_failure": 709,
+          "memory_rank_after_one_failure": 745,
+          "rank_delta": 36,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:135",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 847,
+          "rank_delta": 113,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:136",
+          "base_rank_after_excluding_first_failure": 894,
+          "memory_rank_after_one_failure": 985,
+          "rank_delta": 91,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:147",
+          "base_rank_after_excluding_first_failure": 845,
+          "memory_rank_after_one_failure": 738,
+          "rank_delta": -107,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:243",
+          "base_rank_after_excluding_first_failure": 634,
+          "memory_rank_after_one_failure": 628,
+          "rank_delta": -6,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:260",
+          "base_rank_after_excluding_first_failure": 741,
+          "memory_rank_after_one_failure": 832,
+          "rank_delta": 91,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:269",
+          "base_rank_after_excluding_first_failure": 801,
+          "memory_rank_after_one_failure": 796,
+          "rank_delta": -5,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:281",
+          "base_rank_after_excluding_first_failure": 749,
+          "memory_rank_after_one_failure": 891,
+          "rank_delta": 142,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:298",
+          "base_rank_after_excluding_first_failure": 691,
+          "memory_rank_after_one_failure": 658,
+          "rank_delta": -33,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:300",
+          "base_rank_after_excluding_first_failure": 765,
+          "memory_rank_after_one_failure": 699,
+          "rank_delta": -66,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:319",
+          "base_rank_after_excluding_first_failure": 836,
+          "memory_rank_after_one_failure": 808,
+          "rank_delta": -28,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:323",
+          "base_rank_after_excluding_first_failure": 608,
+          "memory_rank_after_one_failure": 657,
+          "rank_delta": 49,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:357",
+          "base_rank_after_excluding_first_failure": 739,
+          "memory_rank_after_one_failure": 665,
+          "rank_delta": -74,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:009",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 10,
+          "rank_delta": 1,
+          "base_first_success": 10,
+          "memory_first_success": 13,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:026",
+          "base_rank_after_excluding_first_failure": 25,
+          "memory_rank_after_one_failure": 258,
+          "rank_delta": 233,
+          "base_first_success": 26,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:096",
+          "base_rank_after_excluding_first_failure": 49,
+          "memory_rank_after_one_failure": 71,
+          "rank_delta": 22,
+          "base_first_success": 50,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:273",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 141,
+          "rank_delta": 139,
+          "base_first_success": 3,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:316",
+          "base_rank_after_excluding_first_failure": 43,
+          "memory_rank_after_one_failure": 344,
+          "rank_delta": 301,
+          "base_first_success": 44,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:334",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 21,
+          "rank_delta": 12,
+          "base_first_success": 10,
+          "memory_first_success": 32,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:376",
+          "base_rank_after_excluding_first_failure": 540,
+          "memory_rank_after_one_failure": 995,
+          "rank_delta": 455,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:402",
+          "base_rank_after_excluding_first_failure": 73,
+          "memory_rank_after_one_failure": 46,
+          "rank_delta": -27,
+          "base_first_success": 74,
+          "memory_first_success": 49,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:404",
+          "base_rank_after_excluding_first_failure": 205,
+          "memory_rank_after_one_failure": 484,
+          "rank_delta": 279,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:407",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 145,
+          "rank_delta": 141,
+          "base_first_success": 5,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:470",
+          "base_rank_after_excluding_first_failure": 96,
+          "memory_rank_after_one_failure": 404,
+          "rank_delta": 308,
+          "base_first_success": 97,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:551",
+          "base_rank_after_excluding_first_failure": 7,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -5,
+          "base_first_success": 8,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:555",
+          "base_rank_after_excluding_first_failure": 19,
+          "memory_rank_after_one_failure": 390,
+          "rank_delta": 371,
+          "base_first_success": 20,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:562",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 80,
+          "rank_delta": 67,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:564",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 26,
+          "rank_delta": 25,
+          "base_first_success": 2,
+          "memory_first_success": 23,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:568",
+          "base_rank_after_excluding_first_failure": 236,
+          "memory_rank_after_one_failure": 730,
+          "rank_delta": 494,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:585",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 310,
+          "rank_delta": 297,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:595",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 4,
+          "base_first_success": 2,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        }
+      ]
+    },
+    "A_s1": {
+      "n_tasks": 57,
+      "rank_improved": 20,
+      "rank_unchanged": 6,
+      "rank_worsened": 31,
+      "median_rank_delta": 3.0,
+      "per_task": [
+        {
+          "task": "00000:000",
+          "base_rank_after_excluding_first_failure": 489,
+          "memory_rank_after_one_failure": 503,
+          "rank_delta": 14,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:001",
+          "base_rank_after_excluding_first_failure": 17,
+          "memory_rank_after_one_failure": 10,
+          "rank_delta": -7,
+          "base_first_success": 18,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:014",
+          "base_rank_after_excluding_first_failure": 11,
+          "memory_rank_after_one_failure": 15,
+          "rank_delta": 4,
+          "base_first_success": 12,
+          "memory_first_success": 17,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:021",
+          "base_rank_after_excluding_first_failure": 64,
+          "memory_rank_after_one_failure": 67,
+          "rank_delta": 3,
+          "base_first_success": 65,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00000:044",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:049",
+          "base_rank_after_excluding_first_failure": 120,
+          "memory_rank_after_one_failure": 123,
+          "rank_delta": 3,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:050",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 16,
+          "rank_delta": 12,
+          "base_first_success": 5,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:052",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:053",
+          "base_rank_after_excluding_first_failure": 23,
+          "memory_rank_after_one_failure": 42,
+          "rank_delta": 19,
+          "base_first_success": 24,
+          "memory_first_success": 24,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:055",
+          "base_rank_after_excluding_first_failure": 5,
+          "memory_rank_after_one_failure": 3,
+          "rank_delta": -2,
+          "base_first_success": 6,
+          "memory_first_success": 12,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:064",
+          "base_rank_after_excluding_first_failure": 10,
+          "memory_rank_after_one_failure": 19,
+          "rank_delta": 9,
+          "base_first_success": 11,
+          "memory_first_success": 22,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:065",
+          "base_rank_after_excluding_first_failure": 271,
+          "memory_rank_after_one_failure": 297,
+          "rank_delta": 26,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:069",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": -4,
+          "base_first_success": 10,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:079",
+          "base_rank_after_excluding_first_failure": 119,
+          "memory_rank_after_one_failure": 74,
+          "rank_delta": -45,
+          "base_first_success": 0,
+          "memory_first_success": 88,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:087",
+          "base_rank_after_excluding_first_failure": 373,
+          "memory_rank_after_one_failure": 186,
+          "rank_delta": -187,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:099",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:104",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 0,
+          "base_first_success": 3,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:119",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -3,
+          "base_first_success": 5,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:134",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": 0,
+          "base_first_success": 5,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:137",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:146",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:168",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:176",
+          "base_rank_after_excluding_first_failure": 12,
+          "memory_rank_after_one_failure": 33,
+          "rank_delta": 21,
+          "base_first_success": 13,
+          "memory_first_success": 36,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:189",
+          "base_rank_after_excluding_first_failure": 40,
+          "memory_rank_after_one_failure": 77,
+          "rank_delta": 37,
+          "base_first_success": 41,
+          "memory_first_success": 66,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:193",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:057",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 792,
+          "rank_delta": 58,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:125",
+          "base_rank_after_excluding_first_failure": 709,
+          "memory_rank_after_one_failure": 706,
+          "rank_delta": -3,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:135",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 716,
+          "rank_delta": -18,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:136",
+          "base_rank_after_excluding_first_failure": 894,
+          "memory_rank_after_one_failure": 882,
+          "rank_delta": -12,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:147",
+          "base_rank_after_excluding_first_failure": 845,
+          "memory_rank_after_one_failure": 761,
+          "rank_delta": -84,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:243",
+          "base_rank_after_excluding_first_failure": 634,
+          "memory_rank_after_one_failure": 641,
+          "rank_delta": 7,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:260",
+          "base_rank_after_excluding_first_failure": 741,
+          "memory_rank_after_one_failure": 941,
+          "rank_delta": 200,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:269",
+          "base_rank_after_excluding_first_failure": 801,
+          "memory_rank_after_one_failure": 754,
+          "rank_delta": -47,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:281",
+          "base_rank_after_excluding_first_failure": 749,
+          "memory_rank_after_one_failure": 829,
+          "rank_delta": 80,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:298",
+          "base_rank_after_excluding_first_failure": 691,
+          "memory_rank_after_one_failure": 609,
+          "rank_delta": -82,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:300",
+          "base_rank_after_excluding_first_failure": 765,
+          "memory_rank_after_one_failure": 737,
+          "rank_delta": -28,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:319",
+          "base_rank_after_excluding_first_failure": 836,
+          "memory_rank_after_one_failure": 818,
+          "rank_delta": -18,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:323",
+          "base_rank_after_excluding_first_failure": 608,
+          "memory_rank_after_one_failure": 694,
+          "rank_delta": 86,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:357",
+          "base_rank_after_excluding_first_failure": 739,
+          "memory_rank_after_one_failure": 678,
+          "rank_delta": -61,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:009",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 12,
+          "rank_delta": 3,
+          "base_first_success": 10,
+          "memory_first_success": 16,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:026",
+          "base_rank_after_excluding_first_failure": 25,
+          "memory_rank_after_one_failure": 209,
+          "rank_delta": 184,
+          "base_first_success": 26,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:096",
+          "base_rank_after_excluding_first_failure": 49,
+          "memory_rank_after_one_failure": 44,
+          "rank_delta": -5,
+          "base_first_success": 50,
+          "memory_first_success": 39,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:273",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 143,
+          "rank_delta": 141,
+          "base_first_success": 3,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:316",
+          "base_rank_after_excluding_first_failure": 43,
+          "memory_rank_after_one_failure": 287,
+          "rank_delta": 244,
+          "base_first_success": 44,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:334",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 27,
+          "rank_delta": 18,
+          "base_first_success": 10,
+          "memory_first_success": 35,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:376",
+          "base_rank_after_excluding_first_failure": 540,
+          "memory_rank_after_one_failure": 990,
+          "rank_delta": 450,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:402",
+          "base_rank_after_excluding_first_failure": 73,
+          "memory_rank_after_one_failure": 30,
+          "rank_delta": -43,
+          "base_first_success": 74,
+          "memory_first_success": 25,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:404",
+          "base_rank_after_excluding_first_failure": 205,
+          "memory_rank_after_one_failure": 667,
+          "rank_delta": 462,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:407",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 82,
+          "rank_delta": 78,
+          "base_first_success": 5,
+          "memory_first_success": 77,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:470",
+          "base_rank_after_excluding_first_failure": 96,
+          "memory_rank_after_one_failure": 339,
+          "rank_delta": 243,
+          "base_first_success": 97,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:551",
+          "base_rank_after_excluding_first_failure": 7,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -5,
+          "base_first_success": 8,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:555",
+          "base_rank_after_excluding_first_failure": 19,
+          "memory_rank_after_one_failure": 429,
+          "rank_delta": 410,
+          "base_first_success": 20,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:562",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 77,
+          "rank_delta": 64,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:564",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 20,
+          "rank_delta": 19,
+          "base_first_success": 2,
+          "memory_first_success": 17,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:568",
+          "base_rank_after_excluding_first_failure": 236,
+          "memory_rank_after_one_failure": 679,
+          "rank_delta": 443,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:585",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 234,
+          "rank_delta": 221,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:595",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 4,
+          "base_solved_memory_failed": false
+        }
+      ]
+    },
+    "B_s1": {
+      "n_tasks": 57,
+      "rank_improved": 20,
+      "rank_unchanged": 5,
+      "rank_worsened": 32,
+      "median_rank_delta": 1.0,
+      "per_task": [
+        {
+          "task": "00000:000",
+          "base_rank_after_excluding_first_failure": 489,
+          "memory_rank_after_one_failure": 465,
+          "rank_delta": -24,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:001",
+          "base_rank_after_excluding_first_failure": 17,
+          "memory_rank_after_one_failure": 10,
+          "rank_delta": -7,
+          "base_first_success": 18,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:014",
+          "base_rank_after_excluding_first_failure": 11,
+          "memory_rank_after_one_failure": 15,
+          "rank_delta": 4,
+          "base_first_success": 12,
+          "memory_first_success": 14,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:021",
+          "base_rank_after_excluding_first_failure": 64,
+          "memory_rank_after_one_failure": 74,
+          "rank_delta": 10,
+          "base_first_success": 65,
+          "memory_first_success": 99,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:044",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 4,
+          "rank_delta": 1,
+          "base_first_success": 4,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:049",
+          "base_rank_after_excluding_first_failure": 120,
+          "memory_rank_after_one_failure": 101,
+          "rank_delta": -19,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:050",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 13,
+          "rank_delta": 9,
+          "base_first_success": 5,
+          "memory_first_success": 11,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:052",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:053",
+          "base_rank_after_excluding_first_failure": 23,
+          "memory_rank_after_one_failure": 78,
+          "rank_delta": 55,
+          "base_first_success": 24,
+          "memory_first_success": 46,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:055",
+          "base_rank_after_excluding_first_failure": 5,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 0,
+          "base_first_success": 6,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:064",
+          "base_rank_after_excluding_first_failure": 10,
+          "memory_rank_after_one_failure": 22,
+          "rank_delta": 12,
+          "base_first_success": 11,
+          "memory_first_success": 23,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:065",
+          "base_rank_after_excluding_first_failure": 271,
+          "memory_rank_after_one_failure": 279,
+          "rank_delta": 8,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:069",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 8,
+          "rank_delta": -1,
+          "base_first_success": 10,
+          "memory_first_success": 5,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:079",
+          "base_rank_after_excluding_first_failure": 119,
+          "memory_rank_after_one_failure": 114,
+          "rank_delta": -5,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:087",
+          "base_rank_after_excluding_first_failure": 373,
+          "memory_rank_after_one_failure": 173,
+          "rank_delta": -200,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00000:099",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:104",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 0,
+          "base_first_success": 3,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:119",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 1,
+          "base_first_success": 5,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:134",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -2,
+          "base_first_success": 5,
+          "memory_first_success": 4,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:137",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": 1,
+          "base_first_success": 2,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:146",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:168",
+          "base_rank_after_excluding_first_failure": 3,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": -2,
+          "base_first_success": 4,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:176",
+          "base_rank_after_excluding_first_failure": 12,
+          "memory_rank_after_one_failure": 34,
+          "rank_delta": 22,
+          "base_first_success": 13,
+          "memory_first_success": 36,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:189",
+          "base_rank_after_excluding_first_failure": 40,
+          "memory_rank_after_one_failure": 84,
+          "rank_delta": 44,
+          "base_first_success": 41,
+          "memory_first_success": 67,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00002:193",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 1,
+          "rank_delta": 0,
+          "base_first_success": 2,
+          "memory_first_success": 2,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:057",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 708,
+          "rank_delta": -26,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:125",
+          "base_rank_after_excluding_first_failure": 709,
+          "memory_rank_after_one_failure": 780,
+          "rank_delta": 71,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:135",
+          "base_rank_after_excluding_first_failure": 734,
+          "memory_rank_after_one_failure": 762,
+          "rank_delta": 28,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:136",
+          "base_rank_after_excluding_first_failure": 894,
+          "memory_rank_after_one_failure": 875,
+          "rank_delta": -19,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:147",
+          "base_rank_after_excluding_first_failure": 845,
+          "memory_rank_after_one_failure": 718,
+          "rank_delta": -127,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:243",
+          "base_rank_after_excluding_first_failure": 634,
+          "memory_rank_after_one_failure": 625,
+          "rank_delta": -9,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:260",
+          "base_rank_after_excluding_first_failure": 741,
+          "memory_rank_after_one_failure": 892,
+          "rank_delta": 151,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:269",
+          "base_rank_after_excluding_first_failure": 801,
+          "memory_rank_after_one_failure": 723,
+          "rank_delta": -78,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:281",
+          "base_rank_after_excluding_first_failure": 749,
+          "memory_rank_after_one_failure": 835,
+          "rank_delta": 86,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:298",
+          "base_rank_after_excluding_first_failure": 691,
+          "memory_rank_after_one_failure": 599,
+          "rank_delta": -92,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:300",
+          "base_rank_after_excluding_first_failure": 765,
+          "memory_rank_after_one_failure": 723,
+          "rank_delta": -42,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:319",
+          "base_rank_after_excluding_first_failure": 836,
+          "memory_rank_after_one_failure": 766,
+          "rank_delta": -70,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:323",
+          "base_rank_after_excluding_first_failure": 608,
+          "memory_rank_after_one_failure": 641,
+          "rank_delta": 33,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00007:357",
+          "base_rank_after_excluding_first_failure": 739,
+          "memory_rank_after_one_failure": 671,
+          "rank_delta": -68,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:009",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 14,
+          "rank_delta": 5,
+          "base_first_success": 10,
+          "memory_first_success": 18,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:026",
+          "base_rank_after_excluding_first_failure": 25,
+          "memory_rank_after_one_failure": 209,
+          "rank_delta": 184,
+          "base_first_success": 26,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:096",
+          "base_rank_after_excluding_first_failure": 49,
+          "memory_rank_after_one_failure": 32,
+          "rank_delta": -17,
+          "base_first_success": 50,
+          "memory_first_success": 34,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:273",
+          "base_rank_after_excluding_first_failure": 2,
+          "memory_rank_after_one_failure": 158,
+          "rank_delta": 156,
+          "base_first_success": 3,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:316",
+          "base_rank_after_excluding_first_failure": 43,
+          "memory_rank_after_one_failure": 245,
+          "rank_delta": 202,
+          "base_first_success": 44,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:334",
+          "base_rank_after_excluding_first_failure": 9,
+          "memory_rank_after_one_failure": 23,
+          "rank_delta": 14,
+          "base_first_success": 10,
+          "memory_first_success": 28,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:376",
+          "base_rank_after_excluding_first_failure": 540,
+          "memory_rank_after_one_failure": 994,
+          "rank_delta": 454,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:402",
+          "base_rank_after_excluding_first_failure": 73,
+          "memory_rank_after_one_failure": 29,
+          "rank_delta": -44,
+          "base_first_success": 74,
+          "memory_first_success": 26,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:404",
+          "base_rank_after_excluding_first_failure": 205,
+          "memory_rank_after_one_failure": 362,
+          "rank_delta": 157,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:407",
+          "base_rank_after_excluding_first_failure": 4,
+          "memory_rank_after_one_failure": 100,
+          "rank_delta": 96,
+          "base_first_success": 5,
+          "memory_first_success": 79,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:470",
+          "base_rank_after_excluding_first_failure": 96,
+          "memory_rank_after_one_failure": 405,
+          "rank_delta": 309,
+          "base_first_success": 97,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:551",
+          "base_rank_after_excluding_first_failure": 7,
+          "memory_rank_after_one_failure": 2,
+          "rank_delta": -5,
+          "base_first_success": 8,
+          "memory_first_success": 3,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:555",
+          "base_rank_after_excluding_first_failure": 19,
+          "memory_rank_after_one_failure": 352,
+          "rank_delta": 333,
+          "base_first_success": 20,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:562",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 200,
+          "rank_delta": 187,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:564",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 19,
+          "rank_delta": 18,
+          "base_first_success": 2,
+          "memory_first_success": 17,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:568",
+          "base_rank_after_excluding_first_failure": 236,
+          "memory_rank_after_one_failure": 705,
+          "rank_delta": 469,
+          "base_first_success": 0,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": false
+        },
+        {
+          "task": "00014:585",
+          "base_rank_after_excluding_first_failure": 13,
+          "memory_rank_after_one_failure": 168,
+          "rank_delta": 155,
+          "base_first_success": 14,
+          "memory_first_success": 0,
+          "base_solved_memory_failed": true
+        },
+        {
+          "task": "00014:595",
+          "base_rank_after_excluding_first_failure": 1,
+          "memory_rank_after_one_failure": 5,
+          "rank_delta": 4,
+          "base_first_success": 2,
+          "memory_first_success": 6,
+          "base_solved_memory_failed": false
+        }
+      ]
+    }
+  }
+}

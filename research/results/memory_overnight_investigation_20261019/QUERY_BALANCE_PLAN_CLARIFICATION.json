@@ -1,0 +1,8 @@
+{
+  "scope": "query_balance_training_20261019 registered PLAN.json explanatory limitation only",
+  "original_statement": "Active episode counts may differ due currentpolicy stopping at success",
+  "correction": "With identical frozen Q0 first action, deterministic scene/cap draws and caps >=1, an episode is active exactly when its first action fails. Active-episode patterns and optimizer-step patterns must match between uniform and balanced. Only later support trajectories and update counts may differ.",
+  "code_evidence": "q0_first_feedback_20261018/code/selector_feedback_run.py Team.collect and Team.loss; query_balance_training_20261019/code/train.py optimizer loop",
+  "verification": "audit_fresh_training.py now asserts identical activity and optimizer-step patterns, in addition to identical initial weights and scene/cap/first-action draws",
+  "provenance": "Do not edit immutable registered training PLAN or running training code; this corrects an explanatory statement, not experiment behavior. Full final audit remains required."
+}

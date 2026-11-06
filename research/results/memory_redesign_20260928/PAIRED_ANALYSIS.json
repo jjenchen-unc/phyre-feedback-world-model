@@ -1,0 +1,281 @@
+{
+  "baseline_file": "../cx_clm_base.json",
+  "baseline": {
+    "memory": "",
+    "feedback": false,
+    "n_tasks": 100,
+    "auccess": 0.4541,
+    "success_at": {
+      "1": 0.27,
+      "2": 0.34,
+      "3": 0.36,
+      "5": 0.42,
+      "10": 0.47,
+      "100": 0.62
+    },
+    "mean_spearman_initial_vs_base_rank": 0.874,
+    "seconds": 907
+  },
+  "variants": {
+    "R0": {
+      "aggregate": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R0/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.442,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.33,
+          "3": 0.35,
+          "5": 0.39,
+          "10": 0.46,
+          "100": 0.61
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10584
+      },
+      "gained_solved": 0,
+      "lost_solved": 1,
+      "templates": {
+        "00000": {
+          "solved": 20,
+          "base_solved": 20,
+          "auccess": 0.6019229621039,
+          "delta_to_base": 0.0064852125716392565
+        },
+        "00002": {
+          "solved": 25,
+          "base_solved": 25,
+          "auccess": 0.8630559386446319,
+          "delta_to_base": -0.015068626994003182
+        },
+        "00007": {
+          "solved": 0,
+          "base_solved": 0,
+          "auccess": 0.0,
+          "delta_to_base": 0.0
+        },
+        "00014": {
+          "solved": 16,
+          "base_solved": 17,
+          "auccess": 0.3029157840478602,
+          "delta_to_base": -0.040053897200119384
+        }
+      },
+      "fixed_empty_max_score_difference": 0.0,
+      "fixed_k1_nonempty_auc": {
+        "base": 0.6697047813542222,
+        "correct": 0.6554141738406478,
+        "wrong_scene": 0.6546376926298626
+      }
+    },
+    "R1": {
+      "aggregate": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R1/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.4277,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.33,
+          "3": 0.38,
+          "5": 0.4,
+          "10": 0.45,
+          "100": 0.58
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10452
+      },
+      "gained_solved": 0,
+      "lost_solved": 4,
+      "templates": {
+        "00000": {
+          "solved": 20,
+          "base_solved": 20,
+          "auccess": 0.6152959448074703,
+          "delta_to_base": 0.019858195275209573
+        },
+        "00002": {
+          "solved": 25,
+          "base_solved": 25,
+          "auccess": 0.8646949294738782,
+          "delta_to_base": -0.013429636164757003
+        },
+        "00007": {
+          "solved": 0,
+          "base_solved": 0,
+          "auccess": 0.0,
+          "delta_to_base": 0.0
+        },
+        "00014": {
+          "solved": 13,
+          "base_solved": 17,
+          "auccess": 0.23076137735622304,
+          "delta_to_base": -0.1122083038917565
+        }
+      },
+      "fixed_empty_max_score_difference": 0.0,
+      "fixed_k1_nonempty_auc": {
+        "base": 0.6697047813542222,
+        "correct": 0.6570552114382016,
+        "wrong_scene": 0.6467670224667863
+      }
+    },
+    "R2": {
+      "aggregate": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R2/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.4201,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.34,
+          "3": 0.36,
+          "5": 0.37,
+          "10": 0.41,
+          "100": 0.6
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10774
+      },
+      "gained_solved": 1,
+      "lost_solved": 3,
+      "templates": {
+        "00000": {
+          "solved": 21,
+          "base_solved": 20,
+          "auccess": 0.6161800319336109,
+          "delta_to_base": 0.020742282401350214
+        },
+        "00002": {
+          "solved": 25,
+          "base_solved": 25,
+          "auccess": 0.8702253071620331,
+          "delta_to_base": -0.007899258476602077
+        },
+        "00007": {
+          "solved": 0,
+          "base_solved": 0,
+          "auccess": 0.0,
+          "delta_to_base": 0.0
+        },
+        "00014": {
+          "solved": 14,
+          "base_solved": 17,
+          "auccess": 0.19392268891243944,
+          "delta_to_base": -0.1490469923355401
+        }
+      },
+      "fixed_empty_max_score_difference": 0.0,
+      "fixed_k1_nonempty_auc": {
+        "base": 0.6697047813542222,
+        "correct": 0.6397461832759119,
+        "wrong_scene": 0.6348825674343449
+      }
+    },
+    "R3": {
+      "aggregate": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R3/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.4233,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.33,
+          "3": 0.35,
+          "5": 0.36,
+          "10": 0.44,
+          "100": 0.57
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10744
+      },
+      "gained_solved": 0,
+      "lost_solved": 5,
+      "templates": {
+        "00000": {
+          "solved": 20,
+          "base_solved": 20,
+          "auccess": 0.5752560573473893,
+          "delta_to_base": -0.020181692184871473
+        },
+        "00002": {
+          "solved": 25,
+          "base_solved": 25,
+          "auccess": 0.8687476677502359,
+          "delta_to_base": -0.009376897888399188
+        },
+        "00007": {
+          "solved": 0,
+          "base_solved": 0,
+          "auccess": 0.0,
+          "delta_to_base": 0.0
+        },
+        "00014": {
+          "solved": 12,
+          "base_solved": 17,
+          "auccess": 0.24916671798428403,
+          "delta_to_base": -0.09380296326369551
+        }
+      },
+      "fixed_empty_max_score_difference": 0.0,
+      "fixed_k1_nonempty_auc": {
+        "base": 0.6697047813542222,
+        "correct": 0.644395867589326,
+        "wrong_scene": 0.654484381657486
+      }
+    },
+    "R4": {
+      "aggregate": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R4/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.3962,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.31,
+          "3": 0.35,
+          "5": 0.39,
+          "10": 0.42,
+          "100": 0.51
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10751
+      },
+      "gained_solved": 2,
+      "lost_solved": 13,
+      "templates": {
+        "00000": {
+          "solved": 20,
+          "base_solved": 20,
+          "auccess": 0.5504545856209827,
+          "delta_to_base": -0.04498316391127808
+        },
+        "00002": {
+          "solved": 25,
+          "base_solved": 25,
+          "auccess": 0.897968358399814,
+          "delta_to_base": 0.019843792761178897
+        },
+        "00007": {
+          "solved": 0,
+          "base_solved": 0,
+          "auccess": 0.0,
+          "delta_to_base": 0.0
+        },
+        "00014": {
+          "solved": 6,
+          "base_solved": 17,
+          "auccess": 0.13638396906075648,
+          "delta_to_base": -0.20658571218722308
+        }
+      },
+      "fixed_empty_max_score_difference": 0.0,
+      "fixed_k1_nonempty_auc": {
+        "base": 0.6697047813542222,
+        "correct": 0.6570731077669498,
+        "wrong_scene": 0.651173062626211
+      }
+    }
+  }
+}

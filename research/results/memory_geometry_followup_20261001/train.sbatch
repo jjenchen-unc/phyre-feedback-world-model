@@ -1,0 +1,12 @@
+#!/bin/bash
+set -euo pipefail
+P=/path/to/phyre-unc
+D=$P/results/memory_geometry_followup_20261001
+PY=$P/.venv-ml/bin/python
+export OMP_NUM_THREADS=4
+cd "$D/code"
+sha256sum -c SHA256SUMS
+arms=(latent_only latent_geometry)
+arm=${arms[$((SLURM_ARRAY_TASK_ID % 2))]}
+seed=$((SLURM_ARRAY_TASK_ID / 2))
+"$PY" -u "$D/code/memory_geometry_followup.py" train --root "$D" --arm "$arm" --seed "$seed"

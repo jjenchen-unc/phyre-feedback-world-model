@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "task": "00007:047",
+  "n": 1024,
+  "scope": "Original reference scorer exactly matches previous staged run, all candidate IDs, labels and float64 scores",
+  "new": "/path/to/phyre-unc/results/prefix_staged_20261008/smoke/evaluation/q0/scores.npz",
+  "old": "/path/to/phyre-unc/results/query_token_staged_20261005/evaluation/q0_s0/closed/00007_047/scores.npz"
+}

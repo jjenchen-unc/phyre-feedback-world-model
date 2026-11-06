@@ -1,0 +1,91 @@
+{
+  "complete": true,
+  "verified_rollouts": 6,
+  "evaluation_plan_sha256": "d7c42e2afba1a09a6a339188d053b5eba1e1eb4cb14e28ee7fbc14eda1410e53",
+  "panels": {
+    "cross": {
+      "methods": {
+        "center_trained_centered": {
+          "n": 1,
+          "first_success": {
+            "00008:263": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        },
+        "center_trained_raw": {
+          "n": 1,
+          "first_success": {
+            "00008:263": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        },
+        "center_trained_zero": {
+          "n": 1,
+          "first_success": {
+            "00008:263": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        }
+      },
+      "paired": {}
+    },
+    "within": {
+      "methods": {
+        "center_trained_centered": {
+          "n": 1,
+          "first_success": {
+            "00019:608": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        },
+        "center_trained_raw": {
+          "n": 1,
+          "first_success": {
+            "00019:608": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        },
+        "center_trained_zero": {
+          "n": 1,
+          "first_success": {
+            "00019:608": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        }
+      },
+      "paired": {}
+    }
+  },
+  "primary": "New centered-trained/centered-input vs raw-trained/raw-input; compare raw-trained/centered-input to distinguish training adaptation. Raw/zero new-checkpoint inputs are diagnostic controls.",
+  "passed": true
+}

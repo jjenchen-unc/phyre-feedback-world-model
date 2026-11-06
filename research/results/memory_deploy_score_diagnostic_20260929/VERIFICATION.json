@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rows_verified": 1400,
+  "checks": [
+    "Original scores exactly equal pilot",
+    "Query/context IDs match",
+    "NumPy float64 log-sigmoid recomputation from identical distances",
+    "Scene macro AUC recomputation",
+    "Six remote/local artifact hashes match"
+  ],
+  "stable_B_minus_A": {
+    "0": -0.005224489795918497,
+    "1": 0.0033645269666108257
+  }
+}

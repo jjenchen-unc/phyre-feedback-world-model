@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "verified_at_utc": "2026-10-19T20:24:38.925214+00:00",
+  "training_complete_both_panels": true,
+  "evaluation_rollouts": 600,
+  "summary_counts_recomputed_locally": true,
+  "training_journal_hashes_verified": true,
+  "encoder_stop_confirmed": true,
+  "cleanup_note": "Original cleanup job36213 timed out waiting for stop. Both owned encoder processes subsequently exited; STATUS stopped verified on Oprime, cleanup confirmation rerun passed. Training and evaluation succeeded."
+}

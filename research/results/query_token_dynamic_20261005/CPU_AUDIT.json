@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "scope": "CPU float64 small architecture; no runtime/performance claim",
+  "batch_vs_serial_prediction_max_error": 8.881784197001252e-16,
+  "batch_vs_serial_gradient_max_error": 2.220446049250313e-16,
+  "depths": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "reference_excluded_from_optimizer_checkpoint": true,
+  "reference_gradient_absent": true,
+  "trainability_five_arms": true,
+  "pooling_equivalence": true,
+  "empty_uses_current_backbone": true,
+  "full_recurrent_gradient": true,
+  "dynamic_residual_prediction_gradient_included": true
+}

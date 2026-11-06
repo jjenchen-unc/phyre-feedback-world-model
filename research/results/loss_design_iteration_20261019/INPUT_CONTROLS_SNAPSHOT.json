@@ -1,0 +1,127 @@
+{
+  "verified_utc": "2026-10-20T01:33:46.755407+00:00",
+  "scope": "seed0 input controls; seed1 unfinished",
+  "audit": "Remote evaluate.collect passed for all12 raw/centered/zero groups (pool, fullscores, selections, provenance, unchanged checkpoint).",
+  "panels": {
+    "cross": {
+      "mse": {
+        "raw": {
+          "n": 100,
+          "counts": {
+            "s1": 3,
+            "s3": 7,
+            "s5": 8,
+            "s9": 8
+          }
+        },
+        "centered": {
+          "n": 100,
+          "counts": {
+            "s1": 3,
+            "s3": 7,
+            "s5": 9,
+            "s9": 10
+          }
+        },
+        "zero": {
+          "n": 100,
+          "counts": {
+            "s1": 3,
+            "s3": 7,
+            "s5": 9,
+            "s9": 10
+          }
+        }
+      },
+      "smooth": {
+        "raw": {
+          "n": 100,
+          "counts": {
+            "s1": 3,
+            "s3": 7,
+            "s5": 10,
+            "s9": 12
+          }
+        },
+        "centered": {
+          "n": 100,
+          "counts": {
+            "s1": 3,
+            "s3": 9,
+            "s5": 12,
+            "s9": 15
+          }
+        },
+        "zero": {
+          "n": 100,
+          "counts": {
+            "s1": 3,
+            "s3": 10,
+            "s5": 12,
+            "s9": 14
+          }
+        }
+      }
+    },
+    "within": {
+      "mse": {
+        "raw": {
+          "n": 100,
+          "counts": {
+            "s1": 29,
+            "s3": 42,
+            "s5": 50,
+            "s9": 56
+          }
+        },
+        "centered": {
+          "n": 100,
+          "counts": {
+            "s1": 29,
+            "s3": 42,
+            "s5": 52,
+            "s9": 56
+          }
+        },
+        "zero": {
+          "n": 100,
+          "counts": {
+            "s1": 29,
+            "s3": 39,
+            "s5": 49,
+            "s9": 54
+          }
+        }
+      },
+      "smooth": {
+        "raw": {
+          "n": 100,
+          "counts": {
+            "s1": 29,
+            "s3": 46,
+            "s5": 51,
+            "s9": 61
+          }
+        },
+        "centered": {
+          "n": 100,
+          "counts": {
+            "s1": 29,
+            "s3": 48,
+            "s5": 54,
+            "s9": 61
+          }
+        },
+        "zero": {
+          "n": 100,
+          "counts": {
+            "s1": 29,
+            "s3": 43,
+            "s5": 53,
+            "s9": 57
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source_sha256": "bebab233ca38f337bac074f6fb46022c547d6141d501563859907c140c84df6f",
+  "failed_job": "36761",
+  "reason": "Positive affine FP64 operation merges some near-equal score values and changes tie order; mathematical rank-invariance assertion detected this.",
+  "fix": "For scalar calibration-only ranking baseline retain original pre-transform scores, which implement the intended monotonic ranking with original stable ties. Other heads, fit data, regularization, model objective and raw score features unchanged.",
+  "collect_plan_unchanged": true
+}

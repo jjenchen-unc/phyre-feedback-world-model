@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "Independent saved-checkpoint/failure-action audit ofGPU smoke only",
+  "branches": {
+    "residual": {
+      "frozen_tensors_exact": 171,
+      "actions_verified": 9,
+      "first_action_matches_q0": true,
+      "updates": 8
+    },
+    "zero": {
+      "frozen_tensors_exact": 171,
+      "actions_verified": 9,
+      "first_action_matches_q0": true,
+      "updates": 8
+    }
+  }
+}

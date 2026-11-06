@@ -1,0 +1,54 @@
+{
+  "complete": true,
+  "panels": {
+    "cross": {
+      "winner": "l1",
+      "replicate": false,
+      "counts": {
+        "l1": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 10,
+          "s9": 12
+        },
+        "mse": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 8,
+          "s9": 8
+        },
+        "smooth": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 10,
+          "s9": 12
+        }
+      }
+    },
+    "within": {
+      "winner": "smooth",
+      "replicate": true,
+      "counts": {
+        "l1": {
+          "s1": 29,
+          "s3": 45,
+          "s5": 50,
+          "s9": 56
+        },
+        "mse": {
+          "s1": 29,
+          "s3": 42,
+          "s5": 50,
+          "s9": 56
+        },
+        "smooth": {
+          "s1": 29,
+          "s3": 46,
+          "s5": 51,
+          "s9": 61
+        }
+      }
+    }
+  },
+  "rule": "After round1 raw-input100scene evaluation, choose perprotocol loss maximizing (S9,S5,S3), preferring L1 on exactties. A newloss qualifies for seed1 replication only if S9>L1 and S5>=L1. If anyqualify, train paired freshL1 and qualifyingloss for eachqualifyingprotocol with initializer7920 and independent deterministic episode draws;same frozenQ0. If none, no extra training. In allcases evaluate round1 MSE/SmoothL1 with centered andzero inputs to test whether improvement needs residualcontent."
+}

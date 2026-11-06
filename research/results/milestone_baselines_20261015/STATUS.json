@@ -1,0 +1,126 @@
+{
+  "job": "35314",
+  "started": 1792121459.4794717,
+  "updated": 1792121609.7243743,
+  "done": [
+    "oracle_smoke_cross",
+    "oracle_smoke_within",
+    "scene_cross",
+    "scene_summary",
+    "scene_within"
+  ],
+  "failed": {},
+  "pending": [
+    "oracle_summary"
+  ],
+  "active": [
+    {
+      "name": "oracle_cross_0",
+      "gpu_uuid": "GPU-2f349aed-f067-2f8a-fdb3-4270191b83e4",
+      "pid": 2638032,
+      "started": 1792121539.6297367,
+      "command": [
+        "/path/to/phyre-unc/.venv-ml/bin/python",
+        "-u",
+        "/path/to/phyre-unc/results/milestone_oracle_latent_20261015/code/milestone_oracle_latent.py",
+        "eval",
+        "--panel",
+        "cross",
+        "--shard",
+        "0",
+        "--nshards",
+        "3"
+      ]
+    },
+    {
+      "name": "oracle_cross_1",
+      "gpu_uuid": "GPU-b618ebb5-b752-b6ff-2c6c-b217c772b747",
+      "pid": 2638033,
+      "started": 1792121539.632702,
+      "command": [
+        "/path/to/phyre-unc/.venv-ml/bin/python",
+        "-u",
+        "/path/to/phyre-unc/results/milestone_oracle_latent_20261015/code/milestone_oracle_latent.py",
+        "eval",
+        "--panel",
+        "cross",
+        "--shard",
+        "1",
+        "--nshards",
+        "3"
+      ]
+    },
+    {
+      "name": "oracle_cross_2",
+      "gpu_uuid": "GPU-7e7c9925-5573-ed25-e867-a80e882fc542",
+      "pid": 2638034,
+      "started": 1792121539.6356647,
+      "command": [
+        "/path/to/phyre-unc/.venv-ml/bin/python",
+        "-u",
+        "/path/to/phyre-unc/results/milestone_oracle_latent_20261015/code/milestone_oracle_latent.py",
+        "eval",
+        "--panel",
+        "cross",
+        "--shard",
+        "2",
+        "--nshards",
+        "3"
+      ]
+    },
+    {
+      "name": "oracle_within_0",
+      "gpu_uuid": "GPU-9c8980bb-bae0-df90-39ba-a90dc27a05c9",
+      "pid": 2638035,
+      "started": 1792121539.6385958,
+      "command": [
+        "/path/to/phyre-unc/.venv-ml/bin/python",
+        "-u",
+        "/path/to/phyre-unc/results/milestone_oracle_latent_20261015/code/milestone_oracle_latent.py",
+        "eval",
+        "--panel",
+        "within",
+        "--shard",
+        "0",
+        "--nshards",
+        "3"
+      ]
+    },
+    {
+      "name": "oracle_within_1",
+      "gpu_uuid": "GPU-4936bb72-bcf0-557d-8afd-735ac8b04103",
+      "pid": 2638036,
+      "started": 1792121539.6412733,
+      "command": [
+        "/path/to/phyre-unc/.venv-ml/bin/python",
+        "-u",
+        "/path/to/phyre-unc/results/milestone_oracle_latent_20261015/code/milestone_oracle_latent.py",
+        "eval",
+        "--panel",
+        "within",
+        "--shard",
+        "1",
+        "--nshards",
+        "3"
+      ]
+    },
+    {
+      "name": "oracle_within_2",
+      "gpu_uuid": "GPU-747ee664-a51f-1e8b-9167-b0bd27dfb05a",
+      "pid": 2638037,
+      "started": 1792121539.6439426,
+      "command": [
+        "/path/to/phyre-unc/.venv-ml/bin/python",
+        "-u",
+        "/path/to/phyre-unc/results/milestone_oracle_latent_20261015/code/milestone_oracle_latent.py",
+        "eval",
+        "--panel",
+        "within",
+        "--shard",
+        "2",
+        "--nshards",
+        "3"
+      ]
+    }
+  ]
+}

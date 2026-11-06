@@ -1,0 +1,29 @@
+{
+  "parent": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "source_sha": "54ffee8f92022abc088f3a80d55f65a67b234cf58aed6fb9aa49b0c641df84bb",
+  "trigger_sha": "f6190d361d686cd3a5cbfc36a769c3b910b0c3a41ccbf6afdfdfa6f87cfc0db8",
+  "arms": [
+    "contact01_residual",
+    "contact01_zero",
+    "contact1_residual",
+    "contact1_zero"
+  ],
+  "weights": {
+    "contact01": 0.1,
+    "contact1": 1.0
+  },
+  "seed": 7919,
+  "steps": 128,
+  "budget_amendment": "Original12 updaterfits completed. Add exactly4fresh contact-target fits, total16; no extra pretraining/new simulations/encoders. User authorized iterative small experiments; neworacle direction diagnostic motivates this separate amendment.",
+  "trigger": "Binary success objectives and scalaradaptation didnotgive stablecrossgains; observed-geometryoracle and partialdistancecorrection suggest task-relative physical target. Oracle is privileged, not evidence of updaterlearnability.",
+  "loss": "Original L1future+.1objectgeometry + lambda*mean(abs(predicted_goal_surface_distance-true_goal_surface_distance))/256.",
+  "isolation": "Contact distance uses SAME ORIGINAL geometry probe and SAME8sampledtimepoints as originalgeometryloss, perquery probe shapes preserved. All8uniformqueries, no success-label/near filtering, no additionaldata. Rankingprobe/scorer unchanged. Target is derived from alreadyavailablegeometry supervision.",
+  "schedule": "Freshseed7919 updater, identical128scene/querydraws and optimizer as round1; centeredreal/zero paired. FixedQ0reader/initialtokens/probes. Firstsupport fixedQ0failure; currentfirstpredictionexactcache.",
+  "evaluation": "Both weights/conditions on discovery16,confirmation16 andexistingcross100. No choosingbesttestcheckpoint; onlyfinal128steps. Compare ownoriginalprediction-loss real/zero; geometryandranking separately. Singlefeedback nextk, notmultiturnS9.",
+  "limits": [
+    "One updaterseed for this newtarget",
+    "Two fixed physical-loss weights, no tuning on test",
+    "Usesoriginalgeometryprobe, notadapted rankingprobe for gradient; same asoriginalgeometryloss",
+    "Favorable oraclecorrection doesnotprove supportcontainsneededqueryspecific information"
+  ]
+}

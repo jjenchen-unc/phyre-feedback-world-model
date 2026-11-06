@@ -1,0 +1,17 @@
+{
+  "encoders": "36557",
+  "preflight": "36558",
+  "pools": "36559",
+  "cache_smoke": "36560",
+  "train_smoke": "36561",
+  "smoke_audit": "36562",
+  "collect": "36563",
+  "data_audit": "36564",
+  "train": "36565",
+  "head_audit": "36566",
+  "fixed": "36567",
+  "decision": "36568",
+  "closed": "36569",
+  "final": "36570",
+  "cleanup": "36571"
+}

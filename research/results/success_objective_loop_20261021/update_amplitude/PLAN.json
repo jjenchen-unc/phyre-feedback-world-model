@@ -1,0 +1,44 @@
+{
+  "parent": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "cross_parent": "7424aeddac25e221336e160c05dc0594ecb43f35c60a433f7c3094f8a7763d0d",
+  "source_sha": "997af5121fe4313660e8b1294dc36d8d49ca87de576cec1fdddbc24ce2344b40",
+  "tasks": [
+    "00008:144",
+    "00008:499",
+    "00008:527",
+    "00008:601",
+    "00010:387",
+    "00010:102",
+    "00010:286",
+    "00010:278",
+    "00013:207",
+    "00013:222",
+    "00013:281",
+    "00013:144",
+    "00015:460",
+    "00015:448",
+    "00015:472",
+    "00015:279",
+    "00023:008",
+    "00023:930",
+    "00023:490",
+    "00023:757"
+  ],
+  "arms": [
+    "bce_residual_s7919",
+    "bce_zero_s7919",
+    "pair_residual_s7919",
+    "pair_zero_s7919",
+    "pair_residual_s7920",
+    "pair_zero_s7920"
+  ],
+  "alphas": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "trigger": "On the completed20-scene cross transfer, success-supervised updates lose early-rank coverage and macroAUC versusQ0/prediction. Training-template gains unstable acrossseeds. Test whether attenuating state delta reverses harm before recommending another loss.",
+  "intervention": "state = initial_tokens + alpha*(trained_update(initial_tokens,currentQ0residual,first_action)-initial_tokens). Same observedfirstfailure, originalscorer, fixedcandidatepool. Include trainedzero controls; alpha0Q0/alpha1 existingrank scores; all3intermediatealphas evaluated without winnerselection.",
+  "stage": "Diagnostic intervention on alreadyexamined20crossscenes, not independentconfirmation of a selectedalpha. No gradient fitting, newlabels, simulationorencoding.",
+  "interpretation": "If attenuation restoresQ0 only, that is harm reduction, not evidence of useful residual. Direction success requires improvement beyondQ0 AND appropriatezero controls, not justbeyondalpha1. A changed inputstate may beOOD; mechanism evidence only."
+}

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "provenance": {
+    "manifest": "d0d71b8a554d95dbb66e4f58a99c6cd6ffc23c9eb3c09f431e18327f7eba9c25",
+    "code": {
+      "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+      "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+      "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+      "test_query_token_staged.py": "357c8c12de3007959650279d3b21603cc8d36cf4dd4fec4b6f8df9fb6304f89e",
+      "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+      "test_query_token_dynamic.py": "a2dff9d179e1d35e2d18af983d3d17d8e3853c9adfe15b6ddead8f97b4b17cbe",
+      "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+      "query_token_predictor.py": "66aa433f47a5f7926324b4ea604e7f927bcb2b34fb309c25f2b572d70026a04a",
+      "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc",
+      "query_token_staged.py": "747b4dfffc898e58795276dd3e38ed7f3d7aa9243f546ffb34e2793ce407306e",
+      "query_token_dynamic.py": "cd10c9e83827aa4e1d400ae0b0f3240b5b5a5d7e7d29de4e5c3edffd17f086d4"
+    }
+  },
+  "checkpoints": {
+    "0": {
+      "q0": "9e3fdfaa22a2f565e95ede0efb49f3ae04ddb15929be2f585680099740b4505b",
+      "residual": "29430920e77ff3882684f8677961d0843efe32807552f0688243a487dada7994",
+      "zero": "08c76b3146fd53f381b91699f511869d4c9d8991ec324b227cabb5fbae9a6b8d"
+    },
+    "1": {
+      "q0": "cedc6495f4bf6168a0a80d731726db24933900f9f67a3ec05c21239af48d1b06",
+      "residual": "ea5c08320aada24fa457a5f754db008bc2e8f7828322a308312a5063ce18fceb",
+      "zero": "52d284f0340debbe8581d4e08a4e64c76c9441eba9baa2a853fd7ab5ac8b6412"
+    },
+    "2": {
+      "q0": "556aa67a7516dce97d8f61badccb2c0da815de07123cfa588974632d35a8b18c",
+      "residual": "0929464c76729322e3c0deed0e447ddb7d98d1450b56502b925dff20c06c0225",
+      "zero": "a5d70452088f89cccfa31f6938200910153def7d96a2c004b4e88f2e1b40d10f"
+    }
+  }
+}

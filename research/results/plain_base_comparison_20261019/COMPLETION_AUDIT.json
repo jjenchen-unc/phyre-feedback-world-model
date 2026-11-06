@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "verified_utc": "2026-10-19T14:59:01.876144+00:00",
+  "verified_new_scenes": 200,
+  "independent_local_summary": true,
+  "smoke_exact_base_reference_and_q0_replay": true,
+  "no_training_encoding_or_simulation": true,
+  "all_jobs_complete": true,
+  "slides_unchanged": true,
+  "artifacts_sha256": {
+    "results/plain_base_comparison_20261019/PLAN.json": "2dc47c2ae2467bc2ff7b10eeddd4e720cc1d792863847ebee0518ee3f0a6b1c7",
+    "results/plain_base_comparison_20261019/SUMMARY.json": "fb42dd03bb918b9a7de33189a42cc36590b378af276aa2f9e8180abfb0563888",
+    "results/plain_base_comparison_20261019/SMOKE.json": "80cdae0b9e8e004496a3634631c0bfeb4e527a01d4bb530ad44c6dbd35d59908",
+    "results/plain_base_comparison_20261019/PRETRAINING_MATCH.json": "78e6f8e63938aaf5b8616dfee0d21c4d998e10f78484b968f9c6022cb3cd717d",
+    "results/plain_base_comparison_20261019/code/evaluate.py": "3cffa55ffd07b90b1b69d7090610de866a9ae51f5c57d7c95dd29639fa38194e",
+    "docs/PLAIN_BASE_COMPARISON_20261019.md": "1d8e1ffb0880ede9c6946efe38df4b94933eac0eeb2bc45cf017782531d0e2cd"
+  }
+}

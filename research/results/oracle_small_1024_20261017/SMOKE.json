@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+  "tasks": [
+    {
+      "panel": "cross",
+      "task": "00008:532"
+    },
+    {
+      "panel": "within",
+      "task": "00000:024"
+    }
+  ],
+  "actions_per_panel": 32,
+  "checks": [
+    "fresh simulation status agrees",
+    "float64 action unchanged",
+    "initial geometry exact",
+    "canonical initial latent exact",
+    "Q0 scores reference parity",
+    "base/Q0 same probe and rule",
+    "fresh base scores exact vs full100k archived subset",
+    "diagnostic geometry reproduces original scores exactly",
+    "finite complete trajectories/scores"
+  ]
+}

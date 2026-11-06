@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "matched_local_remote": {
+    "scores": 399,
+    "sources": 17
+  },
+  "verified_remote_checkpoints": 16,
+  "all_final_jobs_completed": true,
+  "scope": "All rawscoreNPZ files identical locally and remotely; shared Python sources identical; all16remotecheckpoint hashes match trainingreceipts. Independent metric and readout audits stored separately."
+}

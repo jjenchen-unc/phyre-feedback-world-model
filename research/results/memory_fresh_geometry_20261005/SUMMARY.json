@@ -1,0 +1,505 @@
+{
+  "complete": true,
+  "audit_passed": true,
+  "arrays_verified": 3744,
+  "provenance": {
+    "manifest": "35a455eb898f06afef0cf64f3cc8011754b2aafd1aa6764485d8b534926accbf",
+    "code": {
+      "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+      "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+      "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+      "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+      "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+      "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc"
+    }
+  },
+  "per_seed": {
+    "0": {
+      "original": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7516896456757538,
+          "memory_auc": 0.7604798894244826,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08523725066334009,
+          "base_success_surface_mae": 21.98457210510969,
+          "memory_success_surface_mae": 20.291874304413795
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.556920986474629,
+          "memory_auc": 0.6166185294829527,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11723389979955312,
+          "base_success_surface_mae": 30.625174793703803,
+          "memory_success_surface_mae": 32.362393831384594
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.822574328642037,
+          "memory_auc": 0.8761233837535922,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08097973015780251,
+          "base_success_surface_mae": 6.969455033540726,
+          "memory_success_surface_mae": 5.748311251401901
+        }
+      },
+      "predicted_mix_s0": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7363685122386473,
+          "memory_auc": 0.7541470648220467,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08523725066334009,
+          "base_success_surface_mae": 16.355722583830357,
+          "memory_success_surface_mae": 17.82587118446827
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.6771577647938437,
+          "memory_auc": 0.6683916067662552,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11723389979955312,
+          "base_success_surface_mae": 30.40386073342685,
+          "memory_success_surface_mae": 33.67533571966763
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8386641464245631,
+          "memory_auc": 0.8609674343788928,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08097973015780251,
+          "base_success_surface_mae": 6.147951722145081,
+          "memory_success_surface_mae": 6.090816865364711
+        }
+      },
+      "predicted_mix_s1": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7421831729417009,
+          "memory_auc": 0.7559865586657915,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08523725066334009,
+          "base_success_surface_mae": 15.693879336118698,
+          "memory_success_surface_mae": 16.881610922515392
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.7190644752377217,
+          "memory_auc": 0.6824972620776604,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11723389979955312,
+          "base_success_surface_mae": 29.631929627780256,
+          "memory_success_surface_mae": 32.97549586460508
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8514171698286281,
+          "memory_auc": 0.8651341511497761,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08097973015780251,
+          "base_success_surface_mae": 6.264068514108658,
+          "memory_success_surface_mae": 6.452530304590861
+        }
+      },
+      "predicted_mix_s2": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7437775379179264,
+          "memory_auc": 0.7646195978859316,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08523725066334009,
+          "base_success_surface_mae": 14.9042062535882,
+          "memory_success_surface_mae": 16.834065683186054
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.7009374219585095,
+          "memory_auc": 0.6764540718055005,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11723389979955312,
+          "base_success_surface_mae": 30.611411045337544,
+          "memory_success_surface_mae": 33.683356564620446
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8390810356695774,
+          "memory_auc": 0.8618815260742344,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08097973015780251,
+          "base_success_surface_mae": 6.941002647082011,
+          "memory_success_surface_mae": 6.754782577355702
+        }
+      }
+    },
+    "1": {
+      "original": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7516896456757538,
+          "memory_auc": 0.7642623783903559,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08512299705762416,
+          "base_success_surface_mae": 21.98457210510969,
+          "memory_success_surface_mae": 21.606434404850006
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.556920986474629,
+          "memory_auc": 0.5944621170618338,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11740664352436324,
+          "base_success_surface_mae": 30.625174793703803,
+          "memory_success_surface_mae": 34.67736231047532
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.822574328642037,
+          "memory_auc": 0.8846096351565101,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08115271106362343,
+          "base_success_surface_mae": 6.969455033540726,
+          "memory_success_surface_mae": 5.335761109987895
+        }
+      },
+      "predicted_mix_s0": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7363685122386473,
+          "memory_auc": 0.74789848275433,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08512299705762416,
+          "base_success_surface_mae": 16.355722583830357,
+          "memory_success_surface_mae": 19.849557146430016
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.6771577647938437,
+          "memory_auc": 0.6652954278638582,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11740664352436324,
+          "base_success_surface_mae": 30.40386073342685,
+          "memory_success_surface_mae": 35.59873770845348
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8386641464245631,
+          "memory_auc": 0.8788040691946941,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08115271106362343,
+          "base_success_surface_mae": 6.147951722145081,
+          "memory_success_surface_mae": 5.523519833882649
+        }
+      },
+      "predicted_mix_s1": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7421831729417009,
+          "memory_auc": 0.7532374804904194,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08512299705762416,
+          "base_success_surface_mae": 15.693879336118698,
+          "memory_success_surface_mae": 18.939546205103397
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.7190644752377217,
+          "memory_auc": 0.6862160351645921,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11740664352436324,
+          "base_success_surface_mae": 29.631929627780256,
+          "memory_success_surface_mae": 34.88876403611282
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8514171698286281,
+          "memory_auc": 0.8787361818351401,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08115271106362343,
+          "base_success_surface_mae": 6.264068514108658,
+          "memory_success_surface_mae": 6.044749274849892
+        }
+      },
+      "predicted_mix_s2": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7437775379179264,
+          "memory_auc": 0.7577428292833699,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08512299705762416,
+          "base_success_surface_mae": 14.9042062535882,
+          "memory_success_surface_mae": 18.962646052241325
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.7009374219585095,
+          "memory_auc": 0.6803864189091268,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.11740664352436324,
+          "base_success_surface_mae": 30.611411045337544,
+          "memory_success_surface_mae": 35.401580465251
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8390810356695774,
+          "memory_auc": 0.8782929560794145,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08115271106362343,
+          "base_success_surface_mae": 6.941002647082011,
+          "memory_success_surface_mae": 6.390591522057851
+        }
+      }
+    },
+    "2": {
+      "original": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7516896456757538,
+          "memory_auc": 0.7712004490644225,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08511501690372825,
+          "base_success_surface_mae": 21.98457210510969,
+          "memory_success_surface_mae": 21.72743210941553
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.556920986474629,
+          "memory_auc": 0.6035539188416573,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.1172227148671408,
+          "base_success_surface_mae": 30.625174793703803,
+          "memory_success_surface_mae": 33.64599271478324
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.822574328642037,
+          "memory_auc": 0.8760321314487981,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08100697305053473,
+          "base_success_surface_mae": 6.969455033540726,
+          "memory_success_surface_mae": 5.265239010254542
+        }
+      },
+      "predicted_mix_s0": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7363685122386473,
+          "memory_auc": 0.7472028443489309,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08511501690372825,
+          "base_success_surface_mae": 16.355722583830357,
+          "memory_success_surface_mae": 19.381760343909264
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.6771577647938437,
+          "memory_auc": 0.6679087124088352,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.1172227148671408,
+          "base_success_surface_mae": 30.40386073342685,
+          "memory_success_surface_mae": 35.148635198330055
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8386641464245631,
+          "memory_auc": 0.8680374621520456,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08100697305053473,
+          "base_success_surface_mae": 6.147951722145081,
+          "memory_success_surface_mae": 5.937292168537776
+        }
+      },
+      "predicted_mix_s1": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7421831729417009,
+          "memory_auc": 0.7468205313251395,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08511501690372825,
+          "base_success_surface_mae": 15.693879336118698,
+          "memory_success_surface_mae": 18.61898024380207
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.7190644752377217,
+          "memory_auc": 0.6806291185971226,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.1172227148671408,
+          "base_success_surface_mae": 29.631929627780256,
+          "memory_success_surface_mae": 34.57649692173662
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8514171698286281,
+          "memory_auc": 0.8722280632176466,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08100697305053473,
+          "base_success_surface_mae": 6.264068514108658,
+          "memory_success_surface_mae": 6.358468542496364
+        }
+      },
+      "predicted_mix_s2": {
+        "calibration": {
+          "total_scenes": 32,
+          "nonempty_scenes": 32,
+          "auc_scenes": 32,
+          "base_auc": 0.7437775379179264,
+          "memory_auc": 0.7632391017763386,
+          "base_l1": 0.08480073884129524,
+          "memory_l1": 0.08511501690372825,
+          "base_success_surface_mae": 14.9042062535882,
+          "memory_success_surface_mae": 18.307317435741425
+        },
+        "cross_natural": {
+          "total_scenes": 100,
+          "nonempty_scenes": 74,
+          "auc_scenes": 58,
+          "base_auc": 0.7009374219585095,
+          "memory_auc": 0.6791543460938292,
+          "base_l1": 0.11728596818205472,
+          "memory_l1": 0.1172227148671408,
+          "base_success_surface_mae": 30.611411045337544,
+          "memory_success_surface_mae": 35.1419639751829
+        },
+        "train_seen": {
+          "total_scenes": 24,
+          "nonempty_scenes": 24,
+          "auc_scenes": 24,
+          "base_auc": 0.8390810356695774,
+          "memory_auc": 0.8695300263008597,
+          "base_l1": 0.08291406494875748,
+          "memory_l1": 0.08100697305053473,
+          "base_success_surface_mae": 6.941002647082011,
+          "memory_success_surface_mae": 6.523513654867808
+        }
+      }
+    }
+  },
+  "paired": {
+    "calibration": {
+      "n_scenes": 32,
+      "memory_minus_base": 0.013380951736455239,
+      "conditional_scene_ci95": [
+        -0.00989008505350963,
+        0.03814128847824308
+      ],
+      "by_template": {
+        "00001": -0.015356647709588889,
+        "00004": 0.03179590085840085,
+        "00012": -0.008588245625790436,
+        "00022": 0.04567279942279942
+      }
+    },
+    "cross_natural": {
+      "n_scenes": 58,
+      "memory_minus_base": -0.009959182447527446,
+      "conditional_scene_ci95": [
+        -0.038112398515170724,
+        0.018307707531746206
+      ],
+      "by_template": {
+        "00000": 0.003028375085428304,
+        "00002": 0.05083027367517229,
+        "00007": -0.08779772127902298,
+        "00014": 0.017727191887647493
+      }
+    },
+    "train_seen": {
+      "n_scenes": 24,
+      "memory_minus_base": 0.030605508817314362,
+      "conditional_scene_ci95": [
+        0.008440929007335255,
+        0.05298108687865631
+      ],
+      "by_template": {
+        "00003": 0.031018518518518518,
+        "00005": 0.06118326118326116,
+        "00006": 0.07528409090909088,
+        "00009": 0.13320707070707072,
+        "00011": 0.03372615039281703,
+        "00016": 0.0,
+        "00017": -0.00833333333333336,
+        "00018": 0.013275613275613274,
+        "00019": 0.05152116402116402,
+        "00020": -0.03256003256003256,
+        "00021": -0.04492845117845121,
+        "00024": 0.053872053872053884
+      }
+    }
+  },
+  "limits": [
+    "Reused cross D0; no test-set claim",
+    "Train_seen queries are training data, not validation",
+    "Calibration templates seen by base but held out from this memory",
+    "Curves use fixed <=64-query subsets, not directly comparable to full final AUC",
+    "No best-on-cross checkpoint selection",
+    "No closed-loop success claim",
+    "No causal comparison to older different-data R0 runs"
+  ]
+}

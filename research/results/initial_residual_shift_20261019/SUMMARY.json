@@ -1,0 +1,197 @@
+{
+  "complete": true,
+  "plan_sha256": "c3ca337be57293aae557d686abc83738ae0d31a2233606812ba30b0ee0b5c352",
+  "n": 260,
+  "old_diagnostic_rms_parity_n": 20,
+  "limits": [
+    "All distinct first-failure scenes once, not episode-weighted",
+    "Q0 initial state only, not subsequent memory states",
+    "Train/eval scene and template difficulty differ: descriptive distribution comparison, not causal proof of overfitting",
+    "Cross/within use different fixed Q0 readers; compare train/eval within each protocol",
+    "No new simulation/encoding or predictor/updater training; all observations must come from existing canonical caches"
+  ],
+  "panels": {
+    "cross": {
+      "train": {
+        "n": 48,
+        "templates": 12,
+        "metrics": {
+          "full_residual_rms": {
+            "n": 48,
+            "median": 0.26679727435112,
+            "mean": 0.26411716112246114,
+            "p25": 0.1904660314321518,
+            "p75": 0.3297811225056648
+          },
+          "future_latent_l1": {
+            "n": 48,
+            "median": 0.1139349453151226,
+            "mean": 0.11457652241612475,
+            "p25": 0.08494186587631702,
+            "p75": 0.13734577223658562
+          },
+          "future_residual_rms": {
+            "n": 48,
+            "median": 0.2710663080215454,
+            "mean": 0.26834330537046,
+            "p25": 0.1935136765241623,
+            "p75": 0.33505795150995255
+          },
+          "true_motion_rms": {
+            "n": 48,
+            "median": 1.1451602578163147,
+            "mean": 1.1687969416379929,
+            "p25": 1.098961740732193,
+            "p75": 1.218782216310501
+          },
+          "error_over_motion_rms": {
+            "n": 48,
+            "median": 0.21772491445693914,
+            "mean": 0.23039216689185116,
+            "p25": 0.16615853205244177,
+            "p75": 0.2816677374514183
+          }
+        }
+      },
+      "evaluation": {
+        "n": 97,
+        "templates": 5,
+        "metrics": {
+          "full_residual_rms": {
+            "n": 97,
+            "median": 0.2887495160102844,
+            "mean": 0.3044194173567074,
+            "p25": 0.239471897482872,
+            "p75": 0.33984383940696716
+          },
+          "future_latent_l1": {
+            "n": 97,
+            "median": 0.13973373174667358,
+            "mean": 0.1484395119640016,
+            "p25": 0.12118742614984512,
+            "p75": 0.157523050904274
+          },
+          "future_residual_rms": {
+            "n": 97,
+            "median": 0.29336977005004883,
+            "mean": 0.30929043320650906,
+            "p25": 0.24330368638038635,
+            "p75": 0.3452816903591156
+          },
+          "true_motion_rms": {
+            "n": 97,
+            "median": 1.1350882053375244,
+            "mean": 1.1597080464215623,
+            "p25": 1.1020320653915405,
+            "p75": 1.2216993570327759
+          },
+          "error_over_motion_rms": {
+            "n": 97,
+            "median": 0.24946771511740204,
+            "mean": 0.26599822507824844,
+            "p25": 0.22194529659721302,
+            "p75": 0.3019620076549974
+          }
+        }
+      },
+      "evaluation_over_train_median_ratio": {
+        "full_residual_rms": 1.0822806069235702,
+        "future_latent_l1": 1.226434360065706,
+        "future_residual_rms": 1.0822804655853087,
+        "true_motion_rms": 0.9912046786377336,
+        "error_over_motion_rms": 1.1457931479253876
+      }
+    },
+    "within": {
+      "train": {
+        "n": 44,
+        "templates": 21,
+        "metrics": {
+          "full_residual_rms": {
+            "n": 44,
+            "median": 0.25854627788066864,
+            "mean": 0.2609349489212036,
+            "p25": 0.20155101642012596,
+            "p75": 0.3048102632164955
+          },
+          "future_latent_l1": {
+            "n": 44,
+            "median": 0.12022638693451881,
+            "mean": 0.1197578300806609,
+            "p25": 0.08926847949624062,
+            "p75": 0.14272595569491386
+          },
+          "future_residual_rms": {
+            "n": 44,
+            "median": 0.26268328726291656,
+            "mean": 0.2651101733473214,
+            "p25": 0.20477603375911713,
+            "p75": 0.3096875473856926
+          },
+          "true_motion_rms": {
+            "n": 44,
+            "median": 1.16077321767807,
+            "mean": 1.1871030493216082,
+            "p25": 1.1156261265277863,
+            "p75": 1.2945161759853363
+          },
+          "error_over_motion_rms": {
+            "n": 44,
+            "median": 0.22225984862543863,
+            "mean": 0.22286996874993534,
+            "p25": 0.17716883098065703,
+            "p75": 0.26055380998301875
+          }
+        }
+      },
+      "evaluation": {
+        "n": 71,
+        "templates": 23,
+        "metrics": {
+          "full_residual_rms": {
+            "n": 71,
+            "median": 0.2674535810947418,
+            "mean": 0.27944646146095975,
+            "p25": 0.20825034379959106,
+            "p75": 0.34053903818130493
+          },
+          "future_latent_l1": {
+            "n": 71,
+            "median": 0.1202242448925972,
+            "mean": 0.12873403066900416,
+            "p25": 0.10141758620738983,
+            "p75": 0.15421552956104279
+          },
+          "future_residual_rms": {
+            "n": 71,
+            "median": 0.2717331051826477,
+            "mean": 0.28391788637554144,
+            "p25": 0.21158255636692047,
+            "p75": 0.3459880203008652
+          },
+          "true_motion_rms": {
+            "n": 71,
+            "median": 1.163133144378662,
+            "mean": 1.1778311662270988,
+            "p25": 1.1079849004745483,
+            "p75": 1.240770161151886
+          },
+          "error_over_motion_rms": {
+            "n": 71,
+            "median": 0.22330344513376285,
+            "mean": 0.24100261970527506,
+            "p25": 0.18441586591733655,
+            "p75": 0.28321215847879344
+          }
+        }
+      },
+      "evaluation_over_train_median_ratio": {
+        "full_residual_rms": 1.0344514849994644,
+        "future_latent_l1": 0.9999821832629572,
+        "future_residual_rms": 1.034451441559254,
+        "true_motion_rms": 1.002033064395914,
+        "error_over_motion_rms": 1.0046953892697144
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "complete": true,
+  "plan_sha256": "179a531663ba2ce00e16b677682b6eb8fe5ede83b747eab64bb9b6524cafc6f9",
+  "scope": "Fixed-history update sensitivity, not closed-loop task success",
+  "limits": [
+    "Small observational sample; not a new end-to-end S@9 evaluation",
+    "Zero residual is an intervention on residual-trained model, not the trained zero-residual control",
+    "Interventions can be out of distribution; no architecture superiority claim",
+    "Pooling magnitude/cancellation does not measure task-relevant information loss",
+    "Scales and normalization diagnostics do not alone establish failure causality"
+  ],
+  "panels": {
+    "cross": {
+      "tasks": 10,
+      "groups": {
+        "first": {
+          "n": 10,
+          "median_component_rms": {
+            "raw_residual": 0.265048623085022,
+            "time_sampled": 0.2564748376607895,
+            "pooled": 0.18665826320648193,
+            "residual_signal": 0.11033448576927185,
+            "residual_projection_with_bias": 0.12096139788627625,
+            "residual_bias": 0.05081547424197197,
+            "action_embedding": 0.2694482356309891,
+            "time_embedding": 0.002114218659698963,
+            "space_embedding": 0.0022404580377042294,
+            "nonresidual_sum": 0.2831641584634781,
+            "mixed_before_LN": 0.3006346821784973,
+            "after_LN": 0.9914150238037109,
+            "attention_delta": 0.02695064153522253,
+            "full_update": 0.05406222119927406
+          },
+          "median_residual_to_action_centered_rms": 0.4526805203079861,
+          "median_residual_to_nonresidual_centered_rms": 0.4291206499096615,
+          "median_spatial_abs_retention": 0.7359663844108582,
+          "variants": {
+            "real": {
+              "median_mixed_relative_change_vs_real": 0.0,
+              "median_normalized_relative_change_vs_real": 0.0,
+              "median_update_relative_change_vs_real": 0.0,
+              "median_memory_relative_change_vs_before": 1.4054030179977417,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 1.0,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.0784423007098825,
+              "pair_auc_defined_cases": 6
+            },
+            "zero_residual": {
+              "median_mixed_relative_change_vs_real": 0.3942926377058029,
+              "median_normalized_relative_change_vs_real": 0.34921199083328247,
+              "median_update_relative_change_vs_real": 0.4079446345567703,
+              "median_memory_relative_change_vs_before": 1.1467906832695007,
+              "top1_changed_vs_real": 7,
+              "median_top10_overlap_vs_real": 0.8,
+              "next_action_successes": 1,
+              "median_pair_auc_change_vs_before": -0.06556293518388712,
+              "pair_auc_defined_cases": 6
+            },
+            "shuffle_pooled_tokens": {
+              "median_mixed_relative_change_vs_real": 0.548626571893692,
+              "median_normalized_relative_change_vs_real": 0.46900857985019684,
+              "median_update_relative_change_vs_real": 0.0029368303949013352,
+              "median_memory_relative_change_vs_before": 1.4049566388130188,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 0.95,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.07859072167578529,
+              "pair_auc_defined_cases": 6
+            },
+            "scale_0.1": {
+              "median_mixed_relative_change_vs_real": 0.3548663854598999,
+              "median_normalized_relative_change_vs_real": 0.3096970468759537,
+              "median_update_relative_change_vs_real": 0.40065762400627136,
+              "median_memory_relative_change_vs_before": 1.1489658951759338,
+              "top1_changed_vs_real": 6,
+              "median_top10_overlap_vs_real": 0.8,
+              "next_action_successes": 1,
+              "median_pair_auc_change_vs_before": -0.06653153574154558,
+              "pair_auc_defined_cases": 6
+            },
+            "scale_10": {
+              "median_mixed_relative_change_vs_real": 3.5483925342559814,
+              "median_normalized_relative_change_vs_real": 0.840735524892807,
+              "median_update_relative_change_vs_real": 1.1003274321556091,
+              "median_memory_relative_change_vs_before": 2.4207056760787964,
+              "top1_changed_vs_real": 9,
+              "median_top10_overlap_vs_real": 0.15000000000000002,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.08182121347686616,
+              "pair_auc_defined_cases": 6
+            },
+            "no_action_embedding": {
+              "median_mixed_relative_change_vs_real": 0.8718127310276031,
+              "median_normalized_relative_change_vs_real": 1.0562083721160889,
+              "median_update_relative_change_vs_real": 0.9623114168643951,
+              "median_memory_relative_change_vs_before": 2.190966248512268,
+              "top1_changed_vs_real": 7,
+              "median_top10_overlap_vs_real": 0.5,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.06582170669215409,
+              "pair_auc_defined_cases": 6
+            }
+          }
+        },
+        "later": {
+          "n": 10,
+          "median_component_rms": {
+            "raw_residual": 0.28136493265628815,
+            "time_sampled": 0.2742770165205002,
+            "pooled": 0.20240021497011185,
+            "residual_signal": 0.11867736652493477,
+            "residual_projection_with_bias": 0.12855930253863335,
+            "residual_bias": 0.05081547424197197,
+            "action_embedding": 0.27973704040050507,
+            "time_embedding": 0.002114218659698963,
+            "space_embedding": 0.0022404580377042294,
+            "nonresidual_sum": 0.2933553606271744,
+            "mixed_before_LN": 0.320277601480484,
+            "after_LN": 0.9914120137691498,
+            "attention_delta": 0.02287058997899294,
+            "full_update": 0.0428313035517931
+          },
+          "median_residual_to_action_centered_rms": 0.4670161576875287,
+          "median_residual_to_nonresidual_centered_rms": 0.442232343027092,
+          "median_spatial_abs_retention": 0.7432251274585724,
+          "variants": {
+            "real": {
+              "median_mixed_relative_change_vs_real": 0.0,
+              "median_normalized_relative_change_vs_real": 0.0,
+              "median_update_relative_change_vs_real": 0.0,
+              "median_memory_relative_change_vs_before": 0.5761369168758392,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 1.0,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": 0.014713722424700315,
+              "pair_auc_defined_cases": 6
+            },
+            "zero_residual": {
+              "median_mixed_relative_change_vs_real": 0.4028410315513611,
+              "median_normalized_relative_change_vs_real": 0.35212601721286774,
+              "median_update_relative_change_vs_real": 0.3481948673725128,
+              "median_memory_relative_change_vs_before": 0.5251052975654602,
+              "top1_changed_vs_real": 3,
+              "median_top10_overlap_vs_real": 0.8,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": 0.00866948443622595,
+              "pair_auc_defined_cases": 6
+            },
+            "shuffle_pooled_tokens": {
+              "median_mixed_relative_change_vs_real": 0.5603138208389282,
+              "median_normalized_relative_change_vs_real": 0.47580595314502716,
+              "median_update_relative_change_vs_real": 0.0030415250221267343,
+              "median_memory_relative_change_vs_before": 0.5760261118412018,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 1.0,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": 0.014390007933840043,
+              "pair_auc_defined_cases": 6
+            },
+            "scale_0.1": {
+              "median_mixed_relative_change_vs_real": 0.36255864799022675,
+              "median_normalized_relative_change_vs_real": 0.31179529428482056,
+              "median_update_relative_change_vs_real": 0.33981573581695557,
+              "median_memory_relative_change_vs_before": 0.5259373784065247,
+              "top1_changed_vs_real": 2,
+              "median_top10_overlap_vs_real": 0.8,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": 0.008947494582153104,
+              "pair_auc_defined_cases": 6
+            },
+            "scale_10": {
+              "median_mixed_relative_change_vs_real": 3.6256123781204224,
+              "median_normalized_relative_change_vs_real": 0.8332907259464264,
+              "median_update_relative_change_vs_real": 0.9874239861965179,
+              "median_memory_relative_change_vs_before": 0.9418507814407349,
+              "top1_changed_vs_real": 5,
+              "median_top10_overlap_vs_real": 0.6,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.07475464569272944,
+              "pair_auc_defined_cases": 6
+            },
+            "no_action_embedding": {
+              "median_mixed_relative_change_vs_real": 0.8650689423084259,
+              "median_normalized_relative_change_vs_real": 1.0441443920135498,
+              "median_update_relative_change_vs_real": 0.8865396976470947,
+              "median_memory_relative_change_vs_before": 0.8806234896183014,
+              "top1_changed_vs_real": 5,
+              "median_top10_overlap_vs_real": 0.55,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.0461375136999812,
+              "pair_auc_defined_cases": 6
+            }
+          }
+        }
+      }
+    },
+    "within": {
+      "tasks": 10,
+      "groups": {
+        "first": {
+          "n": 10,
+          "median_component_rms": {
+            "raw_residual": 0.21092412620782852,
+            "time_sampled": 0.20847001671791077,
+            "pooled": 0.13912158459424973,
+            "residual_signal": 0.08375747874379158,
+            "residual_projection_with_bias": 0.0986047200858593,
+            "residual_bias": 0.05071575939655304,
+            "action_embedding": 0.22930221259593964,
+            "time_embedding": 0.002071861643344164,
+            "space_embedding": 0.0023026803974062204,
+            "nonresidual_sum": 0.24053803831338882,
+            "mixed_before_LN": 0.24980366975069046,
+            "after_LN": 0.9920554757118225,
+            "attention_delta": 0.05094883218407631,
+            "full_update": 0.0659123919904232
+          },
+          "median_residual_to_action_centered_rms": 0.4086753905568354,
+          "median_residual_to_nonresidual_centered_rms": 0.38680664047012536,
+          "median_spatial_abs_retention": 0.728939950466156,
+          "variants": {
+            "real": {
+              "median_mixed_relative_change_vs_real": 0.0,
+              "median_normalized_relative_change_vs_real": 0.0,
+              "median_update_relative_change_vs_real": 0.0,
+              "median_memory_relative_change_vs_before": 1.469949722290039,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 1.0,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.06278326077100316,
+              "pair_auc_defined_cases": 10
+            },
+            "zero_residual": {
+              "median_mixed_relative_change_vs_real": 0.35896725952625275,
+              "median_normalized_relative_change_vs_real": 0.3062766492366791,
+              "median_update_relative_change_vs_real": 0.8640772104263306,
+              "median_memory_relative_change_vs_before": 1.0527731776237488,
+              "top1_changed_vs_real": 8,
+              "median_top10_overlap_vs_real": 0.25,
+              "next_action_successes": 1,
+              "median_pair_auc_change_vs_before": -0.018501982306283388,
+              "pair_auc_defined_cases": 10
+            },
+            "shuffle_pooled_tokens": {
+              "median_mixed_relative_change_vs_real": 0.4981687664985657,
+              "median_normalized_relative_change_vs_real": 0.404080405831337,
+              "median_update_relative_change_vs_real": 0.00647097616456449,
+              "median_memory_relative_change_vs_before": 1.4723376631736755,
+              "top1_changed_vs_real": 2,
+              "median_top10_overlap_vs_real": 0.95,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.06173381818788043,
+              "pair_auc_defined_cases": 10
+            },
+            "scale_0.1": {
+              "median_mixed_relative_change_vs_real": 0.32307159900665283,
+              "median_normalized_relative_change_vs_real": 0.2711237370967865,
+              "median_update_relative_change_vs_real": 0.8621863126754761,
+              "median_memory_relative_change_vs_before": 1.0556291937828064,
+              "top1_changed_vs_real": 8,
+              "median_top10_overlap_vs_real": 0.25,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.02018730548815878,
+              "pair_auc_defined_cases": 10
+            },
+            "scale_10": {
+              "median_mixed_relative_change_vs_real": 3.230527877807617,
+              "median_normalized_relative_change_vs_real": 0.8097532093524933,
+              "median_update_relative_change_vs_real": 1.5942936539649963,
+              "median_memory_relative_change_vs_before": 2.9623724222183228,
+              "top1_changed_vs_real": 9,
+              "median_top10_overlap_vs_real": 0.25,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.06302878363602848,
+              "pair_auc_defined_cases": 10
+            },
+            "no_action_embedding": {
+              "median_mixed_relative_change_vs_real": 0.878293514251709,
+              "median_normalized_relative_change_vs_real": 1.076131820678711,
+              "median_update_relative_change_vs_real": 1.9121699333190918,
+              "median_memory_relative_change_vs_before": 3.1885045766830444,
+              "top1_changed_vs_real": 10,
+              "median_top10_overlap_vs_real": 0.25,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.049820755336541483,
+              "pair_auc_defined_cases": 10
+            }
+          }
+        },
+        "later": {
+          "n": 10,
+          "median_component_rms": {
+            "raw_residual": 0.26602643728256226,
+            "time_sampled": 0.26115182042121887,
+            "pooled": 0.1778198927640915,
+            "residual_signal": 0.10673700645565987,
+            "residual_projection_with_bias": 0.11797142401337624,
+            "residual_bias": 0.05071575939655304,
+            "action_embedding": 0.23108046501874924,
+            "time_embedding": 0.002071861643344164,
+            "space_embedding": 0.0023026803974062204,
+            "nonresidual_sum": 0.24297894537448883,
+            "mixed_before_LN": 0.26586543023586273,
+            "after_LN": 0.9920752048492432,
+            "attention_delta": 0.04435138963162899,
+            "full_update": 0.05745680443942547
+          },
+          "median_residual_to_action_centered_rms": 0.41554357144723497,
+          "median_residual_to_nonresidual_centered_rms": 0.39370358304554637,
+          "median_spatial_abs_retention": 0.7415955662727356,
+          "variants": {
+            "real": {
+              "median_mixed_relative_change_vs_real": 0.0,
+              "median_normalized_relative_change_vs_real": 0.0,
+              "median_update_relative_change_vs_real": 0.0,
+              "median_memory_relative_change_vs_before": 0.4416126012802124,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 1.0,
+              "next_action_successes": 2,
+              "median_pair_auc_change_vs_before": -0.009833289657731559,
+              "pair_auc_defined_cases": 10
+            },
+            "zero_residual": {
+              "median_mixed_relative_change_vs_real": 0.3658868372440338,
+              "median_normalized_relative_change_vs_real": 0.33929407596588135,
+              "median_update_relative_change_vs_real": 0.7900818288326263,
+              "median_memory_relative_change_vs_before": 0.3948872685432434,
+              "top1_changed_vs_real": 8,
+              "median_top10_overlap_vs_real": 0.5,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.00741070681424888,
+              "pair_auc_defined_cases": 10
+            },
+            "shuffle_pooled_tokens": {
+              "median_mixed_relative_change_vs_real": 0.5040130615234375,
+              "median_normalized_relative_change_vs_real": 0.4564768970012665,
+              "median_update_relative_change_vs_real": 0.003866353537887335,
+              "median_memory_relative_change_vs_before": 0.44156788289546967,
+              "top1_changed_vs_real": 0,
+              "median_top10_overlap_vs_real": 0.95,
+              "next_action_successes": 2,
+              "median_pair_auc_change_vs_before": -0.008853838149150639,
+              "pair_auc_defined_cases": 10
+            },
+            "scale_0.1": {
+              "median_mixed_relative_change_vs_real": 0.32929760217666626,
+              "median_normalized_relative_change_vs_real": 0.3020257204771042,
+              "median_update_relative_change_vs_real": 0.7807487547397614,
+              "median_memory_relative_change_vs_before": 0.3929109573364258,
+              "top1_changed_vs_real": 8,
+              "median_top10_overlap_vs_real": 0.5,
+              "next_action_successes": 0,
+              "median_pair_auc_change_vs_before": -0.007589521313851794,
+              "pair_auc_defined_cases": 10
+            },
+            "scale_10": {
+              "median_mixed_relative_change_vs_real": 3.293134093284607,
+              "median_normalized_relative_change_vs_real": 0.819927990436554,
+              "median_update_relative_change_vs_real": 0.7126563191413879,
+              "median_memory_relative_change_vs_before": 0.5992100536823273,
+              "top1_changed_vs_real": 6,
+              "median_top10_overlap_vs_real": 0.55,
+              "next_action_successes": 1,
+              "median_pair_auc_change_vs_before": 0.008781525822601305,
+              "pair_auc_defined_cases": 10
+            },
+            "no_action_embedding": {
+              "median_mixed_relative_change_vs_real": 0.8767869770526886,
+              "median_normalized_relative_change_vs_real": 1.0481551885604858,
+              "median_update_relative_change_vs_real": 0.7826838493347168,
+              "median_memory_relative_change_vs_before": 0.5957468152046204,
+              "top1_changed_vs_real": 8,
+              "median_top10_overlap_vs_real": 0.4,
+              "next_action_successes": 1,
+              "median_pair_auc_change_vs_before": 0.04232551533442369,
+              "pair_auc_defined_cases": 10
+            }
+          }
+        }
+      }
+    }
+  }
+}

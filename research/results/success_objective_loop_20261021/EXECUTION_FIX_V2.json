@@ -1,0 +1,11 @@
+{
+  "reason": "Evaluation import train resolved to loss_design_iteration train after inherited sys.path mutation. All attempts failed before loading or evaluating checkpoints; training valid.",
+  "failed_eval_jobs": [
+    "36719",
+    "36720"
+  ],
+  "blocked_summary": "36735",
+  "original_plan_unchanged": true,
+  "wrapper_sha256": "419493b63f07c298c21f0c9fcdf9cd98d2a1c3aa63ecf8ce4325c77b1b0fb562",
+  "scope": "Explicit local-module imports only; no changes to models, loss, numerical scoring or scene selection."
+}

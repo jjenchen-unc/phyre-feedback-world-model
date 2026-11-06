@@ -1,0 +1,246 @@
+{
+  "source": "q0_first_feedback_20261018 only",
+  "source_plan_sha256": "50af0ef0ab70b2b7bcf1a3a0dffbc6849ae692ed8e3a2ddd72c531577ff0078e",
+  "panels": {
+    "cross": {
+      "residual": {
+        "slots": 256,
+        "episodes": 512,
+        "active_episodes": 389,
+        "used_update_hist_all": {
+          "1": 144,
+          "2": 90,
+          "0": 123,
+          "8": 53,
+          "4": 77,
+          "3": 19,
+          "6": 2,
+          "7": 3,
+          "5": 1
+        },
+        "used_update_hist_active": {
+          "1": 144,
+          "2": 90,
+          "8": 53,
+          "4": 77,
+          "3": 19,
+          "6": 2,
+          "7": 3,
+          "5": 1
+        },
+        "query_positive_count_hist": {
+          "1": 91,
+          "0": 226,
+          "2": 32,
+          "7": 5,
+          "3": 18,
+          "5": 5,
+          "4": 7,
+          "6": 4,
+          "8": 1
+        },
+        "query_positive_fraction": 0.10571979434447301,
+        "active_episodes_without_positive_query": 226,
+        "active_pool_positive_fraction": {
+          "n": 389,
+          "mean": 0.11876405848329048,
+          "median": 0.0546875,
+          "min": 0.0029296875,
+          "max": 0.8837890625
+        },
+        "train_pool_positive_fraction_scene_macro": {
+          "n": 64,
+          "mean": 0.1641387939453125,
+          "median": 0.07568359375,
+          "min": 0.0029296875,
+          "max": 0.8837890625
+        },
+        "eval_pool_positive_fraction_scene_macro": {
+          "n": 100,
+          "mean": 0.0253125,
+          "median": 0.0029296875,
+          "min": 0.0,
+          "max": 0.375
+        },
+        "journal_sha256": "6b0183789c90bb42aa0492e2475e519cc70c8cb6919c44c753747eef73ca2456"
+      },
+      "zero": {
+        "slots": 256,
+        "episodes": 512,
+        "active_episodes": 389,
+        "used_update_hist_all": {
+          "1": 142,
+          "2": 95,
+          "0": 123,
+          "8": 57,
+          "4": 76,
+          "3": 12,
+          "7": 4,
+          "5": 1,
+          "6": 2
+        },
+        "used_update_hist_active": {
+          "1": 142,
+          "2": 95,
+          "8": 57,
+          "4": 76,
+          "3": 12,
+          "7": 4,
+          "5": 1,
+          "6": 2
+        },
+        "query_positive_count_hist": {
+          "1": 89,
+          "0": 228,
+          "2": 33,
+          "7": 5,
+          "3": 17,
+          "5": 5,
+          "4": 7,
+          "6": 4,
+          "8": 1
+        },
+        "query_positive_fraction": 0.10475578406169665,
+        "active_episodes_without_positive_query": 228,
+        "active_pool_positive_fraction": {
+          "n": 389,
+          "mean": 0.11876405848329048,
+          "median": 0.0546875,
+          "min": 0.0029296875,
+          "max": 0.8837890625
+        },
+        "train_pool_positive_fraction_scene_macro": {
+          "n": 64,
+          "mean": 0.1641387939453125,
+          "median": 0.07568359375,
+          "min": 0.0029296875,
+          "max": 0.8837890625
+        },
+        "eval_pool_positive_fraction_scene_macro": {
+          "n": 100,
+          "mean": 0.0253125,
+          "median": 0.0029296875,
+          "min": 0.0,
+          "max": 0.375
+        },
+        "journal_sha256": "d63cfd9a74acbc207ffdab7dfef013f93f38567078e9e58afa8fad5d0c050da0"
+      }
+    },
+    "within": {
+      "residual": {
+        "slots": 256,
+        "episodes": 512,
+        "active_episodes": 358,
+        "used_update_hist_all": {
+          "1": 149,
+          "2": 73,
+          "0": 154,
+          "4": 79,
+          "8": 42,
+          "3": 11,
+          "7": 4
+        },
+        "used_update_hist_active": {
+          "1": 149,
+          "2": 73,
+          "4": 79,
+          "8": 42,
+          "3": 11,
+          "7": 4
+        },
+        "query_positive_count_hist": {
+          "0": 174,
+          "1": 87,
+          "2": 38,
+          "7": 9,
+          "3": 14,
+          "5": 9,
+          "4": 13,
+          "6": 10,
+          "8": 4
+        },
+        "query_positive_fraction": 0.15956703910614525,
+        "active_episodes_without_positive_query": 174,
+        "active_pool_positive_fraction": {
+          "n": 358,
+          "mean": 0.15849500261871508,
+          "median": 0.0859375,
+          "min": 0.0068359375,
+          "max": 0.830078125
+        },
+        "train_pool_positive_fraction_scene_macro": {
+          "n": 64,
+          "mean": 0.2253570556640625,
+          "median": 0.1005859375,
+          "min": 0.0068359375,
+          "max": 1.0
+        },
+        "eval_pool_positive_fraction_scene_macro": {
+          "n": 100,
+          "mean": 0.18013671875,
+          "median": 0.0810546875,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "journal_sha256": "a3f4b7256f671551e1e52300e398aec94fac694798b0123466e243c2f2030958"
+      },
+      "zero": {
+        "slots": 256,
+        "episodes": 512,
+        "active_episodes": 358,
+        "used_update_hist_all": {
+          "1": 147,
+          "2": 83,
+          "0": 154,
+          "4": 76,
+          "8": 39,
+          "3": 11,
+          "5": 2
+        },
+        "used_update_hist_active": {
+          "1": 147,
+          "2": 83,
+          "4": 76,
+          "8": 39,
+          "3": 11,
+          "5": 2
+        },
+        "query_positive_count_hist": {
+          "0": 174,
+          "1": 87,
+          "2": 38,
+          "7": 9,
+          "3": 14,
+          "5": 9,
+          "4": 13,
+          "6": 10,
+          "8": 4
+        },
+        "query_positive_fraction": 0.15956703910614525,
+        "active_episodes_without_positive_query": 174,
+        "active_pool_positive_fraction": {
+          "n": 358,
+          "mean": 0.15849500261871508,
+          "median": 0.0859375,
+          "min": 0.0068359375,
+          "max": 0.830078125
+        },
+        "train_pool_positive_fraction_scene_macro": {
+          "n": 64,
+          "mean": 0.2253570556640625,
+          "median": 0.1005859375,
+          "min": 0.0068359375,
+          "max": 1.0
+        },
+        "eval_pool_positive_fraction_scene_macro": {
+          "n": 100,
+          "mean": 0.18013671875,
+          "median": 0.0810546875,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "journal_sha256": "950781c6cb0ceb0199493729b7dad321ceb43e0816415a535895273e258fd38f"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "plan": "38f9e3de3d8e5a3907a28a02b987c6211445446fd1d9391e68672bdfa128f58f",
+  "records": [
+    {
+      "task": "00001:009",
+      "contact_loss": 0.11619321256875992,
+      "prediction_loss": 0.097661092877388,
+      "contact_grad": 0.023899275809526443,
+      "prediction_grad": 0.016224704682826996,
+      "ratio": 1.4730175733566284
+    },
+    {
+      "task": "00001:014",
+      "contact_loss": 0.003673049621284008,
+      "prediction_loss": 0.050590116530656815,
+      "contact_grad": 0.004770148545503616,
+      "prediction_grad": 0.06271068751811981,
+      "ratio": 0.07606595754623413
+    },
+    {
+      "task": "00003:022",
+      "contact_loss": 0.0541025772690773,
+      "prediction_loss": 0.1966502070426941,
+      "contact_grad": 0.007295450661331415,
+      "prediction_grad": 0.046167317777872086,
+      "ratio": 0.1580219715833664
+    },
+    {
+      "task": "00004:110",
+      "contact_loss": 0.06053459644317627,
+      "prediction_loss": 0.1734158992767334,
+      "contact_grad": 0.017371010035276413,
+      "prediction_grad": 0.00470803352072835,
+      "ratio": 3.689652919769287
+    },
+    {
+      "task": "00004:316",
+      "contact_loss": 0.11402609199285507,
+      "prediction_loss": 0.17503847181797028,
+      "contact_grad": 0.08380801975727081,
+      "prediction_grad": 0.027750298380851746,
+      "ratio": 3.020076274871826
+    },
+    {
+      "task": "00004:243",
+      "contact_loss": 0.09687336534261703,
+      "prediction_loss": 0.17440107464790344,
+      "contact_grad": 0.02143559604883194,
+      "prediction_grad": 0.007686901371926069,
+      "ratio": 2.7885873317718506
+    },
+    {
+      "task": "00004:219",
+      "contact_loss": 0.09617308527231216,
+      "prediction_loss": 0.1732247769832611,
+      "contact_grad": 0.029180297628045082,
+      "prediction_grad": 0.011290304362773895,
+      "ratio": 2.5845448970794678
+    },
+    {
+      "task": "00005:036",
+      "contact_loss": 0.04022935405373573,
+      "prediction_loss": 0.20624545216560364,
+      "contact_grad": 0.023140478879213333,
+      "prediction_grad": 0.009218597784638405,
+      "ratio": 2.510195016860962
+    }
+  ],
+  "initial_unchanged": true,
+  "same_probe_and_timepoints": true
+}

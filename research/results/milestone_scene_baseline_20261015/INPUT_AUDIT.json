@@ -1,0 +1,33 @@
+{
+  "provenance": {
+    "plan": "951a333ffddb3a87f5ab88107cd828b85cc0dd563cbf39f8ab5b34892b0964fc",
+    "code": {
+      "/path/to/phyre-unc/results/milestone_scene_baseline_20261015/code/milestone_scene_baseline.py": "82a163e6916dc50f05da6b55672444f2f419565731d811914af3979414ef6109",
+      "/path/to/phyre-unc/results/milestone_scene_baseline_20261015/code/scene_classifier.py": "9c1374f5f3c6224a3ddfdfd147cb5a7c3fb6536e1bc834d6c33dffd550ffb500"
+    }
+  },
+  "panels": {
+    "cross": {
+      "reference_initial_render_exact": true,
+      "action_index_mapping_exact": true,
+      "file": "/path/to/phyre-unc/results/milestone_scene_baseline_20261015/inputs/cross.npz",
+      "sha256": "0f0710803b5d2656e101b2051bd3065d5424956d834a3d4b1c1e61b1ff74922d",
+      "frames": [
+        100,
+        256,
+        256
+      ]
+    },
+    "within": {
+      "reference_initial_render_exact": true,
+      "action_index_mapping_exact": true,
+      "file": "/path/to/phyre-unc/results/milestone_scene_baseline_20261015/inputs/within.npz",
+      "sha256": "d9c94405b879775073a2e050160186eeb5ddf126680df30d608322bc2822a80b",
+      "frames": [
+        100,
+        256,
+        256
+      ]
+    }
+  }
+}

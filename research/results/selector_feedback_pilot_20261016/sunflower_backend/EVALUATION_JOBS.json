@@ -1,0 +1,28 @@
+{
+  "evaluation": "35925",
+  "time": 1792333457.9571316,
+  "shards_per_arm": 4,
+  "parallel_gpu_limit": 16,
+  "provenance": {
+    "plan": "1d7cec60231edf1186a2438a8c85cb9cb0ef3ff69764c38c19b1d90255a4b7d3",
+    "code": {
+      "candidate_coverage_100k.py": "4fa727d6435b5152038cc30564fb5cc1d958c594510808b00e92ac31317dc242",
+      "candidate_coverage_100k_cpu.py": "d1f4454b5c4c85a553a9ab23288080af812bc49aab81047d68eba7a4950b04e9",
+      "deploy_pool_cpu.py": "7ffa9d6a311231046473b5d3eeaf7cdddf506f2689f9a12bb175e03922b77f03",
+      "deploy_pool_data.py": "c47ee2509cb4668dfdec75279826fffda80b25085ac299e5a75d60e5c6076bea",
+      "deploy_pool_updater.py": "2b14cf85c5427e15a39cba987f1a9972ee23c36f6c94195d2100ff71d9fa2162",
+      "fast_inference.py": "274f1855293d9f1c337015de3a50d321a93ecf0fab29491861f47d8278819706",
+      "scene_classifier.py": "9c1374f5f3c6224a3ddfdfd147cb5a7c3fb6536e1bc834d6c33dffd550ffb500",
+      "selector_feedback_data.py": "3da21f7b5787f1b56c2de68b20c214aa6d9a8169366c88673e4133e9225cc4f3",
+      "selector_feedback_launch.py": "cb60080fcdce1770865ab4d705fd84a82c99074b24ea41740ebc764681edb61e",
+      "selector_feedback_run.py": "7b80fa94f042e3ccb4f4071d60c60b8900e9fbd2e1b4bef14634b76b20c93ad6",
+      "test_selector_feedback_policy.py": "1d6b04fb671fc2a1fd441c5aa4e6051b0dff0793081dcfdad03738c9bf1aad15"
+    },
+    "execution_backend": "0ae3e91dd2917d0c690ec577371d4fa5f2fe0dacd240b32552520986dc1dc5ca",
+    "encoder_rpc": "8b5558ce8e8d16188a9833db2851aeeea61e3466b965a4cfe82fb7110f02bd51",
+    "encoding_policy": "909bf0d6c32ecccfbad905b6cbad954360bcc20192f3aa8016f7350c35fd0a77",
+    "hardware": "A5000 predictor plus shared canonical A6000 encoders",
+    "cublas_workspace": ":4096:8"
+  },
+  "finish": "35926"
+}

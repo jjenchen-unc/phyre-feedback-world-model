@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "plan_sha256": "cf8cf10e2152964d4996a3b1712eb7912e3f22799ec6983d48801db7fdd7e5c4",
+  "verified_rollouts": 2,
+  "scope": [
+    "Intervention on residual-trained checkpoint, NOT a separately trained zero-residual model",
+    "Zero residual may be OOD; worse performance alone does not prove semantically correct use of feedback",
+    "Same seed/folds, adaptive diagnostic after original results",
+    "Uses success/failure outcome for stopping and attempted-action history, so not a no-information policy"
+  ],
+  "panels": {
+    "cross": {
+      "methods": {
+        "zero_intervention": {
+          "n": 1,
+          "first_success": {
+            "00008:263": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        }
+      },
+      "paired_s9": {}
+    },
+    "within": {
+      "methods": {
+        "zero_intervention": {
+          "n": 1,
+          "first_success": {
+            "00019:608": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        }
+      },
+      "paired_s9": {}
+    }
+  },
+  "passed": true
+}

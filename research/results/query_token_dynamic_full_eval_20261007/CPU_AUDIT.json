@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "static_model_split_runs": 12,
+  "static_scene_scores": 1200,
+  "old_static_trace_replays": 240,
+  "memory_old_traces_reused": 360,
+  "parent_checkpoint_hashes": 15,
+  "manifest_sha256": "e8c125d8048fdaf089312062952701b557f28edc053eebb45ae478c48fb5cc15"
+}

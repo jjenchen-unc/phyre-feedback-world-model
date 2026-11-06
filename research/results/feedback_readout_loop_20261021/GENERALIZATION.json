@@ -1,0 +1,59 @@
+{
+  "discovery": {
+    "n": 96,
+    "positives": 6,
+    "bce": {
+      "static": 0.28702083481301743,
+      "8419_real": 0.3614051736481745,
+      "8419_zero": 0.42974789099041083,
+      "8419_query_only": 0.3601560465713036,
+      "8420_real": 0.4632678784279414,
+      "8420_zero": 0.4302859210636549,
+      "8420_query_only": 0.5166250529193166
+    }
+  },
+  "confirmation": {
+    "n": 80,
+    "positives": 5,
+    "bce": {
+      "static": 105.52375926111813,
+      "8419_real": 105.91941111704993,
+      "8419_zero": 105.45550622230257,
+      "8419_query_only": 106.12114503647118,
+      "8420_real": 105.86086438560778,
+      "8420_zero": 105.61098893313756,
+      "8420_query_only": 106.40947240634932
+    }
+  },
+  "shuffle_moved": {
+    "fit": [
+      52,
+      52,
+      52,
+      52,
+      52
+    ],
+    "discovery": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "confirmation": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cross100": [
+      97,
+      97,
+      97,
+      97,
+      97
+    ]
+  },
+  "shuffle_scope": "Within-template permutation is a no-op in discovery/confirmation (oneactive scene pertemplate); do notinterpret these asfeedbackablation. All97crossfailures arepermuted ineachof5controls."
+}

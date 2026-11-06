@@ -1,0 +1,14 @@
+from transfer_core import *
+p=read(L/'PLAN.json');plan={'tasks':{panel:s['tasks'] for panel,s in p['panels'].items()},'checkpoint':'Frozen rawuniform128, sameQ0first, sameclassifier1024 pools; no newtraining',
+ 'motivation_round0_sha256':sha(R/'ROUND0_FREEZE.json'),
+ 'round0':'Exact first-update-only staticpolicies derived fromsaved fullscorevectors. Validate withGPU raw/centeredfirstupdate replay beforefurtherexperiments.',
+ 'round1':'Same8train+8evaluation scenes perprotocol aslossdiagnostic. Samefailedsupport and8queryactions, raw/centered/normmatched corrections. Decompose queryMSE gain=2*error_dot_correction-correction_power. Oracle support-queryresidualcosine diagnostic only. Actiondistance andpredictedmotiondistance continuous proxies; no Near threshold.',
+ 'round2':'8evaluation scenes/protocol, cross raw/centered recorded histories with raw/centered/normmatched updateoperators. Recompute eachsupportresidual undercurrent counterfactualmemory. First andlast common availableupdate up to4; do notduplicatefirst whenonlyone. Queryset shared acrossoperators excludinguniontried actions. Matchingpolicy mustexactly reproducesaved scores.',
+ 'round3':'Always runnormmatched full9attempt policy on100scenes/protocol. Optional querygate first-update-only policy plus shuffled/uniform-amplitude controls if actionproximity vsqueryMSEgain Spearman medianpositive and>=5/8scenespositive in BOTHtrain/evaluationdiagnostic. This isexperiment-screening, not significance ortrainingdatafiltering.',
+ 'gate':'g(a,s)=exp(-distance_squared/(2*sigma_squared)); actioncoordinates standardized byunlabelled currentpool std; sigma fixedmedian train-diagnostic actiondistance, no outcome-fitting. Perquery memory=m0+g*(m1-m0). Freeze afterfirst update; no recurrentquerygatearchitecture claim.',
+ 'shared_encoder_endpoint_owner':str(L),'cleanup_dependency':'Extend existing lossencoder cleanup towaitthisexperiment finaljob aswell; do notchange existing lossobjective/code/jobs',
+ 'limits':['Small fixedhistory panel, samefold/seed; no robustdesignwinner fromsinglepilot','Oracle residualalignment andoraclealpha usequerytruth fordiagnosis only; neverdeploymentgates','Forcedhistories are notcounterfactual S9 rollouts','Normmatching separates updateamplitude fromrawdirection locally, notall nonlinear laterconsequences','Querygate isfirst-update-only; compare againstfirst-only controls, notclaimfair recurrentarchitecture superiority','Residualcosine/actiondistance associations do notprove causaltransfer','Lossiteration runs independently; integrate reports afterbothcomplete'],
+ 'dependencies':{str(f):sha(f) for f in [L/'PLAN.json',L/'code/loss_runtime.py',L/'code/diagnostic.py',S/'PLAN.json',B/'PLAN.json',C/'PLAN.json',*sorted((R/'code').glob('*.py'))]}}
+if (R/'PLAN.json').exists():assert read(R/'PLAN.json')==plan
+else:write(R/'PLAN.json',plan)
+print('TRANSFER_REGISTERED',sha(R/'PLAN.json'))

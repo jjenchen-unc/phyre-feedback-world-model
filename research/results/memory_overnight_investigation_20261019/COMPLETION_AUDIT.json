@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "verified_utc": "2026-10-19T11:05:47.713206+00:00",
+  "rounds_complete": 8,
+  "fresh_trainings_complete": 4,
+  "new_full_closed_loop_rollouts": 1800,
+  "rollout_verification": "R3 800 andR4/R5 800 independently verified in prior completed rounds; finalR8 200 reverified locally from allscore/action/labeltraces. Smoke rollouts excluded.",
+  "summary_and_audit_sha256": {
+    "results/residual_mean_step_diagnostic_20261019/SUMMARY.json": "57303393105123f6008c53c6560ce93539a0607fd1eecf8131b51c940003f539",
+    "results/residual_direction_diagnostic_20261019/SUMMARY.json": "5dde92c2171955408100f5108ea55792f08d0c1c1c9851502c5ad56809a7d81d",
+    "results/memory_overnight_policy_20261019/SUMMARY.json": "dfe4904c73bb4c1eaa7a20eff1a7ebcdd3453f417ba7dd89cd0f18d0cb6952c9",
+    "results/query_balance_training_20261019/SUMMARY_128.json": "405d84a738c512fca79d86490e520e9521eadb40ca65fad7d96232bd835725eb",
+    "results/query_balance_centered_eval_20261019/SUMMARY.json": "d9f0c9cf5076a9fc424419d3444b0220b9880ecc0324a69f0305bb32dee2c244",
+    "results/initial_residual_shift_20261019/SUMMARY.json": "35cda443d83354f38e45d3bf40e8ef18c282aa9ef29858051ad97289f16cd800",
+    "results/fresh_zero_feedback_eval_20261019/SUMMARY.json": "d8e49c82e9185149aae14853ec88659e77d0fa339ec25736278a2838c2f76077",
+    "results/memory_overnight_investigation_20261019/FRESH_PANEL_cross.json": "0a0d9aeec25d762699f4d2bae8371b7db31073c92078c6b9ac5008c3e5dabdfa",
+    "results/memory_overnight_investigation_20261019/FIRST_UPDATE_cross.json": "25376baa3cc5017d9eeee2ebb2449ad3e29937b2850165ae5db8eed1e03f90ed",
+    "results/memory_overnight_investigation_20261019/FRESH_PANEL_within.json": "4c4b835b8cec34e6ebc588d1dae85bcec398aba82aa5865b4eff4251702ee154",
+    "results/memory_overnight_investigation_20261019/FIRST_UPDATE_within.json": "7820ac5b6375d316ac85fdd257e2be760bfec967ab89cd31f7aec076d1e5c6d7",
+    "results/memory_overnight_investigation_20261019/FRESH_TRAINING_AUDIT.json": "d8d9a1f66b15ce01322b0498a08894a6398cc6363fc2e930b38633e1449058ca"
+  },
+  "report_sha256": "8e01e86545e7f90badf75d295d6cd89491629e9f3822507a2a85a69931447ead",
+  "slide_hashes_unchanged": {
+    "COMP669_Milestone_20261018.pptx": "15fb71405dcee428866ca15319def21630484628f767510d180343cc24922b9a",
+    "COMP669_Milestone_20261018.pdf": "822d3a06a8feba8dedb68dc0803d2bc11c348a3284758f8c7660ac0b397d2252",
+    "Speaker_Notes.txt": "0f04cfa2c05e764973782911d14f989e82dbe882d20d6b0ab82ce273d3ad8657",
+    "COMP669_Milestone_manuscript.txt": "0f04cfa2c05e764973782911d14f989e82dbe882d20d6b0ab82ce273d3ad8657",
+    "manuscript.json": "1caff3dae387d2bec86ea05f16556bb2902617e583a32ccb86d798f3fd48e183",
+    "build_slides.py": "e9edfca700965eebb3f3f6342bf30210591270e84616eac2d47c7676ea4d1ec0"
+  },
+  "completed_slurm_receipts": 171,
+  "job_times_sha256": "4f0434fef006362de3a192aef386392859fbf8afd4ac3bbea9f5784f1b81fd48",
+  "encoder_cleanup_sha256": "2fc64ce640298e9facf9bd16bc6ba97004600586ac552ebd28d51db0cd0dc6c6",
+  "own_queue_empty_verified": true,
+  "final_direction": "Keep uniform query sampling; next test fresh updater training with residual centering active during both training and deployment, preserving matched raw and zero-input controls. Candidate direction, not established causal root or independent replication.",
+  "not_run": "Centered-input training is a next experiment proposal, not part of completed results.",
+  "limitations": [
+    "One Q0 seed and one fold per protocol",
+    "Same updater initialization andevaluation panels across interventions",
+    "Multiple adaptive comparisons; no independent replication claim",
+    "Zero-input intervention may be OOD; task success does not by itself establish better physics prediction"
+  ]
+}

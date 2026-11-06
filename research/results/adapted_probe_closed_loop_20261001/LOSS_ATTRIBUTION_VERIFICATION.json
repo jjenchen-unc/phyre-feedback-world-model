@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "counterfactual_policy_task_replays": 14400,
+  "action_selections_replayed": 633381,
+  "loss_attribution_sha256": "f9d656e48f119663fbc8276864f5e57298d32abe6a516d3c4ad1ea1fc2242aea",
+  "scope": "Independent stepwise replay; freeze10 equals actual and fallback1 equals base in every case. Same reused D0, no fresh-test or optimal-cutoff claim."
+}

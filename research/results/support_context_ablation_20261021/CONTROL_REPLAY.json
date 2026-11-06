@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "vectors": 476,
+  "controls": {
+    "8419_zero": {
+      "exact": true,
+      "checkpoint_sha": "4daf093650072f04e3ffbd95170525935f7a7f8f8183bae366440d77b96c5a9c"
+    },
+    "8419_query_only": {
+      "exact": true,
+      "checkpoint_sha": "f4c424ab2555ad4a8640c0fe4ec3e1a8c9fd7c83a7205e68ca1b93cd3bdbdde2"
+    },
+    "8420_zero": {
+      "exact": true,
+      "checkpoint_sha": "7181fffdb39400b3d24e641b0b780d1a73d19ffe8b7d0c7e43c1bafdc5f047b9"
+    },
+    "8420_query_only": {
+      "exact": true,
+      "checkpoint_sha": "6ae8f2b568716c7e214f258155163e3d1ad9ba973913b3968ba571fbcb43810e"
+    }
+  }
+}

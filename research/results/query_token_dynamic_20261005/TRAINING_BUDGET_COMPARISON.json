@@ -1,0 +1,42 @@
+{
+  "scope": "Historical base summary compared to current registered fixed-budget pilot; not convergence evidence",
+  "historical_base": {
+    "summary_source": "/mnt/meg/jjenchen/phyre-unc/runs/cross_f1_base_s16r16_pca128/summary.json",
+    "summary_sha256": "f768481e15007f5493a56989afbac84d550d93bb9ad5c6b3f186aec0d9a63689",
+    "n_train": 52276,
+    "epochs": 8,
+    "batch": 8,
+    "optimizer_updates": 52272,
+    "trajectory_presentations": 418176,
+    "seconds_including_validation": 12618,
+    "predictor_args": {
+      "d": 384,
+      "layers": 6,
+      "heads": 6
+    }
+  },
+  "current": {
+    "episodes": 20000,
+    "optimizer_updates": 10000,
+    "scene_batch": 2,
+    "query_target_pool": 29349,
+    "per_seed": {
+      "0": {
+        "query_presentations": 159687,
+        "unique_query_targets_seen": 29035,
+        "support_observations": 47100
+      },
+      "1": {
+        "query_presentations": 159664,
+        "unique_query_targets_seen": 28981,
+        "support_observations": 47016
+      },
+      "2": {
+        "query_presentations": 159660,
+        "unique_query_targets_seen": 28995,
+        "support_observations": 46617
+      }
+    },
+    "manifest_sha256": "e729f149c78cd7175e9fe4c4ac47f627447094c3c410ce45e7e6397f1cd816ad"
+  }
+}

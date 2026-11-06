@@ -1,0 +1,11 @@
+{
+  "plan": "1d7cec60231edf1186a2438a8c85cb9cb0ef3ff69764c38c19b1d90255a4b7d3",
+  "runtime": "0ae3e91dd2917d0c690ec577371d4fa5f2fe0dacd240b32552520986dc1dc5ca",
+  "rpc": "8b5558ce8e8d16188a9833db2851aeeea61e3466b965a4cfe82fb7110f02bd51",
+  "encoder": "Pinned canonical A6000 LeVJEPA/PCA; no DISABLE_ADDMM_CUDA_LT or CUBLAS_WORKSPACE_CONFIG in encoder process",
+  "transport": "Authenticated JSON plus lossless compressed NumPy arrays over direct TCP; no pickle and no NFS request polling",
+  "predictor": "Sunflower A5000 with CUBLAS_WORKSPACE_CONFIG=:4096:8; existing full-forward/checkpoint-gradient gates preserved",
+  "cache": "Only immutable observations, never predictions/residuals. Existing canonical A6000 entries remain reusable.",
+  "validation": "RPC latent parity, concurrent clients, latency, fixedreader forwards, all four unchanged updater preflights required before formal training.",
+  "preflight_fixture_fix": "Initial scene integer color IDs losslessly cast to uint8; stress-only eight-failure scene selected from registered training pools when last natural episode scene lacks eight failures. Training sampler and loss unchanged."
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "plan_sha256": "06acbad1b10a47c62acd90c0406a75ccb7ad2af582a938a71ac35c1450425b4d",
+  "loss_gradient_exact": true,
+  "full_raw_policy_replay_exact": true,
+  "records": {
+    "cross": {
+      "n": 1,
+      "counts": {
+        "s1": 0,
+        "s3": 0,
+        "s5": 0,
+        "s9": 0
+      },
+      "first_success": {
+        "00008:263": null
+      }
+    },
+    "within": {
+      "n": 1,
+      "counts": {
+        "s1": 0,
+        "s3": 0,
+        "s5": 0,
+        "s9": 0
+      },
+      "first_success": {
+        "00019:608": null
+      }
+    }
+  }
+}

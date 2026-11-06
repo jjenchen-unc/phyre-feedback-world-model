@@ -1,0 +1,8 @@
+{
+  "stage": "post-calibration before observing training outcomes",
+  "maximum_score": 3.4657359027997265,
+  "maximum_bce_logit": -2.0132989662224374,
+  "maximum_bce_probability": 0.11781367180307349,
+  "implication": "Frozen positive affine calibration on log total softcontact imposes a low success-probability ceiling. Round1 BCE tests this constrained readout, not BCE in general. Must address or control this mapping in adaptive round before concluding BCE is weak.",
+  "possible_followup": "Joint trainable positive-affine calibration (monotone, inference ranks unchanged), or fixed mapping logit of contact fraction with explicit scale audit; compare with calibration-only no-updater baseline."
+}

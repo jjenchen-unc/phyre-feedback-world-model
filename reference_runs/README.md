@@ -1,6 +1,7 @@
 # Experiment source reference
 
-These are the training/evaluation drivers used by the milestone experiments.
+These are the training/evaluation drivers exported for the October 18 milestone.
+For subsequent completed experiments, see [the research snapshot](../research/README.md).
 Absolute cluster paths have been replaced with `/path/to/...`; executable
 model/loss/policy definitions are otherwise retained. See SOURCE_MANIFEST.json
 for hashes of both the original source and the exported file.
@@ -9,7 +10,7 @@ for hashes of both the original source and the exported file.
 |---|---|
 | matched_base_q0_20261012 | Paired random-initialized Base/Q0 pretraining |
 | selector_feedback_pilot_20261016 | Completed classifier-first online-support training/evaluation |
-| q0_first_feedback_20261018 | New Q0-first training/evaluation, still running at release |
+| q0_first_feedback_20261018 | Q0-first training/evaluation; running at the original October 18 release, now completed |
 | oracle_small_1024_20261017 | Small paired predicted/oracle latent diagnostic |
 
 These drivers depend on registered `PLAN.json` files, model/probe/PCA checkpoints,

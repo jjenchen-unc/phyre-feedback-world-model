@@ -1,0 +1,14 @@
+{
+  "controller_pid": 1014309,
+  "pids": [
+    1014348,
+    1014349
+  ],
+  "physical_gpus": [
+    4,
+    5
+  ],
+  "time": 1792220081.1557908,
+  "max_runtime_hours": 8,
+  "encoder_code": "e0a564c8444033bc743ccfccc47e00080838e8419d9b4480b09d140d36063140"
+}

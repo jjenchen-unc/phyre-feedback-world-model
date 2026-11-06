@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "conditions": 6,
+  "tasks_recomputed": 600,
+  "raw_trace_attempts_replayed_remote": 26663,
+  "downloaded_files_sha256_match": 1206,
+  "scope": "Completed conditions only; 16/22 unfinished. All downloaded raw scores/traces matched remote audit hashes; local independent AUCCESS recomputation."
+}

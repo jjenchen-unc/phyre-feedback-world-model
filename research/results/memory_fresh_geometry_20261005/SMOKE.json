@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "provenance": {
+    "manifest": "35a455eb898f06afef0cf64f3cc8011754b2aafd1aa6764485d8b534926accbf",
+    "code": {
+      "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+      "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+      "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+      "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+      "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+      "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc"
+    }
+  },
+  "steps": 8,
+  "gradient_checks": {
+    "geometry_to_prediction": 0.13246005773544312,
+    "zero_output_projection_gradient": 414.21640968322754,
+    "encoder_gradient_after_first_update": 0.011536505073308945
+  },
+  "checks": [
+    "fresh zero-projection nonempty identity",
+    "empty identity after training",
+    "geometry and encoder gradients",
+    "frozen base/probe",
+    "future input isolation",
+    "raw AUC/L1/geometry recomputation"
+  ],
+  "scope": "Engineering checks only, no performance gate"
+}

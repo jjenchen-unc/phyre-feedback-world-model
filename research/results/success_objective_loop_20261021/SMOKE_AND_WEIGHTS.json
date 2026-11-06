@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "plan": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "weights": {
+    "bce": 1.574541837133204,
+    "pair": 0.4001189609666575
+  },
+  "calibration_tasks": [
+    "00001:009",
+    "00003:022",
+    "00004:110",
+    "00005:036",
+    "00005:025",
+    "00006:060",
+    "00009:119",
+    "00011:145"
+  ],
+  "calibration_scope": "FIT mixed-label query scenes only; both supervised terms matched to prediction gradient norm at initial memory state; no validation labels",
+  "records": [
+    {
+      "task": "00001:009",
+      "positives": 1,
+      "score_maxerr": 1.4210854715202004e-14,
+      "norms": {
+        "prediction": 0.016224704682826996,
+        "bce": 1.2684903144836426,
+        "pair": 3.5987608432769775
+      },
+      "losses": {
+        "prediction": 0.097661092877388,
+        "l1": 0.05903008207678795,
+        "geometry": 0.3863101303577423,
+        "bce": 0.5140818951179648,
+        "pair": 0.7176404593313088
+      }
+    },
+    {
+      "task": "00003:022",
+      "positives": 4,
+      "score_maxerr": 8.881784197001252e-16,
+      "norms": {
+        "prediction": 0.046167317777872086,
+        "bce": 0.0029372391290962696,
+        "pair": 0.0056215738877654076
+      },
+      "losses": {
+        "prediction": 0.1966502070426941,
+        "l1": 0.11224238574504852,
+        "geometry": 0.8440781831741333,
+        "bce": 1.1415036158922085,
+        "pair": 0.6772729060358091
+      }
+    },
+    {
+      "task": "00004:110",
+      "positives": 1,
+      "score_maxerr": 9.436397663264984e-08,
+      "norms": {
+        "prediction": 0.00470803352072835,
+        "bce": 0.041993025690317154,
+        "pair": 0.3268700838088989
+      },
+      "losses": {
+        "prediction": 0.1734158992767334,
+        "l1": 0.11795821785926819,
+        "geometry": 0.5545768737792969,
+        "bce": 0.3778134854061231,
+        "pair": 0.6631140832327743
+      }
+    },
+    {
+      "task": "00005:036",
+      "positives": 2,
+      "score_maxerr": 7.105427357601002e-15,
+      "norms": {
+        "prediction": 0.009218597784638405,
+        "bce": 0.009903553873300552,
+        "pair": 0.020086320117115974
+      },
+      "losses": {
+        "prediction": 0.20624545216560364,
+        "l1": 0.13807712495326996,
+        "geometry": 0.6816833019256592,
+        "bce": 0.6241663799761935,
+        "pair": 0.46235212392644043
+      }
+    },
+    {
+      "task": "00005:025",
+      "positives": 2,
+      "score_maxerr": 2.220446049250313e-16,
+      "norms": {
+        "prediction": 0.016078153625130653,
+        "bce": 0.007248137146234512,
+        "pair": 0.058583132922649384
+      },
+      "losses": {
+        "prediction": 0.22954128682613373,
+        "l1": 0.12462341040372849,
+        "geometry": 1.0491787195205688,
+        "bce": 0.6377346187959536,
+        "pair": 0.6497151358365468
+      }
+    },
+    {
+      "task": "00006:060",
+      "positives": 4,
+      "score_maxerr": 4.440892098500626e-16,
+      "norms": {
+        "prediction": 0.01283336617052555,
+        "bce": 0.019094916060566902,
+        "pair": 0.03760265186429024
+      },
+      "losses": {
+        "prediction": 0.14725570380687714,
+        "l1": 0.09466810524463654,
+        "geometry": 0.5258759260177612,
+        "bce": 1.1663881810389378,
+        "pair": 0.5783325593997825
+      }
+    },
+    {
+      "task": "00009:119",
+      "positives": 2,
+      "score_maxerr": 8.881784197001252e-16,
+      "norms": {
+        "prediction": 0.022928837686777115,
+        "bce": 0.0005463953129947186,
+        "pair": 0.002872618380934
+      },
+      "losses": {
+        "prediction": 0.17185309529304504,
+        "l1": 0.09001863747835159,
+        "geometry": 0.8183444738388062,
+        "bce": 0.6216997984027116,
+        "pair": 0.5799118692769601
+      }
+    },
+    {
+      "task": "00011:145",
+      "positives": 1,
+      "score_maxerr": 8.881784197001252e-16,
+      "norms": {
+        "prediction": 0.009931948035955429,
+        "bce": 0.0023434143513441086,
+        "pair": 0.012341995723545551
+      },
+      "losses": {
+        "prediction": 0.23120395839214325,
+        "l1": 0.11961030215024948,
+        "geometry": 1.115936517715454,
+        "bce": 0.3768651689299945,
+        "pair": 0.6895992533925218
+      }
+    }
+  ],
+  "initial_sha": "0e47448fce9de715703937500bd8c9416a7fcc9a761562a5ff79967669a98c14",
+  "reader_sha": "d719586329d245b732710cf26ee08e82fa1af4993ab3363ea75959218865d4e5",
+  "parameter_gradients": {
+    "update_time": 0.0,
+    "update_space": 0.0,
+    "residual_in.weight": 0.0,
+    "residual_in.bias": 0.0,
+    "action_in.0.weight": 0.0,
+    "action_in.0.bias": 0.0,
+    "action_in.2.weight": 0.0,
+    "action_in.2.bias": 0.0,
+    "state_norm.weight": 0.0,
+    "state_norm.bias": 0.0,
+    "observation_norm.weight": 0.0,
+    "observation_norm.bias": 0.0,
+    "update_attention.in_proj_weight": 0.0,
+    "update_attention.in_proj_bias": 0.0,
+    "update_attention.out_proj.weight": 135.83265686035156,
+    "update_attention.out_proj.bias": 10.10309886932373,
+    "ff_norm.weight": 0.0,
+    "ff_norm.bias": 0.0,
+    "update_ff.0.weight": 0.0,
+    "update_ff.0.bias": 0.0,
+    "update_ff.2.weight": 49.166412353515625,
+    "update_ff.2.bias": 10.10309886932373
+  },
+  "finite_difference": {
+    "value": 6.9604748168123365,
+    "analytical": 7.074742317199707,
+    "relative": 0.01615147170937519
+  },
+  "future_geometry_input_invariant": true,
+  "seconds": 7.269959449768066
+}

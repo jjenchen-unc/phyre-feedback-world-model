@@ -1,0 +1,9 @@
+{
+  "time": 1792128410.5268872,
+  "reason": "User invalidated historical base shortlist evaluations, including oracle and rerun encoder services",
+  "jobs": [
+    "35316",
+    "35314"
+  ],
+  "before": "35316 PENDING phyre_continue\n35314 RUNNING phyre_oracles\n"
+}

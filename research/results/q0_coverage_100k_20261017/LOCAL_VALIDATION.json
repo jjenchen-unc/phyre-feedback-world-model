@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "full-universe success outside base top1024 retained",
+    "invalid highest score excluded",
+    "changed common validity rejected",
+    "score file hash mismatch rejected",
+    "python compile",
+    "sbatch syntax"
+  ],
+  "gpu_smoke": "pending"
+}

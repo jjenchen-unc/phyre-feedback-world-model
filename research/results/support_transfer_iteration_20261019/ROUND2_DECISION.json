@@ -1,0 +1,240 @@
+{
+  "complete": true,
+  "panels": {
+    "cross": {
+      "first_support": {
+        "train": {
+          "scenes": 8,
+          "query_count": 64,
+          "raw_correction_harm_counts": {
+            "wrong_direction": 7,
+            "overshoot": 29,
+            "not_harmful": 28
+          },
+          "median_within_scene_spearman": {
+            "action": 0.13095238095238096,
+            "motion": 0.4404761904761906,
+            "oracle": 0.41666666666666674
+          },
+          "positive_correlation_scenes": {
+            "action": 6,
+            "motion": 7,
+            "oracle": 7
+          },
+          "ranking": {
+            "raw": {
+              "next_successes": 0,
+              "top8_successes": 2
+            },
+            "centered": {
+              "next_successes": 0,
+              "top8_successes": 1
+            },
+            "norm_matched": {
+              "next_successes": 0,
+              "top8_successes": 2
+            }
+          }
+        },
+        "evaluation": {
+          "scenes": 8,
+          "query_count": 64,
+          "raw_correction_harm_counts": {
+            "wrong_direction": 20,
+            "overshoot": 21,
+            "not_harmful": 23
+          },
+          "median_within_scene_spearman": {
+            "action": 0.3214285714285715,
+            "motion": 0.4285714285714286,
+            "oracle": 0.5714285714285715
+          },
+          "positive_correlation_scenes": {
+            "action": 7,
+            "motion": 7,
+            "oracle": 7
+          },
+          "ranking": {
+            "raw": {
+              "next_successes": 1,
+              "top8_successes": 2
+            },
+            "centered": {
+              "next_successes": 1,
+              "top8_successes": 1
+            },
+            "norm_matched": {
+              "next_successes": 1,
+              "top8_successes": 2
+            }
+          }
+        }
+      },
+      "history": {
+        "raw_raw": {
+          "n_later_states": 7,
+          "next_successes": 0,
+          "top8_successes": 1,
+          "mean_l1": 0.16503466346434184,
+          "mean_geometry": 1.3651677412646157
+        },
+        "raw_centered": {
+          "n_later_states": 7,
+          "next_successes": 0,
+          "top8_successes": 1,
+          "mean_l1": 0.16458897718361445,
+          "mean_geometry": 1.369279452732631
+        },
+        "raw_norm_matched": {
+          "n_later_states": 7,
+          "next_successes": 0,
+          "top8_successes": 1,
+          "mean_l1": 0.165012997175966,
+          "mean_geometry": 1.3660491790090288
+        },
+        "centered_raw": {
+          "n_later_states": 7,
+          "next_successes": 0,
+          "top8_successes": 1,
+          "mean_l1": 0.1641221929873739,
+          "mean_geometry": 1.3372798689774104
+        },
+        "centered_centered": {
+          "n_later_states": 7,
+          "next_successes": 0,
+          "top8_successes": 1,
+          "mean_l1": 0.16379749029874802,
+          "mean_geometry": 1.3536441496440343
+        },
+        "centered_norm_matched": {
+          "n_later_states": 7,
+          "next_successes": 0,
+          "top8_successes": 1,
+          "mean_l1": 0.16420317547661917,
+          "mean_geometry": 1.3349321399416243
+        }
+      },
+      "run_locality_gate": true,
+      "action_sigma": 2.103663206100464,
+      "decision": "Always validate norm-matched fullpolicy; additionally test smooth action-distance gate with uniform/shuffled controls only when association direction repeats in both diagnostic splits. This is screening, not significance."
+    },
+    "within": {
+      "first_support": {
+        "train": {
+          "scenes": 8,
+          "query_count": 64,
+          "raw_correction_harm_counts": {
+            "wrong_direction": 13,
+            "overshoot": 30,
+            "not_harmful": 21
+          },
+          "median_within_scene_spearman": {
+            "action": -0.1785714285714286,
+            "motion": 0.1428571428571429,
+            "oracle": 0.28571428571428575
+          },
+          "positive_correlation_scenes": {
+            "action": 3,
+            "motion": 4,
+            "oracle": 7
+          },
+          "ranking": {
+            "raw": {
+              "next_successes": 3,
+              "top8_successes": 7
+            },
+            "centered": {
+              "next_successes": 2,
+              "top8_successes": 7
+            },
+            "norm_matched": {
+              "next_successes": 2,
+              "top8_successes": 7
+            }
+          }
+        },
+        "evaluation": {
+          "scenes": 8,
+          "query_count": 64,
+          "raw_correction_harm_counts": {
+            "wrong_direction": 13,
+            "overshoot": 25,
+            "not_harmful": 26
+          },
+          "median_within_scene_spearman": {
+            "action": 0.42857142857142866,
+            "motion": 0.642857142857143,
+            "oracle": 0.6309523809523809
+          },
+          "positive_correlation_scenes": {
+            "action": 8,
+            "motion": 7,
+            "oracle": 8
+          },
+          "ranking": {
+            "raw": {
+              "next_successes": 0,
+              "top8_successes": 1
+            },
+            "centered": {
+              "next_successes": 0,
+              "top8_successes": 2
+            },
+            "norm_matched": {
+              "next_successes": 0,
+              "top8_successes": 2
+            }
+          }
+        }
+      },
+      "history": {
+        "raw_raw": {
+          "n_later_states": 8,
+          "next_successes": 1,
+          "top8_successes": 1,
+          "mean_l1": 0.1312561733648181,
+          "mean_geometry": 0.5713051911443472
+        },
+        "raw_centered": {
+          "n_later_states": 8,
+          "next_successes": 1,
+          "top8_successes": 1,
+          "mean_l1": 0.13044428545981646,
+          "mean_geometry": 0.562840037047863
+        },
+        "raw_norm_matched": {
+          "n_later_states": 8,
+          "next_successes": 1,
+          "top8_successes": 1,
+          "mean_l1": 0.1309805829077959,
+          "mean_geometry": 0.5686206184327602
+        },
+        "centered_raw": {
+          "n_later_states": 8,
+          "next_successes": 1,
+          "top8_successes": 1,
+          "mean_l1": 0.13139051478356123,
+          "mean_geometry": 0.5765009466558695
+        },
+        "centered_centered": {
+          "n_later_states": 8,
+          "next_successes": 1,
+          "top8_successes": 1,
+          "mean_l1": 0.13049487490206957,
+          "mean_geometry": 0.5665298700332642
+        },
+        "centered_norm_matched": {
+          "n_later_states": 8,
+          "next_successes": 1,
+          "top8_successes": 1,
+          "mean_l1": 0.13110894989222288,
+          "mean_geometry": 0.5717374123632908
+        }
+      },
+      "run_locality_gate": false,
+      "action_sigma": 2.439604640007019,
+      "decision": "Always validate norm-matched fullpolicy; additionally test smooth action-distance gate with uniform/shuffled controls only when association direction repeats in both diagnostic splits. This is screening, not significance."
+    }
+  },
+  "plan_sha256": "27261f0f45a76edf05b14ff59e38433577e419b043eaf2527de958ac15080872"
+}

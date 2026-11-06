@@ -1,0 +1,477 @@
+{
+  "observed_utc": "2026-10-05T16:07:27.434648+00:00",
+  "scope": "Interim only: two dynamic seed0 models have completed cross evaluation, not all15",
+  "dynamic": {
+    "A_frozen_memory_s0": {
+      "auc_scenes": 58,
+      "base_auc": 0.6771577647938436,
+      "model_auc": 0.6859652512425589,
+      "closed": {
+        "full": {
+          "n": 20,
+          "solved9": 11,
+          "solved20": 12,
+          "base_solved9": 12,
+          "base_solved20": 12,
+          "cases": [
+            {
+              "task": "00000:024",
+              "first": 2,
+              "base_first": 2
+            },
+            {
+              "task": "00000:050",
+              "first": 15,
+              "base_first": 3
+            },
+            {
+              "task": "00000:055",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00000:069",
+              "first": 3,
+              "base_first": 4
+            },
+            {
+              "task": "00000:088",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:099",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:121",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:134",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:137",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:140",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00007:047",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:147",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:269",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:281",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:358",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:316",
+              "first": 2,
+              "base_first": 6
+            },
+            {
+              "task": "00014:456",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:466",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:562",
+              "first": 2,
+              "base_first": 5
+            },
+            {
+              "task": "00014:585",
+              "first": 0,
+              "base_first": 0
+            }
+          ]
+        },
+        "latest": {
+          "n": 20,
+          "solved9": 11,
+          "solved20": 11,
+          "base_solved9": 12,
+          "base_solved20": 12,
+          "cases": [
+            {
+              "task": "00000:024",
+              "first": 2,
+              "base_first": 2
+            },
+            {
+              "task": "00000:050",
+              "first": 0,
+              "base_first": 3
+            },
+            {
+              "task": "00000:055",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00000:069",
+              "first": 3,
+              "base_first": 4
+            },
+            {
+              "task": "00000:088",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:099",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:121",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:134",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:137",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:140",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00007:047",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:147",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:269",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:281",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:358",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:316",
+              "first": 2,
+              "base_first": 6
+            },
+            {
+              "task": "00014:456",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:466",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:562",
+              "first": 2,
+              "base_first": 5
+            },
+            {
+              "task": "00014:585",
+              "first": 0,
+              "base_first": 0
+            }
+          ]
+        }
+      },
+      "completion_sha256": "98bf19e79fc30f0324672d4b3956ae210c90fca127223deb17e3c08d78016cdc"
+    },
+    "B_pretrained_memory_s0": {
+      "auc_scenes": 58,
+      "base_auc": 0.6771577647938436,
+      "model_auc": 0.666612167103708,
+      "closed": {
+        "full": {
+          "n": 20,
+          "solved9": 11,
+          "solved20": 11,
+          "base_solved9": 12,
+          "base_solved20": 12,
+          "cases": [
+            {
+              "task": "00000:024",
+              "first": 2,
+              "base_first": 2
+            },
+            {
+              "task": "00000:050",
+              "first": 0,
+              "base_first": 3
+            },
+            {
+              "task": "00000:055",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00000:069",
+              "first": 1,
+              "base_first": 4
+            },
+            {
+              "task": "00000:088",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00002:099",
+              "first": 3,
+              "base_first": 1
+            },
+            {
+              "task": "00002:121",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00002:134",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:137",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:140",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00007:047",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:147",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:269",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:281",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:358",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:316",
+              "first": 1,
+              "base_first": 6
+            },
+            {
+              "task": "00014:456",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:466",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:562",
+              "first": 1,
+              "base_first": 5
+            },
+            {
+              "task": "00014:585",
+              "first": 0,
+              "base_first": 0
+            }
+          ]
+        },
+        "latest": {
+          "n": 20,
+          "solved9": 11,
+          "solved20": 12,
+          "base_solved9": 12,
+          "base_solved20": 12,
+          "cases": [
+            {
+              "task": "00000:024",
+              "first": 2,
+              "base_first": 2
+            },
+            {
+              "task": "00000:050",
+              "first": 20,
+              "base_first": 3
+            },
+            {
+              "task": "00000:055",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00000:069",
+              "first": 1,
+              "base_first": 4
+            },
+            {
+              "task": "00000:088",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00002:099",
+              "first": 3,
+              "base_first": 1
+            },
+            {
+              "task": "00002:121",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00002:134",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:137",
+              "first": 1,
+              "base_first": 1
+            },
+            {
+              "task": "00002:140",
+              "first": 2,
+              "base_first": 1
+            },
+            {
+              "task": "00007:047",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:147",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:269",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:281",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00007:358",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:316",
+              "first": 1,
+              "base_first": 6
+            },
+            {
+              "task": "00014:456",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:466",
+              "first": 0,
+              "base_first": 0
+            },
+            {
+              "task": "00014:562",
+              "first": 1,
+              "base_first": 5
+            },
+            {
+              "task": "00014:585",
+              "first": 0,
+              "base_first": 0
+            }
+          ]
+        }
+      },
+      "completion_sha256": "a7ceafecf28bf11c8ff4235c8ed83303150f9b854086325abc60c4a7f08fee87"
+    }
+  },
+  "fresh": {
+    "0": {
+      "auc_scenes": 58,
+      "base_auc": 0.6771577647938438,
+      "model_auc": 0.6683916067662551
+    },
+    "1": {
+      "auc_scenes": 58,
+      "base_auc": 0.6771577647938438,
+      "model_auc": 0.6652954278638583
+    },
+    "2": {
+      "auc_scenes": 58,
+      "base_auc": 0.6771577647938438,
+      "model_auc": 0.6679087124088354
+    }
+  },
+  "training_complete_checkpoints_verified": 15,
+  "passed": true
+}

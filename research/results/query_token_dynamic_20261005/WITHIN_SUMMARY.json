@@ -1,0 +1,742 @@
+{
+  "complete": true,
+  "audit_passed": true,
+  "provenance": {
+    "manifest": "e729f149c78cd7175e9fe4c4ac47f627447094c3c410ce45e7e6397f1cd816ad",
+    "code": {
+      "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+      "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+      "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+      "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+      "test_query_token_dynamic.py": "a2dff9d179e1d35e2d18af983d3d17d8e3853c9adfe15b6ddead8f97b4b17cbe",
+      "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+      "query_token_predictor.py": "66aa433f47a5f7926324b4ea604e7f927bcb2b34fb309c25f2b572d70026a04a",
+      "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc",
+      "query_token_dynamic.py": "cd10c9e83827aa4e1d400ae0b0f3240b5b5a5d7e7d29de4e5c3edffd17f086d4"
+    }
+  },
+  "arrays_verified": 9864,
+  "per_model": {
+    "A_frozen_memory_s0": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8463558111112514,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.07880644330924208,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 8.118146298747314
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8533253843670235,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.07880644330924208,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 8.50502328339376
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.65,
+          "success20": 0.75,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.49088946018549234,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.7,
+          "success20": 0.8,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.5159294576755276,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "B_pretrained_memory_s0": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8525218374114489,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08485457296301792,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 6.772923304846413
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8554606938760996,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08485457296301792,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.1921050485811735
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.65,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.47643853880615683,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.65,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.4764385388061568,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "C_random_memory_s0": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.7990870823535455,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11928961580836928,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 12.723425862036253
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.7947373169018195,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11928961580836928,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 13.864993424792038
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.5,
+          "success20": 0.65,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.43126967181548503,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.45,
+          "success20": 0.6,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.41237923122096803,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "D_pretrained_plain_s0": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8563771022286718,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08433454904656906,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 6.730192473844478
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8544594049966506,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08433454904656906,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.159364585813723
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.6,
+          "success20": 0.75,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.5214553199988285,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "E_random_plain_s0": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8016048579132741,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11970045127264865,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 13.147787467429513
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.7846826891260434,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11970045127264865,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 15.19466757774353
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.6,
+          "success20": 0.65,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.4223112177989773,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "A_frozen_memory_s1": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.861273802452792,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.07891014368309603,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 7.374591011750071
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8619168075047485,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.07891014368309603,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.857327812596371
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.55,
+          "success20": 0.65,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.46984733445253724,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.55,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.4714553199988286,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "B_pretrained_memory_s1": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8501802769462453,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08481722117050902,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 6.901420500717665
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8539150868077238,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08481722117050902,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.290954271429463
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.65,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.5233936733613482,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.65,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.5189879908268605,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "C_random_memory_s1": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8105667594557767,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11937124378882445,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 12.361718227988796
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8026392427358516,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11937124378882445,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 13.279846075334047
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.75,
+          "success20": 0.75,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.461390353900032,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.65,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.4259331777964057,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "D_pretrained_plain_s1": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8498530054615291,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08398253852864365,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 7.0988643655651495
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8562089524313388,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08398253852864365,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.32836199904743
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.65,
+          "success20": 0.8,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.507909270964749,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "E_random_plain_s1": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8109859792112473,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11875470021328369,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 13.538687301309485
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.7995036102603409,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11875470021328369,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 13.881161140768151
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.6,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.47171395427218804,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "A_frozen_memory_s2": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8556969066568221,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.0789039982119938,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 7.292105665332393
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8563227074716583,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.0789039982119938,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.641479004370539
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.6,
+          "success20": 0.75,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.4981829341193823,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.55,
+          "success20": 0.7,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.4803072255399769,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "B_pretrained_memory_s2": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8551931114089989,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08463098921559074,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 7.412559355560102
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8564527055683693,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08463098921559074,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.610415943359074
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.75,
+          "success20": 0.8,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.6133246972669422,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.75,
+          "success20": 0.85,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.6149683615953256,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "C_random_memory_s2": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.7933800030406172,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11988060805317644,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 13.823236838767404
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.7832661185644255,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.11988060805317644,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 14.953543186187744
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.8,
+          "success20": 0.9,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.5771186135587472,
+          "base_log_area20": 0.47785962362195766
+        },
+        "latest": {
+          "success9": 0.75,
+          "success20": 0.9,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.5677906475275515,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "D_pretrained_plain_s2": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8531952877037016,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08428005782234205,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 7.597188996641259
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8587579729981109,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.08428005782234205,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 7.794486171320865
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.45,
+          "success20": 0.8,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.42532178587361447,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    },
+    "E_random_plain_s2": {
+      "fixed": {
+        "original": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8284868189009503,
+            "memory_auc": 0.8216577531515717,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.12038799926832125,
+            "base_success_surface_mae": 6.895097042384901,
+            "memory_success_surface_mae": 12.830451416341882
+          }
+        },
+        "predicted_mix_s0": {
+          "within_natural": {
+            "total_scenes": 100,
+            "nonempty_scenes": 77,
+            "auc_scenes": 76,
+            "base_auc": 0.8420294316622582,
+            "memory_auc": 0.8172253845639812,
+            "base_l1": 0.07932334949637389,
+            "memory_l1": 0.12038799926832125,
+            "base_success_surface_mae": 6.662065742831481,
+            "memory_success_surface_mae": 13.662746078089663
+          }
+        }
+      },
+      "closed": {
+        "full": {
+          "success9": 0.6,
+          "success20": 0.65,
+          "base_success9": 0.6,
+          "base_success20": 0.7,
+          "log_area20": 0.47470820970178973,
+          "base_log_area20": 0.47785962362195766
+        }
+      }
+    }
+  },
+  "paired": {
+    "B_pretrained_memory__minus__D_pretrained_plain": {
+      "fixed_auc_pairs": 297,
+      "mean_auc_delta": -0.0015670456862407018,
+      "closed_mean_delta": {
+        "success9": 0.11666666666666667,
+        "success20": -0.05,
+        "log_area20": 0.05282351086575174
+      }
+    },
+    "C_random_memory__minus__E_random_plain": {
+      "fixed_auc_pairs": 297,
+      "mean_auc_delta": -0.008117624376457789,
+      "closed_mean_delta": {
+        "success9": 0.08333333333333333,
+        "success20": 0.1,
+        "log_area20": 0.0336817525004364
+      }
+    },
+    "B_pretrained_memory__minus__A_frozen_memory": {
+      "fixed_auc_pairs": 297,
+      "mean_auc_delta": -0.012723809863342577,
+      "closed_mean_delta": {
+        "success9": 0.08333333333333333,
+        "success20": 0.016666666666666666,
+        "log_area20": 0.05141239355901183
+      }
+    },
+    "B_pretrained_memory__minus__C_random_memory": {
+      "fixed_auc_pairs": 297,
+      "mean_auc_delta": 0.05539441962251428,
+      "closed_mean_delta": {
+        "success9": 0.0,
+        "success20": -0.03333333333333333,
+        "log_area20": 0.047792756720061
+      }
+    }
+  },
+  "limits": [
+    "Fixed20Kepisodes is not proof of convergence, especially random initialization",
+    "Same LR and scheduler across arms; not a per-arm optimal-hyperparameter comparison",
+    "Frozen encoder and geometry probe remain pretrained even in random predictor arms; baseline reference is evaluation only",
+    "Support training is random failure replay, NOT on-policy; policy collection is a later stage",
+    "Reused cross dev; within fresh generated seen-template tasks, not official within fold",
+    "Same data, optimizer steps and losses, but different FLOPs and parameter counts",
+    "Closed-loop paths differ across arms; fixed-prefix diagnostics isolate shared histories",
+    "Evaluation-only ablations can be out of distribution; reset-update/latest can retain history via dynamic residual, not strict latest-observation-only",
+    "Closed-loop20tasks/split is exploratory; report per-task and seeds"
+  ]
+}

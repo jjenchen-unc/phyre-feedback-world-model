@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "plan": "7bf8ff6299751c95b06df047ae69798fa05f3ebfc14ae322b827a29818563a89",
+  "trainable_names": [
+    "blocks.5.n1.weight",
+    "blocks.5.n1.bias",
+    "blocks.5.n2.weight",
+    "blocks.5.n2.bias",
+    "blocks.5.n3.weight",
+    "blocks.5.n3.bias",
+    "blocks.5.sp.qkv.weight",
+    "blocks.5.sp.qkv.bias",
+    "blocks.5.sp.o.weight",
+    "blocks.5.sp.o.bias",
+    "blocks.5.tm.qkv.weight",
+    "blocks.5.tm.qkv.bias",
+    "blocks.5.tm.o.weight",
+    "blocks.5.tm.o.bias",
+    "blocks.5.mlp.0.weight",
+    "blocks.5.mlp.0.bias",
+    "blocks.5.mlp.2.weight",
+    "blocks.5.mlp.2.bias",
+    "out.0.weight",
+    "out.0.bias"
+  ],
+  "depth3_gradients_and_reset": true,
+  "events": [
+    {
+      "replay_indices": [
+        0
+      ],
+      "losses": [
+        0.10616852343082428,
+        0.10353285074234009,
+        0.09961328655481339
+      ],
+      "grad_norms": [
+        0.03256326913833618,
+        0.06358318030834198,
+        0.040204256772994995
+      ],
+      "seconds": 0.25829808227717876
+    },
+    {
+      "replay_indices": [
+        0,
+        1
+      ],
+      "losses": [
+        0.1002318412065506,
+        0.10110490769147873,
+        0.09634126722812653
+      ],
+      "grad_norms": [
+        0.04298286512494087,
+        0.08311483263969421,
+        0.035530541092157364
+      ],
+      "seconds": 0.04944233223795891
+    },
+    {
+      "replay_indices": [
+        0,
+        1,
+        2
+      ],
+      "losses": [
+        0.10204463452100754,
+        0.10403072834014893,
+        0.09963074326515198
+      ],
+      "grad_norms": [
+        0.052626654505729675,
+        0.08963935077190399,
+        0.05249083787202835
+      ],
+      "seconds": 0.06863178964704275
+    }
+  ],
+  "closed_loop": {
+    "task": "00000:014",
+    "provenance": {
+      "smoke": true,
+      "plan": "7bf8ff6299751c95b06df047ae69798fa05f3ebfc14ae322b827a29818563a89"
+    },
+    "first_success": null,
+    "frozen_first_success": 15,
+    "budget": 3,
+    "attempts": 3,
+    "updates": [
+      {
+        "replay_indices": [
+          44
+        ],
+        "losses": [
+          0.14265687763690948
+        ],
+        "grad_norms": [
+          0.08680734783411026
+        ],
+        "seconds": 0.013370173051953316
+      },
+      {
+        "replay_indices": [
+          44,
+          511
+        ],
+        "losses": [
+          0.134053573012352
+        ],
+        "grad_norms": [
+          0.049278222024440765
+        ],
+        "seconds": 0.017041471786797047
+      }
+    ],
+    "ranking_seconds": 26.472554000094533,
+    "observation_seconds": 0.009447123855352402,
+    "adaptation_seconds": 0.030411644838750362,
+    "peak_gpu_GiB": 2.6071090698242188,
+    "reset_scores_exact": true,
+    "frozen_parameters_unchanged": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "utc": "2026-10-06T14:48:03.615276+00:00",
+  "scope": "Stage2 calibration32scenes, seen bystage1, fixed1failedsupport; not cross/within closed-loop",
+  "seeds": {
+    "0": {
+      "residual": {
+        "q0_auc": 0.8303793899168816,
+        "updated_auc": 0.8347177763136426
+      },
+      "zero": {
+        "q0_auc": 0.8303793899168816,
+        "updated_auc": 0.8278606536047335
+      }
+    },
+    "1": {
+      "residual": {
+        "q0_auc": 0.816669612455289,
+        "updated_auc": 0.8173578031202411
+      },
+      "zero": {
+        "q0_auc": 0.816669612455289,
+        "updated_auc": 0.8140965748026638
+      }
+    },
+    "2": {
+      "residual": {
+        "q0_auc": 0.7938615654780927,
+        "updated_auc": 0.8021962186127507
+      },
+      "zero": {
+        "q0_auc": 0.7938615654780927,
+        "updated_auc": 0.7959667132923802
+      }
+    }
+  },
+  "training": {
+    "q0_s0": {
+      "steps": 52272,
+      "checkpoint_verified": true,
+      "dev_initial": 0.11994920551776886,
+      "dev_final": 0.12255637884140015
+    },
+    "residual_s0": {
+      "steps": 10000,
+      "checkpoint_verified": true
+    },
+    "zero_s0": {
+      "steps": 10000,
+      "checkpoint_verified": true
+    },
+    "q0_s1": {
+      "steps": 52272,
+      "checkpoint_verified": true,
+      "dev_initial": 0.11994920551776886,
+      "dev_final": 0.12093686699867248
+    },
+    "residual_s1": {
+      "steps": 10000,
+      "checkpoint_verified": true
+    },
+    "zero_s1": {
+      "steps": 10000,
+      "checkpoint_verified": true
+    },
+    "q0_s2": {
+      "steps": 52272,
+      "checkpoint_verified": true,
+      "dev_initial": 0.11994920551776886,
+      "dev_final": 0.12096323922276497
+    },
+    "residual_s2": {
+      "steps": 10000,
+      "checkpoint_verified": true
+    },
+    "zero_s2": {
+      "steps": 10000,
+      "checkpoint_verified": true
+    }
+  },
+  "mean_auc": {
+    "q0": 0.8136368559500878,
+    "residual": 0.8180905993488781,
+    "zero": 0.8126413138999257
+  },
+  "paired_delta_ci": {
+    "residual_minus_q0": {
+      "mean": 0.0044537433987904,
+      "scene_bootstrap95_conditional_on_trained_models_and_templates": [
+        -0.00018530700185554852,
+        0.008837333891385498
+      ]
+    },
+    "residual_minus_zero": {
+      "mean": 0.00544928544895237,
+      "scene_bootstrap95_conditional_on_trained_models_and_templates": [
+        0.000988413675698019,
+        0.00970737646254373
+      ]
+    }
+  },
+  "passed": true
+}

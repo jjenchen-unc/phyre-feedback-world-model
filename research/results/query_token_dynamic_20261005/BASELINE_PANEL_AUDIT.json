@@ -1,0 +1,333 @@
+{
+  "base_sha256": "acbef9160a0a87b551ad02ae1e6085e55aab1964e6ff96c066b6a1fbeb39b866",
+  "head_sha256": "c711a69fbf9bb1fe5905f4f962579b44cf2faff97e44db37b02eddba38b64c90",
+  "splits": {
+    "cross": {
+      "old_panel_n": 20,
+      "old_s9": 12,
+      "old_s20": 12,
+      "full_n": 100,
+      "full_s9": 47,
+      "remaining_n": 80,
+      "remaining_s9": 35,
+      "raw_model_scene_comparisons": 300,
+      "per_template": {
+        "00000": {
+          "n": 5,
+          "s9": 5
+        },
+        "00002": {
+          "n": 5,
+          "s9": 5
+        },
+        "00007": {
+          "n": 5,
+          "s9": 0
+        },
+        "00014": {
+          "n": 5,
+          "s9": 2
+        }
+      },
+      "old_panel_rows": [
+        {
+          "task": "00000:024",
+          "template": "00000",
+          "first_success_rank": 2,
+          "in_old_panel": true
+        },
+        {
+          "task": "00000:050",
+          "template": "00000",
+          "first_success_rank": 3,
+          "in_old_panel": true
+        },
+        {
+          "task": "00000:055",
+          "template": "00000",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00000:069",
+          "template": "00000",
+          "first_success_rank": 4,
+          "in_old_panel": true
+        },
+        {
+          "task": "00000:088",
+          "template": "00000",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00002:099",
+          "template": "00002",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00002:121",
+          "template": "00002",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00002:134",
+          "template": "00002",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00002:137",
+          "template": "00002",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00002:140",
+          "template": "00002",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00007:047",
+          "template": "00007",
+          "first_success_rank": null,
+          "in_old_panel": true
+        },
+        {
+          "task": "00007:147",
+          "template": "00007",
+          "first_success_rank": 617,
+          "in_old_panel": true
+        },
+        {
+          "task": "00007:269",
+          "template": "00007",
+          "first_success_rank": 349,
+          "in_old_panel": true
+        },
+        {
+          "task": "00007:281",
+          "template": "00007",
+          "first_success_rank": 554,
+          "in_old_panel": true
+        },
+        {
+          "task": "00007:358",
+          "template": "00007",
+          "first_success_rank": null,
+          "in_old_panel": true
+        },
+        {
+          "task": "00014:316",
+          "template": "00014",
+          "first_success_rank": 6,
+          "in_old_panel": true
+        },
+        {
+          "task": "00014:456",
+          "template": "00014",
+          "first_success_rank": null,
+          "in_old_panel": true
+        },
+        {
+          "task": "00014:466",
+          "template": "00014",
+          "first_success_rank": null,
+          "in_old_panel": true
+        },
+        {
+          "task": "00014:562",
+          "template": "00014",
+          "first_success_rank": 5,
+          "in_old_panel": true
+        },
+        {
+          "task": "00014:585",
+          "template": "00014",
+          "first_success_rank": 51,
+          "in_old_panel": true
+        }
+      ]
+    },
+    "within": {
+      "old_panel_n": 20,
+      "old_s9": 12,
+      "old_s20": 14,
+      "full_n": 100,
+      "full_s9": 54,
+      "remaining_n": 80,
+      "remaining_s9": 42,
+      "raw_model_scene_comparisons": 300,
+      "per_template": {
+        "00003": {
+          "n": 2,
+          "s9": 1
+        },
+        "00005": {
+          "n": 2,
+          "s9": 2
+        },
+        "00006": {
+          "n": 2,
+          "s9": 0
+        },
+        "00011": {
+          "n": 2,
+          "s9": 2
+        },
+        "00016": {
+          "n": 2,
+          "s9": 1
+        },
+        "00017": {
+          "n": 2,
+          "s9": 2
+        },
+        "00018": {
+          "n": 2,
+          "s9": 2
+        },
+        "00019": {
+          "n": 2,
+          "s9": 1
+        },
+        "00020": {
+          "n": 2,
+          "s9": 0
+        },
+        "00021": {
+          "n": 2,
+          "s9": 1
+        }
+      },
+      "old_panel_rows": [
+        {
+          "task": "00003:139",
+          "template": "00003",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00003:177",
+          "template": "00003",
+          "first_success_rank": 13,
+          "in_old_panel": true
+        },
+        {
+          "task": "00005:146",
+          "template": "00005",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00005:148",
+          "template": "00005",
+          "first_success_rank": 2,
+          "in_old_panel": true
+        },
+        {
+          "task": "00006:022",
+          "template": "00006",
+          "first_success_rank": 49,
+          "in_old_panel": true
+        },
+        {
+          "task": "00006:059",
+          "template": "00006",
+          "first_success_rank": 35,
+          "in_old_panel": true
+        },
+        {
+          "task": "00011:179",
+          "template": "00011",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00011:724",
+          "template": "00011",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00016:255",
+          "template": "00016",
+          "first_success_rank": 5,
+          "in_old_panel": true
+        },
+        {
+          "task": "00016:326",
+          "template": "00016",
+          "first_success_rank": 64,
+          "in_old_panel": true
+        },
+        {
+          "task": "00017:059",
+          "template": "00017",
+          "first_success_rank": 1,
+          "in_old_panel": true
+        },
+        {
+          "task": "00017:113",
+          "template": "00017",
+          "first_success_rank": 2,
+          "in_old_panel": true
+        },
+        {
+          "task": "00018:030",
+          "template": "00018",
+          "first_success_rank": 2,
+          "in_old_panel": true
+        },
+        {
+          "task": "00018:168",
+          "template": "00018",
+          "first_success_rank": 8,
+          "in_old_panel": true
+        },
+        {
+          "task": "00019:114",
+          "template": "00019",
+          "first_success_rank": 2,
+          "in_old_panel": true
+        },
+        {
+          "task": "00019:382",
+          "template": "00019",
+          "first_success_rank": 36,
+          "in_old_panel": true
+        },
+        {
+          "task": "00020:136",
+          "template": "00020",
+          "first_success_rank": 25,
+          "in_old_panel": true
+        },
+        {
+          "task": "00020:170",
+          "template": "00020",
+          "first_success_rank": 18,
+          "in_old_panel": true
+        },
+        {
+          "task": "00021:006",
+          "template": "00021",
+          "first_success_rank": 5,
+          "in_old_panel": true
+        },
+        {
+          "task": "00021:013",
+          "template": "00021",
+          "first_success_rank": null,
+          "in_old_panel": true
+        }
+      ]
+    }
+  },
+  "passed": true,
+  "scene_and_template_overlap": false,
+  "selection": "Deterministic task hash per template, rederived from registered code; no outcome-based selection"
+}

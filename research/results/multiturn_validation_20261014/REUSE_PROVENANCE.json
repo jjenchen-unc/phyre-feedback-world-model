@@ -1,0 +1,15 @@
+{
+  "scope": "Post-audit retained source digests; full latent-file hashes not computed",
+  "sha256": {
+    "pipeline/make_rollouts.py": "d1a96e12e2967908ef6373a20044252becd9fffd56f387c66612deb2638ca84a",
+    "data/manifests/ball_cross_template_f1_train_s16r16.jsonl": "c01aca3ccef943fb6e54d06ca0f14bfea707de48f94dfc8321032606959fcadc",
+    "data/manifests/ball_cross_template_f1_train_s16r16.summary.json": "51222f39929a66eba58316121619f091102cc54f02889ae44e2ff61883cfa9d1",
+    "data/manifests/ball_cross_template_f1_train_clusters.jsonl": "b0abdfb0bcf9f59f78d84393e82c377703b9966cf810d6afacf25e099da01622",
+    "data/manifests/ball_cross_template_f1_train_clusters.summary.json": "62b5a6925f75b916ef7a36085e090e2f63830d16f9def37bb7d3996f423a5c98",
+    "data/manifests/ball_within_template_f0_train_s16r16.jsonl": "23a10e98bc6666d850ab30144b0eb6f17e7aeb5c5db68e9d6be6328941f93d6b",
+    "data/manifests/ball_within_template_f0_train_s16r16.summary.json": "141beac8893117e4104003e64c754131cc9c7cd29d36cf10548f07395eaafee9",
+    "data/manifests/ball_within_template_f0_train_clusters.jsonl": "03036873140f74eac8da64f0a12ff948c80a1b40e6074f6259bbc502e8dd5bd9",
+    "data/manifests/ball_within_template_f0_train_clusters.summary.json": "a4d7ca9f488d4785692140116d31fa269b277a8a93177ebbef8ecd66c972c99c",
+    "/mnt/meg/jjenchen/phyre-unc/latents/levjepa_overlap_g32_pca128/pca.pt": "99a4f73202ae3c8b0f0edb5e9b27f6a466d162308cea763e4d5d67f7c5b11469"
+  }
+}

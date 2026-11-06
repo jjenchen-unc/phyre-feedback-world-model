@@ -1,0 +1,7053 @@
+{
+  "amplitude": {
+    "complete": true,
+    "n": 20,
+    "first_failed": 19,
+    "summary": {
+      "bce_residual_s7919_a0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.35227169839104855
+      },
+      "bce_residual_s7919_a0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.3457670131888599
+      },
+      "bce_residual_s7919_a0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.3408085075974914
+      },
+      "bce_zero_s7919_a0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.37349535788767224
+      },
+      "bce_zero_s7919_a0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.36670288871022877
+      },
+      "bce_zero_s7919_a0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.3737577445676934
+      },
+      "pair_residual_s7919_a0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.35671341184630245
+      },
+      "pair_residual_s7919_a0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.3391870518508813
+      },
+      "pair_residual_s7919_a0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.32095257345538575
+      },
+      "pair_residual_s7920_a0.1": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 2,
+        "auc": 0.6243313993407709
+      },
+      "pair_residual_s7920_a0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.5889243747272078
+      },
+      "pair_residual_s7920_a0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 2,
+        "auc": 0.5049652658407753
+      },
+      "pair_zero_s7919_a0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.3968886855263524
+      },
+      "pair_zero_s7919_a0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.36028277594396
+      },
+      "pair_zero_s7919_a0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.3573089666992528
+      },
+      "pair_zero_s7920_a0.1": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 2,
+        "top8": 3,
+        "auc": 0.634105562180525
+      },
+      "pair_zero_s7920_a0.25": {
+        "top1": 0,
+        "top3": 2,
+        "top5": 3,
+        "top8": 3,
+        "auc": 0.6249334467320844
+      },
+      "pair_zero_s7920_a0.5": {
+        "top1": 2,
+        "top3": 2,
+        "top5": 2,
+        "top8": 2,
+        "auc": 0.5800478964430422
+      },
+      "q0": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 2,
+        "auc": 0.6256465420517417
+      }
+    },
+    "paired": {
+      "bce_residual_s7919_a0.1": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "bce_residual_s7919_a0.25": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "bce_residual_s7919_a0.5": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "bce_zero_s7919_a0.1": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "bce_zero_s7919_a0.25": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "bce_zero_s7919_a0.5": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_residual_s7919_a0.1": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_residual_s7919_a0.25": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_residual_s7919_a0.5": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_zero_s7919_a0.1": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_zero_s7919_a0.25": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_zero_s7919_a0.5": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 0,
+          "loss": 2
+        }
+      },
+      "pair_residual_s7920_a0.1": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 1,
+          "loss": 1
+        }
+      },
+      "pair_residual_s7920_a0.25": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 1,
+          "loss": 2
+        }
+      },
+      "pair_residual_s7920_a0.5": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 1,
+          "loss": 1
+        }
+      },
+      "pair_zero_s7920_a0.1": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 1,
+          "loss": 0
+        }
+      },
+      "pair_zero_s7920_a0.25": {
+        "top1": {
+          "gain": 0,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 1,
+          "loss": 0
+        }
+      },
+      "pair_zero_s7920_a0.5": {
+        "top1": {
+          "gain": 2,
+          "loss": 0
+        },
+        "top8": {
+          "gain": 1,
+          "loss": 1
+        }
+      }
+    }
+  },
+  "readouts": {
+    "complete": true,
+    "tasks": 100,
+    "max_score_error": {
+      "query8_readout": 8.881784197001252e-16,
+      "fullpool_readout": 8.881784197001252e-16
+    },
+    "features": 37
+  },
+  "contact": {
+    "complete": true,
+    "panels": {
+      "discovery": {
+        "n": 16,
+        "first_failed": 12,
+        "summary": {
+          "contact01_residual": {
+            "top1": 1,
+            "top3": 1,
+            "top5": 2,
+            "top8": 3,
+            "auc": 0.677008274928678
+          },
+          "contact01_zero": {
+            "top1": 1,
+            "top3": 2,
+            "top5": 2,
+            "top8": 2,
+            "auc": 0.6503934697636172
+          },
+          "contact1_residual": {
+            "top1": 0,
+            "top3": 2,
+            "top5": 4,
+            "top8": 7,
+            "auc": 0.6424010152284477
+          },
+          "contact1_zero": {
+            "top1": 2,
+            "top3": 2,
+            "top5": 5,
+            "top8": 5,
+            "auc": 0.6658019026404612
+          },
+          "prediction_residual": {
+            "top1": 1,
+            "top3": 2,
+            "top5": 2,
+            "top8": 3,
+            "auc": 0.645823629191463
+          },
+          "prediction_zero": {
+            "top1": 0,
+            "top3": 0,
+            "top5": 3,
+            "top8": 4,
+            "auc": 0.6829637201892584
+          },
+          "q0": {
+            "top1": 0,
+            "top3": 2,
+            "top5": 5,
+            "top8": 5,
+            "auc": 0.6758259526234383
+          }
+        },
+        "paired": {
+          "contact01_residual vs q0": {
+            "top1": {
+              "gain": 1,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 3
+            }
+          },
+          "contact01_residual vs prediction_residual": {
+            "top1": {
+              "gain": 0,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0
+            }
+          },
+          "contact01_residual vs contact01_zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0
+            }
+          },
+          "contact01_zero vs q0": {
+            "top1": {
+              "gain": 1,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 3
+            }
+          },
+          "contact01_zero vs prediction_zero": {
+            "top1": {
+              "gain": 1,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 2
+            }
+          },
+          "contact1_residual vs q0": {
+            "top1": {
+              "gain": 0,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 1
+            }
+          },
+          "contact1_residual vs prediction_residual": {
+            "top1": {
+              "gain": 0,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 0
+            }
+          },
+          "contact1_residual vs contact1_zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 2
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 1
+            }
+          },
+          "contact1_zero vs q0": {
+            "top1": {
+              "gain": 2,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 2
+            }
+          },
+          "contact1_zero vs prediction_zero": {
+            "top1": {
+              "gain": 2,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 2
+            }
+          }
+        },
+        "losses": {
+          "contact01_residual": {
+            "prediction": 0.17526574557026228,
+            "l1": 0.10273340220252673,
+            "geometry": 0.7253234311938286,
+            "bce": 0.2696642100817039,
+            "pair": 0.3819189734870019,
+            "contact": 0.12140635742495458
+          },
+          "contact01_zero": {
+            "prediction": 0.1757920365780592,
+            "l1": 0.10115408649047215,
+            "geometry": 0.746379479765892,
+            "bce": 0.2542769533025831,
+            "pair": 0.2680086103568707,
+            "contact": 0.12657846758762994
+          },
+          "contact1_residual": {
+            "prediction": 0.19719417641560236,
+            "l1": 0.11359825419882934,
+            "geometry": 0.8359592060248057,
+            "bce": 0.2766525034984555,
+            "pair": 0.3595361942932964,
+            "contact": 0.14179286950578293
+          },
+          "contact1_zero": {
+            "prediction": 0.20022345210115114,
+            "l1": 0.11823878499368827,
+            "geometry": 0.8198466474811236,
+            "bce": 0.2981651967634999,
+            "pair": 0.5851703924976129,
+            "contact": 0.12914344955546161
+          }
+        },
+        "per_scene": {
+          "00003:008": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7239254007792042
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6117178684720359
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7117263843648208
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7016350514147027
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.6494113389112431
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7156543399118606
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.6952694215579825
+            }
+          },
+          "00004:305": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5986601225705699
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6276229970735292
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6902468471542368
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6336531016653325
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6841576882193147
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6748336636002152
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.681250902219131
+            }
+          },
+          "00006:045": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8758581235697941
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9005160416569373
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8752276654368841
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7419908466819222
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9713608555550367
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8561854947928829
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9289683836921496
+            }
+          },
+          "00009:478": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7668818272095332
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7995903674280039
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6511916583912611
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8792825223435948
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9220456802383317
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6567154915590864
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7531653426017875
+            }
+          },
+          "00012:067": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.5942622950819673
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.5415504011161493
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.5192274154168119
+            },
+            "contact1_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.603374607603767
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.5225191838158354
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.5565922567143355
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.5681461457970004
+            }
+          },
+          "00016:126": {
+            "contact01_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.507777695474122
+            },
+            "contact01_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.6159511539560428
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.42092676267976
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.4994973598162982
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.6502735420789199
+            },
+            "prediction_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.5125395498460333
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.47780975862689284
+            }
+          },
+          "00018:009": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5520407840157057
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5231943257021627
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.40505367151135174
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.4243532503720592
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.519315411164941
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4878091257401602
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.48681169057344603
+            }
+          },
+          "00019:013": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.750421822272216
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.547244094488189
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.8956692913385826
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7260967379077615
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7162542182227222
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6213442069741283
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.734533183352081
+            }
+          },
+          "00020:011": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4981481481481482
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4539021164021164
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4238095238095238
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5375661375661376
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3494708994708995
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4779761904761905
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5320767195767195
+            }
+          },
+          "00021:002": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7968726829348668
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7772898782356528
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7528875780593498
+            },
+            "contact1_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.801436786343939
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7507043878004976
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7434380715427329
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8215880443558353
+            }
+          },
+          "00022:258": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00024:048": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7822421221593309
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7557489228689702
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.7204443693503422
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7749345273295598
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6985722733800794
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8009715299484667
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8329813297288164
+            }
+          }
+        }
+      },
+      "confirmation": {
+        "n": 16,
+        "first_failed": 10,
+        "summary": {
+          "contact01_residual": {
+            "top1": 1,
+            "top3": 2,
+            "top5": 3,
+            "top8": 4,
+            "auc": 0.7502220965076752
+          },
+          "contact01_zero": {
+            "top1": 0,
+            "top3": 1,
+            "top5": 2,
+            "top8": 3,
+            "auc": 0.7127939771121767
+          },
+          "contact1_residual": {
+            "top1": 1,
+            "top3": 4,
+            "top5": 4,
+            "top8": 5,
+            "auc": 0.7777710033357838
+          },
+          "contact1_zero": {
+            "top1": 0,
+            "top3": 2,
+            "top5": 3,
+            "top8": 4,
+            "auc": 0.7387669436279403
+          },
+          "prediction_residual": {
+            "top1": 1,
+            "top3": 1,
+            "top5": 1,
+            "top8": 2,
+            "auc": 0.7151881271666696
+          },
+          "prediction_zero": {
+            "top1": 0,
+            "top3": 1,
+            "top5": 1,
+            "top8": 1,
+            "auc": 0.6859398840723662
+          },
+          "q0": {
+            "top1": 1,
+            "top3": 1,
+            "top5": 1,
+            "top8": 1,
+            "auc": 0.7332345151867434
+          }
+        },
+        "paired": {
+          "contact01_residual vs q0": {
+            "top1": {
+              "gain": 1,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 1
+            }
+          },
+          "contact01_residual vs prediction_residual": {
+            "top1": {
+              "gain": 0,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 0
+            }
+          },
+          "contact01_residual vs contact01_zero": {
+            "top1": {
+              "gain": 1,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0
+            }
+          },
+          "contact01_zero vs q0": {
+            "top1": {
+              "gain": 0,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 1
+            }
+          },
+          "contact01_zero vs prediction_zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 0
+            }
+          },
+          "contact1_residual vs q0": {
+            "top1": {
+              "gain": 1,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 0
+            }
+          },
+          "contact1_residual vs prediction_residual": {
+            "top1": {
+              "gain": 1,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 0
+            }
+          },
+          "contact1_residual vs contact1_zero": {
+            "top1": {
+              "gain": 1,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 2
+            }
+          },
+          "contact1_zero vs q0": {
+            "top1": {
+              "gain": 0,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 1
+            }
+          },
+          "contact1_zero vs prediction_zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 0
+            }
+          }
+        },
+        "losses": {
+          "contact01_residual": {
+            "prediction": 0.17750426530838012,
+            "l1": 0.09998563677072525,
+            "geometry": 0.7751862734556199,
+            "bce": 0.22066476392393786,
+            "pair": 0.21158083930697788,
+            "contact": 0.10851550586521626
+          },
+          "contact01_zero": {
+            "prediction": 0.17445836141705512,
+            "l1": 0.09844269156455994,
+            "geometry": 0.7601566910743713,
+            "bce": 0.305779469357734,
+            "pair": 0.4523388777829379,
+            "contact": 0.11389307007193565
+          },
+          "contact1_residual": {
+            "prediction": 0.18226076364517213,
+            "l1": 0.10920455753803253,
+            "geometry": 0.7305620610713959,
+            "bce": 0.20278247520378012,
+            "pair": 0.20886112118152295,
+            "contact": 0.10665494855493307
+          },
+          "contact1_zero": {
+            "prediction": 0.1993598982691765,
+            "l1": 0.11486131325364113,
+            "geometry": 0.844985830783844,
+            "bce": 0.21364664447427523,
+            "pair": 0.22180411384624668,
+            "contact": 0.11395671516656876
+          }
+        },
+        "per_scene": {
+          "00003:013": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8427496606554198
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8444522008919915
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7927341477603258
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8386833430288928
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8001764591816948
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7786154741128564
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7608667830133798
+            }
+          },
+          "00011:132": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7181739130434782
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5463478260869565
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7419565217391304
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.554304347826087
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6458260869565218
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6524782608695652
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5802173913043478
+            }
+          },
+          "00016:271": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5251691319802775
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.45233727019072734
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6150861904215877
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4819210335206207
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5474716202270382
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.49484004127966974
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4651607231586592
+            }
+          },
+          "00017:047": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9264738110891957
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7603550295857988
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9235152312075389
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9203374972605742
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8257725180802103
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9167214551829936
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8170063554678939
+            }
+          },
+          "00018:013": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8661295736824438
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8692849949647533
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.9013763007720712
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8955689828801612
+            },
+            "q0": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7975159449479691
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8097683786505538
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8024840550520309
+            }
+          },
+          "00019:337": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.8546957671957672
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7427248677248677
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.85244708994709
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.924537037037037
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8498677248677249
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7472222222222222
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8354497354497354
+            }
+          },
+          "00020:018": {
+            "contact01_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.6870893359996735
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7535709913071869
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7048320613802391
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7097396237195446
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6550524425580542
+            },
+            "prediction_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.769650655021834
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.646002530302412
+            }
+          },
+          "00021:015": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9299164660908962
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.8957241965170607
+            },
+            "contact1_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9130681013733541
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8681863230921705
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8704516494407476
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.904714710462976
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9343055358912643
+            }
+          },
+          "00022:322": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4056603773584906
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4949106256206554
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.586395233366435
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4194389275074479
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5824230387288977
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3476911618669315
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3176514399205561
+            }
+          },
+          "00024:139": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7461629279811098
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7682317682317682
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7462991553900645
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7749523204068659
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.757787666878576
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7301789119970938
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7002542911633821
+            }
+          }
+        }
+      },
+      "cross100": {
+        "n": 100,
+        "first_failed": 97,
+        "summary": {
+          "contact01_residual": {
+            "top1": 2,
+            "top3": 6,
+            "top5": 6,
+            "top8": 8,
+            "auc": 0.4744720206420295
+          },
+          "contact01_zero": {
+            "top1": 0,
+            "top3": 2,
+            "top5": 3,
+            "top8": 6,
+            "auc": 0.5067026223731912
+          },
+          "contact1_residual": {
+            "top1": 2,
+            "top3": 4,
+            "top5": 4,
+            "top8": 5,
+            "auc": 0.4671546917276121
+          },
+          "contact1_zero": {
+            "top1": 4,
+            "top3": 5,
+            "top5": 7,
+            "top8": 8,
+            "auc": 0.41928951192783
+          },
+          "prediction_residual": {
+            "top1": 2,
+            "top3": 3,
+            "top5": 5,
+            "top8": 7,
+            "auc": 0.5074228276870191
+          },
+          "prediction_zero": {
+            "top1": 3,
+            "top3": 3,
+            "top5": 5,
+            "top8": 6,
+            "auc": 0.5035878721853763
+          },
+          "q0": {
+            "top1": 2,
+            "top3": 5,
+            "top5": 6,
+            "top8": 8,
+            "auc": 0.5518208403967011
+          }
+        },
+        "paired": {
+          "contact01_residual vs q0": {
+            "top1": {
+              "gain": 2,
+              "loss": 2
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 3
+            }
+          },
+          "contact01_residual vs prediction_residual": {
+            "top1": {
+              "gain": 1,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0
+            }
+          },
+          "contact01_residual vs contact01_zero": {
+            "top1": {
+              "gain": 2,
+              "loss": 0
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 1
+            }
+          },
+          "contact01_zero vs q0": {
+            "top1": {
+              "gain": 0,
+              "loss": 2
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 4
+            }
+          },
+          "contact01_zero vs prediction_zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 3
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 2
+            }
+          },
+          "contact1_residual vs q0": {
+            "top1": {
+              "gain": 1,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 5
+            }
+          },
+          "contact1_residual vs prediction_residual": {
+            "top1": {
+              "gain": 1,
+              "loss": 1
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 4
+            }
+          },
+          "contact1_residual vs contact1_zero": {
+            "top1": {
+              "gain": 2,
+              "loss": 4
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 5
+            }
+          },
+          "contact1_zero vs q0": {
+            "top1": {
+              "gain": 4,
+              "loss": 2
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 3
+            }
+          },
+          "contact1_zero vs prediction_zero": {
+            "top1": {
+              "gain": 3,
+              "loss": 2
+            },
+            "top8": {
+              "gain": 6,
+              "loss": 4
+            }
+          }
+        },
+        "losses": {},
+        "per_scene": {
+          "00008:062": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.41756801048836445
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3185840707964602
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.32595870206489674
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4095378564405113
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.32907243526712554
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3169452638479187
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4552605703048181
+            }
+          },
+          "00008:070": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3327827728379117
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.29340320898117334
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.30453032636232674
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3139436689682579
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.29167701554815956
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3905667875416025
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3159058168993095
+            }
+          },
+          "00008:120": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.25352565499803825
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3356837699986922
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.15081847508609791
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2593999302497929
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4821646540825668
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.21692859322551114
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3121975674615284
+            }
+          },
+          "00008:144": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.29378260869565215
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3413913043478261
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3053913043478261
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.28656521739130436
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4147391304347826
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.33995652173913044
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4539565217391304
+            }
+          },
+          "00008:197": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5196304347826087
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4677826086956522
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5239565217391304
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4731304347826087
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6449565217391304
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6769347826086957
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7526956521739131
+            }
+          },
+          "00008:206": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1562825182101977
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.18463839750260147
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.20034469302809574
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3077523413111342
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3717969562955255
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1259105098855359
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4934963579604579
+            }
+          },
+          "00008:256": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.35935960591133004
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3564039408866995
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3163793103448276
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3226600985221675
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.34926108374384235
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.31761083743842367
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3975369458128079
+            }
+          },
+          "00008:257": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.07689543657923105
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.074200503054258
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.06072583542939274
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.12405677326625943
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1674901185770751
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.07527847646424722
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.08956162414660439
+            }
+          },
+          "00008:263": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00008:273": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00008:276": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00008:442": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.37355839798699936
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.33854057454392955
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.37785699308031034
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5938351855734955
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3739777731180541
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.405011532816104
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.27547703921157474
+            }
+          },
+          "00008:488": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.23713163064833007
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.22730844793713162
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.10982318271119842
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.12180746561886051
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2643418467583497
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.250098231827112
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.24027504911591355
+            }
+          },
+          "00008:499": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.30589622641509434
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3808355795148248
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1856132075471698
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2422911051212938
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.38199460916442046
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2003032345013477
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3016711590296496
+            }
+          },
+          "00008:527": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.43083675492000567
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3674784086082401
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3242956250884893
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.340223700976922
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.40528104205012033
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4124309783378168
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3784510831091604
+            }
+          },
+          "00008:532": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5752826086956522
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5066521739130435
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.534695652173913
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5470869565217391
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.44217391304347825
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.661804347826087
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6526304347826087
+            }
+          },
+          "00008:586": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5942230070635721
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4778317356205853
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4080789606458123
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5277497477295661
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4940085771947528
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5801589303733602
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6546575428859738
+            }
+          },
+          "00008:601": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5741071428571428
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5487103174603175
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.43677248677248676
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3048941798941799
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5398809523809524
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5838293650793651
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5925925925925926
+            }
+          },
+          "00008:618": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3026246948029299
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3367195674921521
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.38498430415068013
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3043032786885246
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.29771974189047784
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3226587024764562
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3709452389257063
+            }
+          },
+          "00008:619": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6106758080313418
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6606268364348677
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6772771792360431
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7566111655239961
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.23114593535749264
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5670910871694417
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.31733594515181196
+            }
+          },
+          "00010:025": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2035225048923679
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.21135029354207435
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.22309197651663404
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.18101761252446183
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.20841487279843443
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.21037181996086105
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2035225048923679
+            }
+          },
+          "00010:048": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:051": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5262512266928361
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.44013738959764476
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5615799803729146
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.133954857703631
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.21712463199214915
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.40014720314033364
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6226692836113837
+            }
+          },
+          "00010:102": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4597883597883598
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4474867724867725
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.44126984126984126
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5044973544973544
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5860449735449735
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5507936507936508
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4978174603174603
+            }
+          },
+          "00010:113": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:190": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1396060749881348
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.12325581395348838
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.20576649264356905
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1211438063597532
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.21148552444233507
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2083768391077361
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.20806834361651638
+            }
+          },
+          "00010:278": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:286": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:298": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4866013071895425
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.48398692810457516
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4823529411764706
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.48627450980392156
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.48137254901960785
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4892156862745098
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4872549019607843
+            }
+          },
+          "00010:370": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:379": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.02123629112662014
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1244765702891326
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.0211864406779661
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.041674975074775675
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.26719840478564305
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.10319042871385843
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.020139581256231307
+            }
+          },
+          "00010:386": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:387": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:397": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9467320261437908
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9467320261437908
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9800653594771241
+            },
+            "contact1_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9826797385620915
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9934640522875817
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.923202614379085
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9251633986928105
+            }
+          },
+          "00010:428": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8992172211350293
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5185909980430529
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8473581213307241
+            },
+            "contact1_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 1.0
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.11643835616438356
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9921722113502935
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4324853228962818
+            }
+          },
+          "00010:438": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.797384701912261
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6524184476940382
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9250562429696289
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7387514060742407
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8672665916760405
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8484251968503937
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.890607424071991
+            }
+          },
+          "00010:448": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:454": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00010:459": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.33464180569185475
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.34666339548577035
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3991658488714426
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5112855740922473
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6207065750736016
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.41069676153091267
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3471540726202159
+            }
+          },
+          "00010:469": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00013:011": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00013:019": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6170872386445566
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6664167267483778
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.5747080028839221
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.55633741888969
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6597981254506128
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6741888968997837
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6099351117519827
+            }
+          },
+          "00013:025": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.4645070751958835
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7063501344871945
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4212957548824699
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.17647058823529413
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7435972400888785
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.4323470939071454
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.715998128873816
+            }
+          },
+          "00013:064": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00013:078": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9564400221116639
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9424543946932007
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.891044776119403
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.6092868988391377
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9656716417910448
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9525152017689331
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9487009397457159
+            }
+          },
+          "00013:081": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.13115653040877367
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.531555333998006
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.35767696909272184
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.09840478564307079
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.614356929212363
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3822033898305085
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.22308075772681954
+            }
+          },
+          "00013:083": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9156485806683435
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9483471074380165
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8755839022637442
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2864714337046353
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.943496227093065
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9547251167804528
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9431369026230686
+            }
+          },
+          "00013:144": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00013:146": {
+            "contact01_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7499726860082836
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7765864463006923
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7089123071880494
+            },
+            "contact1_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.40326377370109556
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7869607969726164
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7439040136669283
+            },
+            "prediction_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7676224908373973
+            }
+          },
+          "00013:164": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7615992102665351
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8694965449160909
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7579466929911155
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4175715695952616
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6331688055281343
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6854886475814412
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6475814412635735
+            }
+          },
+          "00013:172": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2767915844838922
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.0698005698005698
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.028928336620644313
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2274819197896121
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.591606399298707
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.06158229235152312
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.0650887573964497
+            }
+          },
+          "00013:179": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2581746316924183
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3245598275242544
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1753503413582465
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.056593604024434065
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.27865612648221344
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.27398490837226014
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2604204096298958
+            }
+          },
+          "00013:207": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00013:210": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4616421128278836
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.558300395256917
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.28952569169960474
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.023984908372260152
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6048329141214517
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.40379087315846207
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.45373697448796263
+            }
+          },
+          "00013:212": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00013:222": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7791164658634538
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8188308790718429
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.13293916406366205
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.26747731667410385
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9453369031682285
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8331845902127026
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.821508255243195
+            }
+          },
+          "00013:263": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.10405255607720397
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.2521803273343766
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.14694591158059467
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.14057202008346376
+            },
+            "q0": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.632347906885759
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2309027777777778
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.24244017344809599
+            }
+          },
+          "00013:271": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.30980392156862746
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7127450980392157
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2633986928104575
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.09542483660130718
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7836601307189542
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6316993464052287
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6506535947712418
+            }
+          },
+          "00013:281": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.8313216415405029
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7415788716407412
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4408482678134642
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.19628782913142875
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.7572380937155281
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7722818180364822
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7236335150517178
+            }
+          },
+          "00015:185": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:279": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:296": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.15264187866927592
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2984344422700587
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.025440313111545987
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.461839530332681
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.15166340508806261
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.08317025440313111
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.16046966731898238
+            }
+          },
+          "00015:319": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.32336503169836506
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.288038038038038
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2475809142475809
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.47072072072072074
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.24574574574574576
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2265598932265599
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2511678345011678
+            }
+          },
+          "00015:339": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:341": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5584967320261438
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7137254901960784
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.800326797385621
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8522875816993464
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8490196078431372
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7261437908496732
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6271241830065359
+            }
+          },
+          "00015:358": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:371": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:372": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.34344422700587085
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.45596868884540115
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7025440313111546
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8062622309197651
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8551859099804305
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5919765166340509
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.547945205479452
+            }
+          },
+          "00015:379": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:386": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.48893271970195046
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7296734604426912
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7279202279202279
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.67313171159325
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8824238439623056
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8628095551172474
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6045364891518737
+            }
+          },
+          "00015:407": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6675662414131501
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7210500490677134
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5615799803729146
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7688910696761531
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7789499509322866
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7465652600588812
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7416584887144259
+            }
+          },
+          "00015:424": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3305582761998041
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6914789422135161
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6689520078354554
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7149853085210578
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.777179236043095
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7223310479921645
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5254652301665035
+            }
+          },
+          "00015:457": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8749165832499166
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9295128461795128
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8766266266266266
+            },
+            "contact1_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9180430430430431
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7987570904237571
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9064898231564898
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.933641975308642
+            }
+          },
+          "00015:460": {
+            "contact01_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.5967156310100139
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.6728977385768287
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.493525764307978
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.23056900324955235
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.8648534385569335
+            },
+            "prediction_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.5636978579481398
+            },
+            "prediction_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.45686882419258573
+            }
+          },
+          "00015:472": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00015:480": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.9980430528375733
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.9941291585127201
+            },
+            "contact1_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 1.0
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9001956947162426
+            },
+            "q0": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 1.0
+            },
+            "prediction_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 1.0
+            },
+            "prediction_zero": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 1.0
+            }
+          },
+          "00015:485": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.761863640519755
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6117381719173838
+            },
+            "contact1_residual": {
+              "top1": 1,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.859556440552265
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 1,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.894514939399173
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.6924292143735206
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.737491237516636
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.6982149932439984
+            }
+          },
+          "00023:008": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:031": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:240": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.15110672802980496
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.232632040324348
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.13039666885820733
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.14869603331141792
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.28621520929213234
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.17094017094017094
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.18408941485864563
+            }
+          },
+          "00023:320": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:385": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:428": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:471": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:490": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:506": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.12467515732050428
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.2704516655570112
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.09874143596572238
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.16607246407937973
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.20184274392732116
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1007602929490346
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.16582547625695324
+            }
+          },
+          "00023:740": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:754": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:757": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:767": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:839": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9911937377690803
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9882583170254403
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9814090019569471
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.22798434442270057
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.987279843444227
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9726027397260274
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.9833659491193738
+            }
+          },
+          "00023:883": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:918": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          },
+          "00023:925": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4561961411082368
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4703992354714867
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5579987148012061
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4837537690926167
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.5002224382527887
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.4689822214166845
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.456047848939711
+            }
+          },
+          "00023:930": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.698941798941799
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7394179894179894
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7317460317460317
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 1,
+              "top8": 1,
+              "auc": 0.7530423280423281
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.7354497354497355
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.7568783068783069
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 1,
+              "auc": 0.7222222222222222
+            }
+          },
+          "00023:959": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.15426052889324193
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.14985308521057786
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.8511263467189031
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.3550440744368266
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.40646425073457393
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.1802154750244858
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": 0.38638589618021546
+            }
+          },
+          "00023:974": {
+            "contact01_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact01_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "contact1_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "q0": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_residual": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            },
+            "prediction_zero": {
+              "top1": 0,
+              "top3": 0,
+              "top5": 0,
+              "top8": 0,
+              "auc": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "loss_controls": {
+    "complete": true,
+    "summary": {
+      "discovery": {
+        "q0": {
+          "l1": 0.10183114216973384,
+          "geometry": 0.7989573776721954,
+          "contact": 0.14373844830940166
+        },
+        "prediction_residual": {
+          "l1": 0.10581157108147939,
+          "geometry": 0.7710939745108286,
+          "contact": 0.12447008521606524
+        },
+        "prediction_zero": {
+          "l1": 0.10763591217497985,
+          "geometry": 0.7832102651397387,
+          "contact": 0.12697924906387925
+        },
+        "bce_residual": {
+          "l1": 0.15517027055223784,
+          "geometry": 1.053168383737405,
+          "contact": 0.1595273622466872
+        },
+        "pair_residual": {
+          "l1": 0.14873508674403033,
+          "geometry": 1.0625434269507725,
+          "contact": 0.16813582360434035
+        },
+        "contact01_residual": {
+          "l1": 0.10273340220252673,
+          "geometry": 0.7253234311938286,
+          "contact": 0.12140635742495458
+        },
+        "contact01_zero": {
+          "l1": 0.10115408649047215,
+          "geometry": 0.746379479765892,
+          "contact": 0.12657846758762994
+        },
+        "contact1_residual": {
+          "l1": 0.11359825419882934,
+          "geometry": 0.8359592060248057,
+          "contact": 0.14179286950578293
+        },
+        "contact1_zero": {
+          "l1": 0.11823878499368827,
+          "geometry": 0.8198466474811236,
+          "contact": 0.12914344955546161
+        }
+      },
+      "confirmation": {
+        "q0": {
+          "l1": 0.099748295545578,
+          "geometry": 0.8384013861417771,
+          "contact": 0.12567412666976452
+        },
+        "prediction_residual": {
+          "l1": 0.10183807313442231,
+          "geometry": 0.7882631599903107,
+          "contact": 0.12357189245522023
+        },
+        "prediction_zero": {
+          "l1": 0.10316082462668419,
+          "geometry": 0.7499604791402816,
+          "contact": 0.11662149913609028
+        },
+        "bce_residual": {
+          "l1": 0.15317281633615493,
+          "geometry": 1.0342999428510666,
+          "contact": 0.13760880287736654
+        },
+        "pair_residual": {
+          "l1": 0.14731226563453675,
+          "geometry": 0.9907134562730789,
+          "contact": 0.12207549922168255
+        },
+        "contact01_residual": {
+          "l1": 0.09998563677072525,
+          "geometry": 0.7751862734556199,
+          "contact": 0.10851550586521626
+        },
+        "contact01_zero": {
+          "l1": 0.09844269156455994,
+          "geometry": 0.7601566910743713,
+          "contact": 0.11389307007193565
+        },
+        "contact1_residual": {
+          "l1": 0.10920455753803253,
+          "geometry": 0.7305620610713959,
+          "contact": 0.10665494855493307
+        },
+        "contact1_zero": {
+          "l1": 0.11486131325364113,
+          "geometry": 0.844985830783844,
+          "contact": 0.11395671516656876
+        }
+      }
+    },
+    "scope": "Matched frozen-checkpoint forward replay. Original geometry code reused; not independent geometry derivation."
+  }
+}

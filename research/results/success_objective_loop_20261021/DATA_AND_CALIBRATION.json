@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "plan": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "splits": {
+    "fit": {
+      "n": 64,
+      "active": 53,
+      "queries": 424,
+      "positives": 32,
+      "mixed_label_scenes": 20,
+      "torch_score_maxerr": 3.312433199120779e-06,
+      "all_chunk_orders_equal": true
+    },
+    "discovery": {
+      "n": 16,
+      "active": 12,
+      "queries": 96,
+      "positives": 6,
+      "mixed_label_scenes": 4,
+      "torch_score_maxerr": 3.9653301975306476e-08,
+      "all_chunk_orders_equal": true
+    },
+    "confirmation": {
+      "n": 16,
+      "active": 10,
+      "queries": 80,
+      "positives": 5,
+      "mixed_label_scenes": 4,
+      "torch_score_maxerr": 2.842170943040401e-14,
+      "all_chunk_orders_equal": true
+    }
+  },
+  "slope": 0.11795244418199291,
+  "intercept": -2.422090986846951,
+  "fit_bce": 0.28737921018983853,
+  "fit_positive_rate": 0.08971024917464357,
+  "calibration_scope": "FIT first-failure Q0 full1023 pools only; positive scalar slope preserves every rank; frozen for both BCE and pair loss",
+  "fit_scenes": 53
+}

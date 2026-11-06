@@ -1,0 +1,55 @@
+{
+  "source_plan_sha256": "50af0ef0ab70b2b7bcf1a3a0dffbc6849ae692ed8e3a2ddd72c531577ff0078e",
+  "source_summary_sha256": "b6a8e20f80279abdab6ea535bb4d4c783a0103f94ad092a39ac0f07626a663e1",
+  "diagnostic_code_sha256": "6e901590076ce33c27fd27c20b9c1f6f68c83c940880038481c0b06562d55abf",
+  "parent_plan_sha256": "179a531663ba2ce00e16b677682b6eb8fe5ede83b747eab64bb9b6524cafc6f9",
+  "decomposition": "Per-channel mean over pooled time/space tokens; preserve channel structure. mean_only broadcasts mean; centered subtracts it. No energy renormalization.",
+  "step_scaling": "state + alpha*(real_updated-state), alpha=0/.25/.5/1; alpha0 reuses unchanged current state, not initial tokens.",
+  "tasks": {
+    "cross": [
+      "00008:263",
+      "00013:164",
+      "00023:428",
+      "00010:397",
+      "00015:460",
+      "00008:601",
+      "00013:019",
+      "00023:740",
+      "00010:113",
+      "00015:407"
+    ],
+    "within": [
+      "00019:608",
+      "00020:053",
+      "00008:487",
+      "00012:032",
+      "00007:185",
+      "00011:967",
+      "00013:011",
+      "00024:098",
+      "00023:506",
+      "00006:060"
+    ]
+  },
+  "stages": "First failed update and fourth failed update, or latest available earlier update; duplicate removed",
+  "selection": "SHA256 template order, round robin, SHA256 scene order, first-failure eligibility only; no later outcome selection",
+  "variants": [
+    "real",
+    "zero_residual",
+    "mean_only",
+    "centered",
+    "step_0",
+    "step_0.25",
+    "step_0.5"
+  ],
+  "conditioning": "Identical current memory, attempted action, prior real-residual action history, and tried mask",
+  "observations": "Read existing canonical cache only; missing cache blocks case, no encoder/simulation fallback",
+  "ranking": "All1024 candidates, original32batch BF16 prediction/FP32 probe/float64 score",
+  "limits": [
+    "Small observational sample; not a new end-to-end S@9 evaluation",
+    "Zero residual is an intervention on residual-trained model, not the trained zero-residual control",
+    "Interventions can be out of distribution; no architecture superiority claim",
+    "Pooling magnitude/cancellation does not measure task-relevant information loss",
+    "Scales and normalization diagnostics do not alone establish failure causality"
+  ]
+}

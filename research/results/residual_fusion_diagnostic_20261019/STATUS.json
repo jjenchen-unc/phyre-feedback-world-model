@@ -1,0 +1,22 @@
+{
+  "stage": "complete",
+  "cpu_tests": {
+    "passed": 4,
+    "scope": "Synthetic instrumentation equivalence and ranking metrics, not effectiveness"
+  },
+  "gpu_diagnostic_complete": true,
+  "jobs": {
+    "diagnostic_array": 36004,
+    "summary_afterok": 36008
+  },
+  "server": "sunflower",
+  "last_verified": "20 tasks / 40 update states; all exact replay guards passed. Independently recomputed 240 variant ranking arrays locally.",
+  "blocker": null,
+  "next": null,
+  "wall_time_seconds": {
+    "cross_0": 806,
+    "cross_1": 809,
+    "within_0": 837,
+    "within_1": 755
+  }
+}

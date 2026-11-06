@@ -1,0 +1,40 @@
+{
+  "launch_verified": true,
+  "jobs": {
+    "encoder_validation": "36204",
+    "smoke": "36205",
+    "smoke_summary": "36206",
+    "train": "36207",
+    "audit_cross": "36208",
+    "eval_cross": "36209",
+    "audit_within": "36210",
+    "eval_within": "36211",
+    "summary": "36212",
+    "encoder_cleanup": "36213"
+  },
+  "panels": {
+    "cross": {
+      "preflight_passed": true,
+      "verified_slots_at_launch": 1,
+      "optimizer_steps_at_launch": 1,
+      "first_slot_seconds": 40.2851026058197
+    },
+    "within": {
+      "preflight_passed": true,
+      "verified_slots_at_launch": 1,
+      "optimizer_steps_at_launch": 1,
+      "first_slot_seconds": 59.49494743347168
+    }
+  },
+  "code_sha256": {
+    "audit_training.py": "efdb75689b0e3c261d32cda793d3c997d65092015e9f84dfe0ac240c0338e358",
+    "check_transform.py": "65613c3346f038fb57757c902a1ef560ef471fea4bc1f7ac231222a31cba1162",
+    "cleanup.py": "f6b1a5b2daef5e874488208d21bfc8b32fa931cf898607ff89541b8d8b26a8f7",
+    "evaluate.py": "ce73380d4b311e8dcbdaa84a4fbefd1966f15f13dd4a7ab36dae7bf8f8868bdc",
+    "launch_encoders.py": "7a550d349b11a0ba905a3c2be4c74e62723d17be01c8fc4056e24e55e8d731b6",
+    "serve_encoder.py": "4de935f986b4ef595f0e74d27c207267e47a1d9f7a58ab1d135b31cf4bdb28ad",
+    "submit.py": "f08e5f0c6c4efaf31606258e579864c8803d29e8446520c80bf0f83303310cb6",
+    "train.py": "1a3fa208389e605793e8feafc6d861299687f8ec93152b413b763ee4151ec881",
+    "validate_encoders.py": "ce366f2a363b2ef6477693aa99c331d2b94f2af19020ce3dcf4611fb948c8fd9"
+  }
+}

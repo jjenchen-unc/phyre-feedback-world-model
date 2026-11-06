@@ -1,0 +1,5 @@
+{
+  "reason": "Legacy and new encoding are exactly identical. Historical within cached fp16 differs at 0.31% of entries; mean error1.18e-7; use exact legacy reproduction plus mean/max guards. No training/checkpoints/shortlists existed at revision.",
+  "diagnostic_job": 34737,
+  "prior_registration": "preflight_v0"
+}

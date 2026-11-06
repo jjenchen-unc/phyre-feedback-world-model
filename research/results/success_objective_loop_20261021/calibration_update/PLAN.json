@@ -1,0 +1,25 @@
+{
+  "parent_plan": "204eee74f52d8134dc75964a4c1d6a2069d11ff7b0046fffd2fc251f8cbf0732",
+  "source_sha": "fffea6e6ad954a86167f0f6da79c434828e1ce4d6e93546ce631bdbe749dea57",
+  "arms": [
+    "bcecal_residual",
+    "bcecal_zero"
+  ],
+  "steps": 128,
+  "seed": 7919,
+  "trigger": {
+    "type": "Analytical diagnostic before outcome-based choice",
+    "maximum_fixed_logit": -2.0132989662224374,
+    "maximum_fixed_probability": 0.11781367180307349
+  },
+  "change": "Jointly optimize positive slope exp(log_slope) and intercept for BCE. Initial mapping, fresh updater, scene/query schedule, prediction loss, frozen reader, lambda and inference geometric scoring match round1. Calibration changes loss gradients but monotone affine cannot directly alter inference order.",
+  "optimizer": "Updater same AdamW3e-4 wd.05 clip1 cosine128; two calibration scalars Adam3e-2 wd0 cosine128, no updater clip contamination. log_slope initializedlog(.11795), intercept-2.42209 fromtrain-only fixed calibration.",
+  "comparison": "Against original fixed-calibration BCE real/zero AND prediction real/zero on same scenes/candidates. All evaluation uses original scorer; no new deploy head.",
+  "controls": "Calibration-only score remains positive-affine monotone, so its ranks mathematically match originalQ0; record ceiling evolution and whether gradient improvement instead sacrifices geometry.",
+  "limitations": [
+    "One updaterseed and128steps",
+    "Added two scalar optimizer variables; this tests mapping adaptation, not BCE vs pairwise in isolation",
+    "No claim of resolved probability calibration unless heldout calibration alsoimproves",
+    "Same previouslyexamined validation partitions"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "task": "00008:197",
+  "action_idx": 3393,
+  "raster_features_exact": true,
+  "initial_vs_shortlist_exact": true,
+  "full_vs_legacy_exact": true,
+  "future_perturbation_hidden_exact": true,
+  "matched_projection_shape_t0_exact": true,
+  "difference": {
+    "max": 0.0078125,
+    "mean": 1.3775021141889144e-06,
+    "p99": 0.0,
+    "fraction_nonzero": 0.008689413265306123
+  },
+  "raw_sha256": "23912680db9153c55c3774f9bcc9fadecb049cbbcac7abfa4394216a578adf71",
+  "verifier_sha256": "279d2441e8bd46afaf1001dc596be8d8e20a674493baccd5594b153b61ed96b8",
+  "policy": "one verified observation; unchanged runtime guards and unchanged encoded target values",
+  "cache_sha256": "3212bffd1bfe7799de0316bbc24b87290680c6d8301dc18009c531c2ec4c5ba8"
+}

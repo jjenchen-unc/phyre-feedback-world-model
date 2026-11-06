@@ -1,0 +1,30 @@
+{
+  "latest": {
+    "step": 6600,
+    "prediction_loss": 0.09366065081208945,
+    "ranking_loss": 0.6777038598619401,
+    "grad_norm": 0.055201119594275955,
+    "seconds": 2324,
+    "variant": "R4"
+  },
+  "counts": {
+    "episodes": 6600,
+    "context_base_trace": 1973,
+    "actual_k_1": 3436,
+    "query_positive": 13154,
+    "query_high_score_failure": 13200,
+    "query_near_success_failure": 13160,
+    "query_uniform": 13200,
+    "queries": 52800,
+    "positive_queries": 19126,
+    "single_class_episodes": 20,
+    "context_memory_trace": 1962,
+    "context_empty": 687,
+    "actual_k_0": 687,
+    "context_diverse_failure": 1978,
+    "actual_k_2": 1530,
+    "actual_k_4": 797,
+    "actual_k_3": 150,
+    "query_shortage_fallback": 86
+  }
+}

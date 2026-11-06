@@ -1,16 +1,21 @@
 # What Can a Physical Attempt Teach a World Model?
 
-COMP 669 project milestone: feedback-conditioned latent world models for PHYRE.
+COMP 669 project: feedback-conditioned latent world models for PHYRE.
 We ask whether observing a failed physical attempt helps a model rank untried
 actions in the **same reset scene**.
 
 ## Start here
 
+- **[Latest progress report](research/docs/EXPERIMENT_PROGRESS_20261022.md)** (Chinese): completed experiments through October 21, recorded October 22; published November 6, 2026.
+- **[Research code and evidence](research/README.md)**: pipeline, experiment snapshots, registered plans, result tables and audits.
+- **[Latest cross comparison](research/results/support_context_ablation_20261021/CROSS100_TABLE.csv)**: all support-feature ablations, including both seeds.
 - `phyre_feedback/`: standalone model, memory, geometry loss, ranking and adaptation components.
-- `results/milestone.json`: valid completed results and per-scene first-success ranks.
+- `results/milestone.json`: historical October 18 classifier-first results and per-scene first-success ranks.
 - `results/pretraining_dev.csv`: all 24 matched pretraining runs; prediction errors only.
 - `reference_runs/`: experiment drivers for inspection, with machine-specific paths redacted.
 - `SOURCE_MANIFEST.json`: original-file and exported-file hashes plus extraction changes.
+- `RESEARCH_MANIFEST.json`: provenance and public-file hashes for the later research snapshot, including path redactions and omitted large historical files.
+- `RELEASE_VALIDATION_20261106.json`: publication checks, supported test environment and reproduction limits.
 
 This is a **code-and-results milestone release**, not a pretrained agent download.
 The reusable components and result audit run locally. Full experiment drivers
@@ -35,9 +40,46 @@ the model's memory persists within the task and resets for a new task.
 **Completed classifier-first experiment:** attempt 1 is the classifier's top action;
 Q0/predictor reranking starts at attempt 2. This protocol is shared by all four arms.
 
-**Ongoing Q0-first experiment:** the same classifier pool is reranked by initial
+**Completed Q0-first experiments:** the same classifier pool is reranked by initial
 Q0 before attempt 1. Both updater training and evaluation use this new policy.
-Its effectiveness results are not yet reported.
+The full nine-attempt comparison is documented in the
+[October 19 report](research/docs/MEMORY_OVERNIGHT_INVESTIGATION_20261019.md).
+The later head experiments below study only the first feedback and next ranking.
+
+## Latest findings through October 21
+
+Three completed diagnostic rounds added 16 short updater fits, 6 feedback-head
+fits, and 20 support-feature head fits. Within each round, data, candidate pools,
+first actions and the relevant training controls are matched. These are different
+training procedures, not an equal-compute comparison across rounds.
+
+The latest head experiments use cross fold 1, 100 scenes, the same frozen Q0 and
+classifier-selected 1,024-action pools. The first Q0 action solves 3 scenes; the
+remaining 97 are reranked after that failure. Training uses 53 failed-first scenes
+and 424 fixed uniform queries, including 32 successful actions.
+
+| Method / extra head inputs | S@2, seed 8419 | S@2, seed 8420 |
+|---|---:|---:|
+| Q0, no update | 5/100 | 5/100 |
+| Static learned readout | 6/100 | 6/100 |
+| Query-only MLP | 5/100 | 6/100 |
+| Full support context, zero residual | 9/100 | 8/100 |
+| Full support context, real residual | 8/100 | 8/100 |
+| Query raw distance trajectory | 6/100 | 8/100 |
+| Support predicted distance features + query–support distance differences | 8/100 | 10/100 |
+
+**Interpretation:** predicted support geometry is a promising ranking reference;
+there is still no consistent additional benefit from the observed residual. The
+last row uses information available before executing an action, so it is not
+evidence that observation-driven memory works. It also does not consistently beat
+the full zero-residual control. One fold, two head seeds, many explored settings
+and mixed validation results do not establish a robust winner.
+
+S@2 is actual success within the common first attempt and one subsequent attempt,
+reconstructed from cached simulator labels. The CSV's `top1/3/5/8` columns count
+successful coverage among the 97 first-failure scenes after **one** reranking;
+`top8` is not repeated-feedback S@9. This differs from the historical nine-attempt
+table below. No new experiments were run for this November publication.
 
 ## Model and training
 
@@ -61,7 +103,7 @@ Updater pilot: 64 train scenes per panel, 256 slots of two episodes; support cap
 L1 + .1 * geometry loss. Current residuals are recomputed, never cached.
 The new updater starts fresh from the same Q0 parents, not from old updater weights.
 
-## Completed results (2026-10-18)
+## Historical classifier-first results (2026-10-18)
 
 S@9 = fraction of scenes solved within nine attempts. Cross fold 1 and official
 within fold 0 each have 100 evaluated scenes here.
@@ -96,10 +138,12 @@ weight/seed sweep has not been reevaluated under the new candidate protocol.
 ```bash
 python -m pip install -e .
 python scripts/summarize_results.py
+python scripts/summarize_latest_results.py
+python scripts/verify_research_snapshot.py
 python -m unittest discover -s tests -v
 ```
 
-The summary script only needs Python's standard library. Model tests use small
+The summary and snapshot verification scripts only need Python's standard library. Model tests use small
 synthetic CPU tensors to check state, freezing and gradient invariants; they do
 not measure PHYRE performance. Full scoring uses the original 32-action batches;
 changing batch arithmetic can change BF16 rankings.

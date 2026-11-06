@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "test": "test_staged_static_output.py",
+  "checks": [
+    "nonexistent_output_directory",
+    "known original/Q0 success ranks",
+    "saved scores",
+    "resume skips inference"
+  ],
+  "implementation_fix_sha256": "8d661e6da6a6bede700528d864565b00b96785fc20b67348d82a9373e9741e40",
+  "frozen_numerical_code_unchanged": true
+}

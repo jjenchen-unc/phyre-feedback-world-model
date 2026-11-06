@@ -1,0 +1,777 @@
+{
+  "scope": "Existing training draws and saved simulator geometry only. No model training or new inference.",
+  "source_sha256": {
+    "/path/to/phyre-unc/results/support_utility_20261004/manifest.json": "708788f5d7f8c1dc1e2250e6875850f7215abb841e00cad476eee715705d0a17",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/mixed_s0/complete.json": "864c916bfbcfaf06972a90df89b5462e3bedd4ab16e10047939a9ada848fbba7",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/mixed_s0/draws.json": "97734a7961f67cfcf2ac3d0b1899a6bc9fe5174372e51cc2116c1b0554e9dcaa",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/mixed_s1/complete.json": "0b243be85fb107b3d4061e691ed8b692ee14a740fbb868a355f8b1a827e7ca4d",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/mixed_s1/draws.json": "b9a84c9fc82d2c156c78e6e9f2eba91e5d9cad54128e1c029589cc8044b37cef",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/mixed_s2/complete.json": "cdb586ee2ba5fbe493a4181fee7bc66771d575477f7b36774fa0244f91b78fdb",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/mixed_s2/draws.json": "89b94ae8e7fcc1b1a6dadd507f226d2b298186612e28fd766c02bad9b8994a44",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/near_s0/complete.json": "e1097fcd7c6287306090b708cb8939477827a14886780044d2bfc7a7ae4fb72f",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/near_s0/draws.json": "aa3f0bd1b6be66a898b1deba09881ca1865897ecaba118d51c9d90e1affebd95",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/near_s1/complete.json": "8ec314df62d9417bda6593324cd2fc74081902ac8f6601c241715de2feacd6af",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/near_s1/draws.json": "5b4ea9b977f9e22f5dfe4771efde1c64e2d993624b370617ba71aaa5c35a1261",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/near_s2/complete.json": "72e4c1b3f8787b2b70fb0e637b8ae2891f625d15a3ecce0e9270c8ee6314e8d9",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/near_s2/draws.json": "175965185466197d49f306ee04d4f277c16403324ffbfeb266bfbf71c45d669b",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/uniform_s0/complete.json": "92a01ce819182fe4eb6e3939b0757f1019b802d2d43716b72082963a116131cb",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/uniform_s0/draws.json": "d717d28cbe960bcb5ea525881d90764f73bac1df0400c14186449e61177408b4",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/uniform_s1/complete.json": "7f93911d0a0975557e0cc1e37924e5c9ba64bb2ca1ca195abc43dad6b9e7f8fa",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/uniform_s1/draws.json": "e2e4d2ad0c2477ef0da3a3646031355eaaf01346f791dc1bdcc0619248b8b3eb",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/uniform_s2/complete.json": "bc7895344a8976843b250f06970db5ffc422541119f70ded99b062d502b0c244",
+    "/path/to/phyre-unc/results/support_utility_20261004/models/uniform_s2/draws.json": "94611b6e956d32403fb7df6f7ff6a3e4f4ed71f09061dd4f6c2bb962a019325f",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_000/natural/truth.npz": "a683df47e062415de3cc0dbe8c6f98652ebf42fd0ab4b0c284c3a60b3413410a",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_001/natural/truth.npz": "564d36813555b54994b61123d6b15c160d3e04399b378c3ce579365a85b5d4c5",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_003/natural/truth.npz": "5a2ef06040304f476e80f3cf1a6cdad66951c10dd554c3ddd7d9067a454e6009",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_014/natural/truth.npz": "f20b42e45f4c17c71f3a8092743ec13afdec51fd408b4a0c779619f84bac5474",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_021/natural/truth.npz": "268f0e6a8af5580b760a05c1e119f5bdede1ba28b11d7d6dd0adf35755854607",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_024/natural/truth.npz": "57a6c993626067181bf50696d05d72c27cf94b8b4aa16a51d57184066c58437b",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_026/natural/truth.npz": "dc7b84f399786df7c0ffaf35298fbdfd004cbc74859ca49b7e2a391d5e71e135",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_039/natural/truth.npz": "55ad2e4bd4bb345d7bf1090f3080e9c07209485fc3a76d0fafa99538e111d108",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_049/natural/truth.npz": "c6de503a8dbdfd4e13543436053b5790652faac147874499f70ad20e8bc5a437",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_050/natural/truth.npz": "b5941e0ebebe102ad490cf9e88d2584c08a37a7e4265db8160aedc87ee49465c",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_052/natural/truth.npz": "a976cb5af7d66b4a31a4a222228a9926c377be008eb339683196cf49a5580c41",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_053/natural/truth.npz": "3fdcaf0fbeaa44badea36bd65895bbb2955fedfd73d4b04af43e5b0a1adc83f7",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_058/natural/truth.npz": "efe445584ac08b73998faa9f1658e3dc97321ffc01bd097665f74e6d9d785ce0",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_064/natural/truth.npz": "0c53845f3de7da79c3fc9e681d35c51a62b67b1bb1052406765887a3f3fd9b39",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_065/natural/truth.npz": "2b1f09bb876ee3e766f9fb67272aae256bc43445026286f6b6de9f364ea8ee6d",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_069/natural/truth.npz": "f94d6aa5fe89b90b612b67837c060730717942e68df297aa916744e5c0b427b4",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_079/natural/truth.npz": "9e80f9a0d19474016ff9a9bb57a89797635abef13ff9b2c3dd1fb165af402a0f",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_087/natural/truth.npz": "810a3bdedf76db0a2efc813d8a80b912753ddef46eba08d5a282b74a9cd29356",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_096/natural/truth.npz": "d8ab9b3a659f9b0c0b9ab3239a0aabb4710809eb422b7640892cf97556d4618e",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00000_099/natural/truth.npz": "6cf0a34497a3bf288fe8e839aa5b5654152f8aba33b4c483c038467dd39e2579",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00002_104/natural/truth.npz": "efe41d16f6e18429bc6f649d908255a00e5e02171cc92100c3a25d4e3020db85",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00002_119/natural/truth.npz": "a4c6d0794050110c20db878cd6d6e3bd49dbf0648cd21cf6b9d57730c3541d19",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00002_146/natural/truth.npz": "849a1c5ff75b181c96f10b53239277b3edb05a9dbf2add5565ac1c2e1a479439",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00002_176/natural/truth.npz": "e55ab034abd87d3d5feec111bec0d3f833cea1bc1328febd2f4869a37d574bae",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00002_189/natural/truth.npz": "bb9cadfc1788cd3c5ca9064c10f575ff14cceec5d79bffe71a4c44d6a07feb92",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_047/natural/truth.npz": "757e19196ac7612e012b730605c7325b3e705a17e1cb4c099691454b04d83801",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_048/natural/truth.npz": "a5d467a85aeca748b48929a5935d8e2db5eada14a11f45e66521aba6f9c7ce63",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_057/natural/truth.npz": "7ef9bccc94646b110449f7700344513d4c073703cf1ceb6800875ee8df5c1015",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_091/natural/truth.npz": "ffc4ffd4987301b8b34216dff199cb2ea825ac67f954d532f74b940e92883d2c",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_111/natural/truth.npz": "b28785a7345cc463ed502d5d60c9e854a951080e53866236d34f8fdc2ea5e0c4",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_115/natural/truth.npz": "ce829e7de68a2eba99d01b6ab8ecd960fa8aa1c52ed21d531321efa59079f65d",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_125/natural/truth.npz": "5d8a50ea6fab01fa7cad04a07ea3400f7d31c70d881d8c640acdafb60a5a4b03",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_135/natural/truth.npz": "7529ea931671293fd734c6daac55f3f33e16cfcc25f7fbbd1d03c53a5832e507",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_136/natural/truth.npz": "f0167e13a46a09f5bec038b88a8dca3637d3f9660a5b775a5e07bf22e1347f46",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_147/natural/truth.npz": "cbd598a41f8f338e7ed8225ca255d85fa4bc7adb606593a311e9f9c70fbe8029",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_198/natural/truth.npz": "b3f98bbf6b9b18c46e310c4e4e8ce278e124a594cd1f14cc99e101661539c2cd",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_243/natural/truth.npz": "7ffa9fb8b03eb68ec79ccf5486b781b4269cc751ad684ea685bf4ac35b7be107",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_260/natural/truth.npz": "26739df37470f4580fd83372fcab49d8423dac2dfd2c589a3d9274f4493f809d",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_269/natural/truth.npz": "9a65c16d200a030b0d33d2b2e7614e8eff06eb9eca4fe2eeb6a7b3a34be04317",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_277/natural/truth.npz": "4e3c912c54fb193ab39026d98f29e83089affc68e112ae196a20f3e75379ac97",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_279/natural/truth.npz": "7d0e4a934eeb16ebd1051ae7fee11229f4052c192a5bc77bdb909c4d44bf66f8",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_281/natural/truth.npz": "cf9e4175a587bcad79f75c74c0a1d69dccf1794be2a02731a53af448198691e7",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_297/natural/truth.npz": "f28054ab4478f51f53db94e2d04d6e63d8b5b428ddf1f18dd772228070f25ca6",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_298/natural/truth.npz": "7b74b3e3b1f6f6b9a147c23a755eccd4558f4aaecb6c6a4ae63f2cd3e3093697",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_300/natural/truth.npz": "ad173a14af00a700981b983c64b7aed92031d74c5b7ae3058d5ac97197145f57",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_311/natural/truth.npz": "bdd5556d0fbc35bf7903b86d404299c11a37270c239778ee6de55753d605403e",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_319/natural/truth.npz": "592b1e386360f4ce535d07766d3d94c75f0cbba4ad2470e40f49ee8508b5b042",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_323/natural/truth.npz": "093a20018638bbc4f950cec0e39dd39871832ee75209147f4201b9e3b04c1a08",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_357/natural/truth.npz": "4a3e755f08dc142e06bf682f328eaa250bf1afe41c7eb8ef719bce22c8dc6755",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00007_358/natural/truth.npz": "4d902fbc0efedf82d3cf1dda453fc954b3d6746e005d9564042804118d0db78a",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_009/natural/truth.npz": "b99a21987e445f1d681666fbbb8ee896eb3fd93b42e09e044a0a8b85094caae5",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_026/natural/truth.npz": "f86e8ffa96403a6e54f57d71267e8664ae77682c8819f531391beff369da5367",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_096/natural/truth.npz": "0c1e52fdb40fbcce003a5e92804a369383ca7c015153a1b1395f30b114d4d06b",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_206/natural/truth.npz": "cb1e96c70467419d109704fa1a5f720be8c5391ea692106f276b2500e1bb28b0",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_273/natural/truth.npz": "202d3922d570ed265c9a2860b34780a5e19b515eb0819c693d8ed5a53613c0ec",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_316/natural/truth.npz": "7d32527b351d17fc44e069ac23e28c6abae2006500a7969009af6762155938e0",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_334/natural/truth.npz": "9fce33ce3c62b503ef4c9806344eda63f620b8d93dbe66f5cb73fc7a6966b8f5",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_376/natural/truth.npz": "f5dbff0b73b775b80ef389934ccf4b065a345963e3cff0ac316ba911fe3ae8ea",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_402/natural/truth.npz": "f135718a2215e205c87a929d56ae260c6175c877b5e590bfdffd42b467c2a87e",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_404/natural/truth.npz": "4c63330f70c4aaa705cf86782ba79840735a955a6907ad195882722da04b2a4f",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_407/natural/truth.npz": "83a09892050c35f1e76999a4899439175db774d55673b7166379f4cbdc7662f2",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_408/natural/truth.npz": "8b2b818611e4245750bcaec0e134aff24548e966cd3f1f868629bc4706500e47",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_435/natural/truth.npz": "cd67a9f4faaedca7d2275f6a68956fd470231bac501c4e72fffb1b7ec27c555f",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_456/natural/truth.npz": "a5ea80cb68d09576d2d18a99fd7c23fad20cd344629e1c612191cd11f0fc4783",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_466/natural/truth.npz": "af3a2630ecb86aec9cccbd273bf5db0442e114ac83c8319b166e14765d1b6569",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_470/natural/truth.npz": "7ef55decb54629cdeabfb889ee6f532b2ae4feb1fc87472dc376fb4ca473572e",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_528/natural/truth.npz": "8c9d577baf6d1f60c2202395e52addac882582ac412a78c637788e247a24edaa",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_551/natural/truth.npz": "de1dd47c6c3030271d1b2071302cd2bcba47466d93ebe611ed8bd7689cea986d",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_555/natural/truth.npz": "fc0eb75298208c6697751eb28b1aa9e93d7799e9d76d469dbaa508b1cbf4f19d",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_562/natural/truth.npz": "1b8888db4ebe7e8bef9db88d321fa4d4617f162ead7478ba498fed1ca3178e5c",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_564/natural/truth.npz": "48e09232afbe32849004b752353cf3d17fa10d8f21ad2fb3204ff22454c7b0c4",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_568/natural/truth.npz": "acef64842714f9b5418f4031f77fe0506d654dc0ca4372d8d0f8d7215aa51fb4",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_585/natural/truth.npz": "84a640ac13922a67e064b010172a01c02db702840d8107c75d0335feba3f2bab",
+    "/path/to/phyre-unc/results/support_utility_20261004/evaluation/uniform_s0/cross_natural/00014_595/natural/truth.npz": "e5c067c7e9a34ae7e15dc3cdb998e40ce4d51c8841ddde23c1e22a8ea7034a22"
+  },
+  "auditor_sha256": "d7cd4ce186e9fc795e7e68551bdc1b51056ce1b9c6ec213416908a51fa0f5a13",
+  "training": {
+    "mixed_s0": {
+      "unique_supports": 1111,
+      "no_success_query_steps": 12,
+      "support_categories": {
+        "N": 656,
+        "F": 672,
+        "H": 672
+      },
+      "common_draw_sha256": "811b3d794ef8f9536b0dcb048bf0cc21745848d2294e7da384fe2570f80486a4",
+      "actual_query_success_fraction": 0.425125,
+      "unique_queries": 3675,
+      "unique_scenes": 171
+    },
+    "mixed_s1": {
+      "unique_supports": 1112,
+      "no_success_query_steps": 11,
+      "support_categories": {
+        "H": 694,
+        "N": 635,
+        "F": 671
+      },
+      "common_draw_sha256": "483da46ae93993c690e02aa463dc79e08188a36ea4baefef519aff35bcba6a02",
+      "actual_query_success_fraction": 0.417875,
+      "unique_queries": 3674,
+      "unique_scenes": 171
+    },
+    "mixed_s2": {
+      "unique_supports": 1087,
+      "no_success_query_steps": 17,
+      "support_categories": {
+        "F": 653,
+        "H": 694,
+        "N": 653
+      },
+      "common_draw_sha256": "8a3994a9ecb91b4a0b57a84a4956590458c6c9df47ce368c72ea0dc558632896",
+      "actual_query_success_fraction": 0.42375,
+      "unique_queries": 3673,
+      "unique_scenes": 171
+    },
+    "near_s0": {
+      "unique_supports": 449,
+      "no_success_query_steps": 12,
+      "support_categories": {
+        "N": 2000
+      },
+      "common_draw_sha256": "811b3d794ef8f9536b0dcb048bf0cc21745848d2294e7da384fe2570f80486a4",
+      "actual_query_success_fraction": 0.425125,
+      "unique_queries": 3675,
+      "unique_scenes": 171
+    },
+    "near_s1": {
+      "unique_supports": 453,
+      "no_success_query_steps": 11,
+      "support_categories": {
+        "N": 2000
+      },
+      "common_draw_sha256": "483da46ae93993c690e02aa463dc79e08188a36ea4baefef519aff35bcba6a02",
+      "actual_query_success_fraction": 0.417875,
+      "unique_queries": 3674,
+      "unique_scenes": 171
+    },
+    "near_s2": {
+      "unique_supports": 442,
+      "no_success_query_steps": 17,
+      "support_categories": {
+        "N": 2000
+      },
+      "common_draw_sha256": "8a3994a9ecb91b4a0b57a84a4956590458c6c9df47ce368c72ea0dc558632896",
+      "actual_query_success_fraction": 0.42375,
+      "unique_queries": 3673,
+      "unique_scenes": 171
+    },
+    "uniform_s0": {
+      "unique_supports": 1429,
+      "no_success_query_steps": 12,
+      "support_categories": {
+        "failures": 2000
+      },
+      "common_draw_sha256": "811b3d794ef8f9536b0dcb048bf0cc21745848d2294e7da384fe2570f80486a4",
+      "actual_query_success_fraction": 0.425125,
+      "unique_queries": 3675,
+      "unique_scenes": 171
+    },
+    "uniform_s1": {
+      "unique_supports": 1431,
+      "no_success_query_steps": 11,
+      "support_categories": {
+        "failures": 2000
+      },
+      "common_draw_sha256": "483da46ae93993c690e02aa463dc79e08188a36ea4baefef519aff35bcba6a02",
+      "actual_query_success_fraction": 0.417875,
+      "unique_queries": 3674,
+      "unique_scenes": 171
+    },
+    "uniform_s2": {
+      "unique_supports": 1407,
+      "no_success_query_steps": 17,
+      "support_categories": {
+        "failures": 2000
+      },
+      "common_draw_sha256": "8a3994a9ecb91b4a0b57a84a4956590458c6c9df47ce368c72ea0dc558632896",
+      "actual_query_success_fraction": 0.42375,
+      "unique_queries": 3673,
+      "unique_scenes": 171
+    }
+  },
+  "common_training": {
+    "scenes": 171,
+    "template_counts": {
+      "00003": 3,
+      "00005": 4,
+      "00006": 14,
+      "00011": 13,
+      "00016": 3,
+      "00017": 32,
+      "00018": 27,
+      "00019": 18,
+      "00020": 2,
+      "00021": 55
+    },
+    "N_support_count": 525,
+    "N_initial_near": 0,
+    "N_per_scene_percentiles_0_25_50_75_100": [
+      1.0,
+      1.0,
+      2.0,
+      4.0,
+      17.0
+    ]
+  },
+  "natural_support_counts": {
+    "far": 70,
+    "N": 2,
+    "middle": 2
+  },
+  "natural_support_by_template": {
+    "00000": {
+      "far": 17,
+      "N": 2,
+      "middle": 1
+    },
+    "00002": {
+      "far": 5
+    },
+    "00007": {
+      "far": 24,
+      "middle": 1
+    },
+    "00014": {
+      "far": 24
+    }
+  },
+  "natural_support_rows": [
+    {
+      "task": "00000:000",
+      "index": 97,
+      "minimum": 80.86992645263672,
+      "initial": 79.71202850341797,
+      "category": "far"
+    },
+    {
+      "task": "00000:001",
+      "index": 1024,
+      "minimum": 195.26992797851562,
+      "initial": 194.74700927734375,
+      "category": "far"
+    },
+    {
+      "task": "00000:003",
+      "index": 2617,
+      "minimum": 71.39999389648438,
+      "initial": 71.39999389648438,
+      "category": "far"
+    },
+    {
+      "task": "00000:014",
+      "index": 4140,
+      "minimum": 92.4774398803711,
+      "initial": 92.4774398803711,
+      "category": "far"
+    },
+    {
+      "task": "00000:021",
+      "index": 5160,
+      "minimum": 0.1538715362548828,
+      "initial": 130.80819702148438,
+      "category": "N"
+    },
+    {
+      "task": "00000:024",
+      "index": 6144,
+      "minimum": 37.12471008300781,
+      "initial": 37.12488555908203,
+      "category": "far"
+    },
+    {
+      "task": "00000:026",
+      "index": 7173,
+      "minimum": 21.221405029296875,
+      "initial": 74.60000610351562,
+      "category": "far"
+    },
+    {
+      "task": "00000:039",
+      "index": 8193,
+      "minimum": 156.19998168945312,
+      "initial": 156.19998168945312,
+      "category": "far"
+    },
+    {
+      "task": "00000:049",
+      "index": 10247,
+      "minimum": -0.07215499877929688,
+      "initial": 156.3784942626953,
+      "category": "N"
+    },
+    {
+      "task": "00000:050",
+      "index": 11732,
+      "minimum": 36.19999694824219,
+      "initial": 36.19999694824219,
+      "category": "far"
+    },
+    {
+      "task": "00000:052",
+      "index": 12289,
+      "minimum": 42.65606689453125,
+      "initial": 49.904090881347656,
+      "category": "far"
+    },
+    {
+      "task": "00000:053",
+      "index": 13413,
+      "minimum": 66.95618438720703,
+      "initial": 66.95642852783203,
+      "category": "far"
+    },
+    {
+      "task": "00000:058",
+      "index": 15369,
+      "minimum": 62.689117431640625,
+      "initial": 62.689239501953125,
+      "category": "far"
+    },
+    {
+      "task": "00000:064",
+      "index": 16622,
+      "minimum": 138.59999084472656,
+      "initial": 138.59999084472656,
+      "category": "far"
+    },
+    {
+      "task": "00000:065",
+      "index": 17442,
+      "minimum": 147.44805908203125,
+      "initial": 147.44805908203125,
+      "category": "far"
+    },
+    {
+      "task": "00000:069",
+      "index": 19490,
+      "minimum": 101.06239318847656,
+      "initial": 101.06248474121094,
+      "category": "far"
+    },
+    {
+      "task": "00000:079",
+      "index": 20509,
+      "minimum": 198.63674926757812,
+      "initial": 198.63674926757812,
+      "category": "far"
+    },
+    {
+      "task": "00000:087",
+      "index": 21504,
+      "minimum": 49.903968811035156,
+      "initial": 49.90411376953125,
+      "category": "far"
+    },
+    {
+      "task": "00000:096",
+      "index": 23632,
+      "minimum": 147.44808959960938,
+      "initial": 147.44808959960938,
+      "category": "far"
+    },
+    {
+      "task": "00000:099",
+      "index": 24578,
+      "minimum": 13.343578338623047,
+      "initial": 134.65208435058594,
+      "category": "middle"
+    },
+    {
+      "task": "00002:104",
+      "index": 31745,
+      "minimum": 156.19430541992188,
+      "initial": 227.82366943359375,
+      "category": "far"
+    },
+    {
+      "task": "00002:119",
+      "index": 33792,
+      "minimum": 130.5899658203125,
+      "initial": 227.82366943359375,
+      "category": "far"
+    },
+    {
+      "task": "00002:146",
+      "index": 40960,
+      "minimum": 130.5899658203125,
+      "initial": 227.82366943359375,
+      "category": "far"
+    },
+    {
+      "task": "00002:176",
+      "index": 46082,
+      "minimum": 181.80865478515625,
+      "initial": 227.82366943359375,
+      "category": "far"
+    },
+    {
+      "task": "00002:189",
+      "index": 48128,
+      "minimum": 105.01287841796875,
+      "initial": 227.82366943359375,
+      "category": "far"
+    },
+    {
+      "task": "00007:047",
+      "index": 51203,
+      "minimum": 128.96519470214844,
+      "initial": 246.79405212402344,
+      "category": "far"
+    },
+    {
+      "task": "00007:048",
+      "index": 52225,
+      "minimum": 129.04876708984375,
+      "initial": 247.4083251953125,
+      "category": "far"
+    },
+    {
+      "task": "00007:057",
+      "index": 53254,
+      "minimum": 86.18862915039062,
+      "initial": 259.7435607910156,
+      "category": "far"
+    },
+    {
+      "task": "00007:091",
+      "index": 54272,
+      "minimum": 111.64034271240234,
+      "initial": 251.65460205078125,
+      "category": "far"
+    },
+    {
+      "task": "00007:111",
+      "index": 55296,
+      "minimum": 126.76374816894531,
+      "initial": 247.4083251953125,
+      "category": "far"
+    },
+    {
+      "task": "00007:115",
+      "index": 56320,
+      "minimum": 122.50164794921875,
+      "initial": 250.13381958007812,
+      "category": "far"
+    },
+    {
+      "task": "00007:125",
+      "index": 57351,
+      "minimum": 123.85713195800781,
+      "initial": 246.20703125,
+      "category": "far"
+    },
+    {
+      "task": "00007:135",
+      "index": 58410,
+      "minimum": 131.92532348632812,
+      "initial": 247.4083251953125,
+      "category": "far"
+    },
+    {
+      "task": "00007:136",
+      "index": 59394,
+      "minimum": 90.27104949951172,
+      "initial": 256.8267517089844,
+      "category": "far"
+    },
+    {
+      "task": "00007:147",
+      "index": 60416,
+      "minimum": 122.50175476074219,
+      "initial": 250.13381958007812,
+      "category": "far"
+    },
+    {
+      "task": "00007:198",
+      "index": 61440,
+      "minimum": 130.1722412109375,
+      "initial": 249.41261291503906,
+      "category": "far"
+    },
+    {
+      "task": "00007:243",
+      "index": 62464,
+      "minimum": 9.645954132080078,
+      "initial": 248.04965209960938,
+      "category": "middle"
+    },
+    {
+      "task": "00007:260",
+      "index": 63527,
+      "minimum": 128.95681762695312,
+      "initial": 246.79405212402344,
+      "category": "far"
+    },
+    {
+      "task": "00007:269",
+      "index": 64515,
+      "minimum": 143.85330200195312,
+      "initial": 249.41261291503906,
+      "category": "far"
+    },
+    {
+      "task": "00007:277",
+      "index": 65536,
+      "minimum": 143.85337829589844,
+      "initial": 249.41261291503906,
+      "category": "far"
+    },
+    {
+      "task": "00007:279",
+      "index": 66560,
+      "minimum": 137.84202575683594,
+      "initial": 248.7178192138672,
+      "category": "far"
+    },
+    {
+      "task": "00007:281",
+      "index": 67589,
+      "minimum": 87.2702865600586,
+      "initial": 254.12814331054688,
+      "category": "far"
+    },
+    {
+      "task": "00007:297",
+      "index": 68609,
+      "minimum": 118.1717300415039,
+      "initial": 245.64743041992188,
+      "category": "far"
+    },
+    {
+      "task": "00007:298",
+      "index": 69641,
+      "minimum": 77.53270721435547,
+      "initial": 245.64743041992188,
+      "category": "far"
+    },
+    {
+      "task": "00007:300",
+      "index": 70668,
+      "minimum": 137.833984375,
+      "initial": 248.7178192138672,
+      "category": "far"
+    },
+    {
+      "task": "00007:311",
+      "index": 71681,
+      "minimum": 111.19597625732422,
+      "initial": 247.4083251953125,
+      "category": "far"
+    },
+    {
+      "task": "00007:319",
+      "index": 72760,
+      "minimum": 122.99958801269531,
+      "initial": 245.64743041992188,
+      "category": "far"
+    },
+    {
+      "task": "00007:323",
+      "index": 73729,
+      "minimum": 53.10879898071289,
+      "initial": 246.20703125,
+      "category": "far"
+    },
+    {
+      "task": "00007:357",
+      "index": 74759,
+      "minimum": 110.75054931640625,
+      "initial": 248.7178192138672,
+      "category": "far"
+    },
+    {
+      "task": "00007:358",
+      "index": 75776,
+      "minimum": 86.40161895751953,
+      "initial": 259.7435607910156,
+      "category": "far"
+    },
+    {
+      "task": "00014:009",
+      "index": 76806,
+      "minimum": 84.50688934326172,
+      "initial": 106.58089447021484,
+      "category": "far"
+    },
+    {
+      "task": "00014:026",
+      "index": 78030,
+      "minimum": 72.80211639404297,
+      "initial": 183.63278198242188,
+      "category": "far"
+    },
+    {
+      "task": "00014:096",
+      "index": 78935,
+      "minimum": 69.82262420654297,
+      "initial": 113.64342498779297,
+      "category": "far"
+    },
+    {
+      "task": "00014:206",
+      "index": 80020,
+      "minimum": 92.11553192138672,
+      "initial": 109.33917999267578,
+      "category": "far"
+    },
+    {
+      "task": "00014:273",
+      "index": 80898,
+      "minimum": 53.20478057861328,
+      "initial": 104.91633605957031,
+      "category": "far"
+    },
+    {
+      "task": "00014:316",
+      "index": 81929,
+      "minimum": 99.16382598876953,
+      "initial": 203.2845458984375,
+      "category": "far"
+    },
+    {
+      "task": "00014:334",
+      "index": 83068,
+      "minimum": 111.61361694335938,
+      "initial": 160.83670043945312,
+      "category": "far"
+    },
+    {
+      "task": "00014:376",
+      "index": 83981,
+      "minimum": 80.5460205078125,
+      "initial": 158.09902954101562,
+      "category": "far"
+    },
+    {
+      "task": "00014:402",
+      "index": 85035,
+      "minimum": 62.47962951660156,
+      "initial": 121.65008544921875,
+      "category": "far"
+    },
+    {
+      "task": "00014:404",
+      "index": 86027,
+      "minimum": 78.26459503173828,
+      "initial": 171.84945678710938,
+      "category": "far"
+    },
+    {
+      "task": "00014:407",
+      "index": 87044,
+      "minimum": 60.17669677734375,
+      "initial": 121.23381042480469,
+      "category": "far"
+    },
+    {
+      "task": "00014:408",
+      "index": 88070,
+      "minimum": 79.078369140625,
+      "initial": 110.85249328613281,
+      "category": "far"
+    },
+    {
+      "task": "00014:435",
+      "index": 89277,
+      "minimum": 46.12328338623047,
+      "initial": 169.46023559570312,
+      "category": "far"
+    },
+    {
+      "task": "00014:456",
+      "index": 90119,
+      "minimum": 57.884544372558594,
+      "initial": 87.64886474609375,
+      "category": "far"
+    },
+    {
+      "task": "00014:466",
+      "index": 91179,
+      "minimum": 72.40142822265625,
+      "initial": 155.49485778808594,
+      "category": "far"
+    },
+    {
+      "task": "00014:470",
+      "index": 92295,
+      "minimum": 50.09919738769531,
+      "initial": 183.41824340820312,
+      "category": "far"
+    },
+    {
+      "task": "00014:528",
+      "index": 93294,
+      "minimum": 76.53834533691406,
+      "initial": 97.6296157836914,
+      "category": "far"
+    },
+    {
+      "task": "00014:551",
+      "index": 94208,
+      "minimum": 117.12225341796875,
+      "initial": 120.27011108398438,
+      "category": "far"
+    },
+    {
+      "task": "00014:555",
+      "index": 95237,
+      "minimum": 73.80984497070312,
+      "initial": 96.9721450805664,
+      "category": "far"
+    },
+    {
+      "task": "00014:562",
+      "index": 96265,
+      "minimum": 123.56349182128906,
+      "initial": 190.64430236816406,
+      "category": "far"
+    },
+    {
+      "task": "00014:564",
+      "index": 97289,
+      "minimum": 64.65806579589844,
+      "initial": 112.45867156982422,
+      "category": "far"
+    },
+    {
+      "task": "00014:568",
+      "index": 98311,
+      "minimum": 84.28570556640625,
+      "initial": 112.7105484008789,
+      "category": "far"
+    },
+    {
+      "task": "00014:585",
+      "index": 99349,
+      "minimum": 68.79637908935547,
+      "initial": 157.9068145751953,
+      "category": "far"
+    },
+    {
+      "task": "00014:595",
+      "index": 100376,
+      "minimum": 43.348567962646484,
+      "initial": 155.34963989257812,
+      "category": "far"
+    }
+  ],
+  "limits": [
+    "far is geometry >=20px, not a claim about H membership under support-partition percentile",
+    "Saved geometric distances reused; original PHYRE simulator not rerun by this audit",
+    "Inventory quality reused for train N initial distance; covered by previous independent DATA_AUDIT"
+  ]
+}

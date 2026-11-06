@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "manifest_sha256": "e8c125d8048fdaf089312062952701b557f28edc053eebb45ae478c48fb5cc15",
+  "cases": [
+    {
+      "arm": "A_frozen_memory",
+      "split": "cross",
+      "task": "00000:050",
+      "exact_saved_prefix_replay": true
+    },
+    {
+      "arm": "B_pretrained_memory",
+      "split": "within",
+      "task": "00003:177",
+      "exact_saved_prefix_replay": true
+    },
+    {
+      "arm": "C_random_memory",
+      "split": "cross",
+      "task": "00000:050",
+      "exact_saved_prefix_replay": true
+    }
+  ]
+}

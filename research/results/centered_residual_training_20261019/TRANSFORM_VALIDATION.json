@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "previous_transform_bitwise_exact": [
+    "float32",
+    "bfloat16"
+  ],
+  "feature_offset_invariance": true,
+  "gradient_connected": true
+}

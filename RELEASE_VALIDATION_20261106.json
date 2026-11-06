@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "scope": "Publication of completed experiments through October21; no new GPU effectiveness runs.",
+  "research_files": 1214,
+  "research_bytes": 28909044,
+  "research_manifest_sha256": "f564140467efdaf4e55ab1b63f328d23b8278d8a5c3326d814bd7e914f4519ee",
+  "checks": {
+    "legacy_result_arithmetic": "passed",
+    "latest_result_csv_rows_verified": 56,
+    "source_and_research_manifest_hashes_verified": 1231,
+    "source_parsing": "passed; one pre-existing invalid historical attempt exported as .py.txt",
+    "credential_pattern_and_binary_asset_exclusions": "passed",
+    "git_diff_check": "passed",
+    "package_unittest": {
+      "passed": 5,
+      "failed": 0,
+      "python": "3.12.12",
+      "torch": "2.7.1+cu126",
+      "device": "CPU",
+      "command": "PYTHONPATH=. OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 python -m unittest discover -s tests -v"
+    }
+  },
+  "environment_note": "Initial local attempt used unsupported Python3.9/PyTorch1.13.1 and lacked scaled_dot_product_attention. Rechecked unchanged package/tests in supported Python3.12/PyTorch2.7.1 environment; all5passed.",
+  "limitations": [
+    "Full research reruns need unpublished checkpoints, cached arrays and original dependency registrations.",
+    "Latest result arithmetic uses exported per-scene metrics; original raw-score audits are archived evidence, not rerun during publication.",
+    "Six large historical JSON detail files are omitted and identified in RESEARCH_MANIFEST.json."
+  ]
+}

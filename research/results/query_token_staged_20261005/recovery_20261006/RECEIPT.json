@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-06T14:47:06.493878+00:00",
+  "failed_q0_eval": 34544,
+  "replacement_q0_eval": 34625,
+  "cause": "static_case wrote scores.npz before mkdir",
+  "fix": "Precreate the100static task directories in each evaluation job; no numerical code/manifest/checkpoint changes",
+  "training_audit_sha256": "104418c6b4990613c236394ee0bb9440402ef5a3d1a95f935d671415a97fea8b",
+  "wrapper_sha256": "e41e712a94b375d5b3a245f1cdec376a9ea99b241ebc810081ee7f466868f8f0"
+}

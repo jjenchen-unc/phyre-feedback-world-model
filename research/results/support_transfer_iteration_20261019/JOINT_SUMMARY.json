@@ -1,0 +1,230 @@
+{
+  "complete": true,
+  "support_transfer_sha256": "d3fc094f7197103a74e469150f46a2eb11b642b57c125fa95ce0a77824ca37d8",
+  "loss_design_sha256": "5e493626ee9316fc1051dd96f38f46a7498c872114ed77fa6a149c9eed8b77bf",
+  "panels": {
+    "cross": {
+      "loss_interpretation": "No new raw-input loss met the predeclared S@9 gain without S@5 regression; no second training round launched. Use fixed-query and input controls to guide next work.",
+      "transfer_interpretation": [
+        "Matching centered-update magnitude did not recover a clear centered-policy advantage; a magnitude-only explanation is not established.",
+        "Action-distance gating did not beat every amplitude/shuffle/ungated first-only control; do not promote a locality architecture based on this proxy."
+      ],
+      "loss_seed0_counts": {
+        "l1": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 10,
+          "s9": 12
+        },
+        "mse": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 8,
+          "s9": 8
+        },
+        "smooth": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 10,
+          "s9": 12
+        },
+        "l1_centered": {
+          "s1": 3,
+          "s3": 6,
+          "s5": 10,
+          "s9": 15
+        },
+        "l1_zero": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 7,
+          "s9": 9
+        },
+        "mse_centered": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 9,
+          "s9": 10
+        },
+        "mse_zero": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 9,
+          "s9": 10
+        },
+        "smooth_centered": {
+          "s1": 3,
+          "s3": 9,
+          "s5": 12,
+          "s9": 15
+        },
+        "smooth_zero": {
+          "s1": 3,
+          "s3": 10,
+          "s5": 12,
+          "s9": 14
+        }
+      },
+      "loss_seed1_counts": {},
+      "transfer_counts": {
+        "raw_first_only": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 9,
+          "s9": 13
+        },
+        "raw_full": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 10,
+          "s9": 12
+        },
+        "centered_first_only": {
+          "s1": 3,
+          "s3": 4,
+          "s5": 8,
+          "s9": 10
+        },
+        "centered_full": {
+          "s1": 3,
+          "s3": 6,
+          "s5": 10,
+          "s9": 15
+        },
+        "norm_matched_full": {
+          "s1": 3,
+          "s3": 8,
+          "s5": 10,
+          "s9": 14
+        },
+        "action_gate_first": {
+          "s1": 3,
+          "s3": 7,
+          "s5": 9,
+          "s9": 9
+        },
+        "shuffled_gate_first": {
+          "s1": 3,
+          "s3": 9,
+          "s5": 11,
+          "s9": 13
+        },
+        "uniform_gate_first": {
+          "s1": 3,
+          "s3": 5,
+          "s5": 10,
+          "s9": 11
+        }
+      }
+    },
+    "within": {
+      "loss_interpretation": "Round1 improvement did not replicate as a positive S@9 difference; no robust winner established.",
+      "transfer_interpretation": [
+        "Norm-matched raw-direction updates reached or exceeded centered S@9 in this pilot; magnitude is a plausible contributor, not a proved sole cause.",
+        "Action-distance association failed the predeclared directional-repeat screen; gate evaluation skipped. This does not rule out other measures of relevance."
+      ],
+      "loss_seed0_counts": {
+        "l1": {
+          "s1": 29,
+          "s3": 45,
+          "s5": 50,
+          "s9": 56
+        },
+        "mse": {
+          "s1": 29,
+          "s3": 42,
+          "s5": 50,
+          "s9": 56
+        },
+        "smooth": {
+          "s1": 29,
+          "s3": 46,
+          "s5": 51,
+          "s9": 61
+        },
+        "l1_centered": {
+          "s1": 29,
+          "s3": 46,
+          "s5": 51,
+          "s9": 57
+        },
+        "l1_zero": {
+          "s1": 29,
+          "s3": 41,
+          "s5": 49,
+          "s9": 55
+        },
+        "mse_centered": {
+          "s1": 29,
+          "s3": 42,
+          "s5": 52,
+          "s9": 56
+        },
+        "mse_zero": {
+          "s1": 29,
+          "s3": 39,
+          "s5": 49,
+          "s9": 54
+        },
+        "smooth_centered": {
+          "s1": 29,
+          "s3": 48,
+          "s5": 54,
+          "s9": 61
+        },
+        "smooth_zero": {
+          "s1": 29,
+          "s3": 43,
+          "s5": 53,
+          "s9": 57
+        }
+      },
+      "loss_seed1_counts": {
+        "l1": {
+          "s1": 29,
+          "s3": 45,
+          "s5": 49,
+          "s9": 58
+        },
+        "smooth": {
+          "s1": 29,
+          "s3": 40,
+          "s5": 47,
+          "s9": 50
+        }
+      },
+      "transfer_counts": {
+        "raw_first_only": {
+          "s1": 29,
+          "s3": 41,
+          "s5": 48,
+          "s9": 53
+        },
+        "raw_full": {
+          "s1": 29,
+          "s3": 45,
+          "s5": 50,
+          "s9": 56
+        },
+        "centered_first_only": {
+          "s1": 29,
+          "s3": 43,
+          "s5": 48,
+          "s9": 55
+        },
+        "centered_full": {
+          "s1": 29,
+          "s3": 46,
+          "s5": 51,
+          "s9": 57
+        },
+        "norm_matched_full": {
+          "s1": 29,
+          "s3": 48,
+          "s5": 53,
+          "s9": 59
+        }
+      }
+    }
+  }
+}

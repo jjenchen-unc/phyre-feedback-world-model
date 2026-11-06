@@ -1,0 +1,176 @@
+{
+  "audit_complete": true,
+  "strict_acceptance": "all event/gradient/weight hashes exact; no tolerance relaxation",
+  "shared_gpu_timing": true,
+  "formal_training_modified": false,
+  "runs": {
+    "STRICT_CUDA_cross": {
+      "result_sha256": "9ccbaae14bf5c89a1def3251e0332950732ba0db3a0881e302848c2c9de60ec4",
+      "passed_exact": true,
+      "comparisons": [
+        {
+          "arm": "optimized",
+          "first_differing_events_slot": null,
+          "first_differing_gradient_sha256_slot": null,
+          "first_differing_weight_sha256_slot": null,
+          "first_differing_policy_slot": null,
+          "exact": true
+        },
+        {
+          "arm": "reference_repeat",
+          "first_differing_events_slot": null,
+          "first_differing_gradient_sha256_slot": null,
+          "first_differing_weight_sha256_slot": null,
+          "first_differing_policy_slot": null,
+          "exact": true
+        }
+      ],
+      "checkpoint_sha256": "58683d17968244393deb51b0009430b4bfb8d878dcdcfd4321f1a851f775a959",
+      "episode_sha256": "d3c111b60b9f1c561e184a00b5437e356f839e2d858b6ecb8c6e5babfce10bbf",
+      "strict_algorithms": true,
+      "pool_backward": "cuda",
+      "audited_scores": {
+        "chunks": 248,
+        "scores": 5368
+      },
+      "pool_shapes": [
+        [
+          14,
+          14,
+          10,
+          10
+        ]
+      ],
+      "pool_backward_calls": 93,
+      "slots_per_arm": 65,
+      "episodes_per_arm": 130,
+      "max_updates": 8
+    },
+    "STRICT_CUDA_within": {
+      "result_sha256": "0d7fec1f6fe6f8f1033878e908821a9a2b12c23eacde53d4a8de4ae37ef7e8a6",
+      "passed_exact": true,
+      "comparisons": [
+        {
+          "arm": "optimized",
+          "first_differing_events_slot": null,
+          "first_differing_gradient_sha256_slot": null,
+          "first_differing_weight_sha256_slot": null,
+          "first_differing_policy_slot": null,
+          "exact": true
+        },
+        {
+          "arm": "reference_repeat",
+          "first_differing_events_slot": null,
+          "first_differing_gradient_sha256_slot": null,
+          "first_differing_weight_sha256_slot": null,
+          "first_differing_policy_slot": null,
+          "exact": true
+        }
+      ],
+      "checkpoint_sha256": "9c4ba4da06b195dcf3880e9ea0ced305b7c946b67cbbb1618ccd044d99f42e09",
+      "episode_sha256": "3409d898cb965d6fd5503dba23dfd1506a29727b2af33d13569ca52f7843cdcb",
+      "strict_algorithms": true,
+      "pool_backward": "cuda",
+      "audited_scores": {
+        "chunks": 234,
+        "scores": 5117
+      },
+      "pool_shapes": [
+        [
+          14,
+          14,
+          10,
+          10
+        ]
+      ],
+      "pool_backward_calls": 96,
+      "slots_per_arm": 65,
+      "episodes_per_arm": 130,
+      "max_updates": 8
+    },
+    "STRICT_CPU_cross": {
+      "result_sha256": "5b4fcb99e630a73bdd5ff1003aa46b6a4918856c346ba8776fa0e099048be344",
+      "passed_exact": true,
+      "comparisons": [
+        {
+          "arm": "optimized",
+          "first_differing_events_slot": null,
+          "first_differing_gradient_sha256_slot": null,
+          "first_differing_weight_sha256_slot": null,
+          "first_differing_policy_slot": null,
+          "exact": true
+        },
+        {
+          "arm": "reference_repeat",
+          "first_differing_events_slot": null,
+          "first_differing_gradient_sha256_slot": null,
+          "first_differing_weight_sha256_slot": null,
+          "first_differing_policy_slot": null,
+          "exact": true
+        }
+      ],
+      "checkpoint_sha256": "58683d17968244393deb51b0009430b4bfb8d878dcdcfd4321f1a851f775a959",
+      "episode_sha256": "d3c111b60b9f1c561e184a00b5437e356f839e2d858b6ecb8c6e5babfce10bbf",
+      "strict_algorithms": true,
+      "pool_backward": "cpu",
+      "audited_scores": {
+        "chunks": 248,
+        "scores": 5368
+      },
+      "pool_shapes": [
+        [
+          14,
+          14,
+          10,
+          10
+        ]
+      ],
+      "pool_backward_calls": 93,
+      "slots_per_arm": 65,
+      "episodes_per_arm": 130,
+      "max_updates": 8
+    },
+    "DEFAULT_CUDA_cross": {
+      "result_sha256": "7bf6793efae91331a929f7fb5ddc40cece1b7b01bfb55e4101746c2545ae9a06",
+      "passed_exact": false,
+      "comparisons": [
+        {
+          "arm": "optimized",
+          "first_differing_events_slot": 7,
+          "first_differing_gradient_sha256_slot": 2,
+          "first_differing_weight_sha256_slot": 2,
+          "first_differing_policy_slot": 21,
+          "exact": false
+        },
+        {
+          "arm": "reference_repeat",
+          "first_differing_events_slot": 9,
+          "first_differing_gradient_sha256_slot": 2,
+          "first_differing_weight_sha256_slot": 2,
+          "first_differing_policy_slot": 15,
+          "exact": false
+        }
+      ],
+      "checkpoint_sha256": "58683d17968244393deb51b0009430b4bfb8d878dcdcfd4321f1a851f775a959",
+      "episode_sha256": "d3c111b60b9f1c561e184a00b5437e356f839e2d858b6ecb8c6e5babfce10bbf",
+      "strict_algorithms": false,
+      "pool_backward": "cuda",
+      "audited_scores": {
+        "chunks": 249,
+        "scores": 5392
+      },
+      "pool_shapes": [
+        [
+          14,
+          14,
+          10,
+          10
+        ]
+      ],
+      "pool_backward_calls": 95,
+      "slots_per_arm": 65,
+      "episodes_per_arm": 130,
+      "max_updates": 8
+    }
+  }
+}

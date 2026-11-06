@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "batch_vs_serial_prediction_max_error": 8.881784197001252e-16,
+  "batch_vs_serial_gradient_max_error": 1.6653345369377348e-16,
+  "depths": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "code": {
+    "test_query_token_ablation.py": "ece60afb7a4963de711973cc3d689695704a5eb08daf935cd8e1c97f3f6a8bd5",
+    "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+    "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+    "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc",
+    "query_token_predictor.py": "66aa433f47a5f7926324b4ea604e7f927bcb2b34fb309c25f2b572d70026a04a",
+    "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+    "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+    "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+    "query_token_ablation.py": "75016a0f29b9fce85be5ae685d3d8026c761be46dec6135923536097e4d61d76"
+  },
+  "scope": "remote real environment CPU float64 tiny model"
+}

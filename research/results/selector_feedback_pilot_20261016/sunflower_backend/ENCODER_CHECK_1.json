@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "panel": "cross",
+      "task": "00008:062",
+      "reference": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/1/00008_062_035639.npz",
+      "reference_sha256": "ba4d7132d1cd6eaf1b1a8175dcc4cc0201b79516b052b304cfd44ee758746bf9",
+      "exact": false,
+      "initial_exact": true,
+      "max_abs": 0.430908203125,
+      "mean_abs": 0.0033339126672143147
+    },
+    {
+      "panel": "cross",
+      "task": "00011:451",
+      "reference": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/12/00011_451_087862.npz",
+      "reference_sha256": "81f014cf28b971a6f69a709c0956bbb8ed5f71cf194dd8049861292040c16129",
+      "exact": false,
+      "initial_exact": true,
+      "max_abs": 0.48779296875,
+      "mean_abs": 0.0036291470480174044
+    },
+    {
+      "panel": "cross",
+      "task": "00008:062",
+      "reference": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/cross/16/00008_062_077239.npz",
+      "reference_sha256": "3a8b7e869669a2b65e5ea143bb13c86e3c389867ec96fb82c20094a0a38415bc",
+      "exact": false,
+      "initial_exact": true,
+      "max_abs": 0.3017578125,
+      "mean_abs": 0.0031798998589154656
+    },
+    {
+      "panel": "within",
+      "task": "00004:627",
+      "reference": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/0/00004_627_046298.npz",
+      "reference_sha256": "d4c21df9eddf60e8de5ffa0af423f0fca4fb4da008d71887d9ba0867693e7aee",
+      "exact": false,
+      "initial_exact": true,
+      "max_abs": 0.6083984375,
+      "mean_abs": 0.003971886204787867
+    },
+    {
+      "panel": "within",
+      "task": "00004:627",
+      "reference": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/12/00004_627_066004.npz",
+      "reference_sha256": "40e17a2a5a4f9431ca2eefb1ec084ea4f888fbd31bcf01a8c319e5a557f5ecab",
+      "exact": false,
+      "initial_exact": true,
+      "max_abs": 0.8935546875,
+      "mean_abs": 0.0037811218750661915
+    },
+    {
+      "panel": "within",
+      "task": "00004:627",
+      "reference": "/path/to/phyre-unc/results/selector_feedback_pilot_20261016/observations/within/20/00004_627_005030.npz",
+      "reference_sha256": "2443d474bf833fa69042d16e7cfbe7d860c2280ea1e50728cb0283f821a0b0b5",
+      "exact": false,
+      "initial_exact": true,
+      "max_abs": 1.96337890625,
+      "mean_abs": 0.004328837995616391
+    }
+  ],
+  "all_exact": false,
+  "gpu": "NVIDIA RTX A5000",
+  "disable_addmm": 1
+}

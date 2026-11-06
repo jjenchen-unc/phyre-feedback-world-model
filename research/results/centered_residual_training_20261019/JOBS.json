@@ -1,0 +1,12 @@
+{
+  "encoder_validation": "36204",
+  "smoke": "36205",
+  "smoke_summary": "36206",
+  "train": "36207",
+  "audit_cross": "36208",
+  "eval_cross": "36209",
+  "audit_within": "36210",
+  "eval_within": "36211",
+  "summary": "36212",
+  "encoder_cleanup": "36213"
+}

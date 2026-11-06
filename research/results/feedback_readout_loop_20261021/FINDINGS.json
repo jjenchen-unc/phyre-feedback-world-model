@@ -1,0 +1,324 @@
+{
+  "complete": true,
+  "scope": "Six smallMLP head fits:2seeds x realresidual/zeroresidual/query-only. FrozenQ0,probes,staticquery8readout,firstactionand1024candidatepool. Same424trainingqueries32positives,53firstfailures. Singlefeedbackconditionalrankings.",
+  "conclusion": "Support-conditioned readout shows an exploratory cross early-successgain overstatic/query-only, but observedresidual addsno stableadvantage overtrainedzero. Registered expansiongatefailed; no additionalfoldorlarge traininglaunched.",
+  "results": {
+    "8419_query_only": {
+      "top1": 2,
+      "top3": 4,
+      "top5": 8,
+      "top8": 8,
+      "auc": 0.5982467518185854,
+      "S2_count": 5
+    },
+    "8419_real": {
+      "top1": 5,
+      "top3": 10,
+      "top5": 13,
+      "top8": 14,
+      "auc": 0.5841161758939944,
+      "S2_count": 8
+    },
+    "8419_shuffle0": {
+      "top1": 3,
+      "top3": 4,
+      "top5": 7,
+      "top8": 11,
+      "auc": 0.5756109515679048,
+      "S2_count": 6
+    },
+    "8419_shuffle1": {
+      "top1": 7,
+      "top3": 9,
+      "top5": 10,
+      "top8": 12,
+      "auc": 0.585197704075961,
+      "S2_count": 10
+    },
+    "8419_shuffle2": {
+      "top1": 3,
+      "top3": 7,
+      "top5": 8,
+      "top8": 10,
+      "auc": 0.5742057565681419,
+      "S2_count": 6
+    },
+    "8419_shuffle3": {
+      "top1": 3,
+      "top3": 7,
+      "top5": 9,
+      "top8": 12,
+      "auc": 0.5781048946217033,
+      "S2_count": 6
+    },
+    "8419_shuffle4": {
+      "top1": 5,
+      "top3": 7,
+      "top5": 9,
+      "top8": 10,
+      "auc": 0.5869629516247505,
+      "S2_count": 8
+    },
+    "8419_zero": {
+      "top1": 6,
+      "top3": 8,
+      "top5": 11,
+      "top8": 12,
+      "auc": 0.5885946422552377,
+      "S2_count": 9
+    },
+    "8420_query_only": {
+      "top1": 3,
+      "top3": 5,
+      "top5": 5,
+      "top8": 9,
+      "auc": 0.6057449547429792,
+      "S2_count": 6
+    },
+    "8420_real": {
+      "top1": 5,
+      "top3": 6,
+      "top5": 6,
+      "top8": 8,
+      "auc": 0.5675820402836129,
+      "S2_count": 8
+    },
+    "8420_shuffle0": {
+      "top1": 3,
+      "top3": 5,
+      "top5": 7,
+      "top8": 8,
+      "auc": 0.573353929962574,
+      "S2_count": 6
+    },
+    "8420_shuffle1": {
+      "top1": 4,
+      "top3": 4,
+      "top5": 7,
+      "top8": 9,
+      "auc": 0.5777980590399223,
+      "S2_count": 7
+    },
+    "8420_shuffle2": {
+      "top1": 3,
+      "top3": 5,
+      "top5": 7,
+      "top8": 10,
+      "auc": 0.5726546925623418,
+      "S2_count": 6
+    },
+    "8420_shuffle3": {
+      "top1": 4,
+      "top3": 4,
+      "top5": 6,
+      "top8": 8,
+      "auc": 0.573888020949486,
+      "S2_count": 7
+    },
+    "8420_shuffle4": {
+      "top1": 3,
+      "top3": 4,
+      "top5": 8,
+      "top8": 11,
+      "auc": 0.5726853952986892,
+      "S2_count": 6
+    },
+    "8420_zero": {
+      "top1": 5,
+      "top3": 6,
+      "top5": 11,
+      "top8": 12,
+      "auc": 0.5519914676964477,
+      "S2_count": 8
+    },
+    "q0": {
+      "top1": 2,
+      "top3": 5,
+      "top5": 6,
+      "top8": 8,
+      "auc": 0.5518208403967011,
+      "S2_count": 5
+    },
+    "static": {
+      "top1": 3,
+      "top3": 7,
+      "top5": 8,
+      "top8": 10,
+      "auc": 0.59382030824117,
+      "S2_count": 6
+    }
+  },
+  "paired": {
+    "8419_real vs q0": {
+      "top1": {
+        "gain": 4,
+        "loss": 1
+      },
+      "top3": {
+        "gain": 6,
+        "loss": 1
+      },
+      "top5": {
+        "gain": 8,
+        "loss": 1
+      },
+      "top8": {
+        "gain": 7,
+        "loss": 1
+      }
+    },
+    "8419_real vs static": {
+      "top1": {
+        "gain": 2,
+        "loss": 0
+      },
+      "top3": {
+        "gain": 4,
+        "loss": 1
+      },
+      "top5": {
+        "gain": 6,
+        "loss": 1
+      },
+      "top8": {
+        "gain": 6,
+        "loss": 2
+      }
+    },
+    "8419_real vs 8419_zero": {
+      "top1": {
+        "gain": 0,
+        "loss": 1
+      },
+      "top3": {
+        "gain": 3,
+        "loss": 1
+      },
+      "top5": {
+        "gain": 3,
+        "loss": 1
+      },
+      "top8": {
+        "gain": 3,
+        "loss": 1
+      }
+    },
+    "8419_real vs 8419_query_only": {
+      "top1": {
+        "gain": 3,
+        "loss": 0
+      },
+      "top3": {
+        "gain": 7,
+        "loss": 1
+      },
+      "top5": {
+        "gain": 8,
+        "loss": 3
+      },
+      "top8": {
+        "gain": 9,
+        "loss": 3
+      }
+    },
+    "8420_real vs q0": {
+      "top1": {
+        "gain": 4,
+        "loss": 1
+      },
+      "top3": {
+        "gain": 2,
+        "loss": 1
+      },
+      "top5": {
+        "gain": 2,
+        "loss": 2
+      },
+      "top8": {
+        "gain": 2,
+        "loss": 2
+      }
+    },
+    "8420_real vs static": {
+      "top1": {
+        "gain": 2,
+        "loss": 0
+      },
+      "top3": {
+        "gain": 3,
+        "loss": 4
+      },
+      "top5": {
+        "gain": 2,
+        "loss": 4
+      },
+      "top8": {
+        "gain": 3,
+        "loss": 5
+      }
+    },
+    "8420_real vs 8420_zero": {
+      "top1": {
+        "gain": 1,
+        "loss": 1
+      },
+      "top3": {
+        "gain": 2,
+        "loss": 2
+      },
+      "top5": {
+        "gain": 0,
+        "loss": 5
+      },
+      "top8": {
+        "gain": 1,
+        "loss": 5
+      }
+    },
+    "8420_real vs 8420_query_only": {
+      "top1": {
+        "gain": 3,
+        "loss": 1
+      },
+      "top3": {
+        "gain": 4,
+        "loss": 3
+      },
+      "top5": {
+        "gain": 4,
+        "loss": 3
+      },
+      "top8": {
+        "gain": 5,
+        "loss": 6
+      }
+    }
+  },
+  "findings": [
+    "Bothrealseeds conditionalnext1=5/97,S2=8/100;staticnext1=3,S2=6;Q0next1=2,S2=5.",
+    "Zerocontrol next1=6/5,next5=11/11,next8=12/12 acrossseeds;realnext1=5/5,next5=13/6,next8=14/8. Realdoesnotbeatzerointop1; deeperrankgainsseeddependent.",
+    "Query-onlysameMLP next1=2/3,next8=8/9. Added supportcontext mayhelp; zeroincludes supportaction,predictedgeometry andquery-supportrelations, notjustaction. Thisdoesnotisolatefailureeventorobservedphysics information.",
+    "Cross residualshuffle movesall97supports;meannext1=4.2/3.4vsreal5/5. Suggestiveonly;trainedzeroequallygood andsingleshuffle canbeatreal. Validationwithin-template shuffle isno-op(singleactive scene/template), no validationablationclaim.",
+    "Discovery/confirmation earlyrankbenefitdoesnotreliablyimprove. No claimofrobustgeneralization ornewwinningmethod.",
+    "An additionalcalibrationauditfoundoneconfirmation scene hasstaticlogits~1405fromfeaturestandardization;crosslogits areordinary[-5.47,-.88]. LargeconfirmationBCEcannotbeused aloneasoverfittingevidence; thisoutlierdoesnotexplaincrossrankingresults. Historicalrawscorespreserved."
+  ],
+  "representation": "Centeredresidual ->8time x2x2spatial mean/RMS ->16uncenteredfit-onlyPCs. Fitpooledenergy95.4%,crossmedian86.6%; notfractionoftaskinformation ororiginalresidualenergy. Negativeconclusionlimitedtothisheadrepresentation.",
+  "validation": {
+    "score_audit": "AUDIT.json",
+    "independent_replay": "REPLAY_AUDIT.json",
+    "replayed_score_vectors": 216,
+    "maximum_logit_difference": 1.33514404296875e-05,
+    "local_remote_npz_matches": 893,
+    "topk_success_agreement": true
+  },
+  "next_recommendation": "Keep zero-residual support-conditioned head as low-cost control. Next isolate supportaction versus predictedsupporttrajectory/relativefeatures beforeattributinggain toerrorfeedback; investigate regularization andresidualrepresentation onlywithmatchedcontrols. No scale-upofresidualhead yet.",
+  "artifacts": [
+    "PLAN.json",
+    "CROSS100_TABLE.csv",
+    "AUDIT.json",
+    "REPLAY_AUDIT.json",
+    "GENERALIZATION.json",
+    "STATIC_LOGIT_RANGE_DIAGNOSTIC.json",
+    "FINAL_JOB_STATUS.txt"
+  ]
+}

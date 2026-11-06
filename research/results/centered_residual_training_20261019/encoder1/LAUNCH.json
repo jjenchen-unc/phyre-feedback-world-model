@@ -1,0 +1,8 @@
+{
+  "pid": 2456001,
+  "gpu": 7,
+  "started": 1792423826.3897736,
+  "max_seconds": 28800,
+  "occupancy_note": "Shares low-usage GPU with existing processes; no processes stopped orpreempted",
+  "memory_used_MiB_before": 2871
+}

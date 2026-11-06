@@ -1,0 +1,252 @@
+{
+  "recorded_utc": "2026-10-14T17:13:39.366282+00:00",
+  "rows": [
+    {
+      "panel": "cross",
+      "name": "base_g0_s0",
+      "train_h": 9.014177829844153,
+      "eval_phase_h_from_completion_files": 0.2644600452317132,
+      "median_logged_s_per_step": 0.22529712076764555,
+      "slow_intervals_over_5x_median": 10,
+      "slow_interval_hours": 4.338671044511203,
+      "max_interval_s": 6404.675469602458
+    },
+    {
+      "panel": "cross",
+      "name": "q0_g0_s0",
+      "train_h": 8.332827542619004,
+      "eval_phase_h_from_completion_files": 0.278302360508177,
+      "median_logged_s_per_step": 0.2591926581738517,
+      "slow_intervals_over_5x_median": 12,
+      "slow_interval_hours": 1.9290565135935323,
+      "max_interval_s": 1150.923678573221
+    },
+    {
+      "panel": "cross",
+      "name": "base_g0.03_s0",
+      "train_h": 6.029528704804058,
+      "eval_phase_h_from_completion_files": 0.2617454516887665,
+      "median_logged_s_per_step": 0.22455538611393422,
+      "slow_intervals_over_5x_median": 10,
+      "slow_interval_hours": 2.330877385300377,
+      "max_interval_s": 3005.433912904933
+    },
+    {
+      "panel": "cross",
+      "name": "q0_g0.03_s0",
+      "train_h": 7.151072590249177,
+      "eval_phase_h_from_completion_files": 0.27752097103330825,
+      "median_logged_s_per_step": 0.25788216083310544,
+      "slow_intervals_over_5x_median": 14,
+      "slow_interval_hours": 2.857332837025428,
+      "max_interval_s": 2510.2857475411147
+    },
+    {
+      "panel": "cross",
+      "name": "base_g0.1_s0",
+      "train_h": 3.3578217082589656,
+      "eval_phase_h_from_completion_files": 0.25966232538223266,
+      "median_logged_s_per_step": 0.2217171801859513,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 57.719731256365776
+    },
+    {
+      "panel": "cross",
+      "name": "q0_g0.1_s0",
+      "train_h": 3.6077754414919765,
+      "eval_phase_h_from_completion_files": 0.27786919309033287,
+      "median_logged_s_per_step": 0.24248221350833774,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 72.4628159366548
+    },
+    {
+      "panel": "cross",
+      "name": "base_g0.1_s1",
+      "train_h": 3.437107010080169,
+      "eval_phase_h_from_completion_files": 0.25986457566420235,
+      "median_logged_s_per_step": 0.22607388240285217,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 109.51851893495768
+    },
+    {
+      "panel": "cross",
+      "name": "q0_g0.1_s1",
+      "train_h": 3.710282833963736,
+      "eval_phase_h_from_completion_files": 0.3195866150326199,
+      "median_logged_s_per_step": 0.24659281140659003,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 111.08476409036666
+    },
+    {
+      "panel": "cross",
+      "name": "base_g0.1_s2",
+      "train_h": 3.9905409165044934,
+      "eval_phase_h_from_completion_files": 1.079326978193389,
+      "median_logged_s_per_step": 0.23297163803130388,
+      "slow_intervals_over_5x_median": 3,
+      "slow_interval_hours": 0.3084488141221098,
+      "max_interval_s": 502.88339797314256
+    },
+    {
+      "panel": "cross",
+      "name": "q0_g0.1_s2",
+      "train_h": 8.585715233250003,
+      "eval_phase_h_from_completion_files": 0.3008004007736842,
+      "median_logged_s_per_step": 0.255432753842324,
+      "slow_intervals_over_5x_median": 9,
+      "slow_interval_hours": 4.3887254581318444,
+      "max_interval_s": 6936.873789093457
+    },
+    {
+      "panel": "cross",
+      "name": "base_g0.3_s0",
+      "train_h": 5.134752181289045,
+      "eval_phase_h_from_completion_files": 0.2590507109297646,
+      "median_logged_s_per_step": 0.22164751975797117,
+      "slow_intervals_over_5x_median": 8,
+      "slow_interval_hours": 1.7860814222545984,
+      "max_interval_s": 1651.25903068576
+    },
+    {
+      "panel": "cross",
+      "name": "q0_g0.3_s0",
+      "train_h": 3.521709622352177,
+      "eval_phase_h_from_completion_files": 0.27660116334756213,
+      "median_logged_s_per_step": 0.2411885498277843,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 53.4754773369059
+    },
+    {
+      "panel": "within",
+      "name": "base_g0_s0",
+      "train_h": 9.600221317388996,
+      "eval_phase_h_from_completion_files": 0.26229950388272605,
+      "median_logged_s_per_step": 0.2370753610972315,
+      "slow_intervals_over_5x_median": 13,
+      "slow_interval_hours": 4.779047341752383,
+      "max_interval_s": 11112.666234067641
+    },
+    {
+      "panel": "within",
+      "name": "q0_g0_s0",
+      "train_h": 7.012772549706667,
+      "eval_phase_h_from_completion_files": 0.27487009108066557,
+      "median_logged_s_per_step": 0.25949089486617594,
+      "slow_intervals_over_5x_median": 11,
+      "slow_interval_hours": 1.917429204605675,
+      "max_interval_s": 1573.1948739858344
+    },
+    {
+      "panel": "within",
+      "name": "base_g0.03_s0",
+      "train_h": 7.386851024765314,
+      "eval_phase_h_from_completion_files": 0.25259831494755214,
+      "median_logged_s_per_step": 0.24000616205856204,
+      "slow_intervals_over_5x_median": 14,
+      "slow_interval_hours": 3.2728956703802883,
+      "max_interval_s": 2545.748712231405
+    },
+    {
+      "panel": "within",
+      "name": "q0_g0.03_s0",
+      "train_h": 6.39530835416944,
+      "eval_phase_h_from_completion_files": 0.27426432682408225,
+      "median_logged_s_per_step": 0.24538700855802745,
+      "slow_intervals_over_5x_median": 11,
+      "slow_interval_hours": 2.3006496771184417,
+      "max_interval_s": 1676.952566485852
+    },
+    {
+      "panel": "within",
+      "name": "base_g0.1_s0",
+      "train_h": 3.3433455651170676,
+      "eval_phase_h_from_completion_files": 0.2519344504674276,
+      "median_logged_s_per_step": 0.2208109611365944,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 70.12230928894132
+    },
+    {
+      "panel": "within",
+      "name": "q0_g0.1_s0",
+      "train_h": 3.6063498449299694,
+      "eval_phase_h_from_completion_files": 0.2732691340976291,
+      "median_logged_s_per_step": 0.24200004568789155,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 63.97504989709705
+    },
+    {
+      "panel": "within",
+      "name": "base_g0.1_s1",
+      "train_h": 3.4450306548134217,
+      "eval_phase_h_from_completion_files": 0.2530333834224277,
+      "median_logged_s_per_step": 0.22385776431299745,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 124.65944790281355
+    },
+    {
+      "panel": "within",
+      "name": "q0_g0.1_s1",
+      "train_h": 3.739124730195488,
+      "eval_phase_h_from_completion_files": 0.3107176578044891,
+      "median_logged_s_per_step": 0.24667929012328385,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 130.31550185009837
+    },
+    {
+      "panel": "within",
+      "name": "base_g0.1_s2",
+      "train_h": 3.8960151767888522,
+      "eval_phase_h_from_completion_files": 0.2732223198148939,
+      "median_logged_s_per_step": 0.22994064241182058,
+      "slow_intervals_over_5x_median": 3,
+      "slow_interval_hours": 0.26046618697181756,
+      "max_interval_s": 364.5697647854686
+    },
+    {
+      "panel": "within",
+      "name": "q0_g0.1_s2",
+      "train_h": 8.618713933285067,
+      "eval_phase_h_from_completion_files": 0.5988517268498739,
+      "median_logged_s_per_step": 0.2530088502028957,
+      "slow_intervals_over_5x_median": 7,
+      "slow_interval_hours": 4.375520282406101,
+      "max_interval_s": 7732.052580574527
+    },
+    {
+      "panel": "within",
+      "name": "base_g0.3_s0",
+      "train_h": 3.192918945778058,
+      "eval_phase_h_from_completion_files": 0.25126307639810774,
+      "median_logged_s_per_step": 0.21866672416683286,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 49.22091901488602
+    },
+    {
+      "panel": "within",
+      "name": "q0_g0.3_s0",
+      "train_h": 3.5311491058859974,
+      "eval_phase_h_from_completion_files": 0.2741222483581967,
+      "median_logged_s_per_step": 0.2416092882445082,
+      "slow_intervals_over_5x_median": 0,
+      "slow_interval_hours": 0.0,
+      "max_interval_s": 53.982969786040485
+    }
+  ],
+  "sum_training_gpu_h": 129.6411128175313,
+  "sum_eval_phase_h": 7.665237024823824,
+  "notes": [
+    "Train seconds from completed run metadata; eval phase is model-complete to evaluation-complete file mtimes and includes loading/auditing.",
+    "Slow log intervals identify stalls/contention but do not identify their unique cause.",
+    "Prior validation intentionally shared GPUs with formal training; no claim of uncontended throughput."
+  ]
+}

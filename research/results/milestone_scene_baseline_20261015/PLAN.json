@@ -1,0 +1,1660 @@
+{
+  "panels": {
+    "cross": {
+      "setup": "ball_cross_template_f1",
+      "checkpoint": "/path/to/phyre-unc/results/scene_clf_matched_s16r16_cross_f1.pt",
+      "checkpoint_sha256": "98195162ae2f4e6ba62addeed418fb9e7fc04afd3408049a2b1b3b6b71c30af5",
+      "historical_record": "/path/to/phyre-unc/results/scene_clf_matched_s16r16_cross_f1.json",
+      "training_manifest": "/path/to/phyre-unc/data/manifests/ball_cross_template_f1_train_s16r16.jsonl",
+      "training_pairs": 52276,
+      "historical_updates": 20000,
+      "tasks": [
+        "00008:062",
+        "00008:070",
+        "00008:120",
+        "00008:144",
+        "00008:197",
+        "00008:206",
+        "00008:256",
+        "00008:257",
+        "00008:263",
+        "00008:273",
+        "00008:276",
+        "00008:442",
+        "00008:488",
+        "00008:499",
+        "00008:527",
+        "00008:532",
+        "00008:586",
+        "00008:601",
+        "00008:618",
+        "00008:619",
+        "00010:025",
+        "00010:048",
+        "00010:051",
+        "00010:102",
+        "00010:113",
+        "00010:190",
+        "00010:278",
+        "00010:286",
+        "00010:298",
+        "00010:370",
+        "00010:379",
+        "00010:386",
+        "00010:387",
+        "00010:397",
+        "00010:428",
+        "00010:438",
+        "00010:448",
+        "00010:454",
+        "00010:459",
+        "00010:469",
+        "00013:011",
+        "00013:019",
+        "00013:025",
+        "00013:064",
+        "00013:078",
+        "00013:081",
+        "00013:083",
+        "00013:106",
+        "00013:144",
+        "00013:146",
+        "00013:164",
+        "00013:172",
+        "00013:179",
+        "00013:207",
+        "00013:210",
+        "00013:212",
+        "00013:222",
+        "00013:263",
+        "00013:271",
+        "00013:281",
+        "00015:185",
+        "00015:279",
+        "00015:296",
+        "00015:319",
+        "00015:339",
+        "00015:341",
+        "00015:358",
+        "00015:371",
+        "00015:372",
+        "00015:379",
+        "00015:386",
+        "00015:407",
+        "00015:418",
+        "00015:424",
+        "00015:448",
+        "00015:457",
+        "00015:460",
+        "00015:472",
+        "00015:480",
+        "00015:485",
+        "00023:008",
+        "00023:031",
+        "00023:240",
+        "00023:320",
+        "00023:385",
+        "00023:428",
+        "00023:471",
+        "00023:490",
+        "00023:506",
+        "00023:740",
+        "00023:754",
+        "00023:757",
+        "00023:767",
+        "00023:839",
+        "00023:883",
+        "00023:918",
+        "00023:925",
+        "00023:930",
+        "00023:959",
+        "00023:974"
+      ],
+      "reference_scene_file": "/mnt/meg/jjenchen/phyre-unc/scenes/ball_cross_template_f1_dev.npz",
+      "reference_task": "00000:000",
+      "cases": {
+        "00008:062": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_062.npz",
+          "shortlist_sha256": "7b3dcdc3587a306f6c74f4030d90103fc22b0026179e8e0b5da0125f9df144f3",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "ed4a6b2199feb7a9ad7ebea0976aefb33d52b61641b102c75184cba48cb415e2",
+          "q0_scores_sha256": "3ce07511baf55be0fc1ddfe5ed0df488900dc3ccf4c54aea5c6a4f929881c3ab"
+        },
+        "00008:070": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_070.npz",
+          "shortlist_sha256": "3c26b7b8f386a394696374fb175ec2a1b7fd7edfa1252ba2955d12abd39b2370",
+          "labels_sha256": "ff8fc2b8cccefaa7b6094edfedf073d3895d50b2808406816be3b3d289ab6578",
+          "base_scores_sha256": "c58900b12fbb3f1aff7fc38fee4452f2b3d0bea33793619cb29761de5186077a",
+          "q0_scores_sha256": "1f4c64f7f43213d60c4d16a10f3d75a9b222f78e1b93fab900e84321796a23e4"
+        },
+        "00008:120": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_120.npz",
+          "shortlist_sha256": "bb47c54041c2bd46c0c58b0e130c182f7077696aea97dfcfa91b0635bc1aa583",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "d16601938d09de2ba403831cbeb3f2f0c32a684998229df10e31bcfba055a05a",
+          "q0_scores_sha256": "59f6e0f2bc2f1595b0e4c704e6c70e0e7d11084a1d5a398b53bd4524fc1a17f7"
+        },
+        "00008:144": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_144.npz",
+          "shortlist_sha256": "60b28c8bcfc41bd92db1780572fed18ea87d3760e2b76c3197b9046a52cf4b89",
+          "labels_sha256": "741c89d734869ffc005c13971a82b68a02a9bc3855536e8a502cd2bcca561114",
+          "base_scores_sha256": "d8c651f577a94f392d5eb723a92338f8a944cea26464b41c763ac385bf97d1f4",
+          "q0_scores_sha256": "4a5ebe5dca548762f4b55f8ee5526c4dbb47887630406432cf2105e9a7b62d5e"
+        },
+        "00008:197": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_197.npz",
+          "shortlist_sha256": "b81f04e4d9c7beb1cb087cfa907cf23ad672a00df1f1129f9c5db7a9ebf89e31",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "511b709cb6cf0d965751d3e670604baa04b660d63d1b740f181886bbb4b5713c",
+          "q0_scores_sha256": "d69e05cad6a2ac7c545925accfc92ab02c039ff6f6f97c04c36667f4a8633f8d"
+        },
+        "00008:206": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_206.npz",
+          "shortlist_sha256": "f56fbf447da6b97ea9b357c208c6f0a354a3c09eb9f0b6e862473df0005fbc29",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "715fadd78bb1dd89346b6fb8852629eb66d5fdf5c6f42cd1f3f3ff3404b92aa8",
+          "q0_scores_sha256": "ce2f0c4dbf9e6df1751314344f72ae34f6412b43e8a2ac7e94f6168fee06c4df"
+        },
+        "00008:256": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_256.npz",
+          "shortlist_sha256": "d5538ed60411237fa6e7e3a80f84496ebbe21bd70b5d0073f819e5ec16f644e3",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "7d4c3141184906029e635cebb63f82387c2f5ac8d399626f968cd2636dd57612",
+          "q0_scores_sha256": "7f1aaedbfb117ff910b04d53f0ca71431fba983d6dafcfed73548203d1d8514b"
+        },
+        "00008:257": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_257.npz",
+          "shortlist_sha256": "1c7d2baf41e42b5d16604401c7b0e14b4655e452a3e7bf2b3bd8a57232f56802",
+          "labels_sha256": "bba1a905da83cacc6ec0a40a8eeacb21574e01b162bb3ad116d9f68115d1f50e",
+          "base_scores_sha256": "f4010d04b1250ce49ce6bf71414bddfef3afff6e228c13c93648ce422ba52fdf",
+          "q0_scores_sha256": "51a85fa89c9a943d88ccee4c4557576d1c30875990838935e3cca983921a6ffb"
+        },
+        "00008:263": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_263.npz",
+          "shortlist_sha256": "80ba1e2099668042872cd7de17923c7d7c9096c8c750c2a8c0044b3d0ce0f914",
+          "labels_sha256": "f63e1b80c7793e3a2e5eb57566d4ae6d99d803f243f9669bc7f3f5fa5e6e4991",
+          "base_scores_sha256": "54a5f0f53bc63390c16f68caf303bc23a7168603e521a9defa623cbe9d4a0dd8",
+          "q0_scores_sha256": "108af814efedeed176cebf2280640db54f44a7faa4b5f098ccdcad0bf3f8f637"
+        },
+        "00008:273": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_273.npz",
+          "shortlist_sha256": "9628c4943b48c71a283ef47bcd962fa864aea81e5cbfccdc04ac3dce4fd81dd2",
+          "labels_sha256": "24096779563a3023671496567644fcc4c5c4b1a03a9c5983360529d20d87ce49",
+          "base_scores_sha256": "3c4d56e8b9a6ffc2dc891bbe2e665603e0c40a42cbadabe6fcc473bbb0be64e3",
+          "q0_scores_sha256": "6bacbf1a47fa5002096581453f5319648785ffa77929da547d0c9bccd99a91c2"
+        },
+        "00008:276": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_276.npz",
+          "shortlist_sha256": "51d4ef641a41dc05a0f1bed6fb25115649db7276caf95fd27309e137246bff6f",
+          "labels_sha256": "c10b142ca0fa737e3468e2488a725e7f21a6a0057c2c5e3920c8a16a447292c0",
+          "base_scores_sha256": "dfed3d4b1102211e20003c9f92e32fb8c3f4ac1a3b5fb6e44cc1d396a561206e",
+          "q0_scores_sha256": "3c93a7cea2fa4728aa348a941105f8f37b59d3ac06c0cbad2de4b3540463b8fc"
+        },
+        "00008:442": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_442.npz",
+          "shortlist_sha256": "233093ee679fd3d19af32685d332670fce9ced46dcf4f037aca754d4376e3c29",
+          "labels_sha256": "6bf466a3730775b1068bef7696f4e8f27e20b2a486b7552876f8016fc8e08ba0",
+          "base_scores_sha256": "ca66d8547108b85c505238f23cf93d9701f855db627b905a50b5a44b76989010",
+          "q0_scores_sha256": "a0fb2a39662f94af4928ac6d96717f0f5dee42279d079834094927af3ebc8f44"
+        },
+        "00008:488": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_488.npz",
+          "shortlist_sha256": "1e5a424c68e73f1ae4ca200db226f4fa4f9d541913107e5f36dd61169650218b",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "67af208dea7f6e87350a6bb29225c1d88a0a6573b61f415f67bbd85dce7d81bc",
+          "q0_scores_sha256": "9db88bef86c26968c128c4ee7477820d1b39ccff80cf9c7752c9a526ffdcd4ba"
+        },
+        "00008:499": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_499.npz",
+          "shortlist_sha256": "50033f9a6a4bed9b479a2d582d4cc6a2562639570d3c5a931249922eb19eb5de",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "e50da3b8550c2a73221a116452ae5afb890ba920896909beff9d7e7dd1ea7c7d",
+          "q0_scores_sha256": "fe8ebaaa774bb6311179706def10e73cf39cab74958862cd6b5c8eab844e753c"
+        },
+        "00008:527": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_527.npz",
+          "shortlist_sha256": "66544daa285fb1d083aff7f4714308a9236a9e74611f085d7ff9a485c17ae14a",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "dddee27eef67f2fb6606baf5ffed7b1641aee04a2426b95fe9acc383047ce975",
+          "q0_scores_sha256": "7f56a8dfd97ab458a6f129480f68fd45bcb3059991780eb86e1d8891e79fe545"
+        },
+        "00008:532": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_532.npz",
+          "shortlist_sha256": "8661aeaf4849191717225af5bd9fd18e343ee5ed3f7a554e7788fc6aa5200924",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "b1b5a2a85d01627dd300f219ea7715438494d938796d0d654adda67b0c1aa56e",
+          "q0_scores_sha256": "7b90f0af25ac1adca00e801b90782403ea4cc9a1b476b948a105d37974e86e4e"
+        },
+        "00008:586": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_586.npz",
+          "shortlist_sha256": "50bbde82126ff550d8fb6202032ce7e488b203fde97893e34d4fd46c401d14cf",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "4b248c5852b194a5a13e5c89f58eb6f5dbad44fbb8b99a9d0dae350d20d186f5",
+          "q0_scores_sha256": "fd0ba0e040cd02fb6bf5e2b4e72b44a1b1f07c53ee801853539297daae090da5"
+        },
+        "00008:601": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_601.npz",
+          "shortlist_sha256": "8d82734f5d9a9ba604a303ef3088b6e34354e3e5f61ad0b0904e2fa3692d0087",
+          "labels_sha256": "1065cc6bc91eb2d9fb6ac82a9443066d280cd1ec64b0e1d0749c5311376d41f0",
+          "base_scores_sha256": "473625502f1b0ea36644f3e5f8359d2d379f37533092d190ef15309e2d2f1e45",
+          "q0_scores_sha256": "d814e87581b548ff63825f581141d56026589c120683a7541ad81c8827890709"
+        },
+        "00008:618": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_618.npz",
+          "shortlist_sha256": "ae180ea750cdc1845b655b7671f91ddef10b8045ae56a2aa8d926dc8855704a5",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "ef2ca0edc2c21063693d90f53ae6ce3f46e652d5cf4b7853a8ea8c71b86ce056",
+          "q0_scores_sha256": "dd4965bc92156f21d48c4fc9f33c13bfeae293cd2bffd98508c60fcf57f375b7"
+        },
+        "00008:619": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00008_619.npz",
+          "shortlist_sha256": "16dcaa74d50fd0a3db05707b0a93dde339825a00151f0e90219756b7d6480892",
+          "labels_sha256": "7ced73c62bbdbceac11938ef9d9bcdc05697267e3b34f99b9c41e5550f8a3b47",
+          "base_scores_sha256": "79070662284261bbbe955ccdf07fe86883d5f2dc2ca26b3b90a29c734152389d",
+          "q0_scores_sha256": "8217170ba7176a9c3006c146b40bda74451633ec51b9a20ee40dcaad9f760480"
+        },
+        "00010:025": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_025.npz",
+          "shortlist_sha256": "678fd40b4c4ab30a003a7a7c77bd27f078e3281c4f6a210f129f9b56c9d147cd",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "8dab02a641181eca41c353d4f258e387bc06b7c4afae2b835a541e6c35421ec0",
+          "q0_scores_sha256": "6737d43249f56680690219428ec43a7df8bbeaff8aa4ba7c1ef2ba529787eb3c"
+        },
+        "00010:048": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_048.npz",
+          "shortlist_sha256": "d788d218a003b5311320cc09f7b506024439d313de5fc218d2823f2f78f2ba8c",
+          "labels_sha256": "d7e88cb321a54f2fff26c2fb898a37b6889d229791f03473e79dd0b50e6fb1bf",
+          "base_scores_sha256": "78fbee41e79c3ab13b9518e73b9f4e4231a213b73e753298db1ae6f83bd2dde5",
+          "q0_scores_sha256": "9ae3919c3f3417d1921e4cae70c2e45c8d162f8865c815d3789ce8f667422cca"
+        },
+        "00010:051": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_051.npz",
+          "shortlist_sha256": "0b9cc0787fe3c2e4871282d1d1e86857975f5073e76e1a3ff330b5a70f592274",
+          "labels_sha256": "d8aae49cb893fdf014c26c686a84915ec5835972a7e09cec24cbb2e77eb1291b",
+          "base_scores_sha256": "ceed3e57ec48c1853a6c77f28e1ca97ab8f9742ce3fb6e8a19135a7e5ec01c3a",
+          "q0_scores_sha256": "93f2665f9a67b6cb9c522bdc455982b75e655c80862024f31c801c773a4fb06d"
+        },
+        "00010:102": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_102.npz",
+          "shortlist_sha256": "e77253a4859112b65424bccb7a16de81c1238db027f089ec00398b7e842316e0",
+          "labels_sha256": "760be2a64b9ceb13f7a48371fca8a62e233b7d4ea4c1a2b6427ea8c612583287",
+          "base_scores_sha256": "2d2a7f6ebcf97ac2be8aa5580144706c9260cb068a1180f363f375967067fd9f",
+          "q0_scores_sha256": "3ecb0828e36bfbc52ecba0405a3d26ca9740960a439703f8df9f5c31b4b02b5c"
+        },
+        "00010:113": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_113.npz",
+          "shortlist_sha256": "8776521a9e703181de0c1a3ea682e39186a8b390bb29ba6d813304ae07f5582c",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "f9b450253fa2b40c530114eefa9d5dd27a0361ce3b4b182b6190bf44f28d2046",
+          "q0_scores_sha256": "0824ef9e509357f1ccbff39b612aab40ae3bab4d100aa97a767d2d036f8f44ae"
+        },
+        "00010:190": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_190.npz",
+          "shortlist_sha256": "ee559096779dec4c2c1c8a208f75772de92dfbea2bcf65ba64d51e1997a88bca",
+          "labels_sha256": "5edccd759b00914f2221ea18ef7bbb3830f646bec018ded9e36078d5963f027b",
+          "base_scores_sha256": "7a99cdd09bca9936d6f09df697d8be1dcc076c9311a0aa5b163ce844dfdb7bbd",
+          "q0_scores_sha256": "9f5eec0917b0358c7b0c2665323605a1ddc6108144e7ee42c6d409888678e377"
+        },
+        "00010:278": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_278.npz",
+          "shortlist_sha256": "80ee0b68acce15ef2f149d62a40536430a5a765c5b63fd68b4414fe0aadbd42c",
+          "labels_sha256": "a46a50eb63b133feff29731ce58f86c6ab887a75c5180b72c9a55a64978e021f",
+          "base_scores_sha256": "f5dd282285600ca6beb063933aab07fc96415ec10f8bd2db954c5d4ce6e3e292",
+          "q0_scores_sha256": "d3c0efd148fcfb8b70cae25c661a73b8d0c612475dbb8bfe4bebb9c6434c176b"
+        },
+        "00010:286": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_286.npz",
+          "shortlist_sha256": "08506db21dfc4db827073e28f70c2f4952ea2df376694400fd07235bba9ad548",
+          "labels_sha256": "5694142c91d21af3750b30d82b9044d05f404f08aaa7701399148eba3d956081",
+          "base_scores_sha256": "492b873693e707fe5e4198dc742b0d13dc519a7f4c534bd5c0d3c3415e695442",
+          "q0_scores_sha256": "e28b13cfa8da3b996d6e5b43876b74191c258d064d99fa2fe9663d0e68c18718"
+        },
+        "00010:298": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_298.npz",
+          "shortlist_sha256": "c85f55cbb736e8fc59ce24972e917a6af44844637dde085fbeb1147bcbf922cc",
+          "labels_sha256": "3b3855b3a303603add12edd69076ec2caf766059e57f5d6e9b343469ce0a47db",
+          "base_scores_sha256": "77eb9c1982d1573c520794f115abd3e3c6dba258fc2421e4e64d4faa3ce74474",
+          "q0_scores_sha256": "aba86925c5302e1335aa78404e2dbb770f51ce616acc091363c6b584a824397e"
+        },
+        "00010:370": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_370.npz",
+          "shortlist_sha256": "49a4232b912341aa594ddd96b9b8c6ba11c60429195c9aef9619a2b0ab40a9a2",
+          "labels_sha256": "679e24ea355fd94374896d61898db01eb7cb691ddedcd1e96979133e20ce5e07",
+          "base_scores_sha256": "4a79f357c26b7d6c4521a2eff6e7e3b9204d03cdcf23b433629fd283e6f9bfe9",
+          "q0_scores_sha256": "c84270605c8236e49b221d0b749e4e3a6fa756d876dee987eb2cf22bcef977e0"
+        },
+        "00010:379": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_379.npz",
+          "shortlist_sha256": "1544bc7f3e33d2744e4d2dffeee172cdf0828625abadd88d37a79dd6d08641a2",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "be0ed0d0345c24b48fffc5fe1070c451e11cc6d46112854a97b804d9c1370ba2",
+          "q0_scores_sha256": "5fca2616ba8c1499ace83474c5399f59e019c000b985b0e2164828ac6639993a"
+        },
+        "00010:386": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_386.npz",
+          "shortlist_sha256": "da9795098336d0af70ff071bd9c9ed4486360732899639744bbb3cbcf1dff85a",
+          "labels_sha256": "fb341ec3c0c88a3649a78a7fe47fd9dbbb0e3a9588fb1fd681e071248d07e3df",
+          "base_scores_sha256": "be11e7e52bacbbc84342c1c704ca0b121a54c9435bbaaea24ee2ec523cbd1b1c",
+          "q0_scores_sha256": "d49aba86316ee396d72fae9e5ab2f0cb58d24096e6299dbaffbf16bba6f02382"
+        },
+        "00010:387": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_387.npz",
+          "shortlist_sha256": "eaa5c09b7dfef69e74ff6fc7072c01b19ac2200b9c9232b26f1c56f78465e7f4",
+          "labels_sha256": "ca3562266aa963fa78e5092be1062e060bed04ad558ef422636f62762e8a6f89",
+          "base_scores_sha256": "db025e856b70fe1ae915cb68129f7c5a3e1fa67d7c1a5a9470308152b5f6643f",
+          "q0_scores_sha256": "5523833bd358641c1348cee813e92d07e18a2b4a06e130edcbcd6e7fc91b91f2"
+        },
+        "00010:397": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_397.npz",
+          "shortlist_sha256": "479f13913e772f1c5bda889b3c7b2ccc4e786e5e6feb607472197f58870fa2b9",
+          "labels_sha256": "7672c9b06a97b8ef551b3968e92a520255bcc5919c2056e16803e247fb28a8bf",
+          "base_scores_sha256": "a0e4e4ad364764355f8c0e3801021853f7ab9b8564e699bcf997de638c939a87",
+          "q0_scores_sha256": "bce8228504517d26695cc4bef1b82c25d81f47777d06153d205c02ead7d4d194"
+        },
+        "00010:428": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_428.npz",
+          "shortlist_sha256": "f65094ede462dd9b2c3fee0e817ccf63ff1934c72417b1e28a6b9f0587b99d33",
+          "labels_sha256": "b06cb547264a1fbbba1cc9ef580ec669692f04d07197127e38fc986fee5c8c1a",
+          "base_scores_sha256": "fb6560c6826fc9b10f45b9e8f4ee74e1461bd5477300fc4cb1276d04c9caff5c",
+          "q0_scores_sha256": "6180d6c517d94685ab3154a56e9b151deb71ca743003c312765fa5a89b8066f7"
+        },
+        "00010:438": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_438.npz",
+          "shortlist_sha256": "90af99af111cd661e910a309afc0ac24e0a453da70a3af0c3b4f7e86b11f7129",
+          "labels_sha256": "17b79d440ef4fac0e600b8b1847dbd5372994610fdd5fdf54a34c36438a0a574",
+          "base_scores_sha256": "413b48c104a9f23a5c9b1d6a762ac19ca2642e7d70bb2c39ab877c3092b104ac",
+          "q0_scores_sha256": "8f3c726bd9741756982f874fa58c8b5103bb432eca4330c1eb1e956cb5544cb0"
+        },
+        "00010:448": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_448.npz",
+          "shortlist_sha256": "15b96d8db1bd8577e811d9b7bd9804bafbe0f8c533a184cf57b8a12dfb83e74b",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "16920ba1c7a31cd76a77302e1a21ab06abdab12948d6d1ee17ed24e74ea13be3",
+          "q0_scores_sha256": "96558469ecce7a4541cec7344ef753c98856c94749b8a867fd938f1a00161e7b"
+        },
+        "00010:454": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_454.npz",
+          "shortlist_sha256": "e394411fc76c6a558bb569da01107ef8426c7dfee8a01b0262f165a12f828377",
+          "labels_sha256": "42c06b6546209842df05e265e136a83565db19cd758ed8b31a6f48314913832a",
+          "base_scores_sha256": "c79d8379c59b8fb7a7777c2f352f76f473a9da1396f190eda62182323914aaea",
+          "q0_scores_sha256": "04ce61e2eff86350583ed6ac225fc364846e40832fb4035e0d0beab276d0a84f"
+        },
+        "00010:459": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_459.npz",
+          "shortlist_sha256": "0e40fd8c1859721277095a45f03746cb3e7814abca757df8045a317afddcda38",
+          "labels_sha256": "42a3fffa66e8cd3a1b5d4dcfa12cb06755635125d818810b0e75f8ed265fcf10",
+          "base_scores_sha256": "a7c11762cfe589c790cdc366b81a7b5b837c9ad0124ac0b7e03935d13a789280",
+          "q0_scores_sha256": "3c0590360881b93e6c86ad4ed0e3eafa74937acdaad3c13c97f0fba2b2c9704a"
+        },
+        "00010:469": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00010_469.npz",
+          "shortlist_sha256": "7937769f84ab941c933f1c8c4bb90f6670a8212d0c8d93db161debb0c5c0d99e",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "6be82d6155dc905d10c441adc81a3e18d233b4d6680729f435d66c4c49839a6e",
+          "q0_scores_sha256": "eacf5bbfd332ea0fb4297d62b919661771f6ff2bb8eb7f6083a67398e342c276"
+        },
+        "00013:011": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_011.npz",
+          "shortlist_sha256": "ee07bd41257c100273e654d7e9caf5be333ac9e70def6add5d6bbcd2e4393ac8",
+          "labels_sha256": "547a55a5020962eaeb2b6f833690f3e35714f183515bd55b1b6e013de24116d1",
+          "base_scores_sha256": "b3790b1c39512d2b206f58a9aa0f063c84916a2f5e600451e191f594ac4d9c07",
+          "q0_scores_sha256": "4d39ee88bd93792cb7221f5e811a22dde09f8c258e62725cd6368fbaa5df9647"
+        },
+        "00013:019": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_019.npz",
+          "shortlist_sha256": "de8c59eb41b0a0be0ac5444b4ae44fc8cae9c2ec9e422d7d6959a74dd7725094",
+          "labels_sha256": "3be43f831ed0d889c1836b0025dadb5d6dd230123eb608750d12b4fc48fe7e83",
+          "base_scores_sha256": "ae943d9f9ff63e38c6dcc8ed4a340e9012f84630d69d2c198518daca41f6a5b4",
+          "q0_scores_sha256": "6edebfd6ae2cea291688aeea47ac344623994992f2ce0dacbfbd5bfe13af7174"
+        },
+        "00013:025": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_025.npz",
+          "shortlist_sha256": "f04c1c95de74fc6568870bbd027c741664fdd202ed991b6df29a8533983efe78",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "beef502382182dd6a4116d008f333f38dda4eb7708aa3c06376587b9fffd7d92",
+          "q0_scores_sha256": "03c162b4aca04df3cb26d80dd1fed2ce7c600f0d685c6625781e1ed68cd33f84"
+        },
+        "00013:064": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_064.npz",
+          "shortlist_sha256": "55851327bb92ad631081a3e6db7788b6987ca2907541d08c1bfe98a49c105f48",
+          "labels_sha256": "6a99be0391e58d895570557f913177d2cda3a524206c8e8ccfddbfe9cfcab56b",
+          "base_scores_sha256": "d6f18b1a2e0758b63cd0fdf63bbe96022505aa45a9ee002d3586e2b588ac0e6c",
+          "q0_scores_sha256": "d8f3135b633a0b8f2aff94b5d420a8d761b6b510f8d0c4483f118e0b2dc3a87b"
+        },
+        "00013:078": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_078.npz",
+          "shortlist_sha256": "ab7e6ece13189f9fe9df61077df318be20a1381597551ac5028d551d3849354a",
+          "labels_sha256": "a45c6040d93a384c6664e85c4e0422207c4fee5c2475080fc4456702179f2760",
+          "base_scores_sha256": "6a1c57f381b310d2fba77754596214103ba4d789f08d0c14b13b56057a121f6d",
+          "q0_scores_sha256": "21033063458a0f8f63f1071c7e38bd40793e3855a4dfb4212563c66e9df29317"
+        },
+        "00013:081": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_081.npz",
+          "shortlist_sha256": "50d8721a9d4a60159828a5877484e68a1d2bd4cbd1952de0f95d0ae67d04cf14",
+          "labels_sha256": "49f560c0cfc626c3b73a72b53b09537494079e52dc3bbd04928470dd717e5138",
+          "base_scores_sha256": "1f9ab52dd1487b9112e9558d65c274d58f7169f2ec7ccb67763e170273ad14ed",
+          "q0_scores_sha256": "6f30e5a7935fcd27c65bb3dfb22153e7212a38c068198d249382b17b4ced393f"
+        },
+        "00013:083": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_083.npz",
+          "shortlist_sha256": "17dddbc198a98aaf75e105c9d63b34e41553be50a4faf296a32db9683226817b",
+          "labels_sha256": "2c9361e288ea0221ecd0f553cfa9940785c07b1f4d88cd513f742eacb9744bbf",
+          "base_scores_sha256": "06198d1e5a686a9cdc76c8f40dd417f04695d53b3d57feb9d94f90a899f6da3c",
+          "q0_scores_sha256": "38a1bfc78a1c690b86848ef19aa5629986c34f7cf63b7437bcbbd8bcd372bc31"
+        },
+        "00013:106": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_106.npz",
+          "shortlist_sha256": "ead7d892ee928d269f4582d6e8cca7d565b26b95e1f3ec0c47adffb6d6d91b94",
+          "labels_sha256": "49156d375660e0a484f44e066204bd46aceb079b4d7148d9fc4698ba6d796223",
+          "base_scores_sha256": "e110bff576e1fae3abeabf2d7a014d17412abf8aab3175a09a9d77b5c0781404",
+          "q0_scores_sha256": "1b478c66b20455155b7b7704fb10660c6e394163569b6f90c4f03c46a1cc3d0f"
+        },
+        "00013:144": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_144.npz",
+          "shortlist_sha256": "b900356ffc776438022137846a06d8d668bd03ee8148234cef280cc3859dd52d",
+          "labels_sha256": "2ed63dd34ef3beb868bd0ba039abebea9a82a598c05deff9675817fdbada61c1",
+          "base_scores_sha256": "7cc8e281a7b919ccc1365ae4b6cb280ba85ff2e9c699ae10ebafabca981b1dc2",
+          "q0_scores_sha256": "8327f61be3dabed24ba0ad1e514913d4fab62edc1606f8ef26a56f9d777afd54"
+        },
+        "00013:146": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_146.npz",
+          "shortlist_sha256": "cc9059b89630c37721a1f48694bc57bcb18c2e452e814ec79a0bc026c61db914",
+          "labels_sha256": "f2aab08980ba8c59060393afe3b52618bfebd97eae50243ce10f769035ab3697",
+          "base_scores_sha256": "2baf177cb6e796e9cf55588e722f90c53ae8e01dea99596578a23fe9b9e81009",
+          "q0_scores_sha256": "e416f62e349ad0bfc6c72b6c0ef038b4199ba355a95faf495ee781104d5c6fea"
+        },
+        "00013:164": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_164.npz",
+          "shortlist_sha256": "cb41d535355143816f7a7304dc91438211e39c795ac52b2d48db357fd1c8ec7e",
+          "labels_sha256": "b546ff2c4fabaa9fc39ddfcb283d46d4b0e80aaf4c633e65aadb5eb0eddc2a2c",
+          "base_scores_sha256": "2cafd27be8ed58a4f51f8093bdb925730e2e6cb241de53cdb493af6355ebc817",
+          "q0_scores_sha256": "6e61d9d4b030f00f515c493f4f9c92584a079c2d36e49cbdabb3a677c5da7517"
+        },
+        "00013:172": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_172.npz",
+          "shortlist_sha256": "41a096352c5904056adb26dad07a93705f1f92f3af2b23f5273ed23b276b7708",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "a15d8b7313eb489fe366571a481673a08cf9a8a292facca15fb5a1dbdb7af209",
+          "q0_scores_sha256": "bea5293c40a4e8c8a5d80844b5d03420ca97a068c36a8f1febe60e6501410f24"
+        },
+        "00013:179": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_179.npz",
+          "shortlist_sha256": "ccceee9a7d191812a5dc2a3f58f3a26b444febec9e782b977bfb4fcc0fd12852",
+          "labels_sha256": "3c6e42bf28f5dd09f0bc9a13b9d5248b77d7ceaa09485bb7fe71696605e5e9f9",
+          "base_scores_sha256": "54c70e74a9622286addff6f02681ad54fc98d7698509841f5f647e01eeb865e8",
+          "q0_scores_sha256": "f6866e7b108950f253aceb4d1fc85cd86046971ecd3a2a18178cf4f6a53240a6"
+        },
+        "00013:207": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_207.npz",
+          "shortlist_sha256": "595ad1c9f728b4c3cda997199f205bc7ab75111f480dfa7a72af70dfb6bf0adf",
+          "labels_sha256": "5bfed8661b39bc2a17c9ed152d794316605f48cd90005dede4e577c044248156",
+          "base_scores_sha256": "e8222a24fc8cfa2734f08ade115e593659ad37e52029f1c41db4f0693fc2ddf4",
+          "q0_scores_sha256": "c5f615ba66a62000039c24771db8d30453ac28b69794f44999b0f5e6341df6d7"
+        },
+        "00013:210": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_210.npz",
+          "shortlist_sha256": "256abe778a4f7beda20d2a29219e8b89d1ac79b3693d0e58de89a7aa0f19d07c",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "2322d0076afbf1dfbce81e8899b82f46e6e64d31735ac252f5da5402bc0fe459",
+          "q0_scores_sha256": "9bbc0ca864e9d81bb236173e971b7f90b3c1453788b76b86cdb8e114e926f5d1"
+        },
+        "00013:212": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_212.npz",
+          "shortlist_sha256": "e7b07cfcc09f3395e07069e6cd8ff38724fc4107173432fa03d2b48e16f8ff65",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "cfa5986bd2d2873f71206f729945d7b278e18e820c34dc1b50c8f5243c816094",
+          "q0_scores_sha256": "5de84b0d04092c78dc591b0afdd9bae5fbcb42b9cbdd18fc795be146d0635b05"
+        },
+        "00013:222": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_222.npz",
+          "shortlist_sha256": "e3104d719429df90c66079ce7650ee20c33cd1a660d637e097319f998b265ea4",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "9519c8511805fbd9470016c7ec5cb65c9ff82ce6160854975d596b89b6a9030f",
+          "q0_scores_sha256": "4b42424454b33e075e65ee4dc0e4ae24d0f8647862ecca252bcb6c8d9af4904f"
+        },
+        "00013:263": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_263.npz",
+          "shortlist_sha256": "b362f7d5b3a15b0227b0ae9cf8ece35f8988ae51baa8956d5928678ae2eed612",
+          "labels_sha256": "07e8a6faec7cc94bceca3c670afda2e47bf883a172242f86e52c66fcc61bea9b",
+          "base_scores_sha256": "83cccd7c98f1290d195233c9b69ad9b57bdfcd8572725e187370c9c3cfcc94b5",
+          "q0_scores_sha256": "807202187e7430e6aff4152cc53c2539455f67b6341144b39cbf54356d889ed5"
+        },
+        "00013:271": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_271.npz",
+          "shortlist_sha256": "0c44038f69bf8c392893e1ca418b29c5354906ab3ffdf49d8c209fc9870eb0f1",
+          "labels_sha256": "1ed64fd220e27f45a670c413b5a5608398c409377ebed35f559ceff845caa7c4",
+          "base_scores_sha256": "67f886c8f5db927327a38ceae1bf470d5ba3076ca42694f551f8a66a68c1d4dd",
+          "q0_scores_sha256": "4c1265db6817e7aab57f3817cc5cb29b3016dd72f1380318426ea3aeeab6870c"
+        },
+        "00013:281": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00013_281.npz",
+          "shortlist_sha256": "ecf905d1c73e6798b67f540735ca5e52346b9f8db42b75e91ea3bbdb3f306be3",
+          "labels_sha256": "6ea71ede1675151769f5260cdfda2cf30f3f0c407b711f017d41241175728209",
+          "base_scores_sha256": "926bcc9a42495b5901631833d3ac40dfa0717a7ccddf94fc345bedb101f881ea",
+          "q0_scores_sha256": "aac5ab03a04583549d6f26ef118aa2b8afa498aeecd5d5539a41f4c6499881eb"
+        },
+        "00015:185": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_185.npz",
+          "shortlist_sha256": "f3abc2a2e3eca32dbf9d4e96da4bb36afc516c423e17251c65226950816dede7",
+          "labels_sha256": "4056bd2cbf17d1f1c42dd1ced5b62983e28bad2f1c8e5fd2b0105bb95698b43d",
+          "base_scores_sha256": "77df5954833a6c038ad2f28a860a4dd0be89f8961eca9ff0fc6c86b707c725d6",
+          "q0_scores_sha256": "15d16bbeab0529f132612096721dc2fb0cb8b0c3a80ee01fb0d6484ae5df69b6"
+        },
+        "00015:279": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_279.npz",
+          "shortlist_sha256": "0715caa5f9b9307c91db5cb193fbce54a995e68f5063e8335044a02b006aa81d",
+          "labels_sha256": "d407d10096da881c8ea5647b7a75788ce8832b0a196e324ec1c6d875617193b9",
+          "base_scores_sha256": "62d35158e15beb0029fe10c7999a6c25983bab08d95dacaa0f8271165b050245",
+          "q0_scores_sha256": "eaf5f060b01792eeeeb8a51c1565ba1eba76c865a23c795231b20026977dca75"
+        },
+        "00015:296": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_296.npz",
+          "shortlist_sha256": "8d720522b658756880f94b3a821578c702af58ddb005c0638803c9d1ecb4b706",
+          "labels_sha256": "d3576f66e274aa3066b4c4ece983a3aa2a62ace2fe9f4043c33c83f8b644c0db",
+          "base_scores_sha256": "18eba42c281f236d49f7bf57bcda94826d149e07363a075bf054e11f0359bf6d",
+          "q0_scores_sha256": "f38c898b920bc9ba422f936e57750c40507f5744471e801a106552f059e2b663"
+        },
+        "00015:319": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_319.npz",
+          "shortlist_sha256": "3b23b07a97a1bb9c16f2440fec5365796d6b16cb4823d60b4d71f4ddf9f48776",
+          "labels_sha256": "45e061f1e978e0934f675614dcc6cbcdff664703546fefd03a6ee1b0cbf70d9f",
+          "base_scores_sha256": "7ded2a72e549e522dbefaf9c2c1849a99f2a747d4d9c1a1bbc809c4139b2f2e0",
+          "q0_scores_sha256": "fbcfae1933bb7c399a370a347328f4e59438b81804a3ffe34752c98c5efd8e3e"
+        },
+        "00015:339": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_339.npz",
+          "shortlist_sha256": "ecc85c301e8541d89cd065d9938fc2d25021a8e715e5234ff087423f13b43af1",
+          "labels_sha256": "dc8ac8ee851b1f1a416cb0ddb72b5f5ff32e19451d15e0a021ef9aa1a4b24e7e",
+          "base_scores_sha256": "866ceb5891519b7d5845632099de75f28f03255a4107de08d0304aa9483cbf92",
+          "q0_scores_sha256": "0ac376aac4bd6d8195ca45541a15f2d6c05d661ba4b09939941a44f31e5c81cf"
+        },
+        "00015:341": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_341.npz",
+          "shortlist_sha256": "f14fc2b7b5b3b0b54ab5ccb5b6f8297de2d4a0affad28bf950963a731117b116",
+          "labels_sha256": "eb6b9bf082e458d5cd3f331d3f203523347e97d94fb72bf2dd2c347e651ce64b",
+          "base_scores_sha256": "1c8c79667d805b3ddc89c70f79428781689ac03b294f88a92ce8ebe429d1c237",
+          "q0_scores_sha256": "eb120bd9915128417d4b9e9430f19b522cf23bd18c04b5ac64442440cebff33e"
+        },
+        "00015:358": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_358.npz",
+          "shortlist_sha256": "4aef059af59f9c08d43cebed4ef0457e04cfb0b8fa6f04843617a7ce38043097",
+          "labels_sha256": "fde5a9c2b066292ab09fe190ce61c47d7de42668cb91b12f9eb0200c8cb06dda",
+          "base_scores_sha256": "5f5aac119a3e5bf8da0fdd1cb4bfbccc3e7447ad683041bfe08212a58db7d9ab",
+          "q0_scores_sha256": "b8a626a5330ee8ce78af2bff414e0e3062315b20fe8b1da61ae231281f23ddc8"
+        },
+        "00015:371": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_371.npz",
+          "shortlist_sha256": "190c4db0b326af18e0df21356b7fb02ebee0ea2876c45dac300c0ebfecb892ac",
+          "labels_sha256": "c334c5255f8758060a6e48dce075af5b3dfcd8021d3aeae9101e98b25c4e6a96",
+          "base_scores_sha256": "7112404b1c303081231a724b47f106ab6e00daee17eb4bfd16792e3984f9d0ba",
+          "q0_scores_sha256": "cf4127e341be24f6116af683d30ce0927545f4672de08f77d328676ca5df2758"
+        },
+        "00015:372": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_372.npz",
+          "shortlist_sha256": "3c444bf32cee779c07adeb4d4f18f5cce3adfb2b65492321118dcd3116000cdf",
+          "labels_sha256": "8702d1828af8e3bd3a0bc6ad32ee89dcee15954cab1707e7d3de7f3a936b2aa0",
+          "base_scores_sha256": "e5bb7fea239f1dfecb33e8ecb36acced5d4a9b2c01c69eddf65c65bde0209660",
+          "q0_scores_sha256": "883a2638addc6ba17ec4f4713a9d91b4637cb149553e23f595b0424cb5efdd80"
+        },
+        "00015:379": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_379.npz",
+          "shortlist_sha256": "5a15734e1e249c0aff221d53527a63194ea62a2d63343d68c3e2721ee8bf1fee",
+          "labels_sha256": "e3c59d5cc3d48affefd2a180af2cacb22c3e36eace8af1c346cbe10a093bbbb3",
+          "base_scores_sha256": "16f0204c8fdbf46f8a65b2e14cd9dfbb063c68c22c1384c807832b9ec7278dd0",
+          "q0_scores_sha256": "1e2c7868082d742a346d94a83ee64f1aa104e015fae76e6502a71ed09d2fed7a"
+        },
+        "00015:386": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_386.npz",
+          "shortlist_sha256": "a06e60781c4bf5f21982b4fa664594e016ccc87fe544e8ef7de650e05cd446ae",
+          "labels_sha256": "117e4b410b50887258c17d76eae087230528995f24d5db7cc28bc7828f9f0232",
+          "base_scores_sha256": "86c93c446d3ff351c71e9c60e0815fa1335680a3f961954d1b47e73f65d5e65c",
+          "q0_scores_sha256": "4808c3ceec27f43b96d87901d34f8f756c420f710ee47b41d223445521aa5cea"
+        },
+        "00015:407": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_407.npz",
+          "shortlist_sha256": "2ca4863295a04f4e58f8b43e67a8e459642f490004495d6e2064b5e6c24ef13c",
+          "labels_sha256": "c610ed33035ff2ae5dc711e705406d40ab5c53344f1cfa3f4c77557c1b59ce85",
+          "base_scores_sha256": "954e0a55eb2686e677fbbd76f86bf2c381d92e8b24e4018943bca2732313ecc8",
+          "q0_scores_sha256": "513d04c1efd543f3dabad215f528de6c5f4ebadd66451dc36d168e09e7f376eb"
+        },
+        "00015:418": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_418.npz",
+          "shortlist_sha256": "76188267347cd160a80486ebcea785273308338c4e5a0ebdfb9e1a9f44eaaebb",
+          "labels_sha256": "38c4c1f741a496f18cb27b347b8906337a6962833f027512441b6c920f6b7107",
+          "base_scores_sha256": "a8535ced476304d0c214262e3601ca191586b21f573a22dee628ff5ec18b7019",
+          "q0_scores_sha256": "0ce81c05ed87b4f687481ca8da06d602eb41b529d3f2c33e63fe50d50857f4f6"
+        },
+        "00015:424": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_424.npz",
+          "shortlist_sha256": "66ef1ec4beb7047b1ad09951c8e3112ba33aa2e8346d9d737bae612f4ba0a0c7",
+          "labels_sha256": "91435a80a0f317c9911db3894b32a70b484bcc0d9a10316bedbf893c65e909d9",
+          "base_scores_sha256": "ef48b26462f2387e852b8e35b794f180ff5a5e78c4381168be3d2b6834830234",
+          "q0_scores_sha256": "b476abf0891e7e2b460ed7a818bcb4257dcca27dcab1c49ba6f081756d99ad44"
+        },
+        "00015:448": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_448.npz",
+          "shortlist_sha256": "d60ada5777700599fed7622ebe1eb0558f7fc9fa4d40adfc927daad0e36f5a6d",
+          "labels_sha256": "72dae70e88e7418ac3043eb2427a194199fe69cbff4a3e33cabc02880a19b48d",
+          "base_scores_sha256": "3ee73ea221f92b4569ba0c9e2385a648da7b5b7565a394a21495fc49e913baa2",
+          "q0_scores_sha256": "54e907a4c001a7abe7b6f135b354d116c8257de66222242f4a928a1a410ab8a4"
+        },
+        "00015:457": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_457.npz",
+          "shortlist_sha256": "5cb97a4626931a20e4c2e68745c040a34a4e9a12a63d74035a67d8eb3fc6ef7c",
+          "labels_sha256": "889aed95a472814080fbb19d3e66277f1f45ec5c209a42de3b620123d61c154e",
+          "base_scores_sha256": "414ed70ac608237efa0e6775e405dac980b94c3771db758bdc87be1d114a636e",
+          "q0_scores_sha256": "813b429335b93b01130a2f8f03de3d16a215ae605dc6487eab9148d1f3b13c9e"
+        },
+        "00015:460": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_460.npz",
+          "shortlist_sha256": "a3366ad94fd7064e5d67845df274fe18d16a21737bbb7a2c926b6ca8a8bf80b3",
+          "labels_sha256": "eced2dfc2e931ccdbdec7b68d332a5444b1bf632090db664180c7c6aea013981",
+          "base_scores_sha256": "f4496a90548de67249b11662204f7dc704f45d9142570a0fd01567686233c2ee",
+          "q0_scores_sha256": "36d112da254f28b1695fbf22bc481340a977fb5d40c18effed6f5e6bfaee0d2c"
+        },
+        "00015:472": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_472.npz",
+          "shortlist_sha256": "869a135d5e68addd8f2540cf3287a0b5a1b4cfbd515aea4be6f53273596a38b8",
+          "labels_sha256": "a039de0cdb24c9017a1da6d5df0ce213fb9279f3f4fc05a4948408a393c39672",
+          "base_scores_sha256": "8ce6a856e98d7ff4d50cfe67f51fbfbec7b6c011155e18e25c7bd8c7526d810a",
+          "q0_scores_sha256": "8ec189ae7b6c1b3f37377454e316f6f8708a7a149311da3f68b054335d006901"
+        },
+        "00015:480": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_480.npz",
+          "shortlist_sha256": "a1c33a5b80660088bab5e58b030290146bc2717b67d3732453d91c8c942173be",
+          "labels_sha256": "7f858e95dd4c4dcf450aa545a6641ae4d50e64499a15d18c446cb10141225e50",
+          "base_scores_sha256": "66c66ff68af30f5e1ec5c64fe53def3bc31634a25cbefdf7bce1a728c4d4e1bb",
+          "q0_scores_sha256": "f6e6a30753a445c171badee1cd883ed470e1776cf7ef001241a1a891fc49ab8c"
+        },
+        "00015:485": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00015_485.npz",
+          "shortlist_sha256": "8f5dd80fb6f81ffcf1e4cbd050c6eb4f6f5c02d3c4b633122522ee3a639309d8",
+          "labels_sha256": "49bea6189817e53738b487c44ce40155277b3bd2b554f7a6067a9dc2dce44388",
+          "base_scores_sha256": "a90a3a956fde0d35011a1af3c178d35c06326054f6cb7b8b7517753894bbc61e",
+          "q0_scores_sha256": "b9ddfd8c93740ecbde96e403b69669c0f6702ae2b4db17ac40ea530eeb2c13af"
+        },
+        "00023:008": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_008.npz",
+          "shortlist_sha256": "d1a751b946f917d9a7dbb06e8d25c01ad6fabf67d6603d313ba67a7bc3ebc69c",
+          "labels_sha256": "abe6fb9b9ebd4c98b95b212a7244cb4797d72047b74db41cbffd1dc8c3bea110",
+          "base_scores_sha256": "c91fd20306f92429a426b656914b4b3ad60888733c27cdf458851cc1ca0c0992",
+          "q0_scores_sha256": "b4fb3e386cadbc4985b826bd2e9d77848bdedcf88b9a020412d06c20dbd57cf5"
+        },
+        "00023:031": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_031.npz",
+          "shortlist_sha256": "a23d4b69f3692c534481a38c74c45b9168cc77010b74f34c38c413180ae73ea6",
+          "labels_sha256": "f30c12216ec0b719cc418659f0c287b7c0769006b5d88ddca72eccdd3c98f8d1",
+          "base_scores_sha256": "4ab744ac0f7752731dfa82b1d30f0442776d88a814b661a43a00d9df5e61ad61",
+          "q0_scores_sha256": "4e81a61549b4e97f7861e11fcbe2d50f462b6076f1a4c82ba48099aa18645a3a"
+        },
+        "00023:240": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_240.npz",
+          "shortlist_sha256": "3a00e3619eb922c06b460cd2d320bee66a75cf0cc27668534fd3f2aa9c25ec22",
+          "labels_sha256": "ee93a51e8042159cc3d02329f3bb32e2a5aea59240f4f410124c5c8f53ac2feb",
+          "base_scores_sha256": "5ad8dad218dccf789c97f2504e329f8b8d4152b95e66246fd1343011fbc790dd",
+          "q0_scores_sha256": "e572a4fc5d17e56a76738a463235aa0673ecae4748ac07b7707f396fa32a0fad"
+        },
+        "00023:320": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_320.npz",
+          "shortlist_sha256": "478ecea123ec5c2a5d290bafdf7957c5d16c491ad28ee55f5cf08b29b0e8bb24",
+          "labels_sha256": "0d8f9d31e14cc14068774042a20f7b457b0b54518ecc373c176de0fb5fa6dffd",
+          "base_scores_sha256": "2aff8301582af7cdaa27436db0b889bf3f66c1b121ce230f8a0aee53d82bf3ae",
+          "q0_scores_sha256": "525f7fdc9ef0095637ebf7041bba8b2bdd2c2ff22e2decf0e50c6c5e5f905f70"
+        },
+        "00023:385": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_385.npz",
+          "shortlist_sha256": "d4bece6f684444a15f0fa9e8c63c4e83440328f241e036ad17c03cb4fa290bb0",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "681825585c54c4b27514c719bcdd1f7244d9626baae7ea1946c9a6b2dadf668c",
+          "q0_scores_sha256": "f26a0dee6b81769f05388da76c39c9fe84a8bfe5b7cc2680095b2fd82ae532a9"
+        },
+        "00023:428": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_428.npz",
+          "shortlist_sha256": "437cf7cdba7e91fe614e1fba3dfc7d43f2737c0fed30317354eb7aa3b4b27ab1",
+          "labels_sha256": "dceaa3b9a44d5e12147b9fbe90b6f9fb6e59032672f5feab21907e89930e6ed1",
+          "base_scores_sha256": "2fd3c9c881536266dafc71668ab5c68a51dba37e1076dd876201f2bfd3a2584b",
+          "q0_scores_sha256": "860660dee7d4c16bddc11f6ffee158382df6877abbe344723a91ffb881eb3b8f"
+        },
+        "00023:471": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_471.npz",
+          "shortlist_sha256": "ccd91a19e334d47dd25920251353299609cc9451ad129561e7d5133ca3a53c01",
+          "labels_sha256": "9a2bb48639d289b0d91832caa9e95a6b655511088be4bc595f218c469d70a64d",
+          "base_scores_sha256": "8ed0e4e4d280aa92c3f4ac15ac4995745a48f2098b409c22e7a2c4323d397427",
+          "q0_scores_sha256": "68fe87daf14e579281b0890c46556fffc28f682c823e808af1dd7a2e4add3f5a"
+        },
+        "00023:490": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_490.npz",
+          "shortlist_sha256": "67d1dd55dd2c29566aea8ee05e7e3e582028b21c78f2ec5de836b592e9e6781c",
+          "labels_sha256": "5bdbbb1d5a1a9464e5399a447d626780268b28ed1db5b5804acc258b2ab23981",
+          "base_scores_sha256": "30b63bd463db8a24e317e06ea6c0bfb31725fa1a8a02db162d73a729522871c4",
+          "q0_scores_sha256": "b11c2e90de34aeace5bafbb909cfc0e56c337a7a26a7af7fa4fc95b2a0f1b2f9"
+        },
+        "00023:506": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_506.npz",
+          "shortlist_sha256": "f2c997f41c290e3689891d140d5e4f5b24eed3a2d569ff77faa414b0107c6cf9",
+          "labels_sha256": "2bbd50ad8ee0cf64ff63963b798543f5b67b186abe011b897244fb4b28acbf2a",
+          "base_scores_sha256": "4bdcb1b71da4fb0a0aa33129a1655c931671b7c4cc2cdc4bf5737d876ee1221e",
+          "q0_scores_sha256": "0a6cf5092e56c98a682637559fc380c4b0820d8f4d67b2b6381e8fdb8e216a30"
+        },
+        "00023:740": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_740.npz",
+          "shortlist_sha256": "46b370b6c6794afce5449c74220ad1b7ccc34d4b4ae44b7c43b5888dbe729509",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "9d15fa27eee7d57f26c7c82e9574692b74ebddc3315a50943c818ca57ac5cef7",
+          "q0_scores_sha256": "a225b3a00aea5b662befdc0ab2df04e905b0da3352de1ae42c80c7e0554e7535"
+        },
+        "00023:754": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_754.npz",
+          "shortlist_sha256": "16c83c58f395260bf37cfacdfacdeec36549a483f85e4e6ebe4246ad26b16247",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "39faa4cfe0be1a0777b24e398c65cafc97adfad681a934534904ee6e2a4ea4ad",
+          "q0_scores_sha256": "8b04431029e0be0929e4129c2db0953553daba343235cf1edb9b39b1350d4acd"
+        },
+        "00023:757": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_757.npz",
+          "shortlist_sha256": "1e0be4544b39b545666f95e148215bb566aef5781123d83e4d383c2591c9677f",
+          "labels_sha256": "5e67e5e42696b391f224e84bfcad31eadef96f53fc3035054cb5414142faa85f",
+          "base_scores_sha256": "e2cd0343fcbd328326a788f8f9d883fc27aee0bd3388b7a3fe13d093ba9320f6",
+          "q0_scores_sha256": "cc4750d9f6c76dba6ae30b706a331f5a514c8c3b1d953eb869306b5d795e1486"
+        },
+        "00023:767": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_767.npz",
+          "shortlist_sha256": "917066bc86911365340368a36bba540e4351a45c2373d11ce2091af007b266f3",
+          "labels_sha256": "c0ee7807a3409de59c663599a19844b0f61ca9a44077bc070232757b062298be",
+          "base_scores_sha256": "c99f6f6a3355c2473b4c182c4e8078808afc8619cc6bdec84426bf6007fa3357",
+          "q0_scores_sha256": "0ab6d0291981bb88ea703a4c94441fe99e9641490688e01182202ce680410310"
+        },
+        "00023:839": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_839.npz",
+          "shortlist_sha256": "d0fb1d00a4f262a5408d759448f636dd621d6e1ac1e6630f560d5120929a88da",
+          "labels_sha256": "ca2d0a3d94fc1c7101757e9e710b5fd468acc3319f3946dd7fdc0a8791716920",
+          "base_scores_sha256": "4bf20a2aa3b4f22071246b488fc83d5b6969c470fba4edaa959d495070648126",
+          "q0_scores_sha256": "305b8ba20d6147737671772be9d921f467db546c3361f78c504ff8f29a781582"
+        },
+        "00023:883": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_883.npz",
+          "shortlist_sha256": "2a466a12a0f9baf2ddbb267e98790304d86c4adac1894d60e75b313b2afa8b87",
+          "labels_sha256": "e66309f8ab37af3a648439e64c6686685da26c3a7d1f451e9c39ae82350b23b0",
+          "base_scores_sha256": "922fe141faf092f54066fbef6363daf9521bd09cf9a18320c5a08e425834c43f",
+          "q0_scores_sha256": "c5dffe3a228df24c9d270f7accd359ecf8c9da28ba02fdf152bfd5d05ee3f2c9"
+        },
+        "00023:918": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_918.npz",
+          "shortlist_sha256": "8efc9a416423a6cccae872fd34a13670197b7c0bd3e2638f9cabba7e62f16292",
+          "labels_sha256": "7da682cc4eebaee3ffb850875644b0c03e392d9e5ea353289dc64a4d23228276",
+          "base_scores_sha256": "905db13e9c02c71d733a5ef5200c2c480b3895eab09929c07594396c2b90fbb4",
+          "q0_scores_sha256": "bc0175dd5b4bee282e2ae772fe1961b7e134f95c0d8ca5c7f7ee87266e51cd29"
+        },
+        "00023:925": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_925.npz",
+          "shortlist_sha256": "221337f50de3f04ee505533fda27fc9ce17b082864f0c28ceca21616094e8f8b",
+          "labels_sha256": "3aa47964a642d0d4ea8e3bf158f395965a56cba817dedb5d6fd2cbbc77ed5996",
+          "base_scores_sha256": "293f32e6c3558d57522881544c531b4ff9602842ebd23f5c161f71b3a130f646",
+          "q0_scores_sha256": "a7164a878f049e1b37d54036c49ad64a27747a36f32cf86a9263a18c82d8ba66"
+        },
+        "00023:930": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_930.npz",
+          "shortlist_sha256": "6ec5b3a0e7013e0c577434876ffd809987491c506245a23c56d55e8f3ecab928",
+          "labels_sha256": "b685cb5f2ddca23fb5b4494c987f7f9545b31d29a0b4167080cba9b8a1832e4e",
+          "base_scores_sha256": "a5820701e198f1fb5302bc04a8cbf5087e3922daa89665e64671f3842d41bc55",
+          "q0_scores_sha256": "c29b438c505c4ee011c956953134abb070bbbffbf492d97c4205518f522fbba3"
+        },
+        "00023:959": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_959.npz",
+          "shortlist_sha256": "46231f291a8f7bd4447b761970a1aad0593631d4f74abd0d4b84575bae4f28d9",
+          "labels_sha256": "1f6fe8b792ff2e751a039495c24e029281a04f3cd90f98cb07f5c8f136440096",
+          "base_scores_sha256": "7c8d0450e74c2d836d0438b8ed5bc997b87ddd144b1c287c41fc8ce21558cd8c",
+          "q0_scores_sha256": "7adea46337de7f7f619531588811400ec05bc7011088e43c8ba734b72835c943"
+        },
+        "00023:974": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/cross/shortlist/00023_974.npz",
+          "shortlist_sha256": "b39a5b364cf642210b380691e4b86785a56668484aa2e2789c7e17c180a72ebc",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "e3c8316714de829b30aa4201ca87b38d22bf93328201b424c12de4d1f48d115b",
+          "q0_scores_sha256": "ba3ab01ca84212fdbf8332b4db6308e2619616a155e1ba1a0121a14ec15b86fb"
+        }
+      }
+    },
+    "within": {
+      "setup": "ball_within_template_f0",
+      "checkpoint": "/path/to/phyre-unc/results/scene_clf_matched_s16r16_within.pt",
+      "checkpoint_sha256": "a6282df2b12648a869ea5338c1793328fe151b1c063c0baada2b279b850965c9",
+      "historical_record": "/path/to/phyre-unc/results/scene_clf_matched_s16r16_within.json",
+      "training_manifest": "/path/to/phyre-unc/data/manifests/ball_within_template_f0_train_s16r16.jsonl",
+      "training_pairs": 52349,
+      "historical_updates": 20000,
+      "tasks": [
+        "00000:024",
+        "00000:052",
+        "00000:069",
+        "00000:078",
+        "00001:001",
+        "00001:044",
+        "00001:056",
+        "00001:077",
+        "00002:007",
+        "00002:017",
+        "00002:100",
+        "00002:113",
+        "00003:030",
+        "00003:033",
+        "00003:049",
+        "00003:051",
+        "00004:137",
+        "00004:243",
+        "00004:490",
+        "00004:960",
+        "00005:014",
+        "00005:066",
+        "00005:076",
+        "00005:169",
+        "00006:060",
+        "00006:145",
+        "00006:164",
+        "00006:174",
+        "00007:090",
+        "00007:185",
+        "00007:298",
+        "00007:307",
+        "00008:177",
+        "00008:442",
+        "00008:466",
+        "00008:487",
+        "00009:365",
+        "00009:367",
+        "00009:816",
+        "00009:934",
+        "00010:191",
+        "00010:320",
+        "00010:438",
+        "00010:476",
+        "00011:872",
+        "00011:875",
+        "00011:937",
+        "00011:967",
+        "00012:023",
+        "00012:032",
+        "00012:102",
+        "00012:179",
+        "00013:011",
+        "00013:036",
+        "00013:177",
+        "00013:244",
+        "00014:408",
+        "00014:577",
+        "00014:606",
+        "00014:634",
+        "00015:016",
+        "00015:134",
+        "00015:211",
+        "00015:379",
+        "00016:651",
+        "00016:751",
+        "00016:758",
+        "00016:851",
+        "00017:098",
+        "00017:129",
+        "00017:138",
+        "00017:191",
+        "00018:070",
+        "00018:120",
+        "00018:171",
+        "00018:198",
+        "00019:244",
+        "00019:608",
+        "00019:865",
+        "00019:944",
+        "00020:016",
+        "00020:028",
+        "00020:053",
+        "00020:066",
+        "00021:038",
+        "00021:040",
+        "00021:073",
+        "00021:113",
+        "00022:507",
+        "00022:695",
+        "00022:755",
+        "00022:850",
+        "00023:017",
+        "00023:202",
+        "00023:506",
+        "00023:848",
+        "00024:098",
+        "00024:139",
+        "00024:246",
+        "00024:552"
+      ],
+      "reference_scene_file": "/mnt/meg/jjenchen/phyre-unc/scenes/ball_within_template_f0_dev.npz",
+      "reference_task": "00000:013",
+      "cases": {
+        "00000:024": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00000_024.npz",
+          "shortlist_sha256": "b6fdd3a66ae30facaccad67ab4e89dadaf169eefc81137ee4c5819f871def43a",
+          "labels_sha256": "a1f3b1cc011933797d8a7a8e1ca51cb4815c9662a799826d64c915bafcb4cc49",
+          "base_scores_sha256": "2951d72253264cf944cc49bafb9f85f173932615a757889ea2560fb70050e5ca",
+          "q0_scores_sha256": "77abf8faa462f9149e19cb84e53399537ba58a733ad39c07d9331a1a63582805"
+        },
+        "00000:052": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00000_052.npz",
+          "shortlist_sha256": "43ea301800c3bd44d291719696d0f91119106ee83fc696d727e522ffda98a274",
+          "labels_sha256": "6fbe93f631ed8b446b5a8f024b7a762f777fcb5439c0fb3373bfdc18b635af9c",
+          "base_scores_sha256": "b59d6f03ea75e9abce5f238e2f6cecb2c315879856c75421502c6090e0a2b15f",
+          "q0_scores_sha256": "1922deb3f1f110508ec73c98962f4638e944ddd423fb3fe988bbe3f10b90d06f"
+        },
+        "00000:069": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00000_069.npz",
+          "shortlist_sha256": "1c0eea6e5cc1441a7c113ef79034d3e34bd5e8e1062ce0c1fb38e739272e6581",
+          "labels_sha256": "b4e77e8871c4e564f0b2e751c4a860f8207c31f608761b06ee61b378088a2c55",
+          "base_scores_sha256": "aff2e3bb91049c15ba144b1a878473b597dbba4542881ef77ca4416c35f49bed",
+          "q0_scores_sha256": "ce831d4cb71103e8650c6eba2ac422074bd71476d95064952711378bb37a70eb"
+        },
+        "00000:078": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00000_078.npz",
+          "shortlist_sha256": "d432a6d822d6bd98562c7046154b12bb31ec5b542c09de4a848dd042f8af3bc7",
+          "labels_sha256": "cef8a9b9d6169368aee170a16357eaabd0e2252101210bb8a88e13e460137335",
+          "base_scores_sha256": "19c7855e20ccffd09138c6cd465ee33afec5bed6d13a9ceb31138dec263dd195",
+          "q0_scores_sha256": "c0f9836edf3b502966daa522d4b71bce197d2f31ba04cd50524dc02d29e53151"
+        },
+        "00001:001": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00001_001.npz",
+          "shortlist_sha256": "0c7a76e01059dfe35cab46e408217208c407209d100f819277275d162ec8fcd1",
+          "labels_sha256": "477e472449ff16a063e95ecc0a6b881f79eaf6ab1806ee22315928fdf8b5515c",
+          "base_scores_sha256": "2875bac896cd370f6ecd4b97138358763810795eebaeff93d21986eeb13094c4",
+          "q0_scores_sha256": "27cda868578ceb503d50f18b957bec025292ed2b127670fe69dff19fd153828f"
+        },
+        "00001:044": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00001_044.npz",
+          "shortlist_sha256": "2a010f4aa89b5340d5bf98775be8d92bb1d01c847e12b621c1c56c2b05bf9bff",
+          "labels_sha256": "91baab0e1e94aa44df31574caebdd5a26873973e87caec83601dc56484d9e1fa",
+          "base_scores_sha256": "d43ffc37f71728fdd2cc6b0794f4e2ab37e02ddab904126a05fd6519b1741a52",
+          "q0_scores_sha256": "6819fa5b7594757bcc2e3769c4e14bada67298c347e30e6a019c7483f6d8ef52"
+        },
+        "00001:056": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00001_056.npz",
+          "shortlist_sha256": "133d0f1f26d6e66c3eca4763193d18ef4f695e215dd6029a2889554597d3115a",
+          "labels_sha256": "e9f5af2496dc4745ec4c40ee2017403f6b8e3b63081efd61f4197ed0f8733b5d",
+          "base_scores_sha256": "8d3f882b1eb95da856e160fae8e7be3bb6993c4f6a33fbd3008322e429681cd5",
+          "q0_scores_sha256": "76c7ffb51229754e370934f85c507b9f0680a472c110a2ddf14601345a3423af"
+        },
+        "00001:077": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00001_077.npz",
+          "shortlist_sha256": "168c6e921cfdc8346cf684034e5d86995c03387a1909e2ac2ca5f722eeaa1f32",
+          "labels_sha256": "f7fb6f86fb44d478c068666cc7405a9914eba0357b7dc81fbfbadcdb4d935386",
+          "base_scores_sha256": "9a38416813ec66fade03cead495094d0c620d749d3862fd3c59c7ffa2f6d804f",
+          "q0_scores_sha256": "ba68780fd68a97796029cda7715b4d79315b154ff82c6ccdac3fb1f145d09f41"
+        },
+        "00002:007": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00002_007.npz",
+          "shortlist_sha256": "10e682d1fcfa1dc5d1826b29f8a27e43e5f3069e313a0889b90dabbd2f48305f",
+          "labels_sha256": "e7bc9fd2b17010a72a01d952e079656ee36a3aa845f3651af54f86bdee0442d7",
+          "base_scores_sha256": "b3b5938f2b62dfab2f831bfe538197093d4b392c4b86fa8ca3b2b32f990ec879",
+          "q0_scores_sha256": "a02f5b0129e3b56dab75ba80c222a2c1aa1d450a3bc3d55f71a10e138d0397b5"
+        },
+        "00002:017": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00002_017.npz",
+          "shortlist_sha256": "d0db0465b7403b440abc97678ea5c20268504f287799743a97ab2fb6e759c6ce",
+          "labels_sha256": "29b88c891577ce26e96850e9d46072090bf0ea3e1efd6dee2a3588001684617b",
+          "base_scores_sha256": "2619901bf166020ff2360d2f14838190e8ffd34414b9d51786a8e0cc70a5f89c",
+          "q0_scores_sha256": "e471fa9f73c3b05d8c005ccbecd8d78d1950666bd3b34a358020c58ddf424f67"
+        },
+        "00002:100": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00002_100.npz",
+          "shortlist_sha256": "d282f68b5bb1591383e2f4e693a992e63c1cb96f857bc88d37f06140e25d1ba4",
+          "labels_sha256": "b123463f7aa4720cf24b0ca3c1f155737ef56fdd475ef7cd94aed4ac451b2c7e",
+          "base_scores_sha256": "25e8c993b83c3e17f8186dc0e4f6e2fefc67b22118c7651d0b978c9858ea54f4",
+          "q0_scores_sha256": "533afe4a4b60d3b02d5fc6f35e9201f41ce8d1fe021f627a5251ecee56e7f251"
+        },
+        "00002:113": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00002_113.npz",
+          "shortlist_sha256": "fc525dbf8dc294d1af69b8e8d37746361df23b53741341e026a5c21f217f75e1",
+          "labels_sha256": "ee1f3184a85eb3796e13fb8748c12ecc86c980175e2dca20570b46143cbb2e7a",
+          "base_scores_sha256": "472b549ee720741ac91c69da3dee2ff172b6cc31524ca9e5a516cee32c136269",
+          "q0_scores_sha256": "419e39f12f59bfa99c99229dcb5a79ede8cc2c75b6b0226a8de2c608d1d39882"
+        },
+        "00003:030": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00003_030.npz",
+          "shortlist_sha256": "7a09cd7c0ed4a9de5dadd06aeece40437399e41594f26210417ca3d6180975eb",
+          "labels_sha256": "bd6e6470a26d8d55b472eda08d148068fca710dbe3ecfbe3e36ea1fdc1cf4011",
+          "base_scores_sha256": "0ae1203f211652b15ea0aaf28191b4679bb5a492b0434201cd7543841d600446",
+          "q0_scores_sha256": "665d9ca6cc5db38462d03daca4ee1fd1f1a996f3aa80b338bf083924773eb637"
+        },
+        "00003:033": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00003_033.npz",
+          "shortlist_sha256": "8ae10a55c692b2791251a972144fe75feb09edb0bceda9e443b7d2d26848d5e3",
+          "labels_sha256": "31d0f2d3819f9463b13094dc736d9abe4a7a01054e957093fca1febf37422080",
+          "base_scores_sha256": "13dcf938a219495c758587c06680c1c62133b26c42b8edc74f6834920ace214a",
+          "q0_scores_sha256": "ac780260dbe233147444df6fe5f274c0e407ee76eb4b0548228aff2711f0e4fd"
+        },
+        "00003:049": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00003_049.npz",
+          "shortlist_sha256": "d91f18dd52f18d6e3cc69b880c631aa4f2a78cfa53f8f7d7c535b18a3132f534",
+          "labels_sha256": "e5dd0f0997b01c94918655d40804942b30e4063b8cc3761bb578a69660d7c5c1",
+          "base_scores_sha256": "0ae1195b394f65c61710e79443ce70e45ea9b835792ed7b7eb88a0ffa1875385",
+          "q0_scores_sha256": "3fe2870854a370582ebfe5c1329b19b3fd30f40ee0b986914bbf084321bcc69d"
+        },
+        "00003:051": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00003_051.npz",
+          "shortlist_sha256": "052fc6ea48d70665402b9cf7f375bda23a0fdc16fd8cd4c37780ec7d87374d82",
+          "labels_sha256": "b60c3df61241ae66cd25aaac626132b6b8c74359f06b19ac48c047c85c8adf34",
+          "base_scores_sha256": "926dcd1108dae353d1b52443d64c8cdc89f1bd9f9dad9d532741aad85ef1b5db",
+          "q0_scores_sha256": "4811834dc674119c10f637a9e93d99a5e186f011e5ebdc1f6eebef352e17b85b"
+        },
+        "00004:137": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00004_137.npz",
+          "shortlist_sha256": "4d2a59d2a07beac6186e807088215cd24a92c0c872ccc4bee0d48705f969b439",
+          "labels_sha256": "9f95984a4e466e038a80741a1862ebd1648e1a24c79462287e5ea02e8a206e4f",
+          "base_scores_sha256": "474d47a0e7d6115d5a5dc84ff31a99877939436b26e75805eb40f892f22ff829",
+          "q0_scores_sha256": "58a09d058f9d8b5944b3c8f1f32f0d5055e1bb1579e0abe41286b6f991f10dc8"
+        },
+        "00004:243": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00004_243.npz",
+          "shortlist_sha256": "0f470ef1535695c53a7bd20729a1e5ff975ab6abd6ef089f97181b628385dd4f",
+          "labels_sha256": "8e442135875526e35e30925f1bc338724e839b6293420f110c9bb4e15aa70382",
+          "base_scores_sha256": "dcb640dc2118b2323ff1ef86c464e030f58115bfbb8a4a8b376549e0584b604a",
+          "q0_scores_sha256": "7db02aa0e990a95d5c168c52f8401c057e645587ace14d8cca7784c0f7793dec"
+        },
+        "00004:490": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00004_490.npz",
+          "shortlist_sha256": "bde2bc890434aa2dd71c95e48c084efe74acb27347862c030b235e8faa0934af",
+          "labels_sha256": "66b44626e370cd8946deb22d2dfc649761f044406eaf3f3d5a00626dd7f65473",
+          "base_scores_sha256": "eeec2cbbb63b0258ab4feabc0bb1b63466721ffb639849451fff08136749b8ab",
+          "q0_scores_sha256": "6e978b0d404f455e17bc1018ffa0a5152ca8efd4ac8f15b445f71cb716df4157"
+        },
+        "00004:960": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00004_960.npz",
+          "shortlist_sha256": "38a7f53f347905cb919c982c714fe5d277014d6d620a11e88b9cd583b5edc566",
+          "labels_sha256": "7d40dc093a740e6b398a70fcd5871333ef59a990196040846b810e2130692fb3",
+          "base_scores_sha256": "5cd2bd966cb4c5711d7da393e9a69eb24dc1e1e51f2e368b77b4155ba590d9cc",
+          "q0_scores_sha256": "848624126b6595e62fd146a4fe60830fa90f8e30bd7983d92c47a237dddc4a43"
+        },
+        "00005:014": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00005_014.npz",
+          "shortlist_sha256": "fb4301be6a5660f5b6d99ce6e05c24042f10363200e935ea093284228b2aa88f",
+          "labels_sha256": "f37aad572996fe8a0501c3bbdbd62b5f2fba525012c0d132d5a340875ad8f457",
+          "base_scores_sha256": "01ab6e683ccdf9420a3551c3ae79178e5b2b68b4348625e27efeee355d421123",
+          "q0_scores_sha256": "4cc67543d0484f8e202cc89250225396ba854adcc31098043aaeacc9da179ed2"
+        },
+        "00005:066": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00005_066.npz",
+          "shortlist_sha256": "cb075e086475aa1a6916bdf536400040242683326ea2c5c4da891a45ca5fb819",
+          "labels_sha256": "4ca4d0f66debb697a43953c76693a68db6dad890789c4c6caaf37d70a5356187",
+          "base_scores_sha256": "6a74017f745534c8710cc8c13df60c564ee217d9c82ca2191de8cd1fba379486",
+          "q0_scores_sha256": "cb07355c6a5fe153259f8044a4f892bb51ed7887cc677bd60b0a6e345f984a14"
+        },
+        "00005:076": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00005_076.npz",
+          "shortlist_sha256": "e198730ae9343e693b3f72dc3345aea8d93d95f1ab48268c926a4c317a2feec8",
+          "labels_sha256": "308ffbf5f7d6e04531aca1b9a8b0b6a10b1f3462edd001c4e2d6379ebe4887df",
+          "base_scores_sha256": "00c337d0e690617dc2a1384e30a3a7954cabb95c52ee82aff814a2456c673e46",
+          "q0_scores_sha256": "00367c7ac2512a129bce5bd16ff1b58ea7af2b348262c5a4c256ee6c74e93106"
+        },
+        "00005:169": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00005_169.npz",
+          "shortlist_sha256": "a6db466506a6e6eb4c29624c82ddd358b770dd54d802394a0fb1898b48c783db",
+          "labels_sha256": "c7c5ed9c34ed625b2ff82bb1546042c169e80328625365e9a85a9441e2ba3481",
+          "base_scores_sha256": "23fada70de2d1adaa173ee8fe67644c4393791fda2b0a6a16e04bae864795f64",
+          "q0_scores_sha256": "98956ef47eeefd9f54fad6b9baf778da815eb7ad558d32a6caeca88138f9bcae"
+        },
+        "00006:060": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00006_060.npz",
+          "shortlist_sha256": "d441eac65ddfc493858972fd344cff45b7c5d5bfc37fbc6ee6b30e2d9dcbc004",
+          "labels_sha256": "3c5d5434c439124f77c6bf1e72a55989a14612a31265f09e85a4433916b069cf",
+          "base_scores_sha256": "381f553ec2d1cddda4f334b66fd1663039c0a3787af4ea77fc0f08f1e1a6b1e6",
+          "q0_scores_sha256": "9c2a1d5998300c3d1a4599cb9dfeddaffbc532c3391183844aba9f4c71fa0406"
+        },
+        "00006:145": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00006_145.npz",
+          "shortlist_sha256": "9cfa72f3df96bbffdb4e36322a2ce9f5ba4f1d977dc42e73d4f882aa8ccc9701",
+          "labels_sha256": "4e0ba85152fc1f78cc3f859958ccd6646fc15395aab8a2a2e3c88377c3ff4dd8",
+          "base_scores_sha256": "739958fbd2e2afe3734b520b5f1ea53a847caf3234336e48dd146e86ecdafd3c",
+          "q0_scores_sha256": "44a3530f175611439bbb42f45d815782a2e221fc20811dc83cc160041546340b"
+        },
+        "00006:164": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00006_164.npz",
+          "shortlist_sha256": "db5323b75e5d96fa90375276644d9e4db9353e6c6070b20696f503f777b4f33a",
+          "labels_sha256": "fda6ca98062731513ab5db72c1fe56d4f0916f9d5be65b2d1b5da20594e1f17b",
+          "base_scores_sha256": "f0ed89f756f04faf4b8817e78ac993d8c25da7c13ecac86022ac3c57e9abb50e",
+          "q0_scores_sha256": "9db2f501247c1b23036b90cac783cb6931aec8941e331092ad7ae8e50209f749"
+        },
+        "00006:174": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00006_174.npz",
+          "shortlist_sha256": "5818b26b900e2a51c69a291063c1d032433a881eb977aeb904871195da463a43",
+          "labels_sha256": "31fe83c2a81a1d0719bed157b834a51d0d47cf6ee76e5e04bc4816afa1d82df9",
+          "base_scores_sha256": "0b4ae4c4343a12a1f508d59ea4079be5e7e148a5d5c1e7770734236ba6165fc0",
+          "q0_scores_sha256": "8b2429645047a9aaf1d31eaa54b86d54e579c799bbbb0f4e677627036dababd2"
+        },
+        "00007:090": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00007_090.npz",
+          "shortlist_sha256": "ba0b0bda57835ab50d75a285e7630b8aad41d779edc57faca389f2163f48de80",
+          "labels_sha256": "c09d334a695f332e8844680e1b67bc6cd5ec9b0e471f3be4bd5b727ad60640f5",
+          "base_scores_sha256": "107a99d1e123996859d5d7e604dc9996d71b804cdd591a79186110f35188c25f",
+          "q0_scores_sha256": "f644f82d0e13fc435e036d106925d48c46ab1d0b9f6d9a0208c4d569c99e5422"
+        },
+        "00007:185": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00007_185.npz",
+          "shortlist_sha256": "bef976b3cdf50181b745399fc12548487e85c9c418d02f1821d068e431d06cee",
+          "labels_sha256": "cf274faffc27f4f444046c3876f7ad011b6215dd35ee6e3591158afa622c6ec9",
+          "base_scores_sha256": "638024b973bf83541a8bb4289d1624526b4ae09ba01f39ba3024dce686f19c6e",
+          "q0_scores_sha256": "1c0dc8576ebbd374f84b22b4bf30d061b7f9c99a3f92a61392203c4941254e50"
+        },
+        "00007:298": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00007_298.npz",
+          "shortlist_sha256": "0843573c8f9816403fa895bbfb365f59a006ce5acc3e324f19a442cf9971545c",
+          "labels_sha256": "b068e6cf633d529bf3ff0bab2cde02961e42c3e136d0303793fcf8af4b8a8168",
+          "base_scores_sha256": "c2c04176b5d939d94973c0bc55706db572267a52e5467b75507429f8a9e0573d",
+          "q0_scores_sha256": "7526e7d8efc8d7f16c71417f8891a0404c53950ce1267ec777b28e6762b4558b"
+        },
+        "00007:307": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00007_307.npz",
+          "shortlist_sha256": "44c820cc35b683feb729db79032bdb8be90676e9b12a659ad4f9cdfe655f1ef3",
+          "labels_sha256": "44f365011cc15b7f0ee6e8246c50574b469e6750d18ea5f94bfc11af967d6bd5",
+          "base_scores_sha256": "0db2301bb8b486c65ccf767c71c31a70dcd3f124c53b2deb59506f491d7822de",
+          "q0_scores_sha256": "d4ebe31fc376cac8e9a3fcf0eda23f8a477ff30a83c41c1755aa7f0cd4968067"
+        },
+        "00008:177": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00008_177.npz",
+          "shortlist_sha256": "28c63b1cec1a968e5d0e10a5e196a161f4253e9772d1a2283748ecc06a98703c",
+          "labels_sha256": "f700d51ef9cf928f426f91c32e50394c1c032fc5fe4da70502a73934293fb0fc",
+          "base_scores_sha256": "cb5667b098eb6167f4eb0d81a3de9cdf716440e72551d769c9adfda3cc93c471",
+          "q0_scores_sha256": "0773cd37928146d0a94acb4ae31d0b17179263c73df6de360e92dfd8adf095e1"
+        },
+        "00008:442": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00008_442.npz",
+          "shortlist_sha256": "83af2000a37f3ce4fb5a63ae7cdadb847af156a99844d92419c4e59f769028a3",
+          "labels_sha256": "f6b052e9a0d16aebd89cedcc9d847a99b1f7a73fd316196be76df58481b59093",
+          "base_scores_sha256": "30f457bee905821d4390510af737e5ed23d054e2f15c3c2706bf1d8715b82aad",
+          "q0_scores_sha256": "7a6728587e76fcd249de0f605d572a6b15f3a54c97a844acd46ff5c5f3292d35"
+        },
+        "00008:466": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00008_466.npz",
+          "shortlist_sha256": "c35a986635144ad94d0f4ce568b04c1d587b2e1fbd5356152745799fa9b3bf9c",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "7748a633c5f97b32e3130c13cfbef37b0495e9be2524dab85fe185c0eed4bd1d",
+          "q0_scores_sha256": "af931b7c6857e8d66559cf9d36731804ea39714e6f68d7f49e6c44fbc1a57faf"
+        },
+        "00008:487": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00008_487.npz",
+          "shortlist_sha256": "34945f2fdfffaad02dbab68a81e612c5a15d93307070184a59b457e33f6ca838",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "b989a38695eca841263a69a4c7c8657dcf701ac32f0cbf57db5448f66e18b116",
+          "q0_scores_sha256": "5e6f65084e18641e2dc137078d634a4c443bc1f3ceffa999a518c3d7758b21de"
+        },
+        "00009:365": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00009_365.npz",
+          "shortlist_sha256": "39b45485c07dbc407ef35a597addd99b8f9bf7118dceb7458909939934d4831c",
+          "labels_sha256": "b6a634ddedce3acdb55b3448fba4d6cc59c0c2f47d8e53bd9692815bd22e84c5",
+          "base_scores_sha256": "c9e022be2d4f5ae8c31b3f3d1a0b4e21196de460aeb527845915c829d0497496",
+          "q0_scores_sha256": "7bcf0967953dc632e8248fddba56801d0e3d83738fc80033352c066c67eaf6e5"
+        },
+        "00009:367": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00009_367.npz",
+          "shortlist_sha256": "b680423623ced7fa7857490043122e27ff21dbac6a042bb084d2e86d59716a32",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "11d86b30136b673dd536ed4d95a120c44ba5a14b480dd1ba01cd46b230735a87",
+          "q0_scores_sha256": "6a9616eee16643c3e4244a16479516add711921876056a303eb9a75f5e80108a"
+        },
+        "00009:816": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00009_816.npz",
+          "shortlist_sha256": "50f9c5989c2771e216b69902c26c9ad6659652f1f776ede75b6a7b92b6e10f25",
+          "labels_sha256": "09e86877d8c9d20e94d799da20e83d420e3d22cb16f1aeef602a5120ab869af4",
+          "base_scores_sha256": "4ebd01f6092d8fa588851d183231e90b13623dd9ace5fa9893db55da375a5154",
+          "q0_scores_sha256": "36f90fa334a762db817f9fa03b40af46299ba764b6a78a2e2eead7bd538e1afc"
+        },
+        "00009:934": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00009_934.npz",
+          "shortlist_sha256": "93a7a1f8e5077bc0127ffc5862b30c6c7c088fb08919540ecd8c096db4896a81",
+          "labels_sha256": "05f217ea29b248dbf4e5ac65aca9ba8a8f0d8e3305daaaf34de852dcab4a226c",
+          "base_scores_sha256": "f84600beceacb77e28bf708d94c49dcef853030ca5bfd115ab43d7979dcf180a",
+          "q0_scores_sha256": "3941f38c55110376a012cf0fbdcfe492f47155d75b0a460f889a096856a83172"
+        },
+        "00010:191": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00010_191.npz",
+          "shortlist_sha256": "4d678e2ec5d3ef1a4f3482fffe48606c9b5c87c9c73eb5ef23a0c58063cdc9ec",
+          "labels_sha256": "3fabd28c79111025f635c8915fd34bcf02ef974b227d70a01c433e66895789d9",
+          "base_scores_sha256": "02e374e3cfdccd09d345af5128326fb9d916b42258709ca04def724fd09c5c1d",
+          "q0_scores_sha256": "0118670625232881f3f56966f82a335850544b956be123153595e073b1ea088d"
+        },
+        "00010:320": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00010_320.npz",
+          "shortlist_sha256": "9b155825614e1b0343dc17af2edd28d7e7d44a6df5014f5b9e4b364ef329456d",
+          "labels_sha256": "82b0226dc1f9b1c36742d6d277331ebe79182c0d90dbf61138cfc8e3503cce8d",
+          "base_scores_sha256": "64f8172791b357777e264f2a38e0006a990181e14b9a27bc3af8750af0de5639",
+          "q0_scores_sha256": "fa03d0b5a21706f200987f885177b777d32f4794ffdf4e3c2772039d2eb86add"
+        },
+        "00010:438": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00010_438.npz",
+          "shortlist_sha256": "50b3a3e83f58ba14d0890814e555215e84d09254a7d6a4c1b2ce470aa93903c9",
+          "labels_sha256": "a8852a97830035dedb5600524ff430f8fb55730f919f257eb77df6a0683a3c6e",
+          "base_scores_sha256": "5b76156c4b6399fc964d3164372a44b67bbfb1c85cd40da0d3e29433f6481fd3",
+          "q0_scores_sha256": "8abbb3a812c4517f72f1e257610adc4dd1bc8f49969c5237a08d6a19723fdec7"
+        },
+        "00010:476": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00010_476.npz",
+          "shortlist_sha256": "95795d0df13adac76f7c512bf95f512b98f46a435ffd4266c01a647b8e644418",
+          "labels_sha256": "5ee1fc22c2793ca7a0a9987901a0fee6893ecd8c4551d798648065766c69df8e",
+          "base_scores_sha256": "d0dd5eb5126ae8750c3864370e263937f82b7e4e10844f7f471be52ec6efaa3d",
+          "q0_scores_sha256": "f36743219cf9c01d0976ad7b5747a31d56d74368b26457d8186bf0827ded1d75"
+        },
+        "00011:872": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00011_872.npz",
+          "shortlist_sha256": "b0a50488fc32dd29f553b4b2556a9773644f417efb89d361f50cfb3e0999cfc1",
+          "labels_sha256": "6972d25de35f57b27cb32acbfc408b95f9e3c06aa0fcd2fbcada387268120de7",
+          "base_scores_sha256": "1c251033b9f6a711993d07024c3246758ea8012b5b836f8c302b352c3867c9cd",
+          "q0_scores_sha256": "71b89fde46d354c1d0e7d3e8f3d37c2cc64c66d77582289d9b91d892fba4185a"
+        },
+        "00011:875": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00011_875.npz",
+          "shortlist_sha256": "085f6d019657496f920665dd34aabefd2c560a3c545885f36781a8d4df201f2e",
+          "labels_sha256": "78e91d345303a1a587c1b16800780d106e9de09b16b804d2beaa34f56649b981",
+          "base_scores_sha256": "dabe6b8527b20931edf4d38f252f16a722494a33dcceee8d3772bb9c7ec0b926",
+          "q0_scores_sha256": "1bf65b7e1efecd703bd771299916dcb1d72a23619f0f4429e3cc7cf9b9a24eab"
+        },
+        "00011:937": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00011_937.npz",
+          "shortlist_sha256": "b45b21c28a8da49bb5806a4498eb570a7c8fede2aee631c54a715ac2af7a72b4",
+          "labels_sha256": "39ea4abd45ccd18451915a0f6900a78bad4fc811ccd00bbaa12a5cc54bda070a",
+          "base_scores_sha256": "2751bd8faedf9884f24c902e3f3e72096413ff5675fc83d45667ef2caf0892ae",
+          "q0_scores_sha256": "c9a20f072087c28602b0f190cf4b5a56d17d3b0df879056f45755c21d4563866"
+        },
+        "00011:967": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00011_967.npz",
+          "shortlist_sha256": "0be6fd1e795fa05d6a59043a5721f4982c17e3358c9ca8f10a0cb5c82db72008",
+          "labels_sha256": "7520c13beb138c22f4c51afaf5f89d64c10adb42874fadf6752c6d4b588ff98d",
+          "base_scores_sha256": "2a365c5fca4d3e8ae29a77eb59c989079cb29f745474a55938bb4bbac2718fe3",
+          "q0_scores_sha256": "b00407d38ea35ee14524e36bb095236ac6d55b83dced2f6bc97f52aff521a444"
+        },
+        "00012:023": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00012_023.npz",
+          "shortlist_sha256": "37e89c2eff6947015b730fc40cfd496f95677b864d886c9b4d1dd863f7008a96",
+          "labels_sha256": "ee16dfe88217901483a99de8036ba62606655de6dc656074b9c29010cc67254e",
+          "base_scores_sha256": "6843c696db139700637e9b89e63a8c92008701b0d0b138655ac7944472d0a7fd",
+          "q0_scores_sha256": "0ebe2cec4dd33ba2176626a5329dc62358e4fc907e0c129f2c16d2abc76e5f41"
+        },
+        "00012:032": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00012_032.npz",
+          "shortlist_sha256": "d2644a3988418962b720819df8a0fa72fdf71bba1648c9b9f8292776dc057bf1",
+          "labels_sha256": "4e5dd24834d3dbb87e668762b814ba28ae4ccf82e0c17cd77d722a6b44e5b137",
+          "base_scores_sha256": "b3f672eab688af512339fedc659ba7cb98534d6f51ee63d20004f424379a9a8b",
+          "q0_scores_sha256": "763425c5f49712693241d7428c522b1833d354003fb066d56e2e3dc76f581b6f"
+        },
+        "00012:102": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00012_102.npz",
+          "shortlist_sha256": "8ccc9141f0d81622c78b09c5844a769dd786933add517ddee904f677a8a4b18f",
+          "labels_sha256": "121f0bcaf47ebaa87f37431d404043009729b28be62900723970fba55a47e90b",
+          "base_scores_sha256": "2561d92712f22fa2cf7fa5947d991399c9d5926369a5f3abb633bf97cbd86245",
+          "q0_scores_sha256": "09b6f3d0511cf0c951b3031902dddd27e1e110e826a1db794b065aff6680eac7"
+        },
+        "00012:179": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00012_179.npz",
+          "shortlist_sha256": "51afb2e85c17cd13d3273f3ec1608037625a7c447e53e03d70e5edd4a2808ecd",
+          "labels_sha256": "ec5af4c63f718717b6981b7a596db64d7ef3742bd601bfa06dda2b22fc91e2f9",
+          "base_scores_sha256": "1374c78a6e422e74dbfe168d57b0c5afe2194a98dba87e1910b81873ad7ca66c",
+          "q0_scores_sha256": "262e22c7a8acdcf59c91590111447b9a25f7678ed97176147ae72afa389419a0"
+        },
+        "00013:011": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00013_011.npz",
+          "shortlist_sha256": "cce7f2de685036ff1494fe6e02ac2fb6e5e8413447dab29b73d8ec992004a469",
+          "labels_sha256": "6e7d79c9c7d0cb655abbda718c654a6fce1ee2fd5562b2b25f96250a23ca4cdc",
+          "base_scores_sha256": "d67b13c3c38f9927d6ba28e2204b330f77bea6fad43a1fa9954575370efdf81b",
+          "q0_scores_sha256": "eb2ff5506b234ea5530ac1f289c64d8747eaac47d3615fa0bcb362195344ad04"
+        },
+        "00013:036": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00013_036.npz",
+          "shortlist_sha256": "e501f98d90fb0cf2403868f25480fc7093829db2f06b947f5534b55df6854b5c",
+          "labels_sha256": "b1744101e80df261f12abef75e95a8ab2ad980719c794d9a9bfbf2f1a11293de",
+          "base_scores_sha256": "db72d0113a2b2555dd80ed53a0c3d9d65495e8b633d31d6e7d4f80c4d5f35126",
+          "q0_scores_sha256": "79723b4b29893d4bbbaaa163b8c756f0f4cd36c7ec5d056db9dd0a905df20d4a"
+        },
+        "00013:177": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00013_177.npz",
+          "shortlist_sha256": "8a2738479b12c5e9ad540bf9b205e16fa5b4977c62ba3cf34d2cbef854c5c00b",
+          "labels_sha256": "ec69faf171fc44a10fbddca6ef3d4f36ad970dfc109bcf0ceb1ca8abd4bcad95",
+          "base_scores_sha256": "dc25332dbb779d26d451f1957ae6b9432aa3c97eafc0ac9b49f9a9424f0b6376",
+          "q0_scores_sha256": "d55b243bd909e780674ee8d3c865e91698f1976b7ae1bfa5630ef7cacce0eb79"
+        },
+        "00013:244": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00013_244.npz",
+          "shortlist_sha256": "58cb72d58d75b8d9012bfab67a24d947fa63a8fa129ec84506c188e962af0cea",
+          "labels_sha256": "a3d4a9692a8bd99353a02b2bf35187d81aa2aa0ed484dce929c293f86bbb48fa",
+          "base_scores_sha256": "f2ce0d465cf35952a8934cb00c7b1ba4342df15cb452f899d8e40c99f3994bf3",
+          "q0_scores_sha256": "e6abea9c099ff79be86cb8eeeab43c2e57861999acffa28dc5c24e828f5fdcce"
+        },
+        "00014:408": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00014_408.npz",
+          "shortlist_sha256": "8d87ce2fcb76ca0e30242e8f0b4e839bf1dc6b7f85fbb32680298dadfbba065a",
+          "labels_sha256": "eac3f962e8c1c6494513f4598d9254045c59d5d4eec2f10e6b64ec2319fc4363",
+          "base_scores_sha256": "057cc851fb0e56a611ecba1ae6623fdd6bc6fd48b6417b2702800cda65842e1f",
+          "q0_scores_sha256": "2fda75b3b08b3998f826691ba5b15671f985ba46452300ecf3c7b19360fc812c"
+        },
+        "00014:577": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00014_577.npz",
+          "shortlist_sha256": "8d819eaddbf0a7ed4de70484102498d0751f9dc4148147ae563b88370f901a13",
+          "labels_sha256": "66dd7f641498347786e357a79643ddf4ccd1af8eaf8c9d570d620d13b4284512",
+          "base_scores_sha256": "0f0b082bc23b2ac8b2ddba6d57c645e81d48bb4e25e510d45487f7d5a447dd96",
+          "q0_scores_sha256": "6234bae7f88ff98e3cd524799e9318c0a53027581379aff5a19e38fa0411c863"
+        },
+        "00014:606": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00014_606.npz",
+          "shortlist_sha256": "2d21eaeac3be879e7f29beb1df4de717dbed14e61e39621a3fb24ae999677c64",
+          "labels_sha256": "10147099a5c1f8b701f73bb3d8e71ddf0f8b371f583552a057002de53ba1dca6",
+          "base_scores_sha256": "40bed8526c2b55893dbb5bcbad751a09640eba5b15f4418b5fcebccf87d9c6e2",
+          "q0_scores_sha256": "58f8671988e594b43fb8cf39903df1633ec2e069a87bd204f0f03827947696db"
+        },
+        "00014:634": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00014_634.npz",
+          "shortlist_sha256": "8af244c3a9a7d0c7ddef642178761157f909172dfd4f8cf6b5ef6220caba15bc",
+          "labels_sha256": "db95e49e2395328ca247fefce4d0b97815fda25c99a5bfd383faf8cc80b55303",
+          "base_scores_sha256": "e52a4c41beea5d985994e7b364db57c195e86d0bd18b1fad7d65d1e35ad0e9cb",
+          "q0_scores_sha256": "c0818d68af5fc0452b3c231a453040b9971ea102c02b743b6b2ad726764f213a"
+        },
+        "00015:016": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00015_016.npz",
+          "shortlist_sha256": "a0b73f6112042b6757957f142ced25ddb7e40cf9a8e1bc1b1d8f0148812da771",
+          "labels_sha256": "9fbded791af4452972084143442746f6d723cf02a304ed7a0bc7174dd5ebac0d",
+          "base_scores_sha256": "3af8cddabbea290bd7ccfd3d4acab0201ec72f306b573ca5d663aaf1602d0e0e",
+          "q0_scores_sha256": "5486d66abb25f349d7981d90bbf733dab813829e9b39fe7abee2bbbda7017671"
+        },
+        "00015:134": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00015_134.npz",
+          "shortlist_sha256": "e2c0e31581c8bf748dfb0bde3dee4421abc21a90f525f0a9fa5608cabae914d1",
+          "labels_sha256": "95af8620979a779e38ef77a2bf18d5ea9833de94a94433c5a4b7775fd516d8c0",
+          "base_scores_sha256": "5a78eea4eef73d7dda4d797e0b0bc42659210e6945aab5838b4122c97a8b36f0",
+          "q0_scores_sha256": "0986f5d3a6ca49011c18b1b1deca818b94fa4f69082228bb41531d771591cc39"
+        },
+        "00015:211": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00015_211.npz",
+          "shortlist_sha256": "3b16e7bb94d2455a614547c2665da2df779e1ec0a7850c7d98894ac2250eb881",
+          "labels_sha256": "a11ada86474c038e71b149d654aacc676a643bead1180e8f0aa03ee71660a9e0",
+          "base_scores_sha256": "83e5972b4d5e72248951482ebf367e4dd18594316bf0345c2618f99f085d143a",
+          "q0_scores_sha256": "ef7ca5219112333783d5431e0a7ac6b83ed088242a23cdb905e6556a6cd99464"
+        },
+        "00015:379": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00015_379.npz",
+          "shortlist_sha256": "f34507aaf2b1a5ad657005e830bbc5b04c63ec1d04f368b0feebe68250d94e38",
+          "labels_sha256": "6a5a705051efa83d15af194101fc2c0c2d3e1679ebaab9ec52da1520d26211df",
+          "base_scores_sha256": "605eca2d75486b51952921055940d8f9ec4cb16fa938a369dc69aedc8085a5b9",
+          "q0_scores_sha256": "a54014ff047f3833af735fd1101d23cb971a1a3975d9f18bcf2aa2a97d17addf"
+        },
+        "00016:651": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00016_651.npz",
+          "shortlist_sha256": "f002df8e0d26da6018bd6a9d380d7dec87cc272f93f10375dc8eae522b719d1c",
+          "labels_sha256": "0cee240d2fc7d242cff6d46196729c76c7bf3b0ad2c6d91164a800557d69dfc8",
+          "base_scores_sha256": "3a16d95f939a263d3c01e21f412260c21fb208b3abde459cbc4ddda5de7e6465",
+          "q0_scores_sha256": "1ac0145c711583036727c6ebd71a3d15add82b4ea5266d71e53c836ebc181d1a"
+        },
+        "00016:751": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00016_751.npz",
+          "shortlist_sha256": "7a5c2a8975de5308e20726b191e9e78eea3b0c330bc2d1dd85b3e5314ff30e51",
+          "labels_sha256": "10877b3ddddb9b32cf1ee6da99baddc59f2483f8fd4e1c86270b475f9650acd2",
+          "base_scores_sha256": "13c68b1a2869864e4495f6e89659cf58255e409aba0fe1c0c24b3675812ff638",
+          "q0_scores_sha256": "5ec32b2a3ebfe76cdca113a4f1b53ed18f9364e171d048261008e89f976fa3a5"
+        },
+        "00016:758": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00016_758.npz",
+          "shortlist_sha256": "359f13de3eed355a101a258fa1a06888ec8fcb99917d08920233d5a5046afbb0",
+          "labels_sha256": "e5a88339eb0f0a1107aea7cf4ce87c79c17cd042010d173df271db563eff7e2f",
+          "base_scores_sha256": "839c3419f516cc6b7e8659338e1231809b2eb9337cb3aced0730cdfd231d7fa2",
+          "q0_scores_sha256": "c183ecc62c2585bb83231735fdf3e98736dcbb0b9a9e88af55b5cedabc33276d"
+        },
+        "00016:851": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00016_851.npz",
+          "shortlist_sha256": "65e5a22881914a3e30ca55af2d6cf749fe42d90cbd6e2fd09ca6cace6d6f7b66",
+          "labels_sha256": "dabc69bea30d12de600c6cfe0f559e36d68304d81365fa59a4be73922511a3aa",
+          "base_scores_sha256": "8e26b6826d19e569ce5d7d94bd89673f2502710c439a300569a6e4ef5e3d0199",
+          "q0_scores_sha256": "57e2dd23c6cc4b2bc9a4ae109e1a631abf7516ef1a9627f66a92181e55024e59"
+        },
+        "00017:098": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00017_098.npz",
+          "shortlist_sha256": "c493da894433d7d55ed39977f55eab13c214ef238b702c30a8d33a2fb9a04b2d",
+          "labels_sha256": "530ee11154aff3784a02ec594b6367f15c64609e91511ff9903f195c781c3dae",
+          "base_scores_sha256": "2a8cb18ffb01e7d721b364825bdfcc432534609f7c276c053bec6db0973248cc",
+          "q0_scores_sha256": "413a4a1b5ae6575300cc239fde03b602019c039eae18e8e4c65e1d4dd0a0cb0f"
+        },
+        "00017:129": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00017_129.npz",
+          "shortlist_sha256": "3bc9c4c016128959a37449ec591c33772eadfc78593fd2b90a447eed3bd2adf6",
+          "labels_sha256": "599e999b24d2de96a809880ad135a7d66703de813bcf03d5cd73f1d3c06c163f",
+          "base_scores_sha256": "e3ffe0b0c1114029776e611d8eca787c62f5581144a31f66e287c6a508caf415",
+          "q0_scores_sha256": "1df46b098103b8c5e3a2a41484235c9ee8e0a75dd25cb8ae2622aad0725f1ab5"
+        },
+        "00017:138": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00017_138.npz",
+          "shortlist_sha256": "e85c8dc99ea5b922ee28cc6ebb0907c546a5487759fe8b6306535de8c7fc8354",
+          "labels_sha256": "ecb50dd3d3a4df371046f3a102dac8183a5b17e3b5cde22c555291f242790b6c",
+          "base_scores_sha256": "569dfc13fc152f8165ea8c9b5451698c6e24d62f8033e114162af9c0e8b53d7e",
+          "q0_scores_sha256": "434ad70fd267ed01df4804b9a9a213e97c846205385ddec576f4f9f3d97d5355"
+        },
+        "00017:191": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00017_191.npz",
+          "shortlist_sha256": "135e8b6ad370120cc48ae6fc83f79520cf7e0b9469fc8db14234641f5e686f82",
+          "labels_sha256": "928e4932093b0e83cf62188c8c60bed9910ccb1bddf763a25e9d277714c38c4d",
+          "base_scores_sha256": "3aaab34ed27a58565d3a6893aa51b962871b433436ca363a41edfe76451a329d",
+          "q0_scores_sha256": "db44ab9a91859f93480d9290faea96b63df2546211e4a43f7a5fa447a67f79a8"
+        },
+        "00018:070": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00018_070.npz",
+          "shortlist_sha256": "644876d4b2b70c182eddd947461c4e1ee2fbb611daf5d4f81bcbccf21e796c53",
+          "labels_sha256": "d9559c3ddd1d1cdceff1def9065b903e4f3b09b3339be1cd204a8f4f41addbbd",
+          "base_scores_sha256": "6d37e23c42fca002ecb36339f1384aaf3a539ce131fc18f3647987a30955ba93",
+          "q0_scores_sha256": "a60d6e9bd07199a174a9022f6a48be60b159984ebef9a88e3826dfd55609992e"
+        },
+        "00018:120": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00018_120.npz",
+          "shortlist_sha256": "efd1af88a48d86b1273b3638c3560401bfeb6ff6e28acc62af18a143dbc192da",
+          "labels_sha256": "1fdd318a744955844d707505290a3126c4274905abfca8f13f4e24c5272b23bd",
+          "base_scores_sha256": "4f31a8bc4f47486a48429f577b2508cdedd3c82c6e21221a158849ad6006ea8d",
+          "q0_scores_sha256": "f113e0969b32f302cfab989accce8243be263ef53309cdd49c2d77471733fc89"
+        },
+        "00018:171": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00018_171.npz",
+          "shortlist_sha256": "684eb23ae402aac147bd7514f3da628bbe90c9daf33a5316e30421e2fcdaffdb",
+          "labels_sha256": "dc95b8f73fbc4313c2287c92c8de5248355c8279cb43cfd2b17562caa4a05ec8",
+          "base_scores_sha256": "b490baa2e78225af5208ac241160f2f8ee0f2400471e596fe66c293789d6bab0",
+          "q0_scores_sha256": "114f739cd0bf890704966f1faebd348533b82620c9450b6759d09e952762c68e"
+        },
+        "00018:198": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00018_198.npz",
+          "shortlist_sha256": "a58a65fab62651fdf2e11b4fab0178dd66c1b9b431525a8ae0322527c0c83a29",
+          "labels_sha256": "4236dc8fa128861ae540ac6c46f9d4227e3112293b7a5fa657f4c596c7c6597d",
+          "base_scores_sha256": "29c617da25312e7ea5320e97bb613f4e9018efd506d0ae42c1bc49c0e262eb18",
+          "q0_scores_sha256": "8f9e5e9683b93d6c4d9cb751dd9bb5a9ee898dda37f9ee6e1398286dea47b1c5"
+        },
+        "00019:244": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00019_244.npz",
+          "shortlist_sha256": "72de31f3d98874787d32969d9497c690fc14a16e67d9343a27825943f8e176ec",
+          "labels_sha256": "3b56d9cdd7613c0e7a193f75bb950cc34c6e50dc82dcab07e17461035a63f2cb",
+          "base_scores_sha256": "7c85160495f2cbbe5f54df8e617e1d4b3b5d582e1b6f1e8444dc6d7de820df6d",
+          "q0_scores_sha256": "b46155c91ab673a21d66cf8c0fac34680150e046f4272123831f0e154ed590f7"
+        },
+        "00019:608": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00019_608.npz",
+          "shortlist_sha256": "f6c7aaa6f54884cfdd080cb201e454513b8b17fab9133036438d7e0d6eb817cc",
+          "labels_sha256": "308df78825bac0d6cfd38e3fb9c1367e67705b23f305a3f6124e6a61381d92f4",
+          "base_scores_sha256": "1ab4f790d541ca8dce4f24f83ad2010f7b99a8b4c123c5e5e274beff19402706",
+          "q0_scores_sha256": "b60bb1866122bb9361490efc9680c76aa46d53d0166c53b3888c42016201c39f"
+        },
+        "00019:865": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00019_865.npz",
+          "shortlist_sha256": "2f74f52a4fa40ccc8105c059e5292142f486aa9cc8abec87af74faedc47a21a9",
+          "labels_sha256": "f94f9b54c75ba371b1b920ea0815e3f852684c9c4d9883a0cfcff4eafe240536",
+          "base_scores_sha256": "2b11ecb9709c515f84db220b0fbb7e3f7881e8ad204f69ea01e170aa747c1309",
+          "q0_scores_sha256": "733592bfa781542c4b5b4486780a1d86592d415637e7a91e70c5d30f0c41a829"
+        },
+        "00019:944": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00019_944.npz",
+          "shortlist_sha256": "db9861af7832d76fda3c25e8c1e56146de9cf67c56d861fd51810b4231a9ddd4",
+          "labels_sha256": "52fb5c1717b477c229f4fae1cdd1f3596e304896e47efc21ad333769b2be1a07",
+          "base_scores_sha256": "49334fc843c01aa0aaf8d2e4a0d7398447070a2ffba8cbf38ccc347778a12f02",
+          "q0_scores_sha256": "ded6857883518792e20b1303abeb7214a23cda7f987caab23301329e8448e904"
+        },
+        "00020:016": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00020_016.npz",
+          "shortlist_sha256": "e489eb12523f08daaa2af4538d66bca67e849af23af46b7317528a910abca93d",
+          "labels_sha256": "3526083ee50f39523ceae834cefcb85b8b58952ddee8251d9611e246965b4552",
+          "base_scores_sha256": "441ab5a22eaabd7dfaa15cda7d03d67af720f1c9d508fc5eea4b2e2342d76a25",
+          "q0_scores_sha256": "d387460b9833a7f30b06d1625cce3088b37c1ae5d3841fdee036e01b78d63e63"
+        },
+        "00020:028": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00020_028.npz",
+          "shortlist_sha256": "b82f852163b60f98b19e7bc5c93e146ffff74efe04d3d9c9bc51b41616da795a",
+          "labels_sha256": "85bb4b4c1c572d3637b28d53019f15efa8c1bfcc4bc11f2f1b8739275c5bd9c0",
+          "base_scores_sha256": "51ea2795f0f547eeb21dc6ae4b3a9b069b6827d5fa044306a9a7a3f382fe54ff",
+          "q0_scores_sha256": "46652e888000a6e5bb827248b8309483e56fb6a6c865ec7347f72dc8d1aa4b75"
+        },
+        "00020:053": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00020_053.npz",
+          "shortlist_sha256": "1b6c3cf6a548f3f157671f5794bb5f5e463961f817af4b4421b15af67a366d3b",
+          "labels_sha256": "be929f56883cca79c2fcecbaba2e2e2989062129fadc76bf6963e7a80288768f",
+          "base_scores_sha256": "b169f2d828e5ad726fe477469bf659a46226a63ecfdb239ceebfe67085746b26",
+          "q0_scores_sha256": "e8d2de81561bec841efc6f84383406c9bb8d59a3c58e3c30e515edb62c0d0b96"
+        },
+        "00020:066": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00020_066.npz",
+          "shortlist_sha256": "d982cf2d780aec52c570eb4dc107fec4f8a3cb501a2431376e16fc404d86c801",
+          "labels_sha256": "7a927c0da77482e5486d5778c5c8871b492a52cd72c5068f4fefda126ef58bee",
+          "base_scores_sha256": "043dc0fe1e6ec1f3e4720c1cd6639fac292ff64ba00874a20dc5a716726ee68f",
+          "q0_scores_sha256": "583ec317d5fb05dc08eb19cc9b6763b7ad19cee1174cfb787e74ac2a05382010"
+        },
+        "00021:038": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00021_038.npz",
+          "shortlist_sha256": "4171942e700ca15db3e6748d35886a77b8995520ed8ac76b4f57b0b0b3dcdc5d",
+          "labels_sha256": "e5659201f8d407a665e009342a607a6841e07100761bc40ebdef2d8413a8c30a",
+          "base_scores_sha256": "bb9927edf514614dd894715a250c7a58c12efd6dac43c07b69619f0d5acd8a5d",
+          "q0_scores_sha256": "3f45e40e09c873c4ece7cbe8f82709c7f894a39824edf8186da15ad5db909f3b"
+        },
+        "00021:040": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00021_040.npz",
+          "shortlist_sha256": "8e6546fbb3b5394862acafed5048274a39977c8f7c5543b96f69f91d06dc201c",
+          "labels_sha256": "1b74bf9a29b49788c0357cf80087c0bcba2aa0cd9ae4f8cdc87e27244adc9707",
+          "base_scores_sha256": "6c847d943d015dcd8a8c48f566f040212bff1dfda1ce86adefaf705df7e7e009",
+          "q0_scores_sha256": "1d29c0fda898f5923a98f90099331f6e7de2a1736ec290d5518519ef74be9403"
+        },
+        "00021:073": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00021_073.npz",
+          "shortlist_sha256": "6f8120e1414fba0b233101ef4b529c2a78a1707db94808c98e1cb6cba4703db8",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "2a1893816bffef284944a8054664f72e2802212010a83e8410bf8d272c37aac3",
+          "q0_scores_sha256": "4a25c7a2ef9c9b5597116284237e239eeccd4c2fce17802a6cbdcfaee341c11c"
+        },
+        "00021:113": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00021_113.npz",
+          "shortlist_sha256": "eb885400c11a1597b9e016f8537f026ded7dab5a7cdc10bec36b9d25b3360826",
+          "labels_sha256": "401c3546d064ff78a462734f8b638273342603e9eb2ff9b668c7b17785baf101",
+          "base_scores_sha256": "c8cf793a3dee0e49298012cd998e4a2979e01aabf1e8f93d4b4b96dda252cecf",
+          "q0_scores_sha256": "f02e5bcc7b4269a95377d11bfbd24281b48efe1e0f71a61e51cbcb828f09d276"
+        },
+        "00022:507": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00022_507.npz",
+          "shortlist_sha256": "efa271484d6e7abdcc2ba5240ec7817cc4d7dd2740a10df99c804a06de896d54",
+          "labels_sha256": "6034ceee318031d26e073a6e0298110aa49edc1264bf569c04d12b1574d4ff4e",
+          "base_scores_sha256": "fcef5cde862f5d371f2793137a15d680b7688c39f1e7622a45460f8814a5c565",
+          "q0_scores_sha256": "3d1ffe6de8945050f78e6c8034ee2ad184e933bcf2d0813b985e1140633b67de"
+        },
+        "00022:695": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00022_695.npz",
+          "shortlist_sha256": "c3c788bd556324832d15c9a74dcc4156f230b191f50eed72f70b8fea968de321",
+          "labels_sha256": "e3caac12c23a1373aad821eb3df7ae414484efa86b26b38e686da4bb6859d6bf",
+          "base_scores_sha256": "8494ded146d2ecf78b4fb5804f9fae26464a12c83239cffae38c94e0582f5917",
+          "q0_scores_sha256": "a80b94034642f096b156c4d992b373b6cf52e8ac15269a5d723d1ba8b324281c"
+        },
+        "00022:755": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00022_755.npz",
+          "shortlist_sha256": "50b0072c715562ce56d6124e0315be6987c3efdb4ac6c85435da760f8347d98a",
+          "labels_sha256": "60c74634268e37bd4cbdb44d4a0d1c0fc6f7d5deb3c729dbc7383fcb846a7081",
+          "base_scores_sha256": "5bad85806497518e3b911c5000b3be4b083cdf4db5cc3d7ccbe7adc89f6063a4",
+          "q0_scores_sha256": "6ab1d36d7cd4f5bca20ef1638e5ab68cc40c91780884acfecaf21f57ccd25dd3"
+        },
+        "00022:850": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00022_850.npz",
+          "shortlist_sha256": "66971676e1cd84a9e9be08c98aae59c5c1effeef569450a38f1c8553bc883168",
+          "labels_sha256": "f5ef3383aa66910834c985e9dc308466d57f17a35631b9929ab565d26d95e0cf",
+          "base_scores_sha256": "137cb4d10f1fa8ccd65913ccc0745f2a4e57a7b0ff4d855839baae445859b1fa",
+          "q0_scores_sha256": "199038921c08a21309477105e0b35d74927be1a5ae0635e6434709a321078d9e"
+        },
+        "00023:017": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00023_017.npz",
+          "shortlist_sha256": "4005d32f4e09c3ea9016901e723b44fac164d118eb68f694609ba2aac881473d",
+          "labels_sha256": "dfae72ac4d33ca90d1302f025338d12c180621c37c2a408c57d0bb674ec125f9",
+          "base_scores_sha256": "10e975caf9817cd30a8b677ce611b646c45c7c470bac9692b60713d660a660ea",
+          "q0_scores_sha256": "d28cb99399fb9ce0de9b8d4f555e5259684c1af7d3298c2c15aa08beb8e1494f"
+        },
+        "00023:202": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00023_202.npz",
+          "shortlist_sha256": "4ddbe586273c38865752789b10243e02a1b336b46b3cac0369c06906c119a2d8",
+          "labels_sha256": "2461fd91fe8cb63510f297e24141657bc3ae42a48414a4aee731b6ead0611ae8",
+          "base_scores_sha256": "43154cc514d5a5c91828eca7fcc14fcc990a3dd40fea4bcd86ca66ae3e3cedbe",
+          "q0_scores_sha256": "f0fcb90f225108f694f4d56cbd80001f46a2d70aa04f41dcafd16bd0cc896e74"
+        },
+        "00023:506": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00023_506.npz",
+          "shortlist_sha256": "91ebaeb7c0bfbc41f215faf316a8f4510796e1fd320aeb5ec1d4e2fa62dd6c33",
+          "labels_sha256": "16d629b01946cb45704ee0583593bf62d06a01817165108ade37a5350f1b44d0",
+          "base_scores_sha256": "97e4b837f34cbaf2af7859eb026fbf005339baf3f2c029692d171dadb66bc6e3",
+          "q0_scores_sha256": "131bdb40b1b3f6cc8cfe689322fa527d8e78d3845711f6fd46c6a15f91e4e5c0"
+        },
+        "00023:848": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00023_848.npz",
+          "shortlist_sha256": "2fa967a6a2c115d58738f961cd81a3ad468a9428f27c9628db0b06088adc12a4",
+          "labels_sha256": "03e9e8dc5e99e1c0b24c8c226037613ec2e8daac7f09887aaf2f1fc7da210b3b",
+          "base_scores_sha256": "d1b018d87f66d40a4fad866b2b4c5112262fe958aa19c063f4fa371f5f183d10",
+          "q0_scores_sha256": "6a40b28064f4d31496c6754df88a2122a6f30f96173a3197921c4bc1fc6b00dd"
+        },
+        "00024:098": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00024_098.npz",
+          "shortlist_sha256": "e12cb2a42fc27bde4bb2ba6051eb37db03e1653c695d553d6a673083d7de437c",
+          "labels_sha256": "c1c0e1b5b27542394a472ec166201242cb2590d544f054a0fee36bc7a79b4472",
+          "base_scores_sha256": "c1abaf4ee30163ef4c38d797bcb4e081b965589db18cf602ac0b43fac80fb16b",
+          "q0_scores_sha256": "ab530fe009a2e1b95012e4dce7be2ceae68d1f4da762a1ef7dfbed22560d05dc"
+        },
+        "00024:139": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00024_139.npz",
+          "shortlist_sha256": "d89b54197c3554e22bdae4185b541dfde738c1774e328bc0953dfc4d71270b88",
+          "labels_sha256": "f97d9add42adaec085158e0de8127a5a08383d79c2aefcad12d4b94f6765831f",
+          "base_scores_sha256": "36fc511a72a2611254410f4be16dbded097943ebd8aa83af429f62973ee3b268",
+          "q0_scores_sha256": "14a54b2e4b32de2000b285a9b15329687ce17758614e7122c70e52fa069b9306"
+        },
+        "00024:246": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00024_246.npz",
+          "shortlist_sha256": "6fad416b6a9d1efc0a6adf7a7c3585b4bf52edf76f561a95979774bddb8a294c",
+          "labels_sha256": "f1c62a1ce8047bf419274c35dfef209675ee5d82cb2e65c4fa833743275a9c95",
+          "base_scores_sha256": "e1e0b9ed89adbd0ad7df3b6b0aa6df4e1ad6ff3f66aee34f657e5a9f3ffd9b0c",
+          "q0_scores_sha256": "3d88de9852f9f11b2d7174795b83b5c23ffaa8828a7d269938aab5aa995df432"
+        },
+        "00024:552": {
+          "shortlist": "/path/to/phyre-unc/results/small_official_20261010/assets_fixed/within/shortlist/00024_552.npz",
+          "shortlist_sha256": "b7e905e8d9fd6d1726b4fbfb0f2407cd11faaa425ac0bb8b969e32e07460d551",
+          "labels_sha256": "c464244b6f7497d4e5d010b0535ccfb2444b94f3be7f4f91aac5ceb5a7492b9b",
+          "base_scores_sha256": "14b549e798e685278ef50f6cce3c39aef43c020074244e8b5b5dfe5e94619b74",
+          "q0_scores_sha256": "673b4c5d2be6d85d8c17529ab1fe7d8096df6d28a3a6b2fa92cdcc519c2e3f0d"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "/path/to/phyre-unc/results/milestone_memory_20261015/PLAN.json": "69e8b9eea0ab47e966d2c6fa083f11c229d20d77630c2541967afdc72a8b149d",
+    "/path/to/phyre-unc/results/milestone_memory_20261015/SUMMARY.json": "876a05e0e71332041096797267f401c80871f339527336705010d86da5ab12f8",
+    "/path/to/phyre-unc/results/scene_clf_matched_s16r16_cross_f1.pt": "98195162ae2f4e6ba62addeed418fb9e7fc04afd3408049a2b1b3b6b71c30af5",
+    "/path/to/phyre-unc/results/scene_clf_matched_s16r16_cross_f1.json": "5abc07e436240a1cb8c33df8cf2e7ba4c68acc6a469a381558e8a25c5c66e192",
+    "/path/to/phyre-unc/data/manifests/ball_cross_template_f1_train_s16r16.jsonl": "c01aca3ccef943fb6e54d06ca0f14bfea707de48f94dfc8321032606959fcadc",
+    "/mnt/meg/jjenchen/phyre-unc/packs/cross_f1_train_s16r16_pca128_meta.npz": "e03fa4fb75f9612576d1970407cdd8f056a9d66906fb02258b30808bf650de90",
+    "/mnt/meg/jjenchen/phyre-unc/scenes/ball_cross_template_f1_dev.npz": "b705808cbf549d7da62bc126d8ab4f221a19d65a6e04bc657a48c3f6db8b538c",
+    "/path/to/phyre-unc/results/scene_clf_matched_s16r16_within.pt": "a6282df2b12648a869ea5338c1793328fe151b1c063c0baada2b279b850965c9",
+    "/path/to/phyre-unc/results/scene_clf_matched_s16r16_within.json": "dbaf08b48c83706dceffa45e4a727ea71c22cbde882cbbd713069d86d0bafd16",
+    "/path/to/phyre-unc/data/manifests/ball_within_template_f0_train_s16r16.jsonl": "23a10e98bc6666d850ab30144b0eb6f17e7aeb5c5db68e9d6be6328941f93d6b",
+    "/mnt/meg/jjenchen/phyre-unc/packs/within_f0_train_s16r16_pca128_meta.npz": "d96b032027ae8c4e5d3bf87f64eb14d744b9a2c065807b693a1481ca4c59c60b",
+    "/mnt/meg/jjenchen/phyre-unc/scenes/ball_within_template_f0_dev.npz": "4a151716be8d1d6bacf30ed1f813c013b7daf811a87678ea57906b41d40079cc"
+  },
+  "methods": "Existing seed0 matched-s16r16 fixed classifier; no training or online update",
+  "inputs": "Action-free initial scene 196x1024 LeVJEPA tokens plus candidate action",
+  "encoder_revision": "e831a0347737fcaa660b39c57d41c109de399845",
+  "batch": 512,
+  "budgets": [
+    1,
+    3,
+    5,
+    9
+  ],
+  "pool": "Exact milestone base-shortlist 1024 per task",
+  "limits": "Same base training pairs, different supervised target, representation and compute. Historical checkpoint stores only state_dict; provenance follows preserved records/manifests."
+}

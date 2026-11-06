@@ -1,0 +1,227 @@
+{
+  "fit_matched_pairs": {
+    "l1_raw": {
+      "q0": {
+        "top1": {
+          "gain": 6,
+          "loss": 2,
+          "tie": 45,
+          "n": 53
+        },
+        "top3": {
+          "gain": 7,
+          "loss": 3,
+          "tie": 43,
+          "n": 53
+        },
+        "top5": {
+          "gain": 7,
+          "loss": 3,
+          "tie": 43,
+          "n": 53
+        },
+        "top8": {
+          "gain": 9,
+          "loss": 5,
+          "tie": 39,
+          "n": 53
+        }
+      },
+      "zero": {
+        "top1": {
+          "gain": 3,
+          "loss": 2,
+          "tie": 48,
+          "n": 53
+        },
+        "top3": {
+          "gain": 3,
+          "loss": 4,
+          "tie": 46,
+          "n": 53
+        },
+        "top5": {
+          "gain": 1,
+          "loss": 6,
+          "tie": 46,
+          "n": 53
+        },
+        "top8": {
+          "gain": 2,
+          "loss": 5,
+          "tie": 46,
+          "n": 53
+        }
+      }
+    },
+    "l1_centered": {
+      "q0": {
+        "top1": {
+          "gain": 4,
+          "loss": 2,
+          "tie": 47,
+          "n": 53
+        },
+        "top3": {
+          "gain": 7,
+          "loss": 4,
+          "tie": 42,
+          "n": 53
+        },
+        "top5": {
+          "gain": 10,
+          "loss": 3,
+          "tie": 40,
+          "n": 53
+        },
+        "top8": {
+          "gain": 10,
+          "loss": 5,
+          "tie": 38,
+          "n": 53
+        }
+      },
+      "zero": {
+        "top1": {
+          "gain": 2,
+          "loss": 3,
+          "tie": 48,
+          "n": 53
+        },
+        "top3": {
+          "gain": 4,
+          "loss": 6,
+          "tie": 43,
+          "n": 53
+        },
+        "top5": {
+          "gain": 2,
+          "loss": 4,
+          "tie": 47,
+          "n": 53
+        },
+        "top8": {
+          "gain": 3,
+          "loss": 5,
+          "tie": 45,
+          "n": 53
+        }
+      }
+    },
+    "smooth_raw": {
+      "q0": {
+        "top1": {
+          "gain": 5,
+          "loss": 2,
+          "tie": 46,
+          "n": 53
+        },
+        "top3": {
+          "gain": 4,
+          "loss": 5,
+          "tie": 44,
+          "n": 53
+        },
+        "top5": {
+          "gain": 3,
+          "loss": 5,
+          "tie": 45,
+          "n": 53
+        },
+        "top8": {
+          "gain": 2,
+          "loss": 4,
+          "tie": 47,
+          "n": 53
+        }
+      },
+      "zero": {
+        "top1": {
+          "gain": 1,
+          "loss": 0,
+          "tie": 52,
+          "n": 53
+        },
+        "top3": {
+          "gain": 1,
+          "loss": 3,
+          "tie": 49,
+          "n": 53
+        },
+        "top5": {
+          "gain": 1,
+          "loss": 1,
+          "tie": 51,
+          "n": 53
+        },
+        "top8": {
+          "gain": 2,
+          "loss": 3,
+          "tie": 48,
+          "n": 53
+        }
+      }
+    },
+    "smooth_centered": {
+      "q0": {
+        "top1": {
+          "gain": 5,
+          "loss": 2,
+          "tie": 46,
+          "n": 53
+        },
+        "top3": {
+          "gain": 3,
+          "loss": 4,
+          "tie": 46,
+          "n": 53
+        },
+        "top5": {
+          "gain": 4,
+          "loss": 4,
+          "tie": 45,
+          "n": 53
+        },
+        "top8": {
+          "gain": 5,
+          "loss": 5,
+          "tie": 43,
+          "n": 53
+        }
+      },
+      "zero": {
+        "top1": {
+          "gain": 1,
+          "loss": 0,
+          "tie": 52,
+          "n": 53
+        },
+        "top3": {
+          "gain": 0,
+          "loss": 2,
+          "tie": 51,
+          "n": 53
+        },
+        "top5": {
+          "gain": 3,
+          "loss": 1,
+          "tie": 49,
+          "n": 53
+        },
+        "top8": {
+          "gain": 2,
+          "loss": 1,
+          "tie": 50,
+          "n": 53
+        }
+      }
+    }
+  },
+  "interpretation_limits": [
+    "All early metrics are static ranking after the same first failure, not closed-loop S@k.",
+    "Specialized vs shared probe changes domain allocation of a fixed number of gradient steps; it does not isolate head capacity from effective exposure.",
+    "Predicted-only has twice the predicted-token presentations of the 50/50 control at fixed2000steps; any gain is a practical data-allocation effect, not proof observed anchors are intrinsically harmful.",
+    "The two seeds change target sampling, not initial head/predictor/updater weights.",
+    "Before accepting the automated next-step recommendation, examine memory-vs-matchedQ0 as well as memory-vs-zero, actual paired scene counts, and transfer across discovery/confirmation. A one-scene gain is pilot evidence."
+  ]
+}

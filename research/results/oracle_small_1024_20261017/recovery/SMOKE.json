@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+  "tasks": [
+    {
+      "panel": "cross",
+      "task": "00008:144"
+    },
+    {
+      "panel": "within",
+      "task": "00000:024"
+    }
+  ],
+  "chunks": {
+    "cross": [
+      448,
+      672,
+      864
+    ],
+    "within": [
+      32
+    ]
+  },
+  "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5",
+  "checks": [
+    "fresh simulation status agrees",
+    "float64 action unchanged",
+    "initial geometry exact",
+    "canonical initial latent exact",
+    "Q0 scores reference parity",
+    "base/Q0 same probe and rule",
+    "fresh base prediction repeat exact; archived scores retained and differences audited",
+    "diagnostic geometry reproduces original scores exactly",
+    "finite complete trajectories/scores"
+  ]
+}

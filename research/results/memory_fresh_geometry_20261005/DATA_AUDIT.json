@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "manifest_sha256": "35a455eb898f06afef0cf64f3cc8011754b2aafd1aa6764485d8b534926accbf",
+  "counts": {
+    "train": {
+      "scenes": 1200,
+      "by_template": {
+        "00003": 100,
+        "00005": 100,
+        "00006": 100,
+        "00009": 100,
+        "00011": 100,
+        "00016": 100,
+        "00017": 100,
+        "00018": 100,
+        "00019": 100,
+        "00020": 100,
+        "00021": 100,
+        "00024": 100
+      },
+      "queries": 29349,
+      "positive_queries": 12702,
+      "failed_supports": 16916
+    },
+    "calibration": {
+      "scenes": 400,
+      "by_template": {
+        "00001": 100,
+        "00004": 100,
+        "00012": 100,
+        "00022": 100
+      },
+      "queries": 10193,
+      "positive_queries": 4457,
+      "failed_supports": 5573
+    }
+  },
+  "checks": [
+    "all1200training scenes retained",
+    "failure labels",
+    "task identity",
+    "role and group disjointness",
+    "no identical support/query actions",
+    "source hashes"
+  ],
+  "near_filter_used": false
+}

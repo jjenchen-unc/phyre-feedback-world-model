@@ -1,0 +1,139 @@
+{
+  "complete": true,
+  "shared_gpu_timing": true,
+  "code": {
+    "fast_inference.py": "37736c615a23460a0719984a0c2f089cacf3dcf93c886d83b7df4a0b9fc2ac91",
+    "benchmark_fast_inference.py": "8817e93853e112d1bf67bc57f24512150594eeb9ae7794bfab81749c1cd060e1"
+  },
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126",
+  "static": [
+    {
+      "panel": "cross",
+      "arch": "base",
+      "task": "00008:062",
+      "scores_exact": true,
+      "ranking_exact": true,
+      "legacy_seconds": 10.90058600436896,
+      "exact_cold_seconds": 12.197005675174296,
+      "exact_warm_seconds": 12.035552008077502,
+      "warm_speedup": 0.9056988825317839,
+      "component_seconds": {
+        "legacy": [
+          0.21951929200440645,
+          0.11796260997653008,
+          0.19637880101799965
+        ],
+        "exact": [
+          0.07917354814708233,
+          0.11782673001289368,
+          0.10170939192175865
+        ]
+      },
+      "peak_GiB": 2.668506145477295,
+      "checkpoint_sha256": "1996e9bd42a08e6bf529436c53158b374dd66f7230871aa62990f9d156e69202"
+    },
+    {
+      "panel": "cross",
+      "arch": "q0",
+      "task": "00008:062",
+      "scores_exact": true,
+      "ranking_exact": true,
+      "legacy_seconds": 16.648280816152692,
+      "exact_cold_seconds": 13.54903151653707,
+      "exact_warm_seconds": 13.629960153251886,
+      "warm_speedup": 1.2214475045387923,
+      "component_seconds": {
+        "legacy": [
+          0.26056461594998837,
+          0.19335830211639404,
+          0.21569361630827188
+        ],
+        "exact": [
+          0.0852229855954647,
+          0.1420696871355176,
+          0.12705593556165695
+        ]
+      },
+      "peak_GiB": 3.099381446838379,
+      "checkpoint_sha256": "a7806196f9e1eb67e6a4855aa51ebfbdcc6a493f27a243409ac4a437c65dd734"
+    },
+    {
+      "panel": "within",
+      "arch": "base",
+      "task": "00000:024",
+      "scores_exact": true,
+      "ranking_exact": true,
+      "legacy_seconds": 18.84429971128702,
+      "exact_cold_seconds": 13.829836118035018,
+      "exact_warm_seconds": 13.940675120800734,
+      "warm_speedup": 1.351749434514089,
+      "component_seconds": {
+        "legacy": [
+          0.3164514424279332,
+          0.35431462805718184,
+          0.31803059577941895
+        ],
+        "exact": [
+          0.19563246238976717,
+          0.1615174226462841,
+          0.16978070326149464
+        ]
+      },
+      "peak_GiB": 2.677119731903076,
+      "checkpoint_sha256": "942f6fa3d5da4dcf4413c44d757ef7cc36188de4a1f7a8a9876725635a9b78db"
+    },
+    {
+      "panel": "within",
+      "arch": "q0",
+      "task": "00000:024",
+      "scores_exact": true,
+      "ranking_exact": true,
+      "legacy_seconds": 20.024722937494516,
+      "exact_cold_seconds": 15.360637438483536,
+      "exact_warm_seconds": 15.330315950326622,
+      "warm_speedup": 1.3062172366426588,
+      "component_seconds": {
+        "legacy": [
+          0.3190877316519618,
+          0.3190320925787091,
+          0.30742944590747356
+        ],
+        "exact": [
+          0.2192224022001028,
+          0.16400425415486097,
+          0.13327846117317677
+        ]
+      },
+      "peak_GiB": 3.106560707092285,
+      "checkpoint_sha256": "478003e4ce5707e9fd757723873fb1152f1a07690e2d09cbdd51b828ddc82a89"
+    }
+  ],
+  "memory": [
+    {
+      "panel": "cross",
+      "task": "00008:062",
+      "rounds": 3,
+      "scores_exact": true,
+      "selected_actions_exact": true,
+      "selected": [
+        38,
+        142,
+        97
+      ]
+    },
+    {
+      "panel": "within",
+      "task": "00001:044",
+      "rounds": 3,
+      "scores_exact": true,
+      "selected_actions_exact": true,
+      "selected": [
+        121,
+        17,
+        36
+      ]
+    }
+  ],
+  "all_scores_and_actions_exact": true
+}

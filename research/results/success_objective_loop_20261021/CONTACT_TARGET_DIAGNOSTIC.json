@@ -1,0 +1,992 @@
+{
+  "complete": true,
+  "plan_sha": "3040d8d64a2263d115581d62dd3498b8f8f987a59b59ea2a6e12c1b65c294f0f",
+  "n": 10,
+  "checks": [
+    {
+      "task": "00008:532",
+      "oracle_sha": "b99598a902427e36b88f92219c92cfad36fbbe537cad7945f607e4b829ee3f49",
+      "current_sha": "7cd8c08c1d281038c70c6ff57c2a8d57958d6fcbfcff669279bd929b0daba04c",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00008:144",
+      "oracle_sha": "1994cd8ebe0e95b11aaeb92856e0c42685ce1e7c5b01694f10945bd90d2eebed",
+      "current_sha": "80f9203dee8bd891cf3a18c6d0e11240f8ad214799fe1c58a58871d79a991dfb",
+      "current_q0_max_score_difference": 4.440892098500626e-16,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00010:051",
+      "oracle_sha": "b795f07c6c8b384dcb5933123dcf992b0cbe17fd2066541a70af64dcbcbd2c7a",
+      "current_sha": "f95f07efd781767a5042cf427046db7db0fb9a4be1a38e404d289b8afc5f7d49",
+      "current_q0_max_score_difference": 4.440892098500626e-16,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00010:379",
+      "oracle_sha": "45d9ac35728ba9b321d266f30b27a9e436c5f0288750b3fcf71ea7cb15050724",
+      "current_sha": "ebdf268c8454cb44235c740a4a7fc86602c8d34a3e2f5cdecf0f0d654c58902f",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00013:083",
+      "oracle_sha": "b836c416b021b80963bf699185db82babba46b0cb099f88a76222cdb9a336f55",
+      "current_sha": "6a41bda52e10635225ce1005c2ec19c0c24118c5e845011bc84103ab4adec730",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00013:025",
+      "oracle_sha": "b175017e9c6ba11cb2dbfe60c4eb5197b47ab60279d5946ff3c94bd441b4973c",
+      "current_sha": "58093d791eb64f335abc0d036b3a3e3f73f8626e581597c2414c323c4fab212f",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00015:485",
+      "oracle_sha": "c152e6458fad1d62708b7c0dae0b4f4a95f677afe9ca16b55b47d383e37d34eb",
+      "current_sha": "7354b207aa042af8cdbf8d95d825ee7c1bddfe972bde58fde432998f72ef5c8e",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00015:460",
+      "oracle_sha": "57e0d92ad0571006db6e0c5f5889fa2c7f199d3df5696d421d50f3a3ec91c997",
+      "current_sha": "c7f3a5e95f7a2a6ad7fca0a43b7745dba164f40f45fc6a7155dce7515b3253fe",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00023:925",
+      "oracle_sha": "94832874b126782307a0671fdf9f8629c80d94fee09e4bf4382f44662e035193",
+      "current_sha": "ccd4cb8b9bb1bb40f6001caed92c67a3a0ede77266e5b4648affd9ecc47eab3d",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    },
+    {
+      "task": "00023:959",
+      "oracle_sha": "6eaff8908d7ae7b3d3e5657311e5507007eb9ceef3e80a98b30f4dad7d469e4c",
+      "current_sha": "5382b294908525afc9db2bf5c5e819063e2da2f152e516cf0514f2e174745921",
+      "current_q0_max_score_difference": 0.0,
+      "current_q0_same_first_and_metrics": true,
+      "oracle_geometry_recomputed": true
+    }
+  ],
+  "summary": {
+    "full_distance_residual_b0.0": {
+      "top1": 0.0,
+      "top3": 0.1,
+      "top5": 0.1,
+      "top8": 0.2,
+      "auc": 0.5492298889355813,
+      "distance_mae": 39.2767436659793
+    },
+    "full_distance_residual_b0.1": {
+      "top1": 0.4,
+      "top3": 0.5,
+      "top5": 0.5,
+      "top8": 0.5,
+      "auc": 0.7400770746008463,
+      "distance_mae": 35.34906929938138
+    },
+    "full_distance_residual_b0.25": {
+      "top1": 0.5,
+      "top3": 0.6,
+      "top5": 0.6,
+      "top8": 0.6,
+      "auc": 0.8711022894555963,
+      "distance_mae": 29.457557749484476
+    },
+    "full_distance_residual_b0.5": {
+      "top1": 0.9,
+      "top3": 1.0,
+      "top5": 1.0,
+      "top8": 1.0,
+      "auc": 0.966365369132253,
+      "distance_mae": 19.63837183298965
+    },
+    "full_distance_residual_b1.0": {
+      "top1": 1.0,
+      "top3": 1.0,
+      "top5": 1.0,
+      "top8": 1.0,
+      "auc": 0.9962820355119693,
+      "distance_mae": 0.0
+    },
+    "time_mean_only_residual_b0.0": {
+      "top1": 0.0,
+      "top3": 0.1,
+      "top5": 0.1,
+      "top8": 0.2,
+      "auc": 0.5492298889355813,
+      "distance_mae": 39.2767436659793
+    },
+    "time_mean_only_residual_b0.1": {
+      "top1": 0.4,
+      "top3": 0.4,
+      "top5": 0.4,
+      "top8": 0.4,
+      "auc": 0.6627545128769101,
+      "distance_mae": 37.06434699709584
+    },
+    "time_mean_only_residual_b0.25": {
+      "top1": 0.4,
+      "top3": 0.5,
+      "top5": 0.5,
+      "top8": 0.5,
+      "auc": 0.7460977975581301,
+      "distance_mae": 34.415582630477545
+    },
+    "time_mean_only_residual_b0.5": {
+      "top1": 0.5,
+      "top3": 0.5,
+      "top5": 0.5,
+      "top8": 0.5,
+      "auc": 0.8385720431999436,
+      "distance_mae": 31.082746837933563
+    },
+    "time_mean_only_residual_b1.0": {
+      "top1": 0.8,
+      "top3": 0.9,
+      "top5": 1.0,
+      "top8": 1.0,
+      "auc": 0.956585860767427,
+      "distance_mae": 27.145803582107966
+    }
+  },
+  "per_scene": {
+    "00008:532": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.44217391304347825,
+        "distance_mae": 54.171200748940464
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5120434782608696,
+        "distance_mae": 48.75408067404641
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.6487826086956522,
+        "distance_mae": 40.62840056170535
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9967391304347826,
+        "distance_mae": 27.085600374470232
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9979130434782608,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.44217391304347825,
+        "distance_mae": 54.171200748940464
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.48695652173913045,
+        "distance_mae": 51.15389452724739
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5451739130434783,
+        "distance_mae": 47.66594200472264
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.6906086956521739,
+        "distance_mae": 43.9686032438276
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9930434782608696,
+        "distance_mae": 41.73598536846839
+      }
+    },
+    "00008:144": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.4147391304347826,
+        "distance_mae": 36.773132438829634
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.4568478260869565,
+        "distance_mae": 33.09581919494667
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5172608695652174,
+        "distance_mae": 27.579849329122226
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.739304347826087,
+        "distance_mae": 18.386566219414817
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9993478260869565,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.4147391304347826,
+        "distance_mae": 36.773132438829634
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.4449130434782609,
+        "distance_mae": 34.850010626867515
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.4908695652173913,
+        "distance_mae": 32.89050576218324
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5432608695652174,
+        "distance_mae": 30.7181294721795
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.8411739130434782,
+        "distance_mae": 28.478641428006085
+      }
+    },
+    "00010:051": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.21712463199214915,
+        "distance_mae": 40.24286411865614
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.4681059862610402,
+        "distance_mae": 36.218577706790526
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9708047105004907,
+        "distance_mae": 30.182148088992108
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 20.12143205932807
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.21712463199214915,
+        "distance_mae": 40.24286411865614
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.18940137389597644,
+        "distance_mae": 39.41145150596522
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.2561334641805692,
+        "distance_mae": 38.78272097678382
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.6376349362119725,
+        "distance_mae": 38.18981463551199
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9815996074582924,
+        "distance_mae": 37.92835947840467
+      }
+    },
+    "00010:379": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.26719840478564305,
+        "distance_mae": 16.07025537463778
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.7984546360917248,
+        "distance_mae": 14.463229837174005
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9919740777666999,
+        "distance_mae": 12.052691530978336
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.99740777666999,
+        "distance_mae": 8.03512768731889
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9995513459621137,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.26719840478564305,
+        "distance_mae": 16.07025537463778
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5383349950149552,
+        "distance_mae": 15.391975254061162
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9504486540378864,
+        "distance_mae": 14.422736338357481
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9549351944167498,
+        "distance_mae": 13.031319426077971
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9503988035892323,
+        "distance_mae": 10.456124908379024
+      }
+    },
+    "00013:083": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.943496227093065,
+        "distance_mae": 40.778728690114804
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 36.700855821103325
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 30.584046517586103
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 20.389364345057402
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.943496227093065,
+        "distance_mae": 40.778728690114804
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9902084081925979,
+        "distance_mae": 39.02557428254513
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9776320517427237,
+        "distance_mae": 37.112094673896536
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9689184333453108,
+        "distance_mae": 34.78513690002546
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.955803090190442,
+        "distance_mae": 31.762516331527877
+      }
+    },
+    "00013:025": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.7435972400888785,
+        "distance_mae": 44.985084488405846
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 40.486576039565264
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 33.738813366304385
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 22.492542244202923
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.7435972400888785,
+        "distance_mae": 44.985084488405846
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 42.59007319043485
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 39.86661609795283
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 37.646920087172475
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9999415273067478,
+        "distance_mae": 38.07551741707357
+      }
+    },
+    "00015:485": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 1,
+        "auc": 0.6924292143735206,
+        "distance_mae": 22.064616040617693
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9996190224624356,
+        "distance_mae": 19.85815443655592
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 16.54846203046327
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 11.032308020308847
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 1,
+        "auc": 0.6924292143735206,
+        "distance_mae": 22.064616040617693
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9763387550670013,
+        "distance_mae": 20.245129524546428
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9992736028283773,
+        "distance_mae": 18.677059632433156
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 17.00340071651226
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 14.635911542070971
+      }
+    },
+    "00015:460": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.8648534385569335,
+        "distance_mae": 15.115749179851264
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9150142582399363,
+        "distance_mae": 13.604174261866136
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9394356389681013,
+        "distance_mae": 11.336811884888448
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9997761787916971,
+        "distance_mae": 7.557874589925632
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.8648534385569335,
+        "distance_mae": 15.115749179851264
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9068323496253067,
+        "distance_mae": 14.400951143777275
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9280787850653226,
+        "distance_mae": 13.422261710208659
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9383082432522051,
+        "distance_mae": 12.128321127644085
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9879136547516414,
+        "distance_mae": 10.88048271745356
+      }
+    },
+    "00023:925": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5002224382527887,
+        "distance_mae": 81.4322828289296
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.6071987609365475,
+        "distance_mae": 73.28905454603664
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.7333624425367847,
+        "distance_mae": 61.0742121216972
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9304262575999737,
+        "distance_mae": 40.7161414144648
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9660081395923613,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5002224382527887,
+        "distance_mae": 81.4322828289296
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5504852449292317,
+        "distance_mae": 75.2286244345949
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.6272758728641809,
+        "distance_mae": 66.74816632253578
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.7343263416322025,
+        "distance_mae": 54.23917125699427
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.8569639650030483,
+        "distance_mae": 35.74975362138866
+      }
+    },
+    "00023:959": {
+      "full_distance_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.40646425073457393,
+        "distance_mae": 41.13352275080979
+      },
+      "full_distance_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.643486777668952,
+        "distance_mae": 37.02017047572881
+      },
+      "full_distance_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.9094025465230167,
+        "distance_mae": 30.85014206310734
+      },
+      "full_distance_residual_b0.5": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 20.566761375404894
+      },
+      "full_distance_residual_b1.0": {
+        "top1": 1,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 1.0,
+        "distance_mae": 0.0
+      },
+      "time_mean_only_residual_b0.0": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.40646425073457393,
+        "distance_mae": 41.13352275080979
+      },
+      "time_mean_only_residual_b0.1": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.5440744368266406,
+        "distance_mae": 38.345785480918494
+      },
+      "time_mean_only_residual_b0.25": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.6860920666013712,
+        "distance_mae": 34.567722785701335
+      },
+      "time_mean_only_residual_b0.5": {
+        "top1": 0,
+        "top3": 0,
+        "top5": 0,
+        "top8": 0,
+        "auc": 0.9177277179236043,
+        "distance_mae": 29.116651513390025
+      },
+      "time_mean_only_residual_b1.0": {
+        "top1": 0,
+        "top3": 1,
+        "top5": 1,
+        "top8": 1,
+        "auc": 0.9990205680705191,
+        "distance_mae": 21.754743008306832
+      }
+    }
+  },
+  "interpretation": "Oracle query-specific correction is an idealized intervention; even a positive result cannot prove a support-driven updater can infer these corrections. Time-mean-only correction is a distance-trajectory control, NOT the earlier latentresidual-centering experiment."
+}

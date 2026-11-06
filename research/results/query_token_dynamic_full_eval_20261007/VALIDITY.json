@@ -1,0 +1,25 @@
+{
+  "status": "INVALID",
+  "date": "2026-10-16",
+  "authority": "Explicit user instruction",
+  "reason": "Historical fixed base predictor and scorer selected the candidate shortlist instead of the intended current-checkpoint deployment protocol.",
+  "scope_rule": "ALL experiment results and dependent claims using this historical-model shortlist protocol, including inherited cached shortlists. Applies across methods, folds, seeds and descendant artifacts.",
+  "use_for_method_conclusions": false,
+  "use_for_milestone": false,
+  "raw_artifacts_policy": "Preserve raw metrics, immutable plans/code and checkpoint files; validity sidecars override their former reporting status.",
+  "exceptions": [
+    "Independent training records/checkpoint existence",
+    "Engineering equivalence and numerical checks",
+    "Official-cache and candidate-coverage audits documenting the problem"
+  ],
+  "new_rerun": {
+    "run": "deploy_pool_updater_20261016",
+    "uses_rejected_selector": true,
+    "status": "INVALID_CANCELLED",
+    "formal_training_started_before_cancellation": false
+  },
+  "replacement_protocol": "Not launched. Do not silently substitute a new selector or resume cancelled runs.",
+  "coverage_evidence": "deploy_pool_updater_20261016/FIRST5000_SUCCESS_COVERAGE.json",
+  "run": "query_token_dynamic_full_eval_20261007",
+  "applies_to": "All historical-shortlist experiment metrics and dependent conclusions in this directory and descendants; exceptions above remain explicit."
+}

@@ -1,0 +1,26 @@
+{
+  "latest": {
+    "step": 9200,
+    "prediction_loss": 0.08313797883689404,
+    "ranking_loss": 0.0,
+    "grad_norm": 0.016651184307411315,
+    "seconds": 2336,
+    "variant": "R1"
+  },
+  "counts": {
+    "episodes": 9200,
+    "context_base_trace": 2762,
+    "actual_k_1": 4784,
+    "query_uniform": 73600,
+    "queries": 73600,
+    "positive_queries": 31414,
+    "single_class_episodes": 181,
+    "context_memory_trace": 2781,
+    "context_empty": 931,
+    "actual_k_0": 931,
+    "context_diverse_failure": 2726,
+    "actual_k_2": 2172,
+    "actual_k_4": 1112,
+    "actual_k_3": 201
+  }
+}

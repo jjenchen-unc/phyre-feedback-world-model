@@ -1,0 +1,155 @@
+{
+  "status": "design_only_not_launched",
+  "date": "2026-10-14",
+  "objective": "Compare learned residual updater, learned zero-residual updater and predictor-only AdaJEPA-style updates across official PHYRE folds",
+  "initial": {
+    "cross": {
+      "arch": "q0",
+      "geometry_weight": 0.0,
+      "first_fold": 1,
+      "seed": 0,
+      "checkpoint": "results/matched_base_q0_20261012/models/cross/q0_g0_s0/model.pt"
+    },
+    "within": {
+      "arch": "q0",
+      "geometry_weight": 0.03,
+      "first_fold": 0,
+      "seed": 0,
+      "checkpoint": "results/matched_base_q0_20261012/models/within/q0_g0.03_s0/model.pt"
+    }
+  },
+  "folds": {
+    "cross": [
+      1,
+      0,
+      2
+    ],
+    "within": [
+      0,
+      1,
+      2
+    ]
+  },
+  "initial_seeds": [
+    0
+  ],
+  "updater_seeds": [
+    0
+  ],
+  "initial_training": {
+    "from_scratch": true,
+    "epochs": 8,
+    "batch_size": 8,
+    "matched_base_q0": true,
+    "reuse_existing_complete_pairs": true
+  },
+  "methods": [
+    "base_static",
+    "q0_static",
+    "q0_updater_residual",
+    "q0_updater_zero",
+    "q0_adajepa_style",
+    "base_adajepa_style"
+  ],
+  "updater": {
+    "trainable": "updater only; freeze initial_tokens and predictor",
+    "zero_definition": "independently trained with residual always zero; preserve selected action and failure/update history",
+    "residual": "observed latent minus prediction conditioned on current tokens",
+    "loss": "query future latent L1 + 0.03 * frozen-probe geometry loss",
+    "geometry_weight": 0.03,
+    "scheduled_slots": 10000,
+    "episodes_per_slot": 2,
+    "query_batch": 8,
+    "support_caps": [
+      1,
+      2,
+      4,
+      8,
+      19
+    ],
+    "support_cap_sampling": "uniform",
+    "loss_states": "average over all actual updated states, then average episodes",
+    "stop_at_success": true,
+    "empty_support_policy": "retain record, zero updater gradient, no resampling",
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "clip": 1.0,
+    "scheduler": "OneCycle 3percent warmup over scheduled slots",
+    "bptt": "full; no stale residual cache; ranking argmax detached"
+  },
+  "adajepa_style": {
+    "trainable": "last predictor transformer block and final LayerNorm; Q0 initial tokens frozen",
+    "objective": "observed future latent L1",
+    "replay": 5,
+    "optimizer": "Adam recreated each adaptation call; model weights persist within scene",
+    "reset": "all adapted weights and buffer each scene",
+    "calibration": {
+      "protocol_anchor_folds": {
+        "cross": 1,
+        "within": 0
+      },
+      "test_tasks": 25,
+      "lr": [
+        3e-05,
+        0.0003,
+        0.001
+      ],
+      "steps": [
+        1,
+        3
+      ],
+      "per_initial_architecture": true,
+      "selection": "S9 then S20 then fewer steps then lower lr",
+      "reuse_config_across_other_folds": true
+    }
+  },
+  "evaluation": {
+    "split": "official test",
+    "tasks_per_panel": 100,
+    "candidates_per_task": 1024,
+    "maximum_attempts": 20,
+    "budgets": [
+      1,
+      3,
+      5,
+      9,
+      20
+    ],
+    "primary": "S9",
+    "stop_at_success": true,
+    "no_repeat_action": true,
+    "ranking_batch": 32,
+    "support_cost_counts_in_budget": true,
+    "all_methods_same_pool": true,
+    "task_selection": "fixed deterministic template-balanced selection before outcomes",
+    "candidate_selection": "validity-only stable action order from fixed cache; no model-based shortlist",
+    "anchor_historical_pool": "keep prior pools as separately labelled diagnostic; new common main pool for all six methods"
+  },
+  "diagnostics": [
+    "real_trained_updater_with_residual_clamped_at_test",
+    "real_updater_only_first_failed_trial_update_then_freeze",
+    "shared_Q0_support_prefix_and_shared_untried_query_set"
+  ],
+  "scope_counts": {
+    "panels": 6,
+    "main_eval_runs": 36,
+    "main_scene_method_episodes": 3600,
+    "total_initial_models": 12,
+    "reused_initial_models": 4,
+    "new_initial_trainings": 8,
+    "new_updater_trainings": 12,
+    "new_predictor_and_updater_trainings_total": 20,
+    "tta_calibration_configs_times_panels_architectures": 24,
+    "tta_calibration_scene_method_episodes": 600
+  },
+  "gpu_limit": 6,
+  "pending_assets": "new fold train packs, support/query manifests, per-fold probe/scorer and initial-action evaluation pools; all require provenance checks",
+  "runtime_estimate": null,
+  "provenance": {
+    "previous_results": "results/matched_base_q0_20261012/SUMMARY.json",
+    "old_adajepa_port": "results/adajepa_phyre_20261010/code/tta.py",
+    "verified_fast_updater": "pipeline/fast_updater.py",
+    "official_adajepa_reference": "https://github.com/agentic-learning-ai-lab/adajepa/blob/51d8665b7978824bd218decab9e05ddb6eb1f47b/planning/adajepa.py"
+  }
+}

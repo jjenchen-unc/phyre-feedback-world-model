@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "provenance": {
+    "plan": "9bdad541ab98483a6bf8e6b24f6e75379d709f00fe0e4df9c0d34664a7bd87fa",
+    "code": {
+      "deploy_encoder_service.py": "6d6d851d8886e31ef045cbd598ac099d6c6fd9c65253c885c95c4d68db825bf8",
+      "deploy_pool_cpu.py": "a7c0a1bdbaf9d51112778952ebf3e481d46d20d614fb241bfe40df4dbd4cba4b",
+      "deploy_pool_data.py": "c47ee2509cb4668dfdec75279826fffda80b25085ac299e5a75d60e5c6076bea",
+      "deploy_pool_updater.py": "2b14cf85c5427e15a39cba987f1a9972ee23c36f6c94195d2100ff71d9fa2162",
+      "test_deploy_pool_sampling.py": "a158f6bbb411e5e10ec5efb93d64d996fad4910f2088669db1916a0c6af08d7f"
+    }
+  },
+  "panel": "cross",
+  "kind": "residual",
+  "world_size": 10,
+  "records": [
+    {
+      "slot": 0,
+      "seconds": 6.3669116497039795,
+      "events": [
+        {
+          "task": "00003:100",
+          "cap": 1,
+          "candidate_count": 1024,
+          "candidate_positive_fraction": 0.013671875,
+          "selected": [
+            0,
+            1
+          ],
+          "supports": [
+            0
+          ],
+          "query": [
+            335,
+            982,
+            941,
+            553,
+            389,
+            443,
+            6,
+            208
+          ],
+          "solved": [
+            false,
+            false
+          ],
+          "used_updates": 1,
+          "collection_s": 3.7007620334625244,
+          "loss": 0.06283058226108551,
+          "l1": 0.06045415624976158,
+          "geometry": 0.02376426011323929
+        },
+        {
+          "task": "00003:076",
+          "cap": 2,
+          "candidate_count": 1024,
+          "candidate_positive_fraction": 0.1318359375,
+          "selected": [
+            944
+          ],
+          "supports": [],
+          "query": [
+            2391,
+            2314,
+            3330,
+            1184,
+            3514,
+            2371,
+            1985,
+            580
+          ],
+          "solved": [
+            true
+          ],
+          "used_updates": 0,
+          "collection_s": 1.478081464767456,
+          "loss": null,
+          "l1": null,
+          "geometry": null
+        }
+      ]
+    },
+    {
+      "slot": 1,
+      "seconds": 7.92309045791626,
+      "events": [
+        {
+          "task": "00024:642",
+          "cap": 2,
+          "candidate_count": 1024,
+          "candidate_positive_fraction": 0.001953125,
+          "selected": [
+            4520,
+            222,
+            3998
+          ],
+          "supports": [
+            4520,
+            222
+          ],
+          "query": [
+            3880,
+            1784,
+            2995,
+            1731,
+            1492,
+            1262,
+            388,
+            3388
+          ],
+          "solved": [
+            false,
+            false,
+            false
+          ],
+          "used_updates": 2,
+          "collection_s": 5.060862302780151,
+          "loss": 0.17437568306922913,
+          "l1": 0.1093032956123352,
+          "geometry": 0.6507238745689392
+        },
+        {
+          "task": "00003:061",
+          "cap": 1,
+          "candidate_count": 1024,
+          "candidate_positive_fraction": 0.1884765625,
+          "selected": [
+            25
+          ],
+          "supports": [],
+          "query": [
+            2397,
+            28,
+            1756,
+            3912,
+            2367,
+            1065,
+            4265,
+            475
+          ],
+          "solved": [
+            true
+          ],
+          "used_updates": 0,
+          "collection_s": 1.4913671016693115,
+          "loss": null,
+          "l1": null,
+          "geometry": null
+        }
+      ]
+    }
+  ],
+  "slot_mean_s": 7.14500105381012,
+  "linear_10000_slots_h": 19.847225149472553,
+  "peak_GiB": 20.02818536758423,
+  "limits": "Only two natural slots/four scenes; many observations already cached by preflight. Not a reliable total ETA. No serial ranking audits or CPU-backward validation in this timing."
+}

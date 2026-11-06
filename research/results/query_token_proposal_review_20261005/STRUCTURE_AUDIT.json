@@ -1,0 +1,38 @@
+{
+  "scope": "CPU synthetic graph and structural checks; no trained token model, GPU run, or performance inference.",
+  "code_sha256": {
+    "query_token_experiment.py": "5f3a05a25cc47be4647142c77291230251f4d31a3a4682d53273fba7fa4d831d",
+    "redesign_lib.py": "2200a9dfd045e079ecf28aace425cec4c4dc1c64da6ca155e869dce72902acdf",
+    "attribution_a_metrics.py": "7f00e185345403254684ace7b275eb87ae69b7312e89ba82c366dedfbb403041",
+    "fresh_memory_geometry.py": "13e9113585d28583f66f14da6e90ce5afdd1e8be283c5b12145a763afe5eab8e",
+    "test_query_token_predictor.py": "8f48843d8c1f3d115ea918338f98ccaed4147930e848241953e05937d4ad98bf",
+    "probe_adaptation.py": "c7442d28b6898e5d8706a8290e11e326625b1186604a4dc70ce907ddcdd839e4",
+    "memory_geometry_followup.py": "fff6ff716653a51e25679961d6c2b27bf97f05838e65f9d7db936ce5b7cf7059",
+    "query_token_predictor.py": "66aa433f47a5f7926324b4ea604e7f927bcb2b34fb309c25f2b572d70026a04a",
+    "common.py": "fdc618e985909967eedfb7890fa8863729782deed777493cab8ab091f9a00cbc"
+  },
+  "prefix_backward_max_gradient_difference": 6.938893903907228e-18,
+  "prefix_backward_equivalent_to_sum": true,
+  "initial_tokens_receive_gradient": true,
+  "zero_residual_can_update_tokens": true,
+  "active_initial_tokens_can_change_prediction_without_residual": true,
+  "empty_gate_identity_after_nonzero_adapters": true,
+  "training_support_availability": {
+    "scenes": 1200,
+    "minimum": 2,
+    "median": 14.0,
+    "at_least_8": 1079,
+    "at_least_19": 226
+  },
+  "expected_prefix_loss_weights": {
+    "1": 0.4703985615079275,
+    "2": 0.22039856150793702,
+    "3": 0.09519022817460217,
+    "4": 0.09449578373015777,
+    "5": 0.03147495039682577,
+    "6": 0.030474950396825806,
+    "7": 0.02946800595238137,
+    "8": 0.02809895833333377
+  },
+  "expected_supervised_prefixes_per_optimizer_step": 3.6920833333332674
+}

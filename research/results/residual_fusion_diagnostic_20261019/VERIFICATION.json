@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "cases": 40,
+  "variant_score_arrays_recomputed": 240,
+  "plan_sha256": "179a531663ba2ce00e16b677682b6eb8fe5ede83b747eab64bb9b6524cafc6f9",
+  "panels": {
+    "cross": {
+      "tasks": 10,
+      "updates": 20,
+      "shuffle_top1_changed": 0,
+      "zero_top1_changed": 10
+    },
+    "within": {
+      "tasks": 10,
+      "updates": 20,
+      "shuffle_top1_changed": 2,
+      "zero_top1_changed": 16
+    }
+  },
+  "job_exit_codes": {
+    "36004_0": "0:0",
+    "36004_1": "0:0",
+    "36004_2": "0:0",
+    "36004_3": "0:0",
+    "36008": "0:0"
+  },
+  "limits": "Ranking metrics independently recomputed locally from downloaded score arrays; checkpoint tensor parity checked by remote exact assertions."
+}

@@ -1,0 +1,618 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-09T16:38:02.422639+00:00",
+  "raw_cases": 1800,
+  "summary_sha256": "ea3953e2f610c41d108a1a442c51835e8cb4cd9cc822c6817273aec81e79cf99",
+  "script_sha256": "0b3cb8aad10c031fc2a53221ca0af0a2be4840688b8c7f6d26e64091a368a0f3",
+  "checks": [
+    "raw static ranking",
+    "original scores identical across seeds",
+    "dynamic stable argmax over untried actions",
+    "labels and success stopping",
+    "each updater first scores equal same-seed Q0",
+    "all saved first-success and aggregate counts"
+  ],
+  "splits": {
+    "cross": {
+      "averages": {
+        "original": {
+          "s1": {
+            "mean_percent": 26.0,
+            "per_seed": [
+              26,
+              26,
+              26
+            ]
+          },
+          "s3": {
+            "mean_percent": 36.0,
+            "per_seed": [
+              36,
+              36,
+              36
+            ]
+          },
+          "s5": {
+            "mean_percent": 44.0,
+            "per_seed": [
+              44,
+              44,
+              44
+            ]
+          },
+          "s9": {
+            "mean_percent": 47.0,
+            "per_seed": [
+              47,
+              47,
+              47
+            ]
+          },
+          "s20": {
+            "mean_percent": 51.0,
+            "per_seed": [
+              51,
+              51,
+              51
+            ]
+          }
+        },
+        "q0": {
+          "s1": {
+            "mean_percent": 26.0,
+            "per_seed": [
+              25,
+              25,
+              28
+            ]
+          },
+          "s3": {
+            "mean_percent": 37.0,
+            "per_seed": [
+              34,
+              38,
+              39
+            ]
+          },
+          "s5": {
+            "mean_percent": 43.333333333333336,
+            "per_seed": [
+              43,
+              42,
+              45
+            ]
+          },
+          "s9": {
+            "mean_percent": 48.0,
+            "per_seed": [
+              50,
+              46,
+              48
+            ]
+          },
+          "s20": {
+            "mean_percent": 55.0,
+            "per_seed": [
+              56,
+              55,
+              54
+            ]
+          }
+        },
+        "residual": {
+          "s1": {
+            "mean_percent": 26.0,
+            "per_seed": [
+              25,
+              25,
+              28
+            ]
+          },
+          "s3": {
+            "mean_percent": 39.666666666666664,
+            "per_seed": [
+              45,
+              36,
+              38
+            ]
+          },
+          "s5": {
+            "mean_percent": 46.333333333333336,
+            "per_seed": [
+              49,
+              43,
+              47
+            ]
+          },
+          "s9": {
+            "mean_percent": 50.666666666666664,
+            "per_seed": [
+              53,
+              46,
+              53
+            ]
+          },
+          "s20": {
+            "mean_percent": 56.0,
+            "per_seed": [
+              57,
+              53,
+              58
+            ]
+          }
+        },
+        "zero": {
+          "s1": {
+            "mean_percent": 26.0,
+            "per_seed": [
+              25,
+              25,
+              28
+            ]
+          },
+          "s3": {
+            "mean_percent": 39.333333333333336,
+            "per_seed": [
+              41,
+              36,
+              41
+            ]
+          },
+          "s5": {
+            "mean_percent": 44.0,
+            "per_seed": [
+              46,
+              42,
+              44
+            ]
+          },
+          "s9": {
+            "mean_percent": 49.333333333333336,
+            "per_seed": [
+              50,
+              48,
+              50
+            ]
+          },
+          "s20": {
+            "mean_percent": 56.333333333333336,
+            "per_seed": [
+              58,
+              57,
+              54
+            ]
+          }
+        }
+      },
+      "paired": {
+        "residual_minus_original": {
+          "s9": [
+            {
+              "seed": 0,
+              "gained": 10,
+              "lost": 4,
+              "net_pp": 6
+            },
+            {
+              "seed": 1,
+              "gained": 6,
+              "lost": 7,
+              "net_pp": -1
+            },
+            {
+              "seed": 2,
+              "gained": 10,
+              "lost": 4,
+              "net_pp": 6
+            }
+          ],
+          "s20": [
+            {
+              "seed": 0,
+              "gained": 11,
+              "lost": 5,
+              "net_pp": 6
+            },
+            {
+              "seed": 1,
+              "gained": 7,
+              "lost": 5,
+              "net_pp": 2
+            },
+            {
+              "seed": 2,
+              "gained": 10,
+              "lost": 3,
+              "net_pp": 7
+            }
+          ]
+        },
+        "residual_minus_q0": {
+          "s9": [
+            {
+              "seed": 0,
+              "gained": 5,
+              "lost": 2,
+              "net_pp": 3
+            },
+            {
+              "seed": 1,
+              "gained": 1,
+              "lost": 1,
+              "net_pp": 0
+            },
+            {
+              "seed": 2,
+              "gained": 7,
+              "lost": 2,
+              "net_pp": 5
+            }
+          ],
+          "s20": [
+            {
+              "seed": 0,
+              "gained": 4,
+              "lost": 3,
+              "net_pp": 1
+            },
+            {
+              "seed": 1,
+              "gained": 3,
+              "lost": 5,
+              "net_pp": -2
+            },
+            {
+              "seed": 2,
+              "gained": 6,
+              "lost": 2,
+              "net_pp": 4
+            }
+          ]
+        },
+        "residual_minus_zero": {
+          "s9": [
+            {
+              "seed": 0,
+              "gained": 5,
+              "lost": 2,
+              "net_pp": 3
+            },
+            {
+              "seed": 1,
+              "gained": 0,
+              "lost": 2,
+              "net_pp": -2
+            },
+            {
+              "seed": 2,
+              "gained": 5,
+              "lost": 2,
+              "net_pp": 3
+            }
+          ],
+          "s20": [
+            {
+              "seed": 0,
+              "gained": 4,
+              "lost": 5,
+              "net_pp": -1
+            },
+            {
+              "seed": 1,
+              "gained": 1,
+              "lost": 5,
+              "net_pp": -4
+            },
+            {
+              "seed": 2,
+              "gained": 6,
+              "lost": 2,
+              "net_pp": 4
+            }
+          ]
+        }
+      }
+    },
+    "within": {
+      "averages": {
+        "original": {
+          "s1": {
+            "mean_percent": 23.0,
+            "per_seed": [
+              23,
+              23,
+              23
+            ]
+          },
+          "s3": {
+            "mean_percent": 37.0,
+            "per_seed": [
+              37,
+              37,
+              37
+            ]
+          },
+          "s5": {
+            "mean_percent": 46.0,
+            "per_seed": [
+              46,
+              46,
+              46
+            ]
+          },
+          "s9": {
+            "mean_percent": 54.0,
+            "per_seed": [
+              54,
+              54,
+              54
+            ]
+          },
+          "s20": {
+            "mean_percent": 67.0,
+            "per_seed": [
+              67,
+              67,
+              67
+            ]
+          }
+        },
+        "q0": {
+          "s1": {
+            "mean_percent": 22.333333333333332,
+            "per_seed": [
+              19,
+              25,
+              23
+            ]
+          },
+          "s3": {
+            "mean_percent": 37.333333333333336,
+            "per_seed": [
+              32,
+              40,
+              40
+            ]
+          },
+          "s5": {
+            "mean_percent": 45.333333333333336,
+            "per_seed": [
+              41,
+              50,
+              45
+            ]
+          },
+          "s9": {
+            "mean_percent": 52.0,
+            "per_seed": [
+              49,
+              54,
+              53
+            ]
+          },
+          "s20": {
+            "mean_percent": 68.0,
+            "per_seed": [
+              66,
+              71,
+              67
+            ]
+          }
+        },
+        "residual": {
+          "s1": {
+            "mean_percent": 22.333333333333332,
+            "per_seed": [
+              19,
+              25,
+              23
+            ]
+          },
+          "s3": {
+            "mean_percent": 40.0,
+            "per_seed": [
+              34,
+              42,
+              44
+            ]
+          },
+          "s5": {
+            "mean_percent": 45.666666666666664,
+            "per_seed": [
+              43,
+              48,
+              46
+            ]
+          },
+          "s9": {
+            "mean_percent": 57.666666666666664,
+            "per_seed": [
+              56,
+              60,
+              57
+            ]
+          },
+          "s20": {
+            "mean_percent": 73.0,
+            "per_seed": [
+              72,
+              75,
+              72
+            ]
+          }
+        },
+        "zero": {
+          "s1": {
+            "mean_percent": 22.333333333333332,
+            "per_seed": [
+              19,
+              25,
+              23
+            ]
+          },
+          "s3": {
+            "mean_percent": 38.333333333333336,
+            "per_seed": [
+              32,
+              43,
+              40
+            ]
+          },
+          "s5": {
+            "mean_percent": 43.666666666666664,
+            "per_seed": [
+              39,
+              50,
+              42
+            ]
+          },
+          "s9": {
+            "mean_percent": 55.333333333333336,
+            "per_seed": [
+              51,
+              58,
+              57
+            ]
+          },
+          "s20": {
+            "mean_percent": 73.33333333333333,
+            "per_seed": [
+              71,
+              78,
+              71
+            ]
+          }
+        }
+      },
+      "paired": {
+        "residual_minus_original": {
+          "s9": [
+            {
+              "seed": 0,
+              "gained": 9,
+              "lost": 7,
+              "net_pp": 2
+            },
+            {
+              "seed": 1,
+              "gained": 15,
+              "lost": 9,
+              "net_pp": 6
+            },
+            {
+              "seed": 2,
+              "gained": 11,
+              "lost": 8,
+              "net_pp": 3
+            }
+          ],
+          "s20": [
+            {
+              "seed": 0,
+              "gained": 12,
+              "lost": 7,
+              "net_pp": 5
+            },
+            {
+              "seed": 1,
+              "gained": 14,
+              "lost": 6,
+              "net_pp": 8
+            },
+            {
+              "seed": 2,
+              "gained": 11,
+              "lost": 6,
+              "net_pp": 5
+            }
+          ]
+        },
+        "residual_minus_q0": {
+          "s9": [
+            {
+              "seed": 0,
+              "gained": 9,
+              "lost": 2,
+              "net_pp": 7
+            },
+            {
+              "seed": 1,
+              "gained": 12,
+              "lost": 6,
+              "net_pp": 6
+            },
+            {
+              "seed": 2,
+              "gained": 7,
+              "lost": 3,
+              "net_pp": 4
+            }
+          ],
+          "s20": [
+            {
+              "seed": 0,
+              "gained": 8,
+              "lost": 2,
+              "net_pp": 6
+            },
+            {
+              "seed": 1,
+              "gained": 7,
+              "lost": 3,
+              "net_pp": 4
+            },
+            {
+              "seed": 2,
+              "gained": 8,
+              "lost": 3,
+              "net_pp": 5
+            }
+          ]
+        },
+        "residual_minus_zero": {
+          "s9": [
+            {
+              "seed": 0,
+              "gained": 7,
+              "lost": 2,
+              "net_pp": 5
+            },
+            {
+              "seed": 1,
+              "gained": 6,
+              "lost": 4,
+              "net_pp": 2
+            },
+            {
+              "seed": 2,
+              "gained": 2,
+              "lost": 2,
+              "net_pp": 0
+            }
+          ],
+          "s20": [
+            {
+              "seed": 0,
+              "gained": 4,
+              "lost": 3,
+              "net_pp": 1
+            },
+            {
+              "seed": 1,
+              "gained": 5,
+              "lost": 8,
+              "net_pp": -3
+            },
+            {
+              "seed": 2,
+              "gained": 3,
+              "lost": 2,
+              "net_pp": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "limits": "Descriptive results on reused dev panels; no independent test, significance or pure-architecture causal claim"
+}

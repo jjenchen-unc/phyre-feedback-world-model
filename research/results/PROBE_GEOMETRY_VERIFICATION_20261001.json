@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "local_macro_values_recomputed": 1704,
+  "downloaded_hashes_matched": 943,
+  "runs": {
+    "probe_adaptation_cross_20261001": {
+      "scene_summaries": 129,
+      "remote_raw_arrays": 5160
+    },
+    "memory_geometry_followup_20261001": {
+      "scene_summaries": 774,
+      "remote_raw_arrays": 3096
+    }
+  },
+  "scope": "Remote frozen summarizers checked raw NPZ arrays. Local independent check recomputed scene macros and sampling parity; large NPZ not downloaded."
+}

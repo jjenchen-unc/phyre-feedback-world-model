@@ -1,0 +1,553 @@
+{
+  "passed": true,
+  "ranking_vectors_recomputed": 440,
+  "method": "Independent Python stable sorting and pairwise positive-negative AUC; record/summary/transfer checks; same pool, labels, first action, trial masking checked. Geometry summaries not independently recomputed from latent caches.",
+  "plan_sha256": "40aea0de8edd2a0e2b0233b823197e3da7b8c3e841e6d679f18e857e8e00d4d9",
+  "final_sha256": "bb40b07df9ee5a677875743f0f7c172f7f6382a83a8d4a386f0059a7c18605ca",
+  "raw_files": 108,
+  "raw_manifest_sha256": "8647ba8f5a108a9f7e394fe0bc61266b90720fc76a8849cc327dd32597d55506",
+  "stages": {
+    "discovery": {
+      "first_failure_n": 12,
+      "paired_counts": {
+        "old": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 2,
+              "tie": 9
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 2,
+              "tie": 9
+            }
+          }
+        },
+        "previous_mixed": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 3,
+              "loss": 0,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 1,
+              "tie": 9
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 1,
+              "loss": 3,
+              "tie": 8
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 1,
+              "tie": 10
+            }
+          }
+        },
+        "memory_mixed_20261021": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 11
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 2,
+              "tie": 8
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 2,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            }
+          }
+        },
+        "memory_mixed_20261022": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 2,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 2,
+              "tie": 8
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 2,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            }
+          }
+        },
+        "memory_predicted_20261021": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 2,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 1,
+              "tie": 7
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 3,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 0,
+              "tie": 8
+            }
+          }
+        },
+        "memory_predicted_20261022": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 4,
+              "loss": 2,
+              "tie": 6
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 0,
+              "tie": 9
+            }
+          }
+        },
+        "memory_task_objects_20261021": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 4,
+              "loss": 0,
+              "tie": 8
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 2,
+              "tie": 7
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 11
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 0,
+              "tie": 10
+            }
+          }
+        },
+        "memory_task_objects_20261022": {
+          "zero": {
+            "top1": {
+              "gain": 1,
+              "loss": 1,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 12
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 3,
+              "loss": 0,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 2,
+              "tie": 7
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 3,
+              "loss": 0,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 0,
+              "tie": 10
+            }
+          }
+        }
+      }
+    },
+    "confirmation": {
+      "first_failure_n": 10,
+      "paired_counts": {
+        "old": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 1,
+              "tie": 6
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 3,
+              "loss": 1,
+              "tie": 6
+            }
+          }
+        },
+        "previous_mixed": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 9
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 9
+            }
+          }
+        },
+        "memory_mixed_20261021": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 4,
+              "tie": 5
+            }
+          }
+        },
+        "memory_mixed_20261022": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 2,
+              "tie": 7
+            }
+          }
+        },
+        "memory_predicted_20261021": {
+          "zero": {
+            "top1": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 9
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 1,
+              "loss": 0,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 1,
+              "loss": 3,
+              "tie": 6
+            }
+          }
+        },
+        "memory_predicted_20261022": {
+          "zero": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            }
+          },
+          "q0_old": {
+            "top1": {
+              "gain": 0,
+              "loss": 1,
+              "tie": 9
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 0,
+              "tie": 8
+            }
+          },
+          "q0_domain": {
+            "top1": {
+              "gain": 0,
+              "loss": 0,
+              "tie": 10
+            },
+            "top8": {
+              "gain": 2,
+              "loss": 1,
+              "tie": 7
+            }
+          }
+        }
+      }
+    }
+  }
+}

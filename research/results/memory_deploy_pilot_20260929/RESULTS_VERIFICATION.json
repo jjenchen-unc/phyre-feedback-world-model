@@ -1,0 +1,2363 @@
+{
+  "scope": "Post-hoc verification and descriptive sensitivity; no new rollout or training.",
+  "models": {
+    "initial_R0": {
+      "rows_verified": 350,
+      "conditions": {
+        "base": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "empty": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "policy_context": {
+          "auc": 0.7849782147548127,
+          "l1": 0.08590062334551475,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9516908212560387,
+              "l1": 0.08323628129437566,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9485714285714285,
+              "l1": 0.07854509970638901,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9880952380952381,
+              "l1": 0.0805090635549277,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9142857142857143,
+              "l1": 0.09236921989358962,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08392289968905971,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.073575468827039,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07428714430425316,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7083333333333333,
+              "l1": 0.07423896959517151,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4838709677419355,
+              "l1": 0.09238053485751152,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09002174177439884,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11028434694744646,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09743670970201493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "random_context": {
+          "auc": 0.7883517728737122,
+          "l1": 0.0860007083082261,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9758454106280192,
+              "l1": 0.08400619321037084,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9485714285714285,
+              "l1": 0.07860418077325448,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9841269841269841,
+              "l1": 0.08053470926824957,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9177142857142856,
+              "l1": 0.09234468387439847,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08397482350701466,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07368599883047863,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07428105281433091,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7083333333333333,
+              "l1": 0.0743510628817603,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4838709677419355,
+              "l1": 0.09243281977251172,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09009140933630988,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11026457294356078,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09743699248647317,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "wrong_scene": {
+          "auc": 0.8491671389453396,
+          "l1": 0.08593367357486083,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9565217391304347,
+              "l1": 0.08156342490110546,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9485714285714286,
+              "l1": 0.07801598677178845,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9761904761904762,
+              "l1": 0.07974504865705967,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9497142857142856,
+              "l1": 0.0921292258426547,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.084954075247515,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.920967741935484,
+              "l1": 0.07460189984412864,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 1
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07486345716752112,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7083333333333333,
+              "l1": 0.07415383064653724,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4838709677419355,
+              "l1": 0.09207316162064672,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09028319340432063,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11053739639464766,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09828338240040466,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        }
+      },
+      "policy_minus_base": {
+        "00001:008": 0.05797101449275355,
+        "00001:026": 0.09714285714285709,
+        "00001:091": 0.019841269841269882,
+        "00004:985": -0.05142857142857138,
+        "00012:076": -0.37096774193548376,
+        "00012:218": -0.0608974358974359,
+        "00022:167": 0.032258064516129004
+      },
+      "posthoc_excluding_00012_076_delta": 0.01581453311116704
+    },
+    "A_s0": {
+      "rows_verified": 350,
+      "conditions": {
+        "base": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "empty": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "policy_context": {
+          "auc": 0.7825224564166658,
+          "l1": 0.08617489935907846,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9033816425120773,
+              "l1": 0.08406302682124078,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9371428571428572,
+              "l1": 0.07960348814958706,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 1.0,
+              "l1": 0.08128099737223238,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9222857142857143,
+              "l1": 0.09283836046233773,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08384853157913312,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.0733722438220866,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07414820899721235,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6987179487179487,
+              "l1": 0.07431321230251342,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5161290322580645,
+              "l1": 0.09238548809662461,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09034049567999318,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11056800985243172,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09733672917354852,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "random_context": {
+          "auc": 0.7835761880542486,
+          "l1": 0.08626203802026187,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9130434782608696,
+              "l1": 0.08467557583935559,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9314285714285714,
+              "l1": 0.08020082290749997,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 1.0,
+              "l1": 0.08149665861856192,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9257142857142856,
+              "l1": 0.09273953731171787,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08377493539592251,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07338113618316129,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07412325933109969,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6987179487179487,
+              "l1": 0.07441259571351111,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5161290322580645,
+              "l1": 0.09236332261934876,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09030306172790006,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11055279888678342,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.0971207517082803,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "wrong_scene": {
+          "auc": 0.862183437635852,
+          "l1": 0.08636461628193502,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9468599033816425,
+              "l1": 0.08204155904240906,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9428571428571428,
+              "l1": 0.07877289224416018,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.996031746031746,
+              "l1": 0.08093988057225943,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9554285714285715,
+              "l1": 0.0923608300741762,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568577236728743,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.95,
+              "l1": 0.07477746048243716,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 1
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07503667249111459,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6634615384615385,
+              "l1": 0.07515670044813305,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5806451612903226,
+              "l1": 0.09223020984791219,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09040196245769039,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11079390451777726,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09817755083786324,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        }
+      },
+      "policy_minus_base": {
+        "00001:008": 0.009661835748792202,
+        "00001:026": 0.08571428571428574,
+        "00001:091": 0.031746031746031744,
+        "00004:985": -0.04342857142857137,
+        "00012:076": -0.37096774193548376,
+        "00012:218": -0.07051282051282048,
+        "00022:167": 0.06451612903225801
+      },
+      "posthoc_excluding_00012_076_delta": 0.01294948171666264
+    },
+    "B_s0": {
+      "rows_verified": 350,
+      "conditions": {
+        "base": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "empty": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "policy_context": {
+          "auc": 0.7772979666207477,
+          "l1": 0.08628212316252758,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9033816425120773,
+              "l1": 0.08416468382347375,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8971428571428571,
+              "l1": 0.08076579862972721,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 1.0,
+              "l1": 0.08151370601262897,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9257142857142856,
+              "l1": 0.092795564327389,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08385725024854765,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07337625971995294,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07416805500397458,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6987179487179487,
+              "l1": 0.07420945656485856,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5161290322580645,
+              "l1": 0.09236884419806302,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09028314767638221,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11058015783783048,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09730255390750245,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "random_context": {
+          "auc": 0.7825074707122391,
+          "l1": 0.08627540871190527,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9227053140096618,
+              "l1": 0.08445035666227341,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9142857142857143,
+              "l1": 0.0805396931245923,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 1.0,
+              "l1": 0.08134420332498848,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9257142857142856,
+              "l1": 0.09272686173208058,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.0838139085448347,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07343946372857317,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07415143181569875,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6987179487179487,
+              "l1": 0.07432099618017673,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5161290322580645,
+              "l1": 0.09228635113686323,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.0903371176798828,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11052625407464803,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09736826653825119,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "wrong_scene": {
+          "auc": 0.8603995472681107,
+          "l1": 0.08635945445275865,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9371980676328503,
+              "l1": 0.08195563196204603,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9428571428571428,
+              "l1": 0.07885235239518806,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9920634920634921,
+              "l1": 0.08086559479124844,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9565714285714286,
+              "l1": 0.0923242799937725,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.0856905565597117,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.95,
+              "l1": 0.07476834469707683,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 1
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.0750250585260801,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6634615384615385,
+              "l1": 0.0751638823421672,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5806451612903226,
+              "l1": 0.09215893060900271,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09038499131565914,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11068927398882807,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09843455625232309,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        }
+      },
+      "policy_minus_base": {
+        "00001:008": 0.009661835748792202,
+        "00001:026": 0.04571428571428571,
+        "00001:091": 0.031746031746031744,
+        "00004:985": -0.040000000000000036,
+        "00012:076": -0.37096774193548376,
+        "00012:218": -0.07051282051282048,
+        "00022:167": 0.06451612903225801
+      },
+      "posthoc_excluding_00012_076_delta": 0.006854243621424523
+    },
+    "A_s1": {
+      "rows_verified": 350,
+      "conditions": {
+        "base": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "empty": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "policy_context": {
+          "auc": 0.7763158241611458,
+          "l1": 0.08627893124066759,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9227053140096618,
+              "l1": 0.08475260192062706,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9428571428571428,
+              "l1": 0.0799020203994587,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.996031746031746,
+              "l1": 0.08129492891021073,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9222857142857143,
+              "l1": 0.09274388211779297,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08382009833585471,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.0734321019728668,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.0742391173611395,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.6987179487179487,
+              "l1": 0.07452942139934748,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09259225032292306,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.0901696773362346,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11035410403274,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09751697077881545,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "random_context": {
+          "auc": 0.784305769187957,
+          "l1": 0.08636924754149124,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9227053140096618,
+              "l1": 0.08543990540783852,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9314285714285714,
+              "l1": 0.0802903893054463,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 1.0,
+              "l1": 0.08149428281467408,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9245714285714286,
+              "l1": 0.09265297991223634,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08372188785579056,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07348796593723819,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07421736363321543,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7275641025641025,
+              "l1": 0.0746230878867209,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4838709677419355,
+              "l1": 0.09260323783382773,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09014785592444241,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11034727171063423,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09740474227583036,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "wrong_scene": {
+          "auc": 0.8601310762302548,
+          "l1": 0.08629529161941414,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9516908212560387,
+              "l1": 0.08224761544261128,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9485714285714286,
+              "l1": 0.07887111406307667,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.996031746031746,
+              "l1": 0.08074219233822078,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9565714285714286,
+              "l1": 0.09233093778602779,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08503914799075574,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.95,
+              "l1": 0.0744833018281497,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 1
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07489643701119349,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7019230769230769,
+              "l1": 0.0751231872709468,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5161290322580645,
+              "l1": 0.09228850132785738,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09039076310582458,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11070275467354804,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09842754659475758,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        }
+      },
+      "policy_minus_base": {
+        "00001:008": 0.02898550724637672,
+        "00001:026": 0.09142857142857141,
+        "00001:091": 0.02777777777777779,
+        "00004:985": -0.04342857142857137,
+        "00012:076": -0.37096774193548376,
+        "00012:218": -0.07051282051282048,
+        "00022:167": 0.0
+      },
+      "posthoc_excluding_00012_076_delta": 0.005708410751889011
+    },
+    "B_s1": {
+      "rows_verified": 350,
+      "conditions": {
+        "base": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "empty": {
+          "auc": 0.8244182923645956,
+          "l1": 0.08709683993947692,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.8937198067632851,
+              "l1": 0.08456009963992983,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.8514285714285714,
+              "l1": 0.08561197761446238,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9682539682539683,
+              "l1": 0.08116613456513733,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9657142857142856,
+              "l1": 0.09203074150718749,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08568042237311602,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.8709677419354838,
+              "l1": 0.07407732692081481,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07483661966398358,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7692307692307692,
+              "l1": 0.07387653598561883,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4516129032258065,
+              "l1": 0.09246465377509594,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09103011095430702,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.10974742728285491,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.10008002899121493,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "policy_context": {
+          "auc": 0.7815118529592583,
+          "l1": 0.08632667903245116,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9178743961352658,
+              "l1": 0.08471902250312269,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9314285714285714,
+              "l1": 0.08072323555825278,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.996031746031746,
+              "l1": 0.08145451510790735,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9234285714285715,
+              "l1": 0.09276524009183049,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08380962550872936,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07343335001496598,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07422429984435439,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.717948717948718,
+              "l1": 0.07437205174937844,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4838709677419355,
+              "l1": 0.09258573572151363,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09007753594778478,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11033293479122222,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09742260155035183,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "random_context": {
+          "auc": 0.7838530431700137,
+          "l1": 0.08633187252077429,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.927536231884058,
+              "l1": 0.08500310406088829,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9257142857142857,
+              "l1": 0.08045014715753496,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 1.0,
+              "l1": 0.08129206323064864,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9222857142857143,
+              "l1": 0.09268684661947191,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08380272329086438,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.5,
+              "l1": 0.07353303454583511,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 10
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07422608005581424,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7275641025641025,
+              "l1": 0.07450975303072482,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.4838709677419355,
+              "l1": 0.09249097155407071,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09015778853790835,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.1103279544506222,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09750200371490791,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        },
+        "wrong_scene": {
+          "auc": 0.8590105459668672,
+          "l1": 0.08633078445467011,
+          "auc_tasks": 7,
+          "tasks": {
+            "00001:008": {
+              "auc": 0.9516908212560387,
+              "l1": 0.08217513805720955,
+              "prefixes": 1,
+              "positive_queries": 9,
+              "all_tied_prefixes": 0
+            },
+            "00001:026": {
+              "auc": 0.9428571428571428,
+              "l1": 0.07905132119776681,
+              "prefixes": 1,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00001:091": {
+              "auc": 0.9920634920634921,
+              "l1": 0.08066352747846395,
+              "prefixes": 1,
+              "positive_queries": 14,
+              "all_tied_prefixes": 0
+            },
+            "00004:985": {
+              "auc": 0.9520000000000002,
+              "l1": 0.09233136111870408,
+              "prefixes": 5,
+              "positive_queries": 7,
+              "all_tied_prefixes": 0
+            },
+            "00012:034": {
+              "auc": null,
+              "l1": 0.08513696341542527,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:076": {
+              "auc": 0.95,
+              "l1": 0.07454742664704099,
+              "prefixes": 10,
+              "positive_queries": 1,
+              "all_tied_prefixes": 1
+            },
+            "00012:097": {
+              "auc": null,
+              "l1": 0.07494911086978391,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00012:218": {
+              "auc": 0.7083333333333333,
+              "l1": 0.07524127094075084,
+              "prefixes": 1,
+              "positive_queries": 6,
+              "all_tied_prefixes": 0
+            },
+            "00022:167": {
+              "auc": 0.5161290322580645,
+              "l1": 0.09227025974541903,
+              "prefixes": 1,
+              "positive_queries": 1,
+              "all_tied_prefixes": 0
+            },
+            "00022:322": {
+              "auc": null,
+              "l1": 0.09041787676978856,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:436": {
+              "auc": null,
+              "l1": 0.11061940472573042,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            },
+            "00022:763": {
+              "auc": null,
+              "l1": 0.09856575248995796,
+              "prefixes": 10,
+              "positive_queries": 0,
+              "all_tied_prefixes": 0
+            }
+          }
+        }
+      },
+      "policy_minus_base": {
+        "00001:008": 0.024154589371980673,
+        "00001:026": 0.07999999999999996,
+        "00001:091": 0.02777777777777779,
+        "00004:985": -0.04228571428571415,
+        "00012:076": -0.37096774193548376,
+        "00012:218": -0.05128205128205121,
+        "00022:167": 0.032258064516129004
+      },
+      "posthoc_excluding_00012_076_delta": 0.011770444349687012
+    }
+  },
+  "sha256": {
+    "initial_R0_fixed.json": "ae4b4f6fc9a10a7e16c8be651bded40cfc62594c73f944ffba63dee60978f5f7",
+    "A_s0_fixed.json": "cd823c35bff1ba6eea6066364a823a55beaafece8f69de8521b5d45c225f5f0a",
+    "B_s0_fixed.json": "b72c6507d0bdb68b6e1a0d7485e17f731d9ec9ee2697c49dfc6ce72b7dded443",
+    "A_s1_fixed.json": "0ff59680574f7b8012f1cd2aee93ae33d4d1303e9d0fb2b31c8904b36a8418ae",
+    "B_s1_fixed.json": "2af8af475c0d74fd2de3c2cafcd6ffc277c5f8e70b633b44b5de5d9ba9272070"
+  },
+  "passed": true
+}

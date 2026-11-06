@@ -1,0 +1,3371 @@
+{
+  "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+  "complete": true,
+  "panels": {
+    "cross": {
+      "completed": 10,
+      "expected": 10,
+      "methods": {
+        "base": {
+          "S1": 0.1,
+          "S9": 0.1,
+          "S100": 0.4,
+          "AUCCESS100": 0.15866917881393058,
+          "selector_first_S9": 0.1,
+          "auc": 0.43013432529509943,
+          "covered": 1.0,
+          "auc_defined_tasks": 10
+        },
+        "q0": {
+          "S1": 0.0,
+          "S9": 0.2,
+          "S100": 0.5,
+          "AUCCESS100": 0.22593878555461028,
+          "selector_first_S9": 0.2,
+          "auc": 0.5486455641544079,
+          "covered": 1.0,
+          "auc_defined_tasks": 10
+        },
+        "selector_static": {
+          "S1": 0.0,
+          "S9": 0.1,
+          "S100": 0.4,
+          "AUCCESS100": 0.1727870819048975,
+          "selector_first_S9": 0.1,
+          "auc": 0.47915168127411967,
+          "covered": 1.0,
+          "auc_defined_tasks": 10
+        },
+        "oracle_latent": {
+          "S1": 0.8,
+          "S9": 1.0,
+          "S100": 1.0,
+          "AUCCESS100": 0.9523907432250528,
+          "selector_first_S9": 1.0,
+          "auc": 0.9888088793759271,
+          "covered": 1.0,
+          "auc_defined_tasks": 10
+        },
+        "oracle_geometry": {
+          "S1": 1.0,
+          "S9": 1.0,
+          "S100": 1.0,
+          "AUCCESS100": 1.0,
+          "selector_first_S9": 1.0,
+          "auc": 0.9962861860658103,
+          "covered": 1.0,
+          "auc_defined_tasks": 10
+        }
+      },
+      "tasks": [
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00008:532",
+          "actions": 1024,
+          "scores_sha256": "b99598a902427e36b88f92219c92cfad36fbbe537cad7945f607e4b829ee3f49",
+          "oracle_wall_s": 1080.5139975640923,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 34,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.23591149749005502,
+              "auc": 0.3076488728662642,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 78,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.05599240349383838,
+              "auc": 0.4417321808626156,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 22,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.3302358102938713,
+              "auc": 0.7556356686791469,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9977848238717804,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9979151283499109,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.13735158741474152,
+              "base_xy_mae": 42.56452178955078,
+              "oracle_xy_mae": 2.0593762397766113,
+              "base_surface_distance_mae": 55.56401062011719,
+              "oracle_surface_distance_mae": 2.840090036392212
+            },
+            "success": {
+              "n": 23,
+              "base_latent_l1": 0.13109883666038513,
+              "base_xy_mae": 28.648256301879883,
+              "oracle_xy_mae": 2.179661989212036,
+              "base_surface_distance_mae": 32.908164978027344,
+              "oracle_surface_distance_mae": 2.05499267578125
+            },
+            "failure": {
+              "n": 1001,
+              "base_latent_l1": 0.1374952495098114,
+              "base_xy_mae": 42.884281158447266,
+              "oracle_xy_mae": 2.056612253189087,
+              "base_surface_distance_mae": 56.084571838378906,
+              "oracle_surface_distance_mae": 2.8581292629241943
+            }
+          }
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00008:144",
+          "actions": 1024,
+          "scores_sha256": "1994cd8ebe0e95b11aaeb92856e0c42685ce1e7c5b01694f10945bd90d2eebed",
+          "oracle_wall_s": 1182.7667977325618,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 194,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.45137471224427744,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 184,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.41432480562915347,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 116,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.33266733266733267,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9994353472614342,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9993484776093472,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.12334008514881134,
+              "base_xy_mae": 47.22075653076172,
+              "oracle_xy_mae": 1.9441547393798828,
+              "base_surface_distance_mae": 35.50428009033203,
+              "oracle_surface_distance_mae": 3.251610517501831
+            },
+            "success": {
+              "n": 23,
+              "base_latent_l1": 0.12673130631446838,
+              "base_xy_mae": 37.69102478027344,
+              "oracle_xy_mae": 1.635380744934082,
+              "base_surface_distance_mae": 24.879932403564453,
+              "oracle_surface_distance_mae": 1.4900749921798706
+            },
+            "failure": {
+              "n": 1001,
+              "base_latent_l1": 0.12326215952634811,
+              "base_xy_mae": 47.43972396850586,
+              "oracle_xy_mae": 1.9512494802474976,
+              "base_surface_distance_mae": 35.7484016418457,
+              "oracle_surface_distance_mae": 3.2920854091644287
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.000337265390877306,
+            "different_scores": 3,
+            "same_rank": false
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00010:051",
+          "actions": 1024,
+          "scores_sha256": "b795f07c6c8b384dcb5933123dcf992b0cbe17fd2066541a70af64dcbcbd2c7a",
+          "oracle_wall_s": 1162.070797463879,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 718,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.1375,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 572,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.21691176470588236,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 252,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.4068627450980392,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9995098039215686,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.13907469809055328,
+              "base_xy_mae": 30.621265411376953,
+              "oracle_xy_mae": 7.682982444763184,
+              "base_surface_distance_mae": 21.883996963500977,
+              "oracle_surface_distance_mae": 2.5250236988067627
+            },
+            "success": {
+              "n": 4,
+              "base_latent_l1": 0.1470855176448822,
+              "base_xy_mae": 29.018556594848633,
+              "oracle_xy_mae": 5.950105667114258,
+              "base_surface_distance_mae": 7.583225727081299,
+              "oracle_surface_distance_mae": 2.5495119094848633
+            },
+            "failure": {
+              "n": 1020,
+              "base_latent_l1": 0.13904328644275665,
+              "base_xy_mae": 30.62755012512207,
+              "oracle_xy_mae": 7.689777851104736,
+              "base_surface_distance_mae": 21.94007682800293,
+              "oracle_surface_distance_mae": 2.5249273777008057
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00010:379",
+          "actions": 1024,
+          "scores_sha256": "45d9ac35728ba9b321d266f30b27a9e436c5f0288750b3fcf71ea7cb15050724",
+          "oracle_wall_s": 1157.7867259904742,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 600,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.1805776892430279,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 592,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.26693227091633465,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 293,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.3800796812749004,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9998505976095617,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9995517928286852,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.1486622393131256,
+              "base_xy_mae": 33.9376220703125,
+              "oracle_xy_mae": 9.647504806518555,
+              "base_surface_distance_mae": 16.716999053955078,
+              "oracle_surface_distance_mae": 1.2678320407867432
+            },
+            "success": {
+              "n": 20,
+              "base_latent_l1": 0.14997191727161407,
+              "base_xy_mae": 28.16167640686035,
+              "oracle_xy_mae": 7.217714786529541,
+              "base_surface_distance_mae": 5.930889129638672,
+              "oracle_surface_distance_mae": 1.5203053951263428
+            },
+            "failure": {
+              "n": 1004,
+              "base_latent_l1": 0.148636132478714,
+              "base_xy_mae": 34.05268096923828,
+              "oracle_xy_mae": 9.695907592773438,
+              "base_surface_distance_mae": 16.931861877441406,
+              "oracle_surface_distance_mae": 1.2628026008605957
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.004115646924397698,
+            "different_scores": 2,
+            "same_rank": false
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00013:083",
+          "actions": 1024,
+          "scores_sha256": "b836c416b021b80963bf699185db82babba46b0cb099f88a76222cdb9a336f55",
+          "oracle_wall_s": 1261.2110883230343,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 47,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.16575361625762564,
+              "auc": 0.8851296778246432,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 10,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.5010780141945219,
+              "auc": 0.9425648389123217,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 196,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.6052230099614108,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.10863254964351654,
+              "base_xy_mae": 18.270824432373047,
+              "oracle_xy_mae": 1.663238525390625,
+              "base_surface_distance_mae": 33.30571365356445,
+              "oracle_surface_distance_mae": 1.4530212879180908
+            },
+            "success": {
+              "n": 11,
+              "base_latent_l1": 0.12061125785112381,
+              "base_xy_mae": 30.317033767700195,
+              "oracle_xy_mae": 1.6585993766784668,
+              "base_surface_distance_mae": 31.1597957611084,
+              "oracle_surface_distance_mae": 0.6671113967895508
+            },
+            "failure": {
+              "n": 1013,
+              "base_latent_l1": 0.10850249230861664,
+              "base_xy_mae": 18.140016555786133,
+              "oracle_xy_mae": 1.6632888317108154,
+              "base_surface_distance_mae": 33.329017639160156,
+              "oracle_surface_distance_mae": 1.4615554809570312
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00013:025",
+          "actions": 1024,
+          "scores_sha256": "b175017e9c6ba11cb2dbfe60c4eb5197b47ab60279d5946ff3c94bd441b4973c",
+          "oracle_wall_s": 1320.8134757997468,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 43,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.18502667439162535,
+              "auc": 0.6895262573748466,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 19,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.36200171405670867,
+              "auc": 0.7428588118464864,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 4,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.6996190335526241,
+              "auc": 0.8915240376190198,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.11118269711732864,
+              "base_xy_mae": 22.88324546813965,
+              "oracle_xy_mae": 1.9759941101074219,
+              "base_surface_distance_mae": 43.766387939453125,
+              "oracle_surface_distance_mae": 1.9709917306900024
+            },
+            "success": {
+              "n": 17,
+              "base_latent_l1": 0.12540239095687866,
+              "base_xy_mae": 26.25028419494629,
+              "oracle_xy_mae": 1.5787501335144043,
+              "base_surface_distance_mae": 48.6925163269043,
+              "oracle_surface_distance_mae": 1.0482778549194336
+            },
+            "failure": {
+              "n": 1007,
+              "base_latent_l1": 0.11094263941049576,
+              "base_xy_mae": 22.82640266418457,
+              "oracle_xy_mae": 1.9827004671096802,
+              "base_surface_distance_mae": 43.683223724365234,
+              "oracle_surface_distance_mae": 1.9865689277648926
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 2.220446049250313e-16,
+            "different_scores": 3,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00015:485",
+          "actions": 1024,
+          "scores_sha256": "c152e6458fad1d62708b7c0dae0b4f4a95f677afe9ca16b55b47d383e37d34eb",
+          "oracle_wall_s": 1066.728039238602,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.6191082544046997,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 7,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.5783620076757696,
+              "auc": 0.6915264383443503,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 11,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.4804262935175593,
+              "auc": 0.5656177233041969,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.11771097779273987,
+              "base_xy_mae": 16.15023422241211,
+              "oracle_xy_mae": 1.069692850112915,
+              "base_surface_distance_mae": 23.622671127319336,
+              "oracle_surface_distance_mae": 1.2129034996032715
+            },
+            "success": {
+              "n": 257,
+              "base_latent_l1": 0.10157832503318787,
+              "base_xy_mae": 9.414616584777832,
+              "oracle_xy_mae": 1.3243993520736694,
+              "base_surface_distance_mae": 11.136650085449219,
+              "oracle_surface_distance_mae": 2.1515743732452393
+            },
+            "failure": {
+              "n": 767,
+              "base_latent_l1": 0.12311658263206482,
+              "base_xy_mae": 18.407148361206055,
+              "oracle_xy_mae": 0.984347939491272,
+              "base_surface_distance_mae": 27.80638313293457,
+              "oracle_surface_distance_mae": 0.8983812928199768
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00015:460",
+          "actions": 1024,
+          "scores_sha256": "57e0d92ad0571006db6e0c5f5889fa2c7f199d3df5696d421d50f3a3ec91c997",
+          "oracle_wall_s": 1076.096375641413,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 121,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.45685115262321147,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.8638795045045045,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 332,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.24566938261791202,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9999917196608373,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.13150081038475037,
+              "base_xy_mae": 37.890052795410156,
+              "oracle_xy_mae": 1.6579957008361816,
+              "base_surface_distance_mae": 40.257957458496094,
+              "oracle_surface_distance_mae": 2.4517993927001953
+            },
+            "success": {
+              "n": 136,
+              "base_latent_l1": 0.17696097493171692,
+              "base_xy_mae": 53.991180419921875,
+              "oracle_xy_mae": 1.3264151811599731,
+              "base_surface_distance_mae": 19.843738555908203,
+              "oracle_surface_distance_mae": 1.639885663986206
+            },
+            "failure": {
+              "n": 888,
+              "base_latent_l1": 0.12453845888376236,
+              "base_xy_mae": 35.42411804199219,
+              "oracle_xy_mae": 1.7087785005569458,
+              "base_surface_distance_mae": 43.384456634521484,
+              "oracle_surface_distance_mae": 2.5761466026306152
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00023:925",
+          "actions": 1024,
+          "scores_sha256": "94832874b126782307a0671fdf9f8629c80d94fee09e4bf4382f44662e035193",
+          "oracle_wall_s": 1074.1800720039755,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 182,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.4376188085813741,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 153,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.49965848961890735,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 37,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.21758968168492043,
+              "auc": 0.5363194233000601,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.8934734485965158,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9660464618701602,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.20169591903686523,
+              "base_xy_mae": 28.330839157104492,
+              "oracle_xy_mae": 10.524663925170898,
+              "base_surface_distance_mae": 79.86114501953125,
+              "oracle_surface_distance_mae": 17.509531021118164
+            },
+            "success": {
+              "n": 137,
+              "base_latent_l1": 0.20525863766670227,
+              "base_xy_mae": 30.39081382751465,
+              "oracle_xy_mae": 10.950950622558594,
+              "base_surface_distance_mae": 105.27667236328125,
+              "oracle_surface_distance_mae": 14.097456932067871
+            },
+            "failure": {
+              "n": 887,
+              "base_latent_l1": 0.20114566385746002,
+              "base_xy_mae": 28.012670516967773,
+              "oracle_xy_mae": 10.458822250366211,
+              "base_surface_distance_mae": 75.93563079833984,
+              "oracle_surface_distance_mae": 18.036537170410156
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "cross",
+          "task": "00023:959",
+          "actions": 1024,
+          "scores_sha256": "6eaff8908d7ae7b3d3e5657311e5507007eb9ceef3e80a98b30f4dad7d469e4c",
+          "oracle_wall_s": 1089.6961739696562,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 877,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.1360078277886497,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 600,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.4060665362035225,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 912,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.07191780821917808,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.9980430528375733,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.196747288107872,
+              "base_xy_mae": 21.039350509643555,
+              "oracle_xy_mae": 10.364090919494629,
+              "base_surface_distance_mae": 43.65265655517578,
+              "oracle_surface_distance_mae": 32.613746643066406
+            },
+            "success": {
+              "n": 2,
+              "base_latent_l1": 0.20452642440795898,
+              "base_xy_mae": 28.450088500976562,
+              "oracle_xy_mae": 14.168771743774414,
+              "base_surface_distance_mae": 100.09577178955078,
+              "oracle_surface_distance_mae": 20.18907356262207
+            },
+            "failure": {
+              "n": 1022,
+              "base_latent_l1": 0.1967320442199707,
+              "base_xy_mae": 21.02484893798828,
+              "oracle_xy_mae": 10.356644630432129,
+              "base_surface_distance_mae": 43.542198181152344,
+              "oracle_surface_distance_mae": 32.6380615234375
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        }
+      ]
+    },
+    "within": {
+      "completed": 25,
+      "expected": 25,
+      "methods": {
+        "base": {
+          "S1": 0.2,
+          "S9": 0.4,
+          "S100": 0.8,
+          "AUCCESS100": 0.4662973905178626,
+          "selector_first_S9": 0.4,
+          "auc": 0.6270336979172134,
+          "covered": 1.0,
+          "auc_defined_tasks": 24
+        },
+        "q0": {
+          "S1": 0.28,
+          "S9": 0.6,
+          "S100": 0.84,
+          "AUCCESS100": 0.5829127988637207,
+          "selector_first_S9": 0.56,
+          "auc": 0.6697121524553372,
+          "covered": 1.0,
+          "auc_defined_tasks": 24
+        },
+        "selector_static": {
+          "S1": 0.08,
+          "S9": 0.28,
+          "S100": 0.68,
+          "AUCCESS100": 0.3493660879428548,
+          "selector_first_S9": 0.28,
+          "auc": 0.5187211746151813,
+          "covered": 1.0,
+          "auc_defined_tasks": 24
+        },
+        "oracle_latent": {
+          "S1": 0.92,
+          "S9": 0.96,
+          "S100": 1.0,
+          "AUCCESS100": 0.9563439127187857,
+          "selector_first_S9": 0.96,
+          "auc": 0.989515239242298,
+          "covered": 1.0,
+          "auc_defined_tasks": 24
+        },
+        "oracle_geometry": {
+          "S1": 0.96,
+          "S9": 1.0,
+          "S100": 1.0,
+          "AUCCESS100": 0.9831344803070309,
+          "selector_first_S9": 1.0,
+          "auc": 0.9950007971365529,
+          "covered": 1.0,
+          "auc_defined_tasks": 24
+        }
+      },
+      "tasks": [
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00000:024",
+          "actions": 1024,
+          "scores_sha256": "71fadeadc0db1856fdee5ee1a2e1641a845475ff35c5917a46bb65eb36a959c4",
+          "oracle_wall_s": 1058.3717012461275,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.4393413793934138,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.6705270892052709,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.5898797908987979,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9737479222374792,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9786201247862012,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.11285550892353058,
+              "base_xy_mae": 5.279737949371338,
+              "oracle_xy_mae": 1.1581740379333496,
+              "base_surface_distance_mae": 12.065235137939453,
+              "oracle_surface_distance_mae": 2.4438652992248535
+            },
+            "success": {
+              "n": 822,
+              "base_latent_l1": 0.10974986851215363,
+              "base_xy_mae": 3.966737985610962,
+              "oracle_xy_mae": 1.1611584424972534,
+              "base_surface_distance_mae": 8.368637084960938,
+              "oracle_surface_distance_mae": 2.4196479320526123
+            },
+            "failure": {
+              "n": 202,
+              "base_latent_l1": 0.12549330294132233,
+              "base_xy_mae": 10.6227388381958,
+              "oracle_xy_mae": 1.1460295915603638,
+              "base_surface_distance_mae": 27.10782814025879,
+              "oracle_surface_distance_mae": 2.5424141883850098
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 3,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00001:077",
+          "actions": 1024,
+          "scores_sha256": "ce23a2b1d1b4477e783b8b0207a0067d658b9c55a318b15099cb88aba077e5f3",
+          "oracle_wall_s": 1052.6996677815914,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.5834328129782675,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.8741965105601469,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 73,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.0703472584319591,
+              "auc": 0.39116161616161615,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9998507805325987,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.09758742153644562,
+              "base_xy_mae": 12.680963516235352,
+              "oracle_xy_mae": 0.9378029108047485,
+              "base_surface_distance_mae": 31.25529670715332,
+              "oracle_surface_distance_mae": 0.684836745262146
+            },
+            "success": {
+              "n": 540,
+              "base_latent_l1": 0.08659154921770096,
+              "base_xy_mae": 3.4666552543640137,
+              "oracle_xy_mae": 0.8058606386184692,
+              "base_surface_distance_mae": 5.763635158538818,
+              "oracle_surface_distance_mae": 0.773554801940918
+            },
+            "failure": {
+              "n": 484,
+              "base_latent_l1": 0.10985555499792099,
+              "base_xy_mae": 22.96139144897461,
+              "oracle_xy_mae": 1.0850111246109009,
+              "base_surface_distance_mae": 59.696407318115234,
+              "oracle_surface_distance_mae": 0.5858536958694458
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00002:017",
+          "actions": 1024,
+          "scores_sha256": "123095718b9c309d72dbb556eeab928d6193b50fa91e3bdb0cf3c553168b65d2",
+          "oracle_wall_s": 1048.14408048708,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": null,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": null,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": null,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": null,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": null,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.08934317529201508,
+              "base_xy_mae": 2.3672642707824707,
+              "oracle_xy_mae": 0.6714726686477661,
+              "base_surface_distance_mae": 2.2883830070495605,
+              "oracle_surface_distance_mae": 0.5447580814361572
+            },
+            "success": {
+              "n": 1024,
+              "base_latent_l1": 0.08934317529201508,
+              "base_xy_mae": 2.3672642707824707,
+              "oracle_xy_mae": 0.6714726686477661,
+              "base_surface_distance_mae": 2.2883830070495605,
+              "oracle_surface_distance_mae": 0.5447580814361572
+            },
+            "failure": {
+              "n": 0,
+              "base_latent_l1": null,
+              "base_xy_mae": null,
+              "oracle_xy_mae": null,
+              "base_surface_distance_mae": null,
+              "oracle_surface_distance_mae": null
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00003:030",
+          "actions": 1024,
+          "scores_sha256": "34ff33ba2958ead1915e7dca909d48f9b6a892b35525c4144ccd00d5247d44a9",
+          "oracle_wall_s": 1062.5003401348367,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.691902222731877,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.7048831297899585,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 22,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.3302358102938713,
+              "auc": 0.44552873497314754,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9850620186151405,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9900273302371806,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.11296051740646362,
+              "base_xy_mae": 5.1342244148254395,
+              "oracle_xy_mae": 1.0397964715957642,
+              "base_surface_distance_mae": 11.073575973510742,
+              "oracle_surface_distance_mae": 1.5066394805908203
+            },
+            "success": {
+              "n": 489,
+              "base_latent_l1": 0.09791132062673569,
+              "base_xy_mae": 2.230994939804077,
+              "oracle_xy_mae": 0.9855203628540039,
+              "base_surface_distance_mae": 1.9179303646087646,
+              "oracle_surface_distance_mae": 1.7731482982635498
+            },
+            "failure": {
+              "n": 535,
+              "base_latent_l1": 0.126715749502182,
+              "base_xy_mae": 7.787830352783203,
+              "oracle_xy_mae": 1.08940589427948,
+              "base_surface_distance_mae": 19.442005157470703,
+              "oracle_surface_distance_mae": 1.2630455493927002
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00004:960",
+          "actions": 1024,
+          "scores_sha256": "7bbce4ba9c3d9e77471d7c29ba91c248d515e3d1048c9f17346795daea096202",
+          "oracle_wall_s": 1075.1308154277503,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.7918941739375176,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.7567689276667605,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 16,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.39923806710524823,
+              "auc": 0.5262219720424055,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9608968946430246,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9737123557556994,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.12767484784126282,
+              "base_xy_mae": 5.512616157531738,
+              "oracle_xy_mae": 1.1845543384552002,
+              "base_surface_distance_mae": 16.633241653442383,
+              "oracle_surface_distance_mae": 1.934199571609497
+            },
+            "success": {
+              "n": 55,
+              "base_latent_l1": 0.12500089406967163,
+              "base_xy_mae": 5.5590500831604,
+              "oracle_xy_mae": 1.1577755212783813,
+              "base_surface_distance_mae": 12.593097686767578,
+              "oracle_surface_distance_mae": 1.8710217475891113
+            },
+            "failure": {
+              "n": 969,
+              "base_latent_l1": 0.12782661616802216,
+              "base_xy_mae": 5.509980201721191,
+              "oracle_xy_mae": 1.1860742568969727,
+              "base_surface_distance_mae": 16.862558364868164,
+              "oracle_surface_distance_mae": 1.9377856254577637
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00005:169",
+          "actions": 1024,
+          "scores_sha256": "b2ea1482f6e87bd9627e155865f904eacb005e764bdbf7900c8bb6e69681e961",
+          "oracle_wall_s": 1103.1977677894756,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 29,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.2703774868502974,
+              "auc": 0.8722404215923658,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.9081802212410388,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 4,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.6996190335526241,
+              "auc": 0.8749940654227792,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.14042264223098755,
+              "base_xy_mae": 16.59636688232422,
+              "oracle_xy_mae": 0.9945599436759949,
+              "base_surface_distance_mae": 22.906288146972656,
+              "oracle_surface_distance_mae": 1.3757672309875488
+            },
+            "success": {
+              "n": 21,
+              "base_latent_l1": 0.12956573069095612,
+              "base_xy_mae": 5.5024614334106445,
+              "oracle_xy_mae": 1.042914867401123,
+              "base_surface_distance_mae": 5.316525936126709,
+              "oracle_surface_distance_mae": 0.8260078430175781
+            },
+            "failure": {
+              "n": 1003,
+              "base_latent_l1": 0.1406499445438385,
+              "base_xy_mae": 16.828643798828125,
+              "oracle_xy_mae": 0.9935474395751953,
+              "base_surface_distance_mae": 23.274568557739258,
+              "oracle_surface_distance_mae": 1.387277603149414
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00006:164",
+          "actions": 1024,
+          "scores_sha256": "e8a8c691d88bdd2521a3dcd9d6de13a138cf6b8cd76369001f30e85e1408ace1",
+          "oracle_wall_s": 1066.12561975047,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9006351374691852,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 28,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.27798104122839373,
+              "auc": 0.9311986747687911,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 141,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.36697245905757847,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.13894227147102356,
+              "base_xy_mae": 19.038599014282227,
+              "oracle_xy_mae": 1.5000946521759033,
+              "base_surface_distance_mae": 47.896766662597656,
+              "oracle_surface_distance_mae": 1.9053568840026855
+            },
+            "success": {
+              "n": 426,
+              "base_latent_l1": 0.1318732053041458,
+              "base_xy_mae": 13.937745094299316,
+              "oracle_xy_mae": 1.3450807332992554,
+              "base_surface_distance_mae": 42.884151458740234,
+              "oracle_surface_distance_mae": 1.6992394924163818
+            },
+            "failure": {
+              "n": 598,
+              "base_latent_l1": 0.14397810399532318,
+              "base_xy_mae": 22.672317504882812,
+              "oracle_xy_mae": 1.6105226278305054,
+              "base_surface_distance_mae": 51.46762466430664,
+              "oracle_surface_distance_mae": 2.052189826965332
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 2.220446049250313e-16,
+            "different_scores": 2,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00007:307",
+          "actions": 1024,
+          "scores_sha256": "71aa4bf55d82f0e3ba71e19bfe4498c14c6570ea490c39d69e3505224ae6f71f",
+          "oracle_wall_s": 1069.8039324786514,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 17,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.386101980713743,
+              "auc": 0.6770840319227416,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 9,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.5239074322505293,
+              "auc": 0.6485648179196566,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 11,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.4804262935175593,
+              "auc": 0.5666957279860506,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9999497015626048,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9999497015626048,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.08439303934574127,
+              "base_xy_mae": 29.089038848876953,
+              "oracle_xy_mae": 1.1356226205825806,
+              "base_surface_distance_mae": 69.59860229492188,
+              "oracle_surface_distance_mae": 1.5155441761016846
+            },
+            "success": {
+              "n": 62,
+              "base_latent_l1": 0.07850611954927444,
+              "base_xy_mae": 11.975274085998535,
+              "oracle_xy_mae": 1.020396113395691,
+              "base_surface_distance_mae": 10.866337776184082,
+              "oracle_surface_distance_mae": 0.59215247631073
+            },
+            "failure": {
+              "n": 962,
+              "base_latent_l1": 0.08477245271205902,
+              "base_xy_mae": 30.192007064819336,
+              "oracle_xy_mae": 1.143048882484436,
+              "base_surface_distance_mae": 73.38383483886719,
+              "oracle_surface_distance_mae": 1.5750559568405151
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00008:177",
+          "actions": 1024,
+          "scores_sha256": "fff485a7c25c9d82233857422fada68e7f83c71707504521941cbfee4cb01c2a",
+          "oracle_wall_s": 1054.1472589513287,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 73,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.0703472584319591,
+              "auc": 0.6663282571912014,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.7733437459325784,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 5,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.6512684974182099,
+              "auc": 0.431758427697514,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9972146297019393,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9972146297019393,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.09577826410531998,
+              "base_xy_mae": 23.720314025878906,
+              "oracle_xy_mae": 1.1843713521957397,
+              "base_surface_distance_mae": 40.00266647338867,
+              "oracle_surface_distance_mae": 1.7465652227401733
+            },
+            "success": {
+              "n": 39,
+              "base_latent_l1": 0.08781768381595612,
+              "base_xy_mae": 11.519257545471191,
+              "oracle_xy_mae": 1.1026700735092163,
+              "base_surface_distance_mae": 16.14643096923828,
+              "oracle_surface_distance_mae": 1.2643988132476807
+            },
+            "failure": {
+              "n": 985,
+              "base_latent_l1": 0.09609345346689224,
+              "base_xy_mae": 24.203405380249023,
+              "oracle_xy_mae": 1.1876062154769897,
+              "base_surface_distance_mae": 40.94722366333008,
+              "oracle_surface_distance_mae": 1.7656559944152832
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00009:367",
+          "actions": 1024,
+          "scores_sha256": "0491d0eb643df3c0753d113d2ca1bc5cec98c828e2ce5e754ecce5fe53bc6271",
+          "oracle_wall_s": 1062.3518672324717,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 14,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.42817152445208173,
+              "auc": 0.9556117432223626,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9969096783256075,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 55,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.1316947909357692,
+              "auc": 0.5929203539823009,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.0712708905339241,
+              "base_xy_mae": 5.660544395446777,
+              "oracle_xy_mae": 1.3217744827270508,
+              "base_surface_distance_mae": 15.330957412719727,
+              "oracle_surface_distance_mae": 2.219240188598633
+            },
+            "success": {
+              "n": 7,
+              "base_latent_l1": 0.1250256597995758,
+              "base_xy_mae": 24.896259307861328,
+              "oracle_xy_mae": 1.4424089193344116,
+              "base_surface_distance_mae": 10.615792274475098,
+              "oracle_surface_distance_mae": 1.526732087135315
+            },
+            "failure": {
+              "n": 1017,
+              "base_latent_l1": 0.07090089470148087,
+              "base_xy_mae": 5.5281453132629395,
+              "oracle_xy_mae": 1.32094407081604,
+              "base_surface_distance_mae": 15.363411903381348,
+              "oracle_surface_distance_mae": 2.2240068912506104
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00010:476",
+          "actions": 1024,
+          "scores_sha256": "b63adabf87fa8cc4bf982e251d5fe80db389df363b10399ae14dcd68862647d8",
+          "oracle_wall_s": 1050.869296615012,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 8,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.5494285503289362,
+              "auc": 0.5763290671917303,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 45,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.1751759296687393,
+              "auc": 0.5005999261629338,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 2,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.849809516776312,
+              "auc": 0.8316822544917548,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9924470834358848,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.09168150275945663,
+              "base_xy_mae": 7.68961238861084,
+              "oracle_xy_mae": 1.2752764225006104,
+              "base_surface_distance_mae": 23.131582260131836,
+              "oracle_surface_distance_mae": 1.2238566875457764
+            },
+            "success": {
+              "n": 68,
+              "base_latent_l1": 0.0914076641201973,
+              "base_xy_mae": 3.6065893173217773,
+              "oracle_xy_mae": 1.5063271522521973,
+              "base_surface_distance_mae": 2.690793037414551,
+              "oracle_surface_distance_mae": 1.1337746381759644
+            },
+            "failure": {
+              "n": 956,
+              "base_latent_l1": 0.091700978577137,
+              "base_xy_mae": 7.980036735534668,
+              "oracle_xy_mae": 1.2588417530059814,
+              "base_surface_distance_mae": 24.58553123474121,
+              "oracle_surface_distance_mae": 1.2302643060684204
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 1,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00011:937",
+          "actions": 1024,
+          "scores_sha256": "b4cdcf6665a0c7b1936e1af320dc710e5ede1c006c89030bc3782ef5f2c596cc",
+          "oracle_wall_s": 1060.4624122967944,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 13,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.44422917059226175,
+              "auc": 0.5524363802350793,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 2,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.849809516776312,
+              "auc": 0.6929221639937149,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 137,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.48634556131988516,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9972348774128986,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9995874261536706,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.16199493408203125,
+              "base_xy_mae": 66.2035140991211,
+              "oracle_xy_mae": 0.9874707460403442,
+              "base_surface_distance_mae": 89.50416564941406,
+              "oracle_surface_distance_mae": 1.105934739112854
+            },
+            "success": {
+              "n": 127,
+              "base_latent_l1": 0.10953699797391891,
+              "base_xy_mae": 12.032177925109863,
+              "oracle_xy_mae": 1.2299710512161255,
+              "base_surface_distance_mae": 7.960168838500977,
+              "oracle_surface_distance_mae": 1.6521836519241333
+            },
+            "failure": {
+              "n": 897,
+              "base_latent_l1": 0.16942209005355835,
+              "base_xy_mae": 73.8732681274414,
+              "oracle_xy_mae": 0.9531368613243103,
+              "base_surface_distance_mae": 101.04940795898438,
+              "oracle_surface_distance_mae": 1.0285950899124146
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 1,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00012:032",
+          "actions": 1024,
+          "scores_sha256": "d137257ddb026b0ecf9fa8e9708e2ee8e13be3f69804671bdadb96fbadd3d919",
+          "oracle_wall_s": 1059.6205806378275,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 90,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.024985446445051296,
+              "auc": 0.2656697236988142,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.8116128278520942,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 385,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.28354459956773176,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.1197371780872345,
+              "base_xy_mae": 46.28797149658203,
+              "oracle_xy_mae": 0.8876720666885376,
+              "base_surface_distance_mae": 116.50679016113281,
+              "oracle_surface_distance_mae": 0.7479948401451111
+            },
+            "success": {
+              "n": 17,
+              "base_latent_l1": 0.11656858772039413,
+              "base_xy_mae": 24.286958694458008,
+              "oracle_xy_mae": 1.292227864265442,
+              "base_surface_distance_mae": 12.350024223327637,
+              "oracle_surface_distance_mae": 1.5685573816299438
+            },
+            "failure": {
+              "n": 1007,
+              "base_latent_l1": 0.11979066580533981,
+              "base_xy_mae": 46.659393310546875,
+              "oracle_xy_mae": 0.880842387676239,
+              "base_surface_distance_mae": 118.2651596069336,
+              "oracle_surface_distance_mae": 0.7341422438621521
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 1,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00013:036",
+          "actions": 1024,
+          "scores_sha256": "4624cd80815bbc70e5ad13a02353637b78089dab43d4e8153ffcc6e93b54a0af",
+          "oracle_wall_s": 1125.6736635547131,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 449,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.33330908738240717,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 600,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.20252642808650956,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 31,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.2559268621579832,
+              "auc": 0.5980021336436815,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.1175709217786789,
+              "base_xy_mae": 48.17737579345703,
+              "oracle_xy_mae": 2.291870594024658,
+              "base_surface_distance_mae": 93.35324096679688,
+              "oracle_surface_distance_mae": 3.6098828315734863
+            },
+            "success": {
+              "n": 42,
+              "base_latent_l1": 0.11072145402431488,
+              "base_xy_mae": 15.321367263793945,
+              "oracle_xy_mae": 1.1399396657943726,
+              "base_surface_distance_mae": 10.455820083618164,
+              "oracle_surface_distance_mae": 0.701798677444458
+            },
+            "failure": {
+              "n": 982,
+              "base_latent_l1": 0.11786387115716934,
+              "base_xy_mae": 49.58262634277344,
+              "oracle_xy_mae": 2.3411388397216797,
+              "base_surface_distance_mae": 96.89875030517578,
+              "oracle_surface_distance_mae": 3.7342610359191895
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00014:577",
+          "actions": 1024,
+          "scores_sha256": "78ff1badb1604d7cdb3e9705558180f5a9169dc5712715f064b8b8ae623fc2ec",
+          "oracle_wall_s": 1046.7223611352965,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 2,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.849809516776312,
+              "auc": 0.751875,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.8179915048543689,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 103,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.3658252427184466,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.09650921076536179,
+              "base_xy_mae": 23.211286544799805,
+              "oracle_xy_mae": 1.0175210237503052,
+              "base_surface_distance_mae": 34.23552322387695,
+              "oracle_surface_distance_mae": 1.482083797454834
+            },
+            "success": {
+              "n": 200,
+              "base_latent_l1": 0.080510713160038,
+              "base_xy_mae": 4.767266273498535,
+              "oracle_xy_mae": 0.6910216808319092,
+              "base_surface_distance_mae": 2.42463755607605,
+              "oracle_surface_distance_mae": 0.5548093318939209
+            },
+            "failure": {
+              "n": 824,
+              "base_latent_l1": 0.10039233416318893,
+              "base_xy_mae": 27.687990188598633,
+              "oracle_xy_mae": 1.0967683792114258,
+              "base_surface_distance_mae": 41.95661544799805,
+              "oracle_surface_distance_mae": 1.7071503400802612
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 1,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00015:379",
+          "actions": 1024,
+          "scores_sha256": "1595d62289c8d5fe233293eb3702f53fe347e43a159ec0fc37863ef2d9b623fe",
+          "oracle_wall_s": 1061.558488219045,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 4,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.6996190335526241,
+              "auc": 0.9108143493061011,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 4,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.6996190335526241,
+              "auc": 0.9539146373396177,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 153,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.5770620581304007,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.12305361777544022,
+              "base_xy_mae": 23.366893768310547,
+              "oracle_xy_mae": 1.0360013246536255,
+              "base_surface_distance_mae": 39.86283874511719,
+              "oracle_surface_distance_mae": 1.3565707206726074
+            },
+            "success": {
+              "n": 19,
+              "base_latent_l1": 0.09093434363603592,
+              "base_xy_mae": 2.4681386947631836,
+              "oracle_xy_mae": 0.612234354019165,
+              "base_surface_distance_mae": 3.5795223712921143,
+              "oracle_surface_distance_mae": 0.7193687558174133
+            },
+            "failure": {
+              "n": 1005,
+              "base_latent_l1": 0.1236608475446701,
+              "base_xy_mae": 23.761995315551758,
+              "oracle_xy_mae": 1.0440129041671753,
+              "base_surface_distance_mae": 40.54879379272461,
+              "oracle_surface_distance_mae": 1.3686174154281616
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00016:851",
+          "actions": 1024,
+          "scores_sha256": "ad2cd367a0685dd11e6828fd02a037ce47499a41e21f7750ddad63205774b336",
+          "oracle_wall_s": 1063.0100170047954,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 158,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.2667669323707826,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 42,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.19012524057734626,
+              "auc": 0.29475109038953223,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 17,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.386101980713743,
+              "auc": 0.4869303654684915,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.1021379828453064,
+              "base_xy_mae": 22.068845748901367,
+              "oracle_xy_mae": 2.4315662384033203,
+              "base_surface_distance_mae": 28.935205459594727,
+              "oracle_surface_distance_mae": 1.2976430654525757
+            },
+            "success": {
+              "n": 109,
+              "base_latent_l1": 0.10463524609804153,
+              "base_xy_mae": 15.788610458374023,
+              "oracle_xy_mae": 1.6842682361602783,
+              "base_surface_distance_mae": 6.129766941070557,
+              "oracle_surface_distance_mae": 1.2732831239700317
+            },
+            "failure": {
+              "n": 915,
+              "base_latent_l1": 0.10184049606323242,
+              "base_xy_mae": 22.81698226928711,
+              "oracle_xy_mae": 2.5205886363983154,
+              "base_surface_distance_mae": 31.651918411254883,
+              "oracle_surface_distance_mae": 1.3005449771881104
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 3,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00017:138",
+          "actions": 1024,
+          "scores_sha256": "9a4a661b436d9f6f8d3b1c470cbde55ae781bc7996f1515e4d6a4814f40c7bfe",
+          "oracle_wall_s": 1074.7274762401357,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 320,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.46941666666666665,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 162,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.5067916666666666,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 337,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.31675,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 7,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.5783620076757696,
+              "auc": 0.9143333333333333,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9973333333333333,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.15288031101226807,
+              "base_xy_mae": 14.949827194213867,
+              "oracle_xy_mae": 1.166656255722046,
+              "base_surface_distance_mae": 24.681732177734375,
+              "oracle_surface_distance_mae": 1.8160951137542725
+            },
+            "success": {
+              "n": 24,
+              "base_latent_l1": 0.1377016007900238,
+              "base_xy_mae": 5.8992600440979,
+              "oracle_xy_mae": 1.3543248176574707,
+              "base_surface_distance_mae": 7.832099914550781,
+              "oracle_surface_distance_mae": 1.2267478704452515
+            },
+            "failure": {
+              "n": 1000,
+              "base_latent_l1": 0.15324459969997406,
+              "base_xy_mae": 15.167040824890137,
+              "oracle_xy_mae": 1.1621522903442383,
+              "base_surface_distance_mae": 25.08612060546875,
+              "oracle_surface_distance_mae": 1.8302395343780518
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 3,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00018:171",
+          "actions": 1024,
+          "scores_sha256": "480edc88bcc762676ec189df9706b45ba6b2e6ef36b703f317bec714d45fe901",
+          "oracle_wall_s": 1064.4997475109994,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 27,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.285861148375794,
+              "auc": 0.4185842032401691,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 13,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.44422917059226175,
+              "auc": 0.43802147640962324,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 10,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.5010780141945219,
+              "auc": 0.5830714258989037,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9964268342874247,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9999906461630561,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.15506497025489807,
+              "base_xy_mae": 17.09610366821289,
+              "oracle_xy_mae": 1.7361952066421509,
+              "base_surface_distance_mae": 32.30801010131836,
+              "oracle_surface_distance_mae": 3.1659092903137207
+            },
+            "success": {
+              "n": 118,
+              "base_latent_l1": 0.16374661028385162,
+              "base_xy_mae": 13.987272262573242,
+              "oracle_xy_mae": 1.9122816324234009,
+              "base_surface_distance_mae": 6.473023414611816,
+              "oracle_surface_distance_mae": 2.205381155014038
+            },
+            "failure": {
+              "n": 906,
+              "base_latent_l1": 0.15393425524234772,
+              "base_xy_mae": 17.501007080078125,
+              "oracle_xy_mae": 1.7132611274719238,
+              "base_surface_distance_mae": 35.672828674316406,
+              "oracle_surface_distance_mae": 3.291011095046997
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00019:244",
+          "actions": 1024,
+          "scores_sha256": "3f6ce3d108083687dae443a02857fab05d9e7808f46f3364b5e94a5e5d3a780e",
+          "oracle_wall_s": 1071.3028274774551,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 2,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.849809516776312,
+              "auc": 0.6824498049978334,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 2,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.849809516776312,
+              "auc": 0.561317347970533,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 7,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.5783620076757696,
+              "auc": 0.7181279791997689,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.11640104651451111,
+              "base_xy_mae": 12.64592170715332,
+              "oracle_xy_mae": 1.0481630563735962,
+              "base_surface_distance_mae": 27.184804916381836,
+              "oracle_surface_distance_mae": 1.6330504417419434
+            },
+            "success": {
+              "n": 35,
+              "base_latent_l1": 0.11158110946416855,
+              "base_xy_mae": 2.147643804550171,
+              "oracle_xy_mae": 0.7301222681999207,
+              "base_surface_distance_mae": 1.9425716400146484,
+              "oracle_surface_distance_mae": 0.7624666690826416
+            },
+            "failure": {
+              "n": 989,
+              "base_latent_l1": 0.11657162010669708,
+              "base_xy_mae": 13.017447471618652,
+              "oracle_xy_mae": 1.0594182014465332,
+              "base_surface_distance_mae": 28.078109741210938,
+              "oracle_surface_distance_mae": 1.6638596057891846
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00020:028",
+          "actions": 1024,
+          "scores_sha256": "53f12f3afac400613a53da373d087cfcb66430d58b67887ad1eaca173ecdf28f",
+          "oracle_wall_s": 1059.3053366607055,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 21,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.34031572380103425,
+              "auc": 0.562847970545977,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 10,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.5010780141945219,
+              "auc": 0.6493803879310345,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 23,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.3206040439275061,
+              "auc": 0.46174568965517243,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.10419899225234985,
+              "base_xy_mae": 23.815330505371094,
+              "oracle_xy_mae": 1.381873369216919,
+              "base_surface_distance_mae": 38.40084457397461,
+              "oracle_surface_distance_mae": 1.8300580978393555
+            },
+            "success": {
+              "n": 96,
+              "base_latent_l1": 0.09264425188302994,
+              "base_xy_mae": 6.242530822753906,
+              "oracle_xy_mae": 0.8343985676765442,
+              "base_surface_distance_mae": 4.752958297729492,
+              "oracle_surface_distance_mae": 0.7434003949165344
+            },
+            "failure": {
+              "n": 928,
+              "base_latent_l1": 0.10539431124925613,
+              "base_xy_mae": 25.633203506469727,
+              "oracle_xy_mae": 1.4385087490081787,
+              "base_surface_distance_mae": 41.88166427612305,
+              "oracle_surface_distance_mae": 1.9424710273742676
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00021:038",
+          "actions": 1024,
+          "scores_sha256": "56f3f5ab58cebcf65246cf1214ec3227bfef7560ce63f28d3939466f74dc0ee5",
+          "oracle_wall_s": 1068.4459150275216,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 41,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.19534667553037188,
+              "auc": 0.7309066233051227,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 95,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.01327021147491858,
+              "auc": 0.6118971102262397,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 5,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.6512684974182099,
+              "auc": 0.8164859224357579,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 0.9999103747615329,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.09997151792049408,
+              "base_xy_mae": 10.910943984985352,
+              "oracle_xy_mae": 1.7927566766738892,
+              "base_surface_distance_mae": 24.065540313720703,
+              "oracle_surface_distance_mae": 1.7782609462738037
+            },
+            "success": {
+              "n": 83,
+              "base_latent_l1": 0.08894569426774979,
+              "base_xy_mae": 2.788762092590332,
+              "oracle_xy_mae": 1.758275032043457,
+              "base_surface_distance_mae": 5.310763835906982,
+              "oracle_surface_distance_mae": 2.514537811279297
+            },
+            "failure": {
+              "n": 941,
+              "base_latent_l1": 0.10094404220581055,
+              "base_xy_mae": 11.62735366821289,
+              "oracle_xy_mae": 1.7957981824874878,
+              "base_surface_distance_mae": 25.71978759765625,
+              "oracle_surface_distance_mae": 1.7133184671401978
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00022:695",
+          "actions": 1024,
+          "scores_sha256": "981ec235429fa524905c69d80fd7faddd8544933f3bcf7377a4326fd66d72efe",
+          "oracle_wall_s": 1053.3203615089878,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 165,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.5113913913913913,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 208,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.44504504504504505,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 156,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.41677677677677677,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 22,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.3302358102938713,
+              "auc": 0.9312912912912913,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 7,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.5783620076757696,
+              "auc": 0.9435835835835836,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.15269535779953003,
+              "base_xy_mae": 22.531673431396484,
+              "oracle_xy_mae": 1.1863890886306763,
+              "base_surface_distance_mae": 38.172950744628906,
+              "oracle_surface_distance_mae": 2.257096290588379
+            },
+            "success": {
+              "n": 25,
+              "base_latent_l1": 0.10642453283071518,
+              "base_xy_mae": 4.217360496520996,
+              "oracle_xy_mae": 1.1944154500961304,
+              "base_surface_distance_mae": 11.508195877075195,
+              "oracle_surface_distance_mae": 2.362492322921753
+            },
+            "failure": {
+              "n": 999,
+              "base_latent_l1": 0.15385331213474274,
+              "base_xy_mae": 22.989990234375,
+              "oracle_xy_mae": 1.1861881017684937,
+              "base_surface_distance_mae": 38.840240478515625,
+              "oracle_surface_distance_mae": 2.2544586658477783
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 0.0,
+            "different_scores": 0,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00023:202",
+          "actions": 1024,
+          "scores_sha256": "31521619120679ab4de2559096ad7ea3dbf72fbb12b49f4fd674e9920aedc740",
+          "oracle_wall_s": 1075.7326699774712,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 10,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.5010780141945219,
+              "auc": 0.7766161723917218,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 3,
+              "S1": 0,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 0.7619537161252646,
+              "auc": 0.7946803214565109,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 14,
+              "S1": 0,
+              "S9": 0,
+              "S100": 1,
+              "AUCCESS100": 0.42817152445208173,
+              "auc": 0.6089894033141313,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.18846355378627777,
+              "base_xy_mae": 25.577499389648438,
+              "oracle_xy_mae": 1.6769983768463135,
+              "base_surface_distance_mae": 85.65986633300781,
+              "oracle_surface_distance_mae": 1.9926873445510864
+            },
+            "success": {
+              "n": 43,
+              "base_latent_l1": 0.17752455174922943,
+              "base_xy_mae": 10.530339241027832,
+              "oracle_xy_mae": 1.5931988954544067,
+              "base_surface_distance_mae": 11.905765533447266,
+              "oracle_surface_distance_mae": 2.1662628650665283
+            },
+            "failure": {
+              "n": 981,
+              "base_latent_l1": 0.1889430433511734,
+              "base_xy_mae": 26.237058639526367,
+              "oracle_xy_mae": 1.6806716918945312,
+              "base_surface_distance_mae": 88.8927230834961,
+              "oracle_surface_distance_mae": 1.9850791692733765
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 1,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        },
+        {
+          "plan": "51acec188da91413ae9169474f7847b684f671ce0c749a8df5d4d20d0a91a9fd",
+          "panel": "within",
+          "task": "00024:246",
+          "actions": 1024,
+          "scores_sha256": "46304a6d9226c481009dd51960bb691e8f69105e7e2cc21050d0f782b961ad41",
+          "oracle_wall_s": 1049.2124102953821,
+          "gpu": "NVIDIA RTX A6000",
+          "metrics": {
+            "base": {
+              "first_success_rank": 248,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.6609251968503937,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "q0": {
+              "first_success_rank": 258,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.5270669291338582,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "selector_static": {
+              "first_success_rank": 686,
+              "S1": 0,
+              "S9": 0,
+              "S100": 0,
+              "AUCCESS100": 0.0,
+              "auc": 0.11183562992125984,
+              "selector_first_S9": 0,
+              "covered": true
+            },
+            "oracle_latent": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            },
+            "oracle_geometry": {
+              "first_success_rank": 1,
+              "S1": 1,
+              "S9": 1,
+              "S100": 1,
+              "AUCCESS100": 1.0,
+              "auc": 1.0,
+              "selector_first_S9": 1,
+              "covered": true
+            }
+          },
+          "diagnostics": {
+            "all": {
+              "n": 1024,
+              "base_latent_l1": 0.13861531019210815,
+              "base_xy_mae": 33.40629577636719,
+              "oracle_xy_mae": 1.2482616901397705,
+              "base_surface_distance_mae": 44.53101348876953,
+              "oracle_surface_distance_mae": 1.3910090923309326
+            },
+            "success": {
+              "n": 8,
+              "base_latent_l1": 0.10311178117990494,
+              "base_xy_mae": 3.688152551651001,
+              "oracle_xy_mae": 0.9983962178230286,
+              "base_surface_distance_mae": 6.391873359680176,
+              "oracle_surface_distance_mae": 1.0351977348327637
+            },
+            "failure": {
+              "n": 1016,
+              "base_latent_l1": 0.13889487087726593,
+              "base_xy_mae": 33.640296936035156,
+              "oracle_xy_mae": 1.2502292394638062,
+              "base_surface_distance_mae": 44.83132553100586,
+              "oracle_surface_distance_mae": 1.3938108682632446
+            }
+          },
+          "numeric_audit": {
+            "max_abs_vs_archived": 4.440892098500626e-16,
+            "different_scores": 1,
+            "same_rank": true
+          },
+          "repair": "441f731bc184f053e12ffc9b309398d986ffd755fcff76ac13ea2e75af0aceb5"
+        }
+      ]
+    }
+  }
+}

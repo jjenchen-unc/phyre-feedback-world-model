@@ -1,0 +1,172 @@
+{
+  "complete": true,
+  "deadline": "2026-10-21T09:00:00-04:00",
+  "scope": "16fresh128-stepupdaterfits; fixedcrossfold1 Q0/predictor/probes;53firstfailuretraining scenes,424uniformqueries32positives. Discovery12 andconfirmation10 training-template firstfailures;cross100=97firstfailures3initialsuccess. Allmatchedclassifier1024pools/Q0firstaction. Samefirsttrial thenoneupdate.",
+  "main_conclusion": "No testedupdaterloss gives a stablecrossgain overQ0 and matchedzero-residualcontrols. No justification for large training yet. Pairwise not established betterthanBCE.",
+  "evidence": [
+    "BCE/pair gradients through frozengeometryscorerverified; inputfuturetruth notused. Bothcanhurtlatent/geometry fidelity andcrossAUC. LearnedaffineBCE didnotconsistentlyrescue.",
+    "Cross100 paired comparisons show smalltopk gains/losses andseeddependence. Zero stillreceives attemptedaction/failure; no residual-specific advantage established.",
+    "Successloss updates have muchlargerstate deltas than originalpredictionloss; attenuation .1/.25/.5 on20scenes doesnotreliablyrescue. Doesnotexclude smallerfactors.",
+    "Ideal10% query-specific truedistance correction raises top1 from0/10to4/10. Privilegedoracle diagnostic establishes correctionvalue, not support-to-querylearnability.",
+    "New contacttargetlambda.1 improves matchedvalidationgoal-distanceerror (.12447to.12141 discovery;.12357to.10852 confirmation) andlatentL1 versusoriginalupdater. Crossnext1/8 equalsQ0(2/8) withlowerAUC(.474vs.552); lambda1 worse. No validatedtarget-losswinner.",
+    "FrozenQ0+37featureBCEreadout same424labels yields crossAUC.594 vsQ0.552, next8 10/97vs8/97,S2 6/100vs5/100. Smallcandidate signal, not reliable earlysuccesswin. Fullpool readout has54219labels andisnotmethod-onlyfaircomparison."
+  ],
+  "recommendation": {
+    "direction": "Test query-conditioned feedback correction in an independent success readout while freezing predictor/probes/initialmemory. Treat as next hypothesis, not validated superior method.",
+    "reason": "Separates useful actionselection learning from pressure to alterphysicslatents. Same-label frozenreadout is the more promising limited signal; physicaloracle retains predictiveheadroom. Existing memory information transfer remains unproven.",
+    "design": [
+      "Startfromsame fixedQ0distance features andlearnedstaticreadout; addzero-initialized query-dependent logitdelta conditionedonsupportaction/residual.",
+      "Use BCEWithLogits withindependentbinaryactiontargets; allowmultiplesuccesses. Do notassume pairwise superiority.",
+      "Matchdata,optimizer,initandquerybudget acrossrealresidual/trainedzero controls; addmatchedshuffledresidual inference diagnostic. AlwaysincludeQ0andstaticlearnedreadout.",
+      "Two smallseeds andoneadditionalcrossfold forconfirmation beforeanylarge run. Requireearlytopk improvementbeyondstaticreadoutandzero, notonlymacroAUC. No additional experiments launched afterthis recommendation."
+    ]
+  },
+  "unresolved": [
+    "Onlyonecrossfold andfixedbase;two seeds fororiginal/pair,oneforBCE/contact. No within conclusion.",
+    "128-step424-querypilot cannotruleout longtraining/moredata; no causalproof dataquantity is rootcause.",
+    "Averagecontacterrorisnot sameasearlyactionranking; notalltargetimprovement transferscross.",
+    "Staticnext8 afteroneupdate isnot repeatedfeedbackS9.",
+    "No independent reimplementationofgeometryloss; numericalscorer/gradientchecks andcheckpointforwardreplay performed."
+  ],
+  "audits": [
+    "INDEPENDENT_ANALYSIS.json",
+    "FINAL_INDEPENDENT_AUDIT.json",
+    "INTEGRITY_AUDIT.json",
+    "CONTACT_TARGET_DIAGNOSTIC.json",
+    "STATE_NORMS.json"
+  ],
+  "cross100_table": [
+    {
+      "method": "q0",
+      "first_failures": 97,
+      "S2_count": 5,
+      "S2_denominator": 100,
+      "top1": 2,
+      "top3": 5,
+      "top5": 6,
+      "top8": 8,
+      "auc": 0.5518208403967011
+    },
+    {
+      "method": "prediction_residual_s7919",
+      "first_failures": 97,
+      "S2_count": 5,
+      "S2_denominator": 100,
+      "top1": 2,
+      "top3": 3,
+      "top5": 5,
+      "top8": 7,
+      "auc": 0.5074228276870191
+    },
+    {
+      "method": "prediction_residual_s7920",
+      "first_failures": 97,
+      "S2_count": 7,
+      "S2_denominator": 100,
+      "top1": 4,
+      "top3": 7,
+      "top5": 7,
+      "top8": 9,
+      "auc": 0.5144464245740239
+    },
+    {
+      "method": "bce_residual_s7919",
+      "first_failures": 97,
+      "S2_count": 7,
+      "S2_denominator": 100,
+      "top1": 4,
+      "top3": 4,
+      "top5": 4,
+      "top8": 6,
+      "auc": 0.4452363599890906
+    },
+    {
+      "method": "pair_residual_s7919",
+      "first_failures": 97,
+      "S2_count": 6,
+      "S2_denominator": 100,
+      "top1": 3,
+      "top3": 3,
+      "top5": 3,
+      "top8": 4,
+      "auc": 0.41089387075596956
+    },
+    {
+      "method": "pair_residual_s7920",
+      "first_failures": 97,
+      "S2_count": 5,
+      "S2_denominator": 100,
+      "top1": 2,
+      "top3": 4,
+      "top5": 5,
+      "top8": 10,
+      "auc": 0.4428576368552914
+    },
+    {
+      "method": "query8_readout",
+      "first_failures": 97,
+      "S2_count": 6,
+      "S2_denominator": 100,
+      "top1": 3,
+      "top3": 7,
+      "top5": 8,
+      "top8": 10,
+      "auc": 0.59382030824117
+    },
+    {
+      "method": "fullpool_readout",
+      "first_failures": 97,
+      "S2_count": 4,
+      "S2_denominator": 100,
+      "top1": 1,
+      "top3": 6,
+      "top5": 7,
+      "top8": 11,
+      "auc": 0.5729417732015272
+    },
+    {
+      "method": "contact01_residual",
+      "first_failures": 97,
+      "S2_count": 5,
+      "S2_denominator": 100,
+      "top1": 2,
+      "top3": 6,
+      "top5": 6,
+      "top8": 8,
+      "auc": 0.4744720206420295
+    },
+    {
+      "method": "contact01_zero",
+      "first_failures": 97,
+      "S2_count": 3,
+      "S2_denominator": 100,
+      "top1": 0,
+      "top3": 2,
+      "top5": 3,
+      "top8": 6,
+      "auc": 0.5067026223731912
+    },
+    {
+      "method": "contact1_residual",
+      "first_failures": 97,
+      "S2_count": 5,
+      "S2_denominator": 100,
+      "top1": 2,
+      "top3": 4,
+      "top5": 4,
+      "top8": 5,
+      "auc": 0.4671546917276121
+    },
+    {
+      "method": "contact1_zero",
+      "first_failures": 97,
+      "S2_count": 7,
+      "S2_denominator": 100,
+      "top1": 4,
+      "top3": 5,
+      "top5": 7,
+      "top8": 8,
+      "auc": 0.41928951192783
+    }
+  ]
+}

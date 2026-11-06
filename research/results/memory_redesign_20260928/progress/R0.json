@@ -1,0 +1,23 @@
+{
+  "latest": {
+    "step": 7800,
+    "prediction_loss": 0.08874191522598267,
+    "ranking_loss": 0.0,
+    "grad_norm": 0.013585023120976985,
+    "seconds": 2300,
+    "variant": "R0"
+  },
+  "counts": {
+    "episodes": 7800,
+    "context_mixed": 6996,
+    "actual_k_1": 2341,
+    "query_uniform": 62400,
+    "queries": 62400,
+    "positive_queries": 26698,
+    "single_class_episodes": 155,
+    "actual_k_2": 2328,
+    "context_empty": 804,
+    "actual_k_0": 804,
+    "actual_k_4": 2327
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "passed": true,
+  "states_verified": 372,
+  "n_scenes": 32,
+  "ranking_recomputed_from_raw_scores": true,
+  "summary_exact": true,
+  "paired_training_draws_exact": true,
+  "summary": {
+    "old": {
+      "auc": 0.7326425164692941,
+      "top1": 0.37202380952380953,
+      "top8": 0.5751488095238095,
+      "predicted_geometry": 0.7216142054838981,
+      "observed_geometry": 0.06119506380016122
+    },
+    "true_control": {
+      "auc": 0.7183598590317783,
+      "top1": 0.24702380952380953,
+      "top8": 0.5431547619047619,
+      "predicted_geometry": 0.7492401254912722,
+      "observed_geometry": 0.04300441643025849
+    },
+    "mixed": {
+      "auc": 0.7197400251629611,
+      "top1": 0.3169642857142857,
+      "top8": 0.5543154761904762,
+      "predicted_geometry": 0.7077092214855161,
+      "observed_geometry": 0.09406315299907758
+    }
+  },
+  "by_variant": {
+    "q0": {
+      "n_scenes": 32,
+      "metrics": {
+        "old": {
+          "auc": 0.7428171833778576,
+          "top1": 0.3125,
+          "top8": 0.5,
+          "predicted_geometry": 0.7451352849414737,
+          "observed_geometry": 0.061160375430396624
+        },
+        "true_control": {
+          "auc": 0.7350136424046979,
+          "top1": 0.1875,
+          "top8": 0.5,
+          "predicted_geometry": 0.7717790851048753,
+          "observed_geometry": 0.04296883867931077
+        },
+        "mixed": {
+          "auc": 0.734163134482255,
+          "top1": 0.34375,
+          "top8": 0.5,
+          "predicted_geometry": 0.7082606033885289,
+          "observed_geometry": 0.0940494067510978
+        }
+      }
+    },
+    "l1_raw": {
+      "n_scenes": 22,
+      "metrics": {
+        "old": {
+          "auc": 0.6845548315734318,
+          "top1": 0.12878787878787878,
+          "top8": 0.36363636363636365,
+          "predicted_geometry": 0.6733560070477785,
+          "observed_geometry": 0.06233243037845981
+        },
+        "true_control": {
+          "auc": 0.6689956314724954,
+          "top1": 0.1515151515151515,
+          "top8": 0.37878787878787873,
+          "predicted_geometry": 0.7058148637418683,
+          "observed_geometry": 0.043639581676865366
+        },
+        "mixed": {
+          "auc": 0.6779176449511862,
+          "top1": 0.19696969696969696,
+          "top8": 0.46969696969696967,
+          "predicted_geometry": 0.6886973578035137,
+          "observed_geometry": 0.10140193444700217
+        }
+      }
+    },
+    "l1_centered": {
+      "n_scenes": 22,
+      "metrics": {
+        "old": {
+          "auc": 0.6809511267243741,
+          "top1": 0.10606060606060605,
+          "top8": 0.37878787878787873,
+          "predicted_geometry": 0.6861528665853919,
+          "observed_geometry": 0.062422603338450004
+        },
+        "true_control": {
+          "auc": 0.6667957172640191,
+          "top1": 0.1590909090909091,
+          "top8": 0.37878787878787873,
+          "predicted_geometry": 0.7143782103595305,
+          "observed_geometry": 0.04383589774349615
+        },
+        "mixed": {
+          "auc": 0.6740529210037951,
+          "top1": 0.09848484848484848,
+          "top8": 0.37121212121212116,
+          "predicted_geometry": 0.6950945732888715,
+          "observed_geometry": 0.10151834929846416
+        }
+      }
+    },
+    "l1_zero": {
+      "n_scenes": 22,
+      "metrics": {
+        "old": {
+          "auc": 0.6816065852892825,
+          "top1": 0.08333333333333333,
+          "top8": 0.37121212121212116,
+          "predicted_geometry": 0.702406822270161,
+          "observed_geometry": 0.06247156036507944
+        },
+        "true_control": {
+          "auc": 0.6687067106961027,
+          "top1": 0.1590909090909091,
+          "top8": 0.4318181818181818,
+          "predicted_geometry": 0.7351755814988994,
+          "observed_geometry": 0.043637378975505604
+        },
+        "mixed": {
+          "auc": 0.6719780690783831,
+          "top1": 0.13636363636363635,
+          "top8": 0.4469696969696969,
+          "predicted_geometry": 0.7221106994828924,
+          "observed_geometry": 0.10153231875138415
+        }
+      }
+    },
+    "smooth_raw": {
+      "n_scenes": 22,
+      "metrics": {
+        "old": {
+          "auc": 0.681176661159336,
+          "top1": 0.0606060606060606,
+          "top8": 0.4621212121212121,
+          "predicted_geometry": 0.6474592238871,
+          "observed_geometry": 0.062309812560631665
+        },
+        "true_control": {
+          "auc": 0.6499515723456575,
+          "top1": 0.11363636363636363,
+          "top8": 0.34848484848484845,
+          "predicted_geometry": 0.6768432127202172,
+          "observed_geometry": 0.04360639104067532
+        },
+        "mixed": {
+          "auc": 0.6864567288864168,
+          "top1": 0.09090909090909091,
+          "top8": 0.38636363636363635,
+          "predicted_geometry": 0.6702720774850935,
+          "observed_geometry": 0.10144079672243222
+        }
+      }
+    },
+    "smooth_centered": {
+      "n_scenes": 22,
+      "metrics": {
+        "old": {
+          "auc": 0.6881599417385547,
+          "top1": 0.09848484848484848,
+          "top8": 0.41666666666666663,
+          "predicted_geometry": 0.647003103644032,
+          "observed_geometry": 0.062343229016675994
+        },
+        "true_control": {
+          "auc": 0.6711293358334832,
+          "top1": 0.14393939393939392,
+          "top8": 0.40151515151515144,
+          "predicted_geometry": 0.6748367607577662,
+          "observed_geometry": 0.043641761322111845
+        },
+        "mixed": {
+          "auc": 0.6920475118762679,
+          "top1": 0.13636363636363635,
+          "top8": 0.38636363636363635,
+          "predicted_geometry": 0.6641707357679755,
+          "observed_geometry": 0.10148940846592076
+        }
+      }
+    },
+    "smooth_zero": {
+      "n_scenes": 22,
+      "metrics": {
+        "old": {
+          "auc": 0.6928115498407887,
+          "top1": 0.12878787878787878,
+          "top8": 0.4090909090909091,
+          "predicted_geometry": 0.6644125029256549,
+          "observed_geometry": 0.06233243037845981
+        },
+        "true_control": {
+          "auc": 0.6785632627373146,
+          "top1": 0.1515151515151515,
+          "top8": 0.4090909090909091,
+          "predicted_geometry": 0.6961026152623216,
+          "observed_geometry": 0.043639581676865366
+        },
+        "mixed": {
+          "auc": 0.6946316624253029,
+          "top1": 0.1590909090909091,
+          "top8": 0.40151515151515144,
+          "predicted_geometry": 0.6734332901587347,
+          "observed_geometry": 0.10140193444700217
+        }
+      }
+    }
+  },
+  "paired_scene_delta_mixed_minus_old": {
+    "auc": {
+      "negative": 16,
+      "zero": 0,
+      "positive": 15
+    },
+    "top1": {
+      "negative": 8,
+      "zero": 14,
+      "positive": 10
+    },
+    "top8": {
+      "negative": 9,
+      "zero": 14,
+      "positive": 9
+    },
+    "predicted_geometry": {
+      "negative": 20,
+      "zero": 0,
+      "positive": 12
+    },
+    "observed_geometry": {
+      "negative": 6,
+      "zero": 0,
+      "positive": 26
+    }
+  },
+  "artifact_download": {
+    "files": 404,
+    "local_remote_sha256": "896beef47b45eb03241ba422b2723350009ee2478b48236cdfbf47899780bb9e",
+    "exact": true
+  }
+}

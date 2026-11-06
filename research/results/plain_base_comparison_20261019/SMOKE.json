@@ -1,0 +1,68 @@
+{
+  "complete": true,
+  "plan_sha256": "2dc47c2ae2467bc2ff7b10eeddd4e720cc1d792863847ebee0518ee3f0a6b1c7",
+  "verified_cases": 2,
+  "panels": {
+    "cross": {
+      "methods": {
+        "base": {
+          "n": 1,
+          "first_success": {
+            "00008:062": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        },
+        "base_q0_first": {
+          "n": 1,
+          "first_success": {
+            "00008:062": null
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          }
+        }
+      },
+      "paired": {}
+    },
+    "within": {
+      "methods": {
+        "base": {
+          "n": 1,
+          "first_success": {
+            "00000:024": 3
+          },
+          "counts": {
+            "s1": 0,
+            "s3": 1,
+            "s5": 1,
+            "s9": 1
+          }
+        },
+        "base_q0_first": {
+          "n": 1,
+          "first_success": {
+            "00000:024": 1
+          },
+          "counts": {
+            "s1": 1,
+            "s3": 1,
+            "s5": 1,
+            "s9": 1
+          }
+        }
+      },
+      "paired": {}
+    }
+  },
+  "scope": "Same100scenes/protocol and classifier-selected1024pool. Plain base uses own first action and static ranking thereafter. Additional CPU control forces Q0 first action, then follows base ranking excluding it. No feedback, simulations, encoding or training.",
+  "limits": "Deployment task/budget matched, not equal totaltrainingcompute. Base-vs-Q0 primary allows differentfirstaction; Q0-firstbase control separatelylabelled.",
+  "passed": true
+}

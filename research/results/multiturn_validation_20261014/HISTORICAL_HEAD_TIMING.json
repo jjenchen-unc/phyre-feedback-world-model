@@ -1,0 +1,87 @@
+{
+  "scope": "Old recipes only; excludes newfold prediction-cache preparation",
+  "rows": [
+    {
+      "path": "results/probe_f0_within_pca128_saved.json",
+      "sha256": "616aafe8dc5a7c9b32f6709f81d351a2af1571ede46e3615a16995521a9741a6",
+      "seconds": 710.1,
+      "args": {
+        "latents": "/mnt/meg/jjenchen/phyre-unc/latents/levjepa_overlap_g32_pca128",
+        "data": "/path/to/phyre-unc/data",
+        "setups": [
+          "ball_within_template"
+        ],
+        "fold": 0,
+        "train_tags": [
+          "_sub400_div16"
+        ],
+        "save_preds": "",
+        "calib": "task",
+        "cv_groups": 4,
+        "save_probe": "results/probes_pca128",
+        "dev_tag": "_n100",
+        "grids": [
+          "full"
+        ],
+        "epochs": 8,
+        "calib_frac": 0.2,
+        "seed": 0,
+        "max_rollouts": 0,
+        "out": "results/probe_f0_within_pca128_saved.json"
+      },
+      "n_train_rollouts": {
+        "ball_within_template": 6382
+      },
+      "steps": null,
+      "last_progress": null
+    },
+    {
+      "path": "results/probe_cross_f1_pca128.json",
+      "sha256": "3dc351994f1a1bcc6b8a8b2b6cc977e4fddd9b09d36834cec6d3886be3533bb4",
+      "seconds": 3725.2,
+      "args": {
+        "latents": "/mnt/meg/jjenchen/phyre-unc/latents/levjepa_overlap_g32_pca128",
+        "data": "/path/to/phyre-unc/data",
+        "setups": [
+          "ball_cross_template"
+        ],
+        "fold": 1,
+        "train_tags": [
+          "_s16r16_sub400"
+        ],
+        "save_preds": "",
+        "calib": "template_cv",
+        "cv_groups": 4,
+        "save_probe": "results/probes_pca128_cross",
+        "dev_tag": "_n100",
+        "grids": [
+          "full"
+        ],
+        "epochs": 8,
+        "calib_frac": 0.2,
+        "seed": 0,
+        "max_rollouts": 0,
+        "out": "results/probe_cross_f1_pca128.json"
+      },
+      "n_train_rollouts": {
+        "ball_cross_template": 26042
+      },
+      "steps": null,
+      "last_progress": null
+    },
+    {
+      "path": "results/probe_adaptation_cross_20261001/heads/predicted_mix_s0/complete.json",
+      "sha256": "612a94b4ab0bd0d4e2517fe7eb5c78e90690444130d8ea26c25cf9e980932786",
+      "seconds": null,
+      "args": null,
+      "n_train_rollouts": null,
+      "steps": 2000,
+      "last_progress": {
+        "step": 2000,
+        "loss": 0.3487004041671753,
+        "grad_norm": 1.9485529661178589,
+        "seconds": 50
+      }
+    }
+  ]
+}

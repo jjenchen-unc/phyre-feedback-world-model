@@ -1,0 +1,506 @@
+{
+  "complete": true,
+  "variants": {
+    "R0": {
+      "training_complete": true,
+      "closed_loop_complete": true,
+      "fixed_complete": true,
+      "training": {
+        "steps": 20000,
+        "counts": {
+          "episodes": 20000,
+          "context_mixed": 18040,
+          "actual_k_1": 6062,
+          "query_uniform": 160000,
+          "queries": 160000,
+          "positive_queries": 68511,
+          "single_class_episodes": 363,
+          "actual_k_2": 5944,
+          "context_empty": 1960,
+          "actual_k_0": 1960,
+          "actual_k_4": 6034
+        },
+        "memory_sha256": "179c7b9a959c270e1a9cb9ebc82f1d4aadfda3c3ebe18f4e1bd9ed55e38d8309"
+      },
+      "closed_loop": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R0/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.442,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.33,
+          "3": 0.35,
+          "5": 0.39,
+          "10": 0.46,
+          "100": 0.61
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10584
+      },
+      "fixed": {
+        "k1_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6974875730572975,
+          "success_latent_l1": 0.08429692865687266,
+          "failure_latent_l1": 0.08655551709469854
+        },
+        "k1_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6971357300086605,
+          "success_latent_l1": 0.08423509964290841,
+          "failure_latent_l1": 0.08652837052974914
+        },
+        "k4_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6973429287476142,
+          "success_latent_l1": 0.08429496284096247,
+          "failure_latent_l1": 0.08655140839846312
+        },
+        "k4_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6959238569016817,
+          "success_latent_l1": 0.08420922575452555,
+          "failure_latent_l1": 0.08654904008966453
+        }
+      }
+    },
+    "R1": {
+      "training_complete": true,
+      "closed_loop_complete": true,
+      "fixed_complete": true,
+      "training": {
+        "steps": 20000,
+        "counts": {
+          "episodes": 20000,
+          "context_base_trace": 6018,
+          "actual_k_1": 10559,
+          "query_uniform": 160000,
+          "queries": 160000,
+          "positive_queries": 68511,
+          "single_class_episodes": 363,
+          "context_memory_trace": 6103,
+          "context_empty": 1960,
+          "actual_k_0": 1960,
+          "context_diverse_failure": 5919,
+          "actual_k_2": 4660,
+          "actual_k_4": 2376,
+          "actual_k_3": 445
+        },
+        "memory_sha256": "726e143804437e217f44b107f6b82dac9572f09347c656935dc0561595cbd1fc"
+      },
+      "closed_loop": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R1/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.4277,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.33,
+          "3": 0.38,
+          "5": 0.4,
+          "10": 0.45,
+          "100": 0.58
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10452
+      },
+      "fixed": {
+        "k1_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.698231168218689,
+          "success_latent_l1": 0.08436202346470899,
+          "failure_latent_l1": 0.08650689863501582
+        },
+        "k1_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6935693325910165,
+          "success_latent_l1": 0.08425425291803162,
+          "failure_latent_l1": 0.0865687916073797
+        },
+        "k4_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6971460231343769,
+          "success_latent_l1": 0.08435997025282906,
+          "failure_latent_l1": 0.0865005165005961
+        },
+        "k4_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6910813505943316,
+          "success_latent_l1": 0.0842332038163018,
+          "failure_latent_l1": 0.08660125603430759
+        }
+      }
+    },
+    "R2": {
+      "training_complete": true,
+      "closed_loop_complete": true,
+      "fixed_complete": true,
+      "training": {
+        "steps": 20000,
+        "counts": {
+          "episodes": 20000,
+          "context_mixed": 18040,
+          "actual_k_1": 6062,
+          "query_positive": 39877,
+          "query_high_score_failure": 40000,
+          "query_near_success_failure": 39888,
+          "query_uniform": 40000,
+          "queries": 160000,
+          "positive_queries": 58074,
+          "single_class_episodes": 56,
+          "actual_k_2": 5944,
+          "context_empty": 1960,
+          "actual_k_0": 1960,
+          "actual_k_4": 6034,
+          "query_shortage_fallback": 235
+        },
+        "memory_sha256": "f1ce2e56775982f7b5da51640c10c354ae91293139d3224032d5ff7d2e4c6545"
+      },
+      "closed_loop": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R2/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.4201,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.34,
+          "3": 0.36,
+          "5": 0.37,
+          "10": 0.41,
+          "100": 0.6
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10774
+      },
+      "fixed": {
+        "k1_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6903880148326516,
+          "success_latent_l1": 0.08457571990474795,
+          "failure_latent_l1": 0.08677784424876446
+        },
+        "k1_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6881841889044416,
+          "success_latent_l1": 0.08461250954480694,
+          "failure_latent_l1": 0.08680116265803925
+        },
+        "k4_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6899947269745487,
+          "success_latent_l1": 0.08456822242835059,
+          "failure_latent_l1": 0.0867747897089092
+        },
+        "k4_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6947440184903224,
+          "success_latent_l1": 0.08457071882614915,
+          "failure_latent_l1": 0.08688504448558587
+        }
+      }
+    },
+    "R3": {
+      "training_complete": true,
+      "closed_loop_complete": true,
+      "fixed_complete": true,
+      "training": {
+        "steps": 20000,
+        "counts": {
+          "episodes": 20000,
+          "context_base_trace": 6018,
+          "actual_k_1": 10559,
+          "query_positive": 39877,
+          "query_high_score_failure": 40000,
+          "query_near_success_failure": 39888,
+          "query_uniform": 40000,
+          "queries": 160000,
+          "positive_queries": 58074,
+          "single_class_episodes": 56,
+          "context_memory_trace": 6103,
+          "context_empty": 1960,
+          "actual_k_0": 1960,
+          "context_diverse_failure": 5919,
+          "actual_k_2": 4660,
+          "actual_k_4": 2376,
+          "actual_k_3": 445,
+          "query_shortage_fallback": 235
+        },
+        "memory_sha256": "7b9ea1ea09090551e668f9c206d775b4b1fc84b481a8acfe775a49ecf9f08ee6"
+      },
+      "closed_loop": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R3/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.4233,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.33,
+          "3": 0.35,
+          "5": 0.36,
+          "10": 0.44,
+          "100": 0.57
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10744
+      },
+      "fixed": {
+        "k1_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6924949030371673,
+          "success_latent_l1": 0.08450722458269612,
+          "failure_latent_l1": 0.08682334649639424
+        },
+        "k1_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6970662609743024,
+          "success_latent_l1": 0.08447890987916462,
+          "failure_latent_l1": 0.08690586937398283
+        },
+        "k4_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6928190011395857,
+          "success_latent_l1": 0.08449202938730606,
+          "failure_latent_l1": 0.08682033604194013
+        },
+        "k4_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6980022482247714,
+          "success_latent_l1": 0.08444045316345528,
+          "failure_latent_l1": 0.08693242974653236
+        }
+      }
+    },
+    "R4": {
+      "training_complete": true,
+      "closed_loop_complete": true,
+      "fixed_complete": true,
+      "training": {
+        "steps": 20000,
+        "counts": {
+          "episodes": 20000,
+          "context_base_trace": 6018,
+          "actual_k_1": 10559,
+          "query_positive": 39877,
+          "query_high_score_failure": 40000,
+          "query_near_success_failure": 39888,
+          "query_uniform": 40000,
+          "queries": 160000,
+          "positive_queries": 58074,
+          "single_class_episodes": 56,
+          "context_memory_trace": 6103,
+          "context_empty": 1960,
+          "actual_k_0": 1960,
+          "context_diverse_failure": 5919,
+          "actual_k_2": 4660,
+          "actual_k_4": 2376,
+          "actual_k_3": 445,
+          "query_shortage_fallback": 235
+        },
+        "memory_sha256": "90ffed60ccd46cf2d982ff432aa5a5672fcd20c82c049b49526011d8fd7df845"
+      },
+      "closed_loop": {
+        "memory": "/mnt/meg/jjenchen/phyre-unc/runs/memory_redesign_20260928/R4/memory.pt",
+        "feedback": true,
+        "n_tasks": 100,
+        "auccess": 0.3962,
+        "success_at": {
+          "1": 0.27,
+          "2": 0.31,
+          "3": 0.35,
+          "5": 0.39,
+          "10": 0.42,
+          "100": 0.51
+        },
+        "mean_spearman_initial_vs_base_rank": 0.874,
+        "seconds": 10751
+      },
+      "fixed": {
+        "k1_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k1_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6982392774926531,
+          "success_latent_l1": 0.08439737154929115,
+          "failure_latent_l1": 0.08666348675176891
+        },
+        "k1_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6955658195382558,
+          "success_latent_l1": 0.08436975183492873,
+          "failure_latent_l1": 0.08665619631834509
+        },
+        "k4_base": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_empty": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.7039630045868859,
+          "success_latent_l1": 0.08370978316391069,
+          "failure_latent_l1": 0.08700592568139164
+        },
+        "k4_correct": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6969589216116826,
+          "success_latent_l1": 0.08440487106965311,
+          "failure_latent_l1": 0.08666402676434158
+        },
+        "k4_wrong_scene": {
+          "n_tasks": 64,
+          "n_nonempty_context_tasks": 29,
+          "rank_auc": 0.6947757943969985,
+          "success_latent_l1": 0.08431402043711426,
+          "failure_latent_l1": 0.08668173052289929
+        }
+      }
+    }
+  }
+}

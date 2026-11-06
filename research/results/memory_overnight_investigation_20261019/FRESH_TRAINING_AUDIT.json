@@ -1,0 +1,155 @@
+{
+  "complete": true,
+  "plan_sha256": "dace6c2fde5f233b9c7cb257fe5ccccdd0e0ff83765a21f49cb1d930c3316842",
+  "panels": {
+    "cross": {
+      "paired_scene_cap_first_action_exact": true,
+      "paired_active_episode_and_optimizer_step_pattern_exact": true,
+      "arms": {
+        "uniform": {
+          "slots": 128,
+          "episodes": 256,
+          "active_episodes": 192,
+          "planned_train_scenes": 64,
+          "drawn_unique_scenes": 64,
+          "active_unique_scenes": 48,
+          "active_unique_templates": 12,
+          "optimizer_steps": 122,
+          "total_support_updates": 597,
+          "used_update_hist_active": {
+            "1": 62,
+            "2": 51,
+            "8": 28,
+            "4": 42,
+            "3": 4,
+            "6": 4,
+            "5": 1
+          },
+          "query_positive_count_hist_active": {
+            "1": 42,
+            "0": 115,
+            "2": 20,
+            "7": 1,
+            "3": 7,
+            "5": 2,
+            "4": 2,
+            "6": 3
+          },
+          "query_positive_fraction_active": 0.09505208333333333,
+          "active_episodes_without_positive_query": 115,
+          "elapsed_s": 10675.15719127655,
+          "slot_seconds_median": 72.95962023735046,
+          "slot_seconds_p90": 144.33790798187255,
+          "journal_sha256": "eca692b0bc717c7297e6b670c2a25355cb7bc7ea035cb999260eea199458e3f8",
+          "checkpoint_sha256": "233f3be32cb7c3d96712b102258ac8744223957aaf9d57abd90ef46c426b87c7"
+        },
+        "balanced": {
+          "slots": 128,
+          "episodes": 256,
+          "active_episodes": 192,
+          "planned_train_scenes": 64,
+          "drawn_unique_scenes": 64,
+          "active_unique_scenes": 48,
+          "active_unique_templates": 12,
+          "optimizer_steps": 122,
+          "total_support_updates": 599,
+          "used_update_hist_active": {
+            "1": 61,
+            "2": 55,
+            "5": 2,
+            "4": 37,
+            "8": 29,
+            "3": 4,
+            "7": 2,
+            "6": 2
+          },
+          "query_positive_count_hist_active": {
+            "4": 189,
+            "3": 3
+          },
+          "query_positive_fraction_active": 0.498046875,
+          "active_episodes_without_positive_query": 0,
+          "elapsed_s": 12223.437933206558,
+          "slot_seconds_median": 81.03984987735748,
+          "slot_seconds_p90": 158.32583453655243,
+          "journal_sha256": "d4b8316826b1ee4b9b1b4822752afe4c61155ef4e8019653c0aa92be4b955e54",
+          "checkpoint_sha256": "d92d0788d9306013cd9815cf772214d66329904ae22710e2a9fa3f3da779aa3e"
+        }
+      }
+    },
+    "within": {
+      "paired_scene_cap_first_action_exact": true,
+      "paired_active_episode_and_optimizer_step_pattern_exact": true,
+      "arms": {
+        "uniform": {
+          "slots": 128,
+          "episodes": 256,
+          "active_episodes": 186,
+          "planned_train_scenes": 64,
+          "drawn_unique_scenes": 64,
+          "active_unique_scenes": 44,
+          "active_unique_templates": 21,
+          "optimizer_steps": 120,
+          "total_support_updates": 492,
+          "used_update_hist_active": {
+            "1": 82,
+            "2": 43,
+            "4": 34,
+            "8": 20,
+            "5": 2,
+            "3": 4,
+            "6": 1
+          },
+          "query_positive_count_hist_active": {
+            "0": 92,
+            "1": 46,
+            "2": 20,
+            "7": 5,
+            "3": 7,
+            "5": 6,
+            "4": 3,
+            "6": 5,
+            "8": 2
+          },
+          "query_positive_fraction_active": 0.15456989247311828,
+          "active_episodes_without_positive_query": 92,
+          "elapsed_s": 9031.313992738724,
+          "slot_seconds_median": 56.3764351606369,
+          "slot_seconds_p90": 133.97189214229584,
+          "journal_sha256": "7bd575075d1c3adeab5605cda099ba2238f9a7847f186beba679171ca6a9e84f",
+          "checkpoint_sha256": "09c5edb9655fffe2423b60a671942cce41929a98f5bf13b5f62164a5b7b92f53"
+        },
+        "balanced": {
+          "slots": 128,
+          "episodes": 256,
+          "active_episodes": 186,
+          "planned_train_scenes": 64,
+          "drawn_unique_scenes": 64,
+          "active_unique_scenes": 44,
+          "active_unique_templates": 21,
+          "optimizer_steps": 120,
+          "total_support_updates": 505,
+          "used_update_hist_active": {
+            "1": 81,
+            "2": 42,
+            "3": 3,
+            "4": 36,
+            "8": 22,
+            "5": 1,
+            "6": 1
+          },
+          "query_positive_count_hist_active": {
+            "4": 186
+          },
+          "query_positive_fraction_active": 0.5,
+          "active_episodes_without_positive_query": 0,
+          "elapsed_s": 10387.812949180603,
+          "slot_seconds_median": 67.42554807662964,
+          "slot_seconds_p90": 151.62415809631347,
+          "journal_sha256": "a772015ef9187f1a89f9dd0fb182f93044c649354d3970dc727c7b8c3ef10479",
+          "checkpoint_sha256": "b895b25bfc60b82e47bcdb73e78c95c908f946133e267531debc0c08f3742774"
+        }
+      }
+    }
+  }
+}

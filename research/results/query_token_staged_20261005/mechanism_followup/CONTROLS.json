@@ -1,0 +1,76 @@
+{
+  "training": {
+    "n_scenes": 1200,
+    "unique_query_count": 29349,
+    "positive_query_count": 12702,
+    "positive_fraction": 0.43279157722579986,
+    "expected_equal_scene_positive_fraction": 0.4268568158345468,
+    "scope": "Registered query pools; expected objective weight for uniform scene/query sampling, not actual epoch draw counts"
+  },
+  "zero_controls": {
+    "00000": {
+      "residual": {
+        "n": 60,
+        "q0_auc": 0.6222810163356624,
+        "updated_auc": 0.6264596631196667,
+        "q0_success_geometry": 40.526071850458784,
+        "updated_success_geometry": 41.32570093472798
+      },
+      "zero": {
+        "n": 60,
+        "q0_auc": 0.6222810163356621,
+        "updated_auc": 0.6202290948745498,
+        "q0_success_geometry": 40.526071850458784,
+        "updated_success_geometry": 40.690941619873044
+      }
+    },
+    "00002": {
+      "residual": {
+        "n": 15,
+        "q0_auc": 0.9369767584724283,
+        "updated_auc": 0.9483519189013988,
+        "q0_success_geometry": 22.766139189402264,
+        "updated_success_geometry": 24.031485430399577
+      },
+      "zero": {
+        "n": 15,
+        "q0_auc": 0.9369767584724281,
+        "updated_auc": 0.9397069577293048,
+        "q0_success_geometry": 22.766139189402264,
+        "updated_success_geometry": 23.02197504043579
+      }
+    },
+    "00007": {
+      "residual": {
+        "n": 42,
+        "q0_auc": 0.45845925100159785,
+        "updated_auc": 0.4333196005256274,
+        "q0_success_geometry": 44.8339007695516,
+        "updated_success_geometry": 45.49557763054257
+      },
+      "zero": {
+        "n": 42,
+        "q0_auc": 0.45845925100159757,
+        "updated_auc": 0.4545520171818816,
+        "q0_success_geometry": 44.8339007695516,
+        "updated_success_geometry": 44.93445223853702
+      }
+    },
+    "00014": {
+      "residual": {
+        "n": 57,
+        "q0_auc": 0.8814894662478929,
+        "updated_auc": 0.8751023885078268,
+        "q0_success_geometry": 16.80943425496419,
+        "updated_success_geometry": 19.854176947945042
+      },
+      "zero": {
+        "n": 57,
+        "q0_auc": 0.8814894662478929,
+        "updated_auc": 0.8812657909930155,
+        "q0_success_geometry": 16.80943425496419,
+        "updated_success_geometry": 17.226538131111546
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "code_sha256": "2a22dcb043244da28b7ed29b76dc9b6a1b2ebb03f3a8ae94fff7cf1a554e15fe",
+  "memory_plan_sha256": "81a35172d82636fa207c03792f464b67d0f78793670841f926cf18b60a99bef5",
+  "recovery_runtime_sha256": "f87ddf52287dba68c7a629b8acc943ad9d5938a1cc7097945c0f29d118da4ce4",
+  "sources": {
+    "paper": "https://arxiv.org/abs/2606.32026v1",
+    "code": "https://github.com/agentic-learning-ai-lab/adajepa/blob/51d8665b7978824bd218decab9e05ddb6eb1f47b/planning/adajepa.py"
+  },
+  "calibration": {
+    "cross": {
+      "pack": "/mnt/meg/jjenchen/phyre-unc/packs/cross_f1_dev_shortlist1024_pca128",
+      "meta_sha256": "584a0ee78094d07e4c4f6d8a6eacadb2545c70c7861d9e682c4606590deacb6c",
+      "tasks": [
+        "00000:014",
+        "00000:039",
+        "00000:052",
+        "00000:053",
+        "00000:087",
+        "00002:134",
+        "00002:140",
+        "00002:146",
+        "00002:160",
+        "00002:175",
+        "00007:135",
+        "00007:269",
+        "00007:279",
+        "00007:300",
+        "00007:311",
+        "00014:206",
+        "00014:408",
+        "00014:435",
+        "00014:456",
+        "00014:568"
+      ],
+      "candidates_per_task": 1024
+    },
+    "within": {
+      "pack": "/mnt/meg/jjenchen/phyre-unc/packs/within_f0_dev_shortlist512_pca128",
+      "meta_sha256": "e6cce1167d5fed799bf2bf42ad2c5e30dd997bd776a014a0b71aef963cd33e48",
+      "tasks": [
+        "00000:060",
+        "00001:007",
+        "00002:195",
+        "00003:099",
+        "00004:438",
+        "00005:123",
+        "00006:173",
+        "00007:233",
+        "00008:439",
+        "00009:877",
+        "00010:259",
+        "00011:776",
+        "00012:144",
+        "00013:210",
+        "00014:452",
+        "00015:460",
+        "00016:579",
+        "00017:101",
+        "00018:173",
+        "00019:694",
+        "00020:082",
+        "00021:069",
+        "00022:809",
+        "00023:817",
+        "00024:172"
+      ],
+      "candidates_per_task": 512
+    }
+  },
+  "configs": [
+    {
+      "name": "lr3e-05_u1",
+      "lr": 3e-05,
+      "steps": 1,
+      "replay": 5
+    },
+    {
+      "name": "lr3e-05_u3",
+      "lr": 3e-05,
+      "steps": 3,
+      "replay": 5
+    },
+    {
+      "name": "lr0.0003_u1",
+      "lr": 0.0003,
+      "steps": 1,
+      "replay": 5
+    },
+    {
+      "name": "lr0.0003_u3",
+      "lr": 0.0003,
+      "steps": 3,
+      "replay": 5
+    },
+    {
+      "name": "lr0.001_u1",
+      "lr": 0.001,
+      "steps": 1,
+      "replay": 5
+    },
+    {
+      "name": "lr0.001_u3",
+      "lr": 0.001,
+      "steps": 3,
+      "replay": 5
+    }
+  ],
+  "selection": "largest calibration S9, then S5, then S1; ties prefer fewer steps then lower lr",
+  "adapted": "last transformer block and final LayerNorm; output linear, earlier blocks, action embedding, encoder/PCA and scorer frozen",
+  "loss": "mean L1 on observed frames1..31; same as original base pretraining; equal weight per independent attempt",
+  "optimizer": "Adam default betas/eps, no weight decay, recreated at every adaptation call as official trainer",
+  "reset": "weights and buffer reset at each new scene, never between same-scene trials",
+  "test": {
+    "tasks_per_panel": 100,
+    "panels": [
+      "cross",
+      "within"
+    ],
+    "budgets": [
+      1,
+      3,
+      5,
+      9,
+      20
+    ],
+    "primary": "S@9",
+    "pool": "exact corrected memory-run1024 shortlist and actual outcome labels"
+  },
+  "replication": "one deterministic run per panel; original base checkpoint shared by three memory seeds, no stochastic replay or duplicate seed claims",
+  "scope": "AdaJEPA-style predictor-only PHYRE port, not full encoder+predictor or original MPC benchmark reproduction",
+  "budget_comparison": "same interaction budget; separately report adaptation/ranking/observation seconds, no claim of matched wall clock or offline training"
+}

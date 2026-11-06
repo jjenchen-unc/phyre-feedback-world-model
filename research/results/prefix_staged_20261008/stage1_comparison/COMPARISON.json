@@ -1,0 +1,15 @@
+{
+  "gpu_job": 34722,
+  "complete": true,
+  "scope": "original pretrained base versus final stage1 active-Q0 models; no updater",
+  "dev_mean": {
+    "latent_l1": 0.12093203846365214,
+    "geometry_loss": 0.9177498602867127
+  },
+  "dev_relative_change_percent": {
+    "latent_l1": 0.819374129115813,
+    "geometry_loss": -10.155975450620037
+  },
+  "ranking_source_sha256": "a6430b9b5c49989e1ed8ea50dcc50805ae04b766af57f82897220b3cb4ee0025",
+  "dev_source_sha256": "0e3a6f16393bb99cfc8a58f0ba8e7e1ad10423cee7d736605ef256cb7ef748fc"
+}

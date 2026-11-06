@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "plan": "a58471ff8fbdfa1c6a5c10b292377ed253c6866ccb1a30814aebd03fd3276f50",
+  "normalizations_sha": "0726ca433cc75b4c5b3819d762c007bf9ae0ada81f30debd16285d1941770240",
+  "tests": [
+    {
+      "arm": "action_abs",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.027457591146230698
+    },
+    {
+      "arm": "action_rel",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.03001052513718605
+    },
+    {
+      "arm": "action_both",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.030909191817045212
+    },
+    {
+      "arm": "geometry_abs",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.0522804856300354
+    },
+    {
+      "arm": "geometry_rel",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.032242514193058014
+    },
+    {
+      "arm": "geometry_both",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.05702093243598938
+    },
+    {
+      "arm": "absolute_both",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.05600230023264885
+    },
+    {
+      "arm": "relative_both",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.035978395491838455
+    },
+    {
+      "arm": "query_distance",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.032625142484903336
+    },
+    {
+      "arm": "query_distance_action",
+      "initial_sha": "2b6c084c4a252ede33f85e9b3cafb54e881782bbc156473016380372df3817bf",
+      "output_gradient": 0.03913929685950279
+    }
+  ],
+  "query_distance_support_invariant": true,
+  "labels_not_inputs": true,
+  "initialbaseline_exact": true
+}

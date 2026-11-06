@@ -1,0 +1,22 @@
+{
+  "scope": "All 1200 existing training scenes; fixed grouped discovery/support/query split; simulator failures; saved sampled future minimum surface distance <=5px.",
+  "inventory_sha256": "978a97d719ebee48263d005b415b690ae58f0ad86c1d00dc938c6523943d47b2",
+  "counts": {
+    "has_support_near_failure": 458,
+    "near_failure_only_in_query_or_discovery": 177,
+    "no_recorded_near_failure_in_any_role": 565,
+    "no_support_near_but_has_successful_near_support": 732
+  },
+  "threshold_sensitivity_support_scenes": {
+    "2px": 190,
+    "5px": 458,
+    "10px": 703,
+    "20px": 807
+  },
+  "limitations": [
+    "Observed collected actions only; not exhaustive action space.",
+    "Sparse sampled future geometry, not dense contact detection.",
+    "Successes excluded from failure support by definition.",
+    "Sensitivity is descriptive, not selection of a new threshold."
+  ]
+}

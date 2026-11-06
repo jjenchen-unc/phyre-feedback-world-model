@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "failure": [],
+  "external_failure": [],
+  "counts": {
+    "selector": 96,
+    "pools": 96,
+    "scenes": 96,
+    "heads": 2,
+    "fixed": 32,
+    "closed": 0
+  },
+  "checked_at": 1792523161.729136
+}

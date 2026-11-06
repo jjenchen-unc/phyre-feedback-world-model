@@ -1,0 +1,70 @@
+{
+  "cross": {
+    "candidates": {
+      "scenes": 1200,
+      "count_median": 25.0,
+      "count_min": 5,
+      "count_max": 49,
+      "success_fraction_mean_per_scene": 0.42849994916807627,
+      "success_fraction_median_per_scene": 0.4411764705882353,
+      "scenes_with_success": 1189,
+      "all_success_scenes": 0
+    },
+    "query": {
+      "scenes": 1200,
+      "count_median": 24.0,
+      "count_min": 5,
+      "count_max": 49,
+      "success_fraction_mean_per_scene": 0.4268568158345468,
+      "success_fraction_median_per_scene": 0.4358974358974359,
+      "scenes_with_success": 1190,
+      "all_success_scenes": 1
+    },
+    "eval": {
+      "count": 1024,
+      "success_fraction_mean_per_scene": 0.013310546875,
+      "success_fraction_median_per_scene": 0.0029296875,
+      "scenes_with_success": 75
+    },
+    "real_eval_solvable_reach_depth": {
+      "1": 74,
+      "2": 70,
+      "4": 65,
+      "8": 59
+    }
+  },
+  "within": {
+    "candidates": {
+      "scenes": 1200,
+      "count_median": 24.0,
+      "count_min": 4,
+      "count_max": 49,
+      "success_fraction_mean_per_scene": 0.4326409607935877,
+      "success_fraction_median_per_scene": 0.4444444444444444,
+      "scenes_with_success": 1187,
+      "all_success_scenes": 0
+    },
+    "query": {
+      "scenes": 1200,
+      "count_median": 25.0,
+      "count_min": 4,
+      "count_max": 49,
+      "success_fraction_mean_per_scene": 0.4336122925535614,
+      "success_fraction_median_per_scene": 0.4444444444444444,
+      "scenes_with_success": 1189,
+      "all_success_scenes": 1
+    },
+    "eval": {
+      "count": 1024,
+      "success_fraction_mean_per_scene": 0.0520703125,
+      "success_fraction_median_per_scene": 0.01171875,
+      "scenes_with_success": 95
+    },
+    "real_eval_solvable_reach_depth": {
+      "1": 75,
+      "2": 65,
+      "4": 53,
+      "8": 48
+    }
+  }
+}

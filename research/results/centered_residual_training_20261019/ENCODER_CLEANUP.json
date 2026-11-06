@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "statuses": [
+    {
+      "stage": "stopped",
+      "pid": 2455998,
+      "completed": 414,
+      "time": 1792436079.801949
+    },
+    {
+      "stage": "stopped",
+      "pid": 2456002,
+      "completed": 269,
+      "time": 1792436100.7085586
+    }
+  ],
+  "time": 1792441475.989067
+}

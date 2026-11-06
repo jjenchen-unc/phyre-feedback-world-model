@@ -1,0 +1,36 @@
+{
+  "train": {
+    "scenes": 1200,
+    "potential_scenes": 322,
+    "potential_by_template": {
+      "00003": 18,
+      "00005": 18,
+      "00006": 38,
+      "00011": 46,
+      "00016": 3,
+      "00017": 76,
+      "00018": 37,
+      "00019": 24,
+      "00020": 2,
+      "00021": 60
+    },
+    "support_actions_to_score": 9213,
+    "no_query_scenes": 0,
+    "N_initial_near": 428,
+    "N_count": 2758
+  },
+  "calibration": {
+    "scenes": 400,
+    "potential_scenes": 148,
+    "potential_by_template": {
+      "00001": 57,
+      "00004": 59,
+      "00012": 1,
+      "00022": 31
+    },
+    "support_actions_to_score": 4224,
+    "no_query_scenes": 0,
+    "N_initial_near": 0,
+    "N_count": 1128
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "revision": "v2: oldQ0 archive differs by FP64roundoff; require max1e-12, samefirst and allrankmetrics, retain currentQ0scores asbaseline. Failedexact attempt preserved.",
+  "source_sha": "adf11878e82e546a63f1edbf95da4f8fedde5a56d954de4e3e31a38e43ee8909",
+  "oracle_summary_sha": "db66d2a8257361f8930c22fa94a2816ea0f3d06e8ffe84021d229fc760f2e10a",
+  "betas": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "scope": "Ten historically oracle-encoded cross scenes, matched CURRENT Q0 predictions/1024pool. Interpolate surface-distance trajectory toward simulatortruth; no training, no latent interpolation or real support feedback. Tests target relevance, not learnability or a deployablemethod.",
+  "selection": "All10crossscenes in prior oracle summary; no selection on currentmethodoutcomes",
+  "interventions": [
+    "full_distance_residual",
+    "time_mean_only_residual"
+  ],
+  "metric": "Same commonfailedfirstQ0 masked; top1/3/5/8 andAUC; oraclefulltrajectoryerror reductions measured onidenticalqueries."
+}

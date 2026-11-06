@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "scope": "Only common prefix/updater implementation; fresh smoke parameters discarded",
+  "preparation_sha256": "11a63604cde99f61922c81971a8b53852acb753b4918c5de6786464cc6e8236e",
+  "optimizer_steps": 3,
+  "events": [
+    {
+      "task": "00017:027",
+      "selected": [
+        29009,
+        29013,
+        29011,
+        29008
+      ],
+      "solved": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "updates": 3,
+      "loss": 0.15148496627807617,
+      "exact_current_state_replay": true,
+      "frozen_Q0_prediction": true
+    },
+    {
+      "task": "00017:053",
+      "selected": [
+        29284,
+        29281
+      ],
+      "solved": [
+        false,
+        true
+      ],
+      "updates": 1,
+      "loss": 0.12105343490839005,
+      "exact_current_state_replay": true,
+      "frozen_Q0_prediction": true
+    },
+    {
+      "task": "00021:075",
+      "selected": [
+        43176,
+        43184,
+        43199,
+        92988
+      ],
+      "solved": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "updates": 3,
+      "loss": 0.15679794549942017,
+      "exact_current_state_replay": true,
+      "frozen_Q0_prediction": true
+    }
+  ],
+  "seconds": 7.458043098449707,
+  "peak_gpu_GiB": 9.050578594207764,
+  "formal_training_submitted": false
+}

@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "plan_sha256": "6bd1bcc423b56d686243d7b2144462248dda7ff7a334d9d2cd2700a548173dc4",
+  "verified_rollouts": 2,
+  "panels": {
+    "cross": {
+      "methods": {
+        "uniform_centered": {
+          "n": 1,
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          },
+          "first_success": {
+            "00008:263": null
+          }
+        }
+      }
+    },
+    "within": {
+      "methods": {
+        "uniform_centered": {
+          "n": 1,
+          "counts": {
+            "s1": 0,
+            "s3": 0,
+            "s5": 0,
+            "s9": 0
+          },
+          "first_success": {
+            "00019:608": null
+          }
+        }
+      }
+    }
+  },
+  "scope": [
+    "Adaptive experiment chosen after original intervention results",
+    "Same tasks and same updater initialization; checkpoint stability check, NOT independent seed/fold replication",
+    "Evaluation-only intervention may be outside training distribution",
+    "No selection of a different best setting per task"
+  ],
+  "passed": true
+}

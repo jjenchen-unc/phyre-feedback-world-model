@@ -1,0 +1,48 @@
+{
+  "scope": "INTERIM: seeds 0 and 1 only, natural first failure, primary fixed head; full summary pending",
+  "models": {
+    "uniform_s0": {
+      "auc_scenes": 58,
+      "auc": 0.6300398891791607,
+      "base_auc": 0.6771577647938437
+    },
+    "near_s0": {
+      "auc_scenes": 58,
+      "auc": 0.6224725541070921,
+      "base_auc": 0.6771577647938437
+    },
+    "mixed_s0": {
+      "auc_scenes": 58,
+      "auc": 0.6293650444646784,
+      "base_auc": 0.6771577647938437
+    },
+    "uniform_s1": {
+      "auc_scenes": 58,
+      "auc": 0.6298978464858386,
+      "base_auc": 0.6771577647938437
+    },
+    "near_s1": {
+      "auc_scenes": 58,
+      "auc": 0.6253168715411789,
+      "base_auc": 0.6771577647938437
+    },
+    "mixed_s1": {
+      "auc_scenes": 58,
+      "auc": 0.6297027286132606,
+      "base_auc": 0.6771577647938437
+    }
+  },
+  "verified_auc_arrays": 696,
+  "completed_models": [
+    "mixed_s0",
+    "mixed_s1",
+    "near_s0",
+    "near_s1",
+    "near_s2",
+    "uniform_s0",
+    "uniform_s1",
+    "uniform_s2"
+  ],
+  "remaining_written_cases": 133,
+  "full_summary_exists": false
+}
